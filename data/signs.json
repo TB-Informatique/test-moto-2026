@@ -94,8 +94,8 @@
     {
       "code": "A9",
       "family": "danger",
-      "title": "Traversée de voies de tramway",
-      "detail": "Rails très glissants pour une moto. Les franchir le plus perpendiculairement possible, sans freiner dessus.",
+      "title": "Débouché de véhicules des transports en commun",
+      "detail": "A9 : bus ou tram susceptibles de déboucher. Les rails de tram sont très glissants : les franchir le plus perpendiculairement possible, sans freiner dessus.",
       "image": "assets/img/signs/A9.svg"
     },
     {
@@ -109,7 +109,7 @@
       "code": "A13b",
       "family": "danger",
       "title": "Passage pour piétons",
-      "detail": "Annonce un passage piéton. Un piéton engagé est prioritaire, même hors des clous en agglomération s'il a commencé à traverser.",
+      "detail": "Annonce un passage piéton. Un piéton engagé est prioritaire.",
       "image": "assets/img/signs/A13b.svg"
     },
     {
@@ -150,8 +150,8 @@
     {
       "code": "A17",
       "family": "danger",
-      "title": "Remontée (montée)",
-      "detail": "Montée. Anticiper un véhicule lent, garder de la puissance disponible et ne pas coller le précédent.",
+      "title": "Feux tricolores",
+      "detail": "A17 : annonce des feux de circulation. Ce n'est pas une montée. Anticiper un feu orange ou rouge, surtout si l'adhérence est mauvaise.",
       "image": "assets/img/signs/A17.svg"
     },
     {
@@ -178,22 +178,22 @@
     {
       "code": "A21",
       "family": "danger",
-      "title": "Débouché de cyclistes provenant de droite ou de gauche",
+      "title": "Débouché de cyclistes",
       "detail": "Cyclistes susceptibles de déboucher. Laisser de l'espace et adapter l'allure.",
       "image": "assets/img/signs/A21.svg"
     },
     {
       "code": "A23",
       "family": "danger",
-      "title": "Circulation de véhicules dans les deux sens",
-      "detail": "Annonce un trafic bidirectionnel après un rétrécissement ou des travaux.",
+      "title": "Aire de danger aérien",
+      "detail": "A23 : pictogramme d'avion. Risque lié à un aérodrome (bruit, surprise). Ce n'est pas le double sens (A18).",
       "image": "assets/img/signs/A23.svg"
     },
     {
       "code": "A24",
       "family": "danger",
-      "title": "Projection de gravillons",
-      "detail": "Gravillons projetés : adhérence très mauvaise à moto. Lever l'allure, éviter d'incliner et de freiner fort.",
+      "title": "Vent latéral",
+      "detail": "A24 : manche à air. Risque de déport, surtout au passage d'un PL ou en sortie de tranchée. Tenir fermement le guidon.",
       "image": "assets/img/signs/A24.svg"
     },
     {
@@ -311,29 +311,29 @@
     {
       "code": "B4",
       "family": "interdiction",
-      "title": "Accès interdit aux véhicules tractant une caravane",
-      "detail": "Interdiction aux attelages caravane / remorque visés.",
+      "title": "Arrêt à la douane",
+      "detail": "B4 : arrêt obligatoire au poste de douane. Ce n'est pas une interdiction aux caravanes.",
       "image": "assets/img/signs/B4.svg"
     },
     {
       "code": "B5a",
       "family": "interdiction",
-      "title": "Accès interdit aux poids lourds",
-      "detail": "Interdiction aux véhicules de transport de marchandises au-delà du tonnage indiqué.",
+      "title": "Arrêt au poste de gendarmerie",
+      "detail": "B5a : arrêt obligatoire au poste de gendarmerie. L'interdiction aux poids lourds est un autre panneau (camion cerclé de rouge).",
       "image": "assets/img/signs/B5a.svg"
     },
     {
       "code": "B5b",
       "family": "interdiction",
-      "title": "Accès interdit aux véhicules de transport de marchandises",
-      "detail": "Concerne les véhicules affectés au transport de marchandises.",
+      "title": "Arrêt au poste de police",
+      "detail": "B5b : inscription POLICE. Arrêt obligatoire. Ce n'est pas une interdiction aux marchandises.",
       "image": "assets/img/signs/B5b.svg"
     },
     {
       "code": "B5c",
       "family": "interdiction",
-      "title": "Accès interdit aux véhicules transportant des marchandises dangereuses",
-      "detail": "Interdiction aux transports de matières dangereuses (plaque orange).",
+      "title": "Arrêt au poste de péage",
+      "detail": "B5c : arrêt au péage. Ce n'est pas une interdiction TMD.",
       "image": "assets/img/signs/B5c.svg"
     },
     {
@@ -351,10 +351,24 @@
       "image": "assets/img/signs/B6d.svg"
     },
     {
+      "code": "B7a",
+      "family": "interdiction",
+      "title": "Accès interdit aux véhicules à moteur sauf cyclomoteurs",
+      "detail": "B7a : voitures et motos interdites ; les cyclomoteurs peuvent passer. Tous les moteurs interdits = B7b.",
+      "image": "assets/img/signs/B7a.svg"
+    },
+    {
+      "code": "B7b",
+      "family": "interdiction",
+      "title": "Accès interdit à tous les véhicules à moteur",
+      "detail": "B7b : aucun véhicule à moteur, moto comprise. À ne pas confondre avec B7a (sauf cyclomoteurs).",
+      "image": "assets/img/signs/B7b.svg"
+    },
+    {
       "code": "B8",
       "family": "interdiction",
-      "title": "Fin de toutes les interdictions précédemment signalées",
-      "detail": "Met fin aux interdictions prescrites par des panneaux ronds à fond blanc (sauf limitations permanentes).",
+      "title": "Accès interdit aux véhicules de transport de marchandises",
+      "detail": "B8 : pictogramme camion, fond blanc cerclé de rouge. La fin de toutes les interdictions est le B31 (fond blanc, barre noire).",
       "image": "assets/img/signs/B8.svg"
     },
     {
@@ -368,35 +382,56 @@
       "code": "B9b",
       "family": "interdiction",
       "title": "Accès interdit aux cycles",
-      "detail": "Interdiction aux vélos. Une moto n'est pas un cycle.",
+      "detail": "B9b : rond blanc cerclé de rouge, pictogramme vélo. Seule vraie interdiction aux vélos.",
       "image": "assets/img/signs/B9b.svg"
+    },
+    {
+      "code": "B9d",
+      "family": "interdiction",
+      "title": "Accès interdit aux véhicules agricoles à moteur",
+      "detail": "B9d : pictogramme tracteur. Les motos de tourisme ne sont pas des véhicules agricoles.",
+      "image": "assets/img/signs/B9d.svg"
     },
     {
       "code": "B9f",
       "family": "interdiction",
-      "title": "Accès interdit aux véhicules agricoles à moteur",
-      "detail": "Concerne les engins agricoles, pas les motos de tourisme.",
+      "title": "Accès interdit aux véhicules de transport en commun",
+      "detail": "B9f : pictogramme bus. Ce n'est pas l'interdiction aux agricoles (B9d).",
       "image": "assets/img/signs/B9f.svg"
+    },
+    {
+      "code": "B9g",
+      "family": "interdiction",
+      "title": "Accès interdit aux cyclomoteurs",
+      "detail": "B9g : interdiction aux cyclomoteurs (≤ 50 cm³). Une moto de cylindrée supérieure n'est pas un cyclomoteur.",
+      "image": "assets/img/signs/B9g.svg"
+    },
+    {
+      "code": "B9h",
+      "family": "interdiction",
+      "title": "Accès interdit aux motocyclettes",
+      "detail": "B9h : pictogramme moto. L'accès est interdit aux motocyclettes et motocyclettes légères, quelle que soit la cylindrée.",
+      "image": "assets/img/signs/B9h.svg"
     },
     {
       "code": "B11",
       "family": "interdiction",
-      "title": "Accès interdit aux cyclomoteurs",
-      "detail": "Interdiction aux cyclomoteurs (? 50 cm³). Une moto de cylindrée supérieure n'est pas un cyclomoteur.",
+      "title": "Limitation de largeur",
+      "detail": "Accès interdit aux véhicules dont la largeur, chargement compris, dépasse la valeur indiquée. Une moto passe presque toujours.",
       "image": "assets/img/signs/B11.svg"
     },
     {
       "code": "B12",
       "family": "interdiction",
-      "title": "Accès interdit aux motocyclettes",
-      "detail": "Panneau crucial pour l'ETM : les motos ne peuvent pas s'engager.",
+      "title": "Limitation de hauteur (ici 3,5 m)",
+      "detail": "B12 : accès interdit si la hauteur, chargement compris, dépasse 3,5 m. L'interdiction moto est le B9h.",
       "image": "assets/img/signs/B12.svg"
     },
     {
       "code": "B13",
       "family": "interdiction",
-      "title": "Accès interdit à tous les véhicules à moteur",
-      "detail": "Moto, voiture, scooter : tout engin à moteur est interdit.",
+      "title": "Limitation de tonnage",
+      "detail": "B13 : accès interdit aux véhicules dont le poids total autorisé dépasse le tonnage indiqué.",
       "image": "assets/img/signs/B13.svg"
     },
     {
@@ -436,72 +471,72 @@
     },
     {
       "code": "B16",
-      "family": "obligation",
-      "title": "Vitesse minimale obligatoire",
-      "detail": "Il est interdit de rouler en dessous de la vitesse indiquée, sauf nécessité (embouteillage, conditions).",
+      "family": "interdiction",
+      "title": "Signaux sonores interdits",
+      "detail": "B16 : klaxon interdit, sauf danger imminent. La vitesse minimale obligatoire est le B25.",
       "image": "assets/img/signs/B16.svg"
     },
     {
       "code": "B18a",
       "family": "interdiction",
-      "title": "Accès interdit aux véhicules dont la largeur, chargement compris, dépasse la largeur indiquée",
-      "detail": "Gabarit en largeur. Une moto passe presque toujours, mais pas un véhicule large.",
+      "title": "Accès interdit aux véhicules transportant des matières explosives ou inflammables",
+      "detail": "B18a vise les transports TMD explosifs / inflammables.",
       "image": "assets/img/signs/B18a.svg"
     },
     {
       "code": "B18b",
       "family": "interdiction",
-      "title": "Accès interdit aux véhicules dont la hauteur, chargement compris, dépasse la hauteur indiquée",
-      "detail": "Gabarit en hauteur (pont, tunnel).",
+      "title": "Accès interdit aux véhicules transportant des matières polluant les eaux",
+      "detail": "B18b vise les transports susceptibles de polluer les eaux.",
       "image": "assets/img/signs/B18b.svg"
     },
     {
       "code": "B19",
       "family": "interdiction",
-      "title": "Accès interdit aux véhicules dont le poids total autorisé dépasse le tonnage indiqué",
-      "detail": "Limitation de poids. Une moto légère n'est en général pas concernée.",
+      "title": "Autres interdictions (inscription sur le panneau)",
+      "detail": "B19 : l'interdiction est écrite sur le panneau. Ce n'est pas une limite de poids (B13).",
       "image": "assets/img/signs/B19.svg"
     },
     {
       "code": "B21-1",
       "family": "obligation",
-      "title": "Contournement obligatoire par la droite",
-      "detail": "Obstacle à contourner par la droite (îlot, terre-plein).",
+      "title": "Obligation de tourner à droite avant le panneau",
+      "detail": "B21-1 : flèche horizontale vers la droite. Tourner à droite avant le panneau. Le contournement d'un îlot est le B21a1.",
       "image": "assets/img/signs/B21-1.svg"
     },
     {
       "code": "B21a1",
       "family": "obligation",
-      "title": "Direction obligatoire à droite",
-      "detail": "Obligation de tourner à droite.",
+      "title": "Contournement obligatoire par la droite",
+      "detail": "B21a1 : flèche qui contourne. Passer à droite de l'obstacle (îlot, terre-plein).",
       "image": "assets/img/signs/B21a1.svg"
     },
     {
       "code": "B21b",
       "family": "obligation",
-      "title": "Direction obligatoire à gauche",
-      "detail": "Obligation de tourner à gauche.",
+      "title": "Direction obligatoire tout droit",
+      "detail": "B21b : flèche vers le haut. Aller tout droit. Ce n'est pas un tourne-à-gauche.",
       "image": "assets/img/signs/B21b.svg"
     },
     {
       "code": "B22a",
       "family": "obligation",
-      "title": "Piste ou bande obligatoire pour cycles et cyclomoteurs",
-      "detail": "Obligatoire pour vélos et cyclomoteurs. Une moto n'a pas à l'emprunter.",
+      "title": "Piste ou bande obligatoire pour cycles",
+      "detail": "Obligatoire pour les cycles. Une moto n'a pas à l'emprunter.",
       "image": "assets/img/signs/B22a.svg"
     },
     {
       "code": "B22b",
       "family": "obligation",
-      "title": "Fin de piste ou bande obligatoire pour cycles",
-      "detail": "Fin de l'obligation pour les cycles.",
+      "title": "Chemin obligatoire pour piétons",
+      "detail": "B22b : rond bleu, pictogramme piéton. La fin de piste cyclable obligatoire est le B40.",
       "image": "assets/img/signs/B22b.svg"
     },
     {
       "code": "B26",
       "family": "obligation",
-      "title": "Chaînes à neige obligatoires sur au moins deux roues motrices",
-      "detail": "Équipements spéciaux hiver. À moto, la neige impose souvent de ne pas partir.",
+      "title": "Chaînes à neige obligatoires",
+      "detail": "Équipements spéciaux hiver sur au moins deux roues motrices. À moto, la neige impose souvent de ne pas partir.",
       "image": "assets/img/signs/B26.svg"
     },
     {
@@ -519,10 +554,17 @@
       "image": "assets/img/signs/B29.svg"
     },
     {
+      "code": "B30",
+      "family": "interdiction",
+      "title": "Entrée d'une zone 30",
+      "detail": "B30 : rectangle « ZONE » + 30. Vitesse limitée à 30 km/h dans toute la zone. Ce n'est pas un rond bleu (fin d'obligation).",
+      "image": "assets/img/signs/B30.svg"
+    },
+    {
       "code": "B31",
-      "family": "obligation",
-      "title": "Fin d'obligation",
-      "detail": "Met fin à une obligation précédemment signalée.",
+      "family": "interdiction",
+      "title": "Fin de toutes les interdictions précédemment signalées",
+      "detail": "B31 : fond blanc, barre noire. Met fin aux interdictions temporaires des panneaux ronds à fond blanc. L'interdiction marchandises est le B8.",
       "image": "assets/img/signs/B31.svg"
     },
     {
@@ -540,32 +582,60 @@
       "image": "assets/img/signs/B34a.svg"
     },
     {
+      "code": "B40",
+      "family": "obligation",
+      "title": "Fin de piste ou bande obligatoire pour cycles",
+      "detail": "B40 : rond bleu vélo barré de rouge. Fin de l'obligation B22a.",
+      "image": "assets/img/signs/B40.svg"
+    },
+    {
       "code": "B41",
       "family": "obligation",
-      "title": "Entrée de zone 30",
-      "detail": "Vitesse limitée à 30 km/h dans toute la zone, jusqu'au panneau de sortie.",
+      "title": "Fin de chemin obligatoire pour piétons",
+      "detail": "B41 : rond bleu piéton barré. Ce n'est pas l'entrée de zone 30 (B30, rectangle ZONE 30).",
       "image": "assets/img/signs/B41.svg"
     },
     {
       "code": "B42",
       "family": "obligation",
-      "title": "Fin de zone 30",
-      "detail": "Sortie de zone 30. La limitation générale reprend (souvent 50 en agglo).",
+      "title": "Fin de chemin obligatoire pour cavaliers",
+      "detail": "B42 : rond bleu cavalier barré. La fin de zone 30 est le B51.",
       "image": "assets/img/signs/B42.svg"
     },
     {
       "code": "B44",
       "family": "obligation",
-      "title": "Entrée de zone de rencontre",
-      "detail": "Vitesse 20 km/h, piétons autorisés sur la chaussée et prioritaires.",
+      "title": "Fin de l'obligation de chaînes à neige",
+      "detail": "B44 : chaînes barrées. Ce n'est pas la zone de rencontre (B52).",
       "image": "assets/img/signs/B44.svg"
     },
     {
       "code": "B45a",
       "family": "obligation",
-      "title": "Fin de zone de rencontre",
-      "detail": "Fin du régime 20 km/h et de la priorité piétonne généralisée sur chaussée.",
+      "title": "Fin de voie réservée aux transports en commun",
+      "detail": "B45 : bus barré. La fin de zone de rencontre est le B53.",
       "image": "assets/img/signs/B45a.svg"
+    },
+    {
+      "code": "B51",
+      "family": "interdiction",
+      "title": "Sortie de zone 30",
+      "detail": "B51 : rectangle de sortie de zone. La limitation générale reprend (souvent 50 en agglo).",
+      "image": "assets/img/signs/B51.svg"
+    },
+    {
+      "code": "B52",
+      "family": "obligation",
+      "title": "Entrée d'une zone de rencontre",
+      "detail": "B52 : rectangle « ZONE DE RENCONTRE ». Vitesse 20 km/h, piétons autorisés sur la chaussée et prioritaires.",
+      "image": "assets/img/signs/B52.svg"
+    },
+    {
+      "code": "B53",
+      "family": "obligation",
+      "title": "Sortie de zone de rencontre",
+      "detail": "B53 : fin du régime 20 km/h et de la priorité piétonne généralisée sur chaussée.",
+      "image": "assets/img/signs/B53.svg"
     },
     {
       "code": "C1a",
@@ -577,22 +647,29 @@
     {
       "code": "C1b",
       "family": "indication",
-      "title": "Lieu aménagé pour le stationnement à durée limitée",
-      "detail": "Stationnement à durée limitée (disque ou horodateur selon le cas).",
+      "title": "Lieu aménagé pour le stationnement payant",
+      "detail": "C1b : stationnement payant. Le stationnement à durée limitée (disque) est le C1c.",
       "image": "assets/img/signs/C1b.svg"
+    },
+    {
+      "code": "C4a",
+      "family": "indication",
+      "title": "Vitesse conseillée (ici 50 km/h)",
+      "detail": "C4a : allure recommandée, pas une limitation. En cas de danger, elle est souvent trop élevée pour une moto.",
+      "image": "assets/img/signs/C4a.svg"
     },
     {
       "code": "C5",
       "family": "indication",
-      "title": "Stationnement payant",
-      "detail": "Le stationnement est payant. Une moto n'est pas toujours exonérée.",
+      "title": "Station de taxis",
+      "detail": "C5 : emplacement de taxis. Ce n'est pas le stationnement payant (C1b).",
       "image": "assets/img/signs/C5.svg"
     },
     {
       "code": "C8",
       "family": "indication",
-      "title": "Stationnement unilatéral à alternance semi-mensuelle",
-      "detail": "Côté de stationnement selon la quinzaine.",
+      "title": "Place d'arrêt d'urgence",
+      "detail": "C8 : emplacement pour s'arrêter en cas d'urgence. Ce n'est pas le stationnement alterné.",
       "image": "assets/img/signs/C8.svg"
     },
     {
@@ -612,22 +689,22 @@
     {
       "code": "C13b",
       "family": "indication",
-      "title": "Impasse avec une issue pour les piétons",
-      "detail": "Sans issue pour les véhicules, mais les piétons peuvent sortir.",
+      "title": "Présignalisation d'une impasse",
+      "detail": "C13b : impasse plus loin (souvent à une intersection). L'impasse avec issue piétonne est le C13c.",
       "image": "assets/img/signs/C13b.svg"
     },
     {
       "code": "C14",
       "family": "indication",
-      "title": "Vitesse conseillée",
-      "detail": "Allure recommandée, pas une limitation. En cas de danger, elle est souvent trop élevée pour une moto.",
+      "title": "Praticabilité de la section de route",
+      "detail": "C14 : état d'un col ou d'une section (ouvert, enneigé, fermé). Ce n'est pas une vitesse conseillée (C4a).",
       "image": "assets/img/signs/C14.svg"
     },
     {
       "code": "C18",
       "family": "indication",
-      "title": "Conditions particulières de circulation sur la voie d'entrée",
-      "detail": "Présignalisation de conditions sur une bretelle ou une voie.",
+      "title": "Priorité par rapport au sens inverse",
+      "detail": "C18 : dans le rétrécissement, vous passez avant le sens opposé. L'inverse (céder) est le AB5.",
       "image": "assets/img/signs/C18.svg"
     },
     {
@@ -640,64 +717,92 @@
     {
       "code": "C20c",
       "family": "indication",
-      "title": "Passage pour piétons surélevé",
-      "detail": "Passage piéton sur un plateau. Franchir droit, sans angle.",
+      "title": "Traversée de voies de tramways",
+      "detail": "C20c : rails de tram. À moto, les franchir le plus perpendiculairement possible. Le passage piéton surélevé n'est pas ce code.",
       "image": "assets/img/signs/C20c.svg"
     },
     {
       "code": "C24a",
       "family": "indication",
-      "title": "Surélévation de chaussée",
-      "detail": "Plateau ou dos-d'âne. À moto : allure réduite, trajectoire perpendiculaire.",
+      "title": "Conditions de circulation applicables à une voie",
+      "detail": "C24a : indique ce qui s'applique à une voie (vitesse, affectation). Ce n'est pas un dos-d'âne (C27).",
       "image": "assets/img/signs/C24a.svg"
     },
     {
       "code": "C24b",
       "family": "indication",
-      "title": "Ralentisseur",
-      "detail": "Dispositif ralentisseur. Ne pas le prendre en biais.",
+      "title": "Affectation de voies",
+      "detail": "C24b : plusieurs voies avec des règles différentes. Ce n'est pas un ralentisseur.",
       "image": "assets/img/signs/C24b.svg"
+    },
+    {
+      "code": "C26a",
+      "family": "indication",
+      "title": "Voie de détresse",
+      "detail": "C26a : voie d'arrêt d'urgence en descente pour un véhicule en perte de freins.",
+      "image": "assets/img/signs/C26a.svg"
+    },
+    {
+      "code": "C27",
+      "family": "indication",
+      "title": "Surélévation de chaussée",
+      "detail": "C27 : plateau ou dos-d'âne annoncé. À moto : allure réduite, trajectoire perpendiculaire.",
+      "image": "assets/img/signs/C27.svg"
+    },
+    {
+      "code": "C28",
+      "family": "indication",
+      "title": "Réduction du nombre de voies",
+      "detail": "C28 : rabattement d'une voie. Anticiper, surtout près d'un PL.",
+      "image": "assets/img/signs/C28.svg"
     },
     {
       "code": "C50",
       "family": "indication",
-      "title": "Voie de détresse",
-      "detail": "Voie d'arrêt d'urgence en descente pour véhicules en perte de freins.",
+      "title": "Indications diverses",
+      "detail": "C50 : mention écrite (aire de chaînage, etc.). La voie de détresse est le C26a.",
       "image": "assets/img/signs/C50.svg"
     },
     {
       "code": "C107",
       "family": "indication",
-      "title": "Début d'autoroute",
-      "detail": "Entrée d'autoroute : 130 km/h par temps sec (110 sous la pluie ou en permis probatoire).",
+      "title": "Route à accès réglementé",
+      "detail": "C107 : pictogramme voiture, fond bleu. Voie express / accès réglementé, souvent 110 km/h. Le début d'autoroute est le C207.",
       "image": "assets/img/signs/C107.svg"
     },
     {
       "code": "C111",
       "family": "indication",
-      "title": "Début de route à accès réglementé",
-      "detail": "Voie rapide / express, souvent limitée à 110 km/h.",
+      "title": "Entrée de tunnel",
+      "detail": "C111 : pictogramme de tunnel. Allumer les feux, retirer les lunettes de soleil, surveiller l'écart.",
       "image": "assets/img/signs/C111.svg"
     },
     {
       "code": "C112",
       "family": "indication",
-      "title": "Fin de route à accès réglementé",
-      "detail": "Sortie de voie rapide : la limitation générale reprend, souvent 80 km/h.",
+      "title": "Sortie de tunnel",
+      "detail": "C112 : tunnel barré. Sortie de tunnel : reprendre ses distances, méfiance à l'éblouissement.",
       "image": "assets/img/signs/C112.svg"
+    },
+    {
+      "code": "C113",
+      "family": "indication",
+      "title": "Piste ou bande cyclable conseillée et réservée aux cycles",
+      "detail": "C113 : carré bleu. Voie conseillée, pas obligatoire. L'obligation est le rond bleu B22a.",
+      "image": "assets/img/signs/C113.svg"
     },
     {
       "code": "C114",
       "family": "indication",
-      "title": "Réduction du nombre de voies",
-      "detail": "Une voie se termine. Anticiper le rabattement, surtout si un PL est à droite.",
+      "title": "Fin de piste ou bande cyclable conseillée",
+      "detail": "C114 : carré bleu vélo barré de rouge = FIN de l'aménagement cyclable conseillé. L'interdiction aux cycles est le B9b.",
       "image": "assets/img/signs/C114.svg"
     },
     {
       "code": "C207",
       "family": "indication",
-      "title": "Issue de secours",
-      "detail": "Indique une issue de secours (tunnel).",
+      "title": "Début d'autoroute",
+      "detail": "C207 : pictogramme d'autoroute. 130 km/h par temps sec (110 sous la pluie ou en permis probatoire).",
       "image": "assets/img/signs/C207.svg"
     },
     {

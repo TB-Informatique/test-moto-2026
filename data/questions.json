@@ -5,7 +5,7 @@
       "label": "Signalisation",
       "theme": "R",
       "blurb": "Panneaux, marquages et ce qu'ils imposent à moto.",
-      "count": 121
+      "count": 140
     },
     {
       "id": "route",
@@ -19,14 +19,14 @@
       "label": "La circulation",
       "theme": "C",
       "blurb": "Priorités, vitesses, dépassements, inter-files.",
-      "count": 34
+      "count": 36
     },
     {
       "id": "conducteur",
       "label": "Le conducteur",
       "theme": "L",
       "blurb": "Alcool, fatigue, vigilance, état physique.",
-      "count": 18
+      "count": 19
     },
     {
       "id": "usagers",
@@ -138,7 +138,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "0,2 g/l de sang (quasi zéro verre)"
+          "text": "0,2 g/l de sang (0,10 mg/l d'air expiré)"
         },
         {
           "id": "b",
@@ -156,7 +156,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "0,2 g/l : un seul verre peut suffire à dépasser. Le plus sûr est zéro alcool.",
+      "explanation": "Permis probatoire : 0,2 g/l de sang, soit 0,10 mg/l d'air expiré. Un seul verre peut suffire. Le plus sûr est zéro alcool.",
       "multi": false
     },
     {
@@ -175,7 +175,7 @@
         },
         {
           "id": "c",
-          "text": "Stationnement payant"
+          "text": "Station de taxis"
         },
         {
           "id": "d",
@@ -185,10 +185,10 @@
       "correct": [
         "c"
       ],
-      "explanation": "Le stationnement est payant. Une moto n'est pas toujours exonérée.",
+      "explanation": "C5 : emplacement de taxis. Ce n'est pas le stationnement payant (C1b).",
       "multi": false,
       "image": "assets/img/signs/C5.svg",
-      "imageAlt": "Stationnement payant",
+      "imageAlt": "Station de taxis",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -260,7 +260,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Débouché de cyclistes provenant de droite ou de gauche"
+          "text": "Débouché de cyclistes"
         },
         {
           "id": "b",
@@ -281,7 +281,7 @@
       "explanation": "Cyclistes susceptibles de déboucher. Laisser de l'espace et adapter l'allure.",
       "multi": false,
       "image": "assets/img/signs/A21.svg",
-      "imageAlt": "Débouché de cyclistes provenant de droite ou de gauche",
+      "imageAlt": "Débouché de cyclistes",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -440,7 +440,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Début de route à accès réglementé"
+          "text": "Entrée de tunnel"
         },
         {
           "id": "b",
@@ -458,10 +458,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "Voie rapide / express, souvent limitée à 110 km/h.",
+      "explanation": "C111 : pictogramme de tunnel. Allumer les feux, retirer les lunettes de soleil, surveiller l'écart.",
       "multi": false,
       "image": "assets/img/signs/C111.svg",
-      "imageAlt": "Début de route à accès réglementé",
+      "imageAlt": "Entrée de tunnel",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -577,7 +577,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "Le combiné en main est interdit. Même un kit, à moto, capte trop d'attention.",
+      "explanation": "R.412-6-1 : téléphone tenu en main interdit, oreillette / écouteur portés à l'oreille interdits. Un intercom ou kit intégré au casque, pilotable sans les mains, est autorisé.",
       "multi": false
     },
     {
@@ -588,7 +588,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "30  par tentative"
+          "text": "30 € par tentative"
         },
         {
           "id": "b",
@@ -596,17 +596,17 @@
         },
         {
           "id": "c",
-          "text": "150 "
+          "text": "150 €"
         },
         {
           "id": "d",
-          "text": "10 "
+          "text": "10 €"
         }
       ],
       "correct": [
         "a"
       ],
-      "explanation": "30  à chaque passage, en centre agréé.",
+      "explanation": "30 € à chaque passage, en centre agréé.",
       "multi": false
     },
     {
@@ -776,7 +776,7 @@
         },
         {
           "id": "c",
-          "text": "Entrée de zone de rencontre"
+          "text": "Fin de l'obligation de chaînes à neige"
         },
         {
           "id": "d",
@@ -786,10 +786,10 @@
       "correct": [
         "c"
       ],
-      "explanation": "Vitesse 20 km/h, piétons autorisés sur la chaussée et prioritaires.",
+      "explanation": "B44 : chaînes barrées. Ce n'est pas la zone de rencontre (B52).",
       "multi": false,
       "image": "assets/img/signs/B44.svg",
-      "imageAlt": "Entrée de zone de rencontre",
+      "imageAlt": "Fin de l'obligation de chaînes à neige",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -869,20 +869,20 @@
         },
         {
           "id": "c",
-          "text": "Accès interdit aux véhicules de transport de marchandises"
+          "text": "Chemin obligatoire pour piétons"
         },
         {
           "id": "d",
-          "text": "Passage pour piétons surélevé"
+          "text": "Accès interdit aux véhicules de transport de marchandises"
         }
       ],
       "correct": [
-        "a"
+        "c"
       ],
-      "explanation": "Fin de l'obligation pour les cycles.",
+      "explanation": "B22b : rond bleu, pictogramme piéton. La fin de piste cyclable obligatoire est le B40.",
       "multi": false,
       "image": "assets/img/signs/B22b.svg",
-      "imageAlt": "Fin de piste ou bande obligatoire pour cycles",
+      "imageAlt": "Chemin obligatoire pour piétons",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -1376,7 +1376,7 @@
         },
         {
           "id": "b",
-          "text": "Impasse avec une issue pour les piétons"
+          "text": "Présignalisation d'une impasse"
         },
         {
           "id": "c",
@@ -1390,10 +1390,10 @@
       "correct": [
         "b"
       ],
-      "explanation": "Sans issue pour les véhicules, mais les piétons peuvent sortir.",
+      "explanation": "C13b : impasse plus loin (souvent à une intersection). L'impasse avec issue piétonne est le C13c.",
       "multi": false,
       "image": "assets/img/signs/C13b.svg",
-      "imageAlt": "Impasse avec une issue pour les piétons",
+      "imageAlt": "Présignalisation d'une impasse",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -1817,10 +1817,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "B11 = cyclomoteurs. Une moto n'est pas un cyclomoteur.",
+      "explanation": "B9g = cyclomoteurs (≤ 50 cm³). Une moto n'est pas un cyclomoteur. B11, lui, limite la largeur.",
       "multi": false,
-      "image": "assets/img/signs/B11.svg",
-      "imageAlt": "Interdiction cyclomoteurs",
+      "image": "assets/img/signs/B9g.svg",
+      "imageAlt": "Accès interdit aux cyclomoteurs",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -1889,7 +1889,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Exige une formation de 7 h (sauf permis B avant 1980 selon les règles en vigueur)"
+          "text": "Permis B depuis au moins 2 ans + formation 7 h (sauf dispenses : B avant mars 1980, ou 125 assurée 2006-2010)"
         },
         {
           "id": "b",
@@ -1907,7 +1907,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "La formation 7 h n'est pas le permis moto. L'ETM + A1/A2 est un autre parcours.",
+      "explanation": "Service Public : B ≥ 2 ans + formation 7 h. Dispenses : permis B (équivalence A1) avant le 1er mars 1980, ou relevé d'assureur prouvant une 125 / L5e entre 2006 et 2010. Ce n'est pas le permis A1/A2.",
       "multi": false
     },
     {
@@ -1918,11 +1918,11 @@
       "choices": [
         {
           "id": "a",
-          "text": "Accès interdit à tous les véhicules à moteur"
+          "text": "Limitation de tonnage"
         },
         {
           "id": "b",
-          "text": "Accès interdit aux véhicules dont le poids total autorisé dépasse le tonnage indiqué"
+          "text": "Accès interdit à tous les véhicules à moteur"
         },
         {
           "id": "c",
@@ -1936,10 +1936,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "Moto, voiture, scooter : tout engin à moteur est interdit.",
+      "explanation": "B13 : accès interdit aux véhicules dont le poids total autorisé dépasse le tonnage indiqué.",
       "multi": false,
       "image": "assets/img/signs/B13.svg",
-      "imageAlt": "Accès interdit à tous les véhicules à moteur",
+      "imageAlt": "Limitation de tonnage",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -2039,32 +2039,32 @@
       "id": "sigb-003",
       "category": "signalisation",
       "theme": "R",
-      "question": "Sur une zone de gravillons, à moto il faut :",
+      "question": "Face à ce panneau de vent latéral, à moto il faut :",
       "choices": [
         {
           "id": "a",
-          "text": "Garder la moto droite, allure réduite, sans à-coups"
+          "text": "Ralentir, tenir fermement le guidon et anticiper un déport au passage d'un PL"
         },
         {
           "id": "b",
-          "text": "Incliner pour que le pneu « coupe » le gravier"
+          "text": "Accélérer pour passer plus vite dans la rafale"
         },
         {
           "id": "c",
-          "text": "Freiner fort de l'avant pour nettoyer la bande de roulement"
+          "text": "Se mettre en travers pour offrir moins de prise au vent"
         },
         {
           "id": "d",
-          "text": "Suivre exactement les traces d'un poids lourd"
+          "text": "Relâcher le guidon pour que la moto se recentre seule"
         }
       ],
       "correct": [
         "a"
       ],
-      "explanation": "Les gravillons font patiner. On reste droit et souple sur les commandes.",
+      "explanation": "A24 annonce un vent latéral. Le souffle d'un poids lourd ou une sortie de tranchée peut déporter la moto.",
       "multi": false,
       "image": "assets/img/signs/A24.svg",
-      "imageAlt": "Projection de gravillons",
+      "imageAlt": "Vent latéral",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -2186,9 +2186,9 @@
       "correct": [
         "a"
       ],
-      "explanation": "B12 = motos interdites. Fréquent sur chemins, parcs, certaines allées.",
+      "explanation": "B9h = motos interdites. B12 est une limitation de hauteur, pas une interdiction moto.",
       "multi": false,
-      "image": "assets/img/signs/B12.svg",
+      "image": "assets/img/signs/B9h.svg",
       "imageAlt": "Accès interdit aux motocyclettes",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
@@ -2279,10 +2279,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "La zone 30 s'applique à tous les véhicules, tout le temps, jusqu'au panneau de fin.",
+      "explanation": "B30 (rectangle ZONE 30). La limite est 30 km/h dans toute la zone, même si la rue paraît vide.",
       "multi": false,
-      "image": "assets/img/signs/B41.svg",
-      "imageAlt": "Entrée de zone 30",
+      "image": "assets/img/signs/B30.svg",
+      "imageAlt": "Entrée d'une zone 30",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -2541,7 +2541,7 @@
         },
         {
           "id": "b",
-          "text": "Issue de secours"
+          "text": "Début d'autoroute"
         },
         {
           "id": "c",
@@ -2555,10 +2555,10 @@
       "correct": [
         "b"
       ],
-      "explanation": "Indique une issue de secours (tunnel).",
+      "explanation": "C207 : pictogramme d'autoroute. 130 km/h par temps sec (110 sous la pluie ou en permis probatoire).",
       "multi": false,
       "image": "assets/img/signs/C207.svg",
-      "imageAlt": "Issue de secours",
+      "imageAlt": "Début d'autoroute",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -2598,7 +2598,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Direction obligatoire à droite"
+          "text": "Contournement obligatoire par la droite"
         },
         {
           "id": "b",
@@ -2616,10 +2616,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "Obligation de tourner à droite.",
+      "explanation": "B21a1 : flèche qui contourne. Passer à droite de l'obstacle (îlot, terre-plein).",
       "multi": false,
       "image": "assets/img/signs/B21a1.svg",
-      "imageAlt": "Direction obligatoire à droite",
+      "imageAlt": "Contournement obligatoire par la droite",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -2700,16 +2700,16 @@
         },
         {
           "id": "d",
-          "text": "Contournement obligatoire par la droite"
+          "text": "Obligation de tourner à droite avant le panneau"
         }
       ],
       "correct": [
         "d"
       ],
-      "explanation": "Obstacle à contourner par la droite (îlot, terre-plein).",
+      "explanation": "B21-1 : flèche horizontale vers la droite. Tourner à droite avant le panneau. Le contournement d'un îlot est le B21a1.",
       "multi": false,
       "image": "assets/img/signs/B21-1.svg",
-      "imageAlt": "Contournement obligatoire par la droite",
+      "imageAlt": "Obligation de tourner à droite avant le panneau",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -2728,7 +2728,7 @@
         },
         {
           "id": "c",
-          "text": "Fin de zone de rencontre"
+          "text": "Fin de voie réservée aux transports en commun"
         },
         {
           "id": "d",
@@ -2738,10 +2738,10 @@
       "correct": [
         "c"
       ],
-      "explanation": "Fin du régime 20 km/h et de la priorité piétonne généralisée sur chaussée.",
+      "explanation": "B45 : bus barré. La fin de zone de rencontre est le B53.",
       "multi": false,
       "image": "assets/img/signs/B45a.svg",
-      "imageAlt": "Fin de zone de rencontre",
+      "imageAlt": "Fin de voie réservée aux transports en commun",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -2752,7 +2752,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "L'intersection se traite comme non régulée : prudence, souvent priorité à droite"
+          "text": "Intersection non régulée : prudence ; priorité à droite, sauf panneaux complémentaires"
         },
         {
           "id": "b",
@@ -2770,7 +2770,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "Feu éteint = plus de régulation. On s'approche comme d'un carrefour dangereux.",
+      "explanation": "Feu éteint ou orange clignotant : plus de régulation par le feu. Priorité à droite par défaut, sauf STOP, cédez-le-passage ou autre prescription encore en place.",
       "multi": false
     },
     {
@@ -2822,16 +2822,16 @@
         },
         {
           "id": "d",
-          "text": "Accès interdit aux cyclomoteurs"
+          "text": "Limitation de largeur"
         }
       ],
       "correct": [
         "d"
       ],
-      "explanation": "Interdiction aux cyclomoteurs (? 50 cm³). Une moto de cylindrée supérieure n'est pas un cyclomoteur.",
+      "explanation": "Accès interdit aux véhicules dont la largeur, chargement compris, dépasse la valeur indiquée. Une moto passe presque toujours.",
       "multi": false,
       "image": "assets/img/signs/B11.svg",
-      "imageAlt": "Accès interdit aux cyclomoteurs",
+      "imageAlt": "Limitation de largeur",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -2882,20 +2882,20 @@
         },
         {
           "id": "c",
-          "text": "Fin de piste ou bande obligatoire pour cycles"
+          "text": "Accès interdit aux véhicules transportant des matières polluant les eaux"
         },
         {
           "id": "d",
-          "text": "Circulation à sens unique"
+          "text": "Fin de piste ou bande obligatoire pour cycles"
         }
       ],
       "correct": [
-        "b"
+        "c"
       ],
-      "explanation": "Gabarit en hauteur (pont, tunnel).",
+      "explanation": "B18b vise les transports susceptibles de polluer les eaux.",
       "multi": false,
       "image": "assets/img/signs/B18b.svg",
-      "imageAlt": "Accès interdit aux véhicules dont la hauteur, chargement compris, dépasse la hauteur indiquée",
+      "imageAlt": "Accès interdit aux véhicules transportant des matières polluant les eaux",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -2999,7 +2999,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Surélévation de chaussée"
+          "text": "Conditions de circulation applicables à une voie"
         },
         {
           "id": "b",
@@ -3017,10 +3017,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "Plateau ou dos-d'âne. À moto : allure réduite, trajectoire perpendiculaire.",
+      "explanation": "C24a : indique ce qui s'applique à une voie (vitesse, affectation). Ce n'est pas un dos-d'âne (C27).",
       "multi": false,
       "image": "assets/img/signs/C24a.svg",
-      "imageAlt": "Surélévation de chaussée",
+      "imageAlt": "Conditions de circulation applicables à une voie",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -3101,16 +3101,16 @@
         },
         {
           "id": "d",
-          "text": "Fin de toutes les interdictions précédemment signalées"
+          "text": "Accès interdit aux véhicules de transport de marchandises"
         }
       ],
       "correct": [
         "d"
       ],
-      "explanation": "Met fin aux interdictions prescrites par des panneaux ronds à fond blanc (sauf limitations permanentes).",
+      "explanation": "B8 : pictogramme camion, fond blanc cerclé de rouge. La fin de toutes les interdictions est le B31 (fond blanc, barre noire).",
       "multi": false,
       "image": "assets/img/signs/B8.svg",
-      "imageAlt": "Fin de toutes les interdictions précédemment signalées",
+      "imageAlt": "Accès interdit aux véhicules de transport de marchandises",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -3218,7 +3218,7 @@
         },
         {
           "id": "b",
-          "text": "Accès interdit aux motocyclettes"
+          "text": "Limitation de hauteur (ici 3,5 m)"
         },
         {
           "id": "c",
@@ -3226,16 +3226,16 @@
         },
         {
           "id": "d",
-          "text": "Entrée de zone 30"
+          "text": "Accès interdit aux motocyclettes"
         }
       ],
       "correct": [
         "b"
       ],
-      "explanation": "Panneau crucial pour l'ETM : les motos ne peuvent pas s'engager.",
+      "explanation": "B12 : accès interdit si la hauteur, chargement compris, dépasse 3,5 m. L'interdiction moto est le B9h.",
       "multi": false,
       "image": "assets/img/signs/B12.svg",
-      "imageAlt": "Accès interdit aux motocyclettes",
+      "imageAlt": "Limitation de hauteur (ici 3,5 m)",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -3279,7 +3279,7 @@
         },
         {
           "id": "b",
-          "text": "Circulation de véhicules dans les deux sens"
+          "text": "Aire de danger aérien"
         },
         {
           "id": "c",
@@ -3293,10 +3293,10 @@
       "correct": [
         "b"
       ],
-      "explanation": "Annonce un trafic bidirectionnel après un rétrécissement ou des travaux.",
+      "explanation": "A23 : pictogramme d'avion. Risque lié à un aérodrome (bruit, surprise). Ce n'est pas le double sens (A18).",
       "multi": false,
       "image": "assets/img/signs/A23.svg",
-      "imageAlt": "Circulation de véhicules dans les deux sens",
+      "imageAlt": "Aire de danger aérien",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -3528,16 +3528,16 @@
         },
         {
           "id": "d",
-          "text": "Accès interdit aux véhicules agricoles à moteur"
+          "text": "Accès interdit aux véhicules de transport en commun"
         }
       ],
       "correct": [
         "d"
       ],
-      "explanation": "Concerne les engins agricoles, pas les motos de tourisme.",
+      "explanation": "B9f : pictogramme bus. Ce n'est pas l'interdiction aux agricoles (B9d).",
       "multi": false,
       "image": "assets/img/signs/B9f.svg",
-      "imageAlt": "Accès interdit aux véhicules agricoles à moteur",
+      "imageAlt": "Accès interdit aux véhicules de transport en commun",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -3566,7 +3566,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "On se met en sécurité, gilet, derrière une glissière, on alerte. On ne reste pas exposé pour « bien placer » un triangle.",
+      "explanation": "R.416-19 : les deux-roues motorisés sont dispensés du triangle. Gilet, éloignement derrière une glissière, alerte : on ne s'expose pas pour poser un triangle.",
       "multi": false
     },
     {
@@ -3786,7 +3786,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Conditions particulières de circulation sur la voie d'entrée"
+          "text": "Priorité par rapport au sens inverse"
         },
         {
           "id": "b",
@@ -3804,10 +3804,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "Présignalisation de conditions sur une bretelle ou une voie.",
+      "explanation": "C18 : dans le rétrécissement, vous passez avant le sens opposé. L'inverse (céder) est le AB5.",
       "multi": false,
       "image": "assets/img/signs/C18.svg",
-      "imageAlt": "Conditions particulières de circulation sur la voie d'entrée",
+      "imageAlt": "Priorité par rapport au sens inverse",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -3897,7 +3897,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "Depuis 2020, code auto et code moto sont distincts. En 2026, tout candidat A1/A2/A passe l'ETM.",
+      "explanation": "Depuis mars 2020, l'ETM est distinct du code voiture. La dispense pour certains titulaires du permis B a été supprimée : en 2026 tout candidat A1, A2 ou A passe l'ETM.",
       "multi": false
     },
     {
@@ -3912,7 +3912,7 @@
         },
         {
           "id": "b",
-          "text": "Lieu aménagé pour le stationnement à durée limitée"
+          "text": "Lieu aménagé pour le stationnement payant"
         },
         {
           "id": "c",
@@ -3926,10 +3926,10 @@
       "correct": [
         "b"
       ],
-      "explanation": "Stationnement à durée limitée (disque ou horodateur selon le cas).",
+      "explanation": "C1b : stationnement payant. Le stationnement à durée limitée (disque) est le C1c.",
       "multi": false,
       "image": "assets/img/signs/C1b.svg",
-      "imageAlt": "Lieu aménagé pour le stationnement à durée limitée",
+      "imageAlt": "Lieu aménagé pour le stationnement payant",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -3940,7 +3940,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Piste ou bande obligatoire pour cycles et cyclomoteurs"
+          "text": "Piste ou bande obligatoire pour cycles"
         },
         {
           "id": "b",
@@ -3958,10 +3958,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "Obligatoire pour vélos et cyclomoteurs. Une moto n'a pas à l'emprunter.",
+      "explanation": "Obligatoire pour les cycles. Une moto n'a pas à l'emprunter.",
       "multi": false,
       "image": "assets/img/signs/B22a.svg",
-      "imageAlt": "Piste ou bande obligatoire pour cycles et cyclomoteurs",
+      "imageAlt": "Piste ou bande obligatoire pour cycles",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -4134,7 +4134,7 @@
         },
         {
           "id": "c",
-          "text": "Fin d'obligation"
+          "text": "Fin de toutes les interdictions précédemment signalées"
         },
         {
           "id": "d",
@@ -4144,10 +4144,10 @@
       "correct": [
         "c"
       ],
-      "explanation": "Met fin à une obligation précédemment signalée.",
+      "explanation": "B31 : fond blanc, barre noire. Met fin aux interdictions temporaires des panneaux ronds à fond blanc. L'interdiction marchandises est le B8.",
       "multi": false,
       "image": "assets/img/signs/B31.svg",
-      "imageAlt": "Fin d'obligation",
+      "imageAlt": "Fin de toutes les interdictions précédemment signalées",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -4195,7 +4195,7 @@
         },
         {
           "id": "c",
-          "text": "Accès interdit aux véhicules transportant des marchandises dangereuses"
+          "text": "Arrêt au poste de péage"
         },
         {
           "id": "d",
@@ -4205,10 +4205,10 @@
       "correct": [
         "c"
       ],
-      "explanation": "Interdiction aux transports de matières dangereuses (plaque orange).",
+      "explanation": "B5c : arrêt au péage. Ce n'est pas une interdiction TMD.",
       "multi": false,
       "image": "assets/img/signs/B5c.svg",
-      "imageAlt": "Accès interdit aux véhicules transportant des marchandises dangereuses",
+      "imageAlt": "Arrêt au poste de péage",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -4288,20 +4288,20 @@
         },
         {
           "id": "c",
-          "text": "Accès interdit aux véhicules dont la largeur, chargement compris, dépasse la largeur indiquée"
+          "text": "Accès interdit aux véhicules transportant des matières explosives ou inflammables"
         },
         {
           "id": "d",
-          "text": "Cédez le passage"
+          "text": "Accès interdit aux véhicules dont la largeur, chargement compris, dépasse la largeur indiquée"
         }
       ],
       "correct": [
         "c"
       ],
-      "explanation": "Gabarit en largeur. Une moto passe presque toujours, mais pas un véhicule large.",
+      "explanation": "B18a vise les transports TMD explosifs / inflammables.",
       "multi": false,
       "image": "assets/img/signs/B18a.svg",
-      "imageAlt": "Accès interdit aux véhicules dont la largeur, chargement compris, dépasse la largeur indiquée",
+      "imageAlt": "Accès interdit aux véhicules transportant des matières explosives ou inflammables",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -4312,7 +4312,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Chaînes à neige obligatoires sur au moins deux roues motrices"
+          "text": "Chaînes à neige obligatoires"
         },
         {
           "id": "b",
@@ -4330,10 +4330,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "Équipements spéciaux hiver. À moto, la neige impose souvent de ne pas partir.",
+      "explanation": "Équipements spéciaux hiver sur au moins deux roues motrices. À moto, la neige impose souvent de ne pas partir.",
       "multi": false,
       "image": "assets/img/signs/B26.svg",
-      "imageAlt": "Chaînes à neige obligatoires sur au moins deux roues motrices",
+      "imageAlt": "Chaînes à neige obligatoires",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -4369,32 +4369,32 @@
       "id": "sigb-010",
       "category": "signalisation",
       "theme": "R",
-      "question": "Ce panneau concerne-t-il une motocyclette ?",
+      "question": "Que signifie ce panneau ?",
       "choices": [
         {
           "id": "a",
-          "text": "Oui, l'accès est interdit aux motocyclettes"
+          "text": "Limitation de hauteur (ici 3,5 m)"
         },
         {
           "id": "b",
-          "text": "Non, il vise seulement les cyclomoteurs"
+          "text": "L'accès est interdit aux motocyclettes"
         },
         {
           "id": "c",
-          "text": "Non, il vise les vélos"
+          "text": "L'accès est interdit aux cyclomoteurs"
         },
         {
           "id": "d",
-          "text": "Oui, mais seulement les motos de plus de 125 cm³"
+          "text": "Une limitation de vitesse à 35 km/h"
         }
       ],
       "correct": [
         "a"
       ],
-      "explanation": "Le pictogramme moto barre l'accès aux motocyclettes, quelle que soit la cylindrée.",
+      "explanation": "B12 : accès interdit si la hauteur, chargement compris, dépasse 3,5 m. L'interdiction moto est le B9h.",
       "multi": false,
       "image": "assets/img/signs/B12.svg",
-      "imageAlt": "Accès interdit aux motocyclettes",
+      "imageAlt": "Limitation de hauteur à 3,5 m",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -4442,7 +4442,7 @@
         },
         {
           "id": "c",
-          "text": "Remontée (montée)"
+          "text": "Feux tricolores"
         },
         {
           "id": "d",
@@ -4452,10 +4452,10 @@
       "correct": [
         "c"
       ],
-      "explanation": "Montée. Anticiper un véhicule lent, garder de la puissance disponible et ne pas coller le précédent.",
+      "explanation": "A17 : annonce des feux de circulation. Ce n'est pas une montée. Anticiper un feu orange ou rouge, surtout si l'adhérence est mauvaise.",
       "multi": false,
       "image": "assets/img/signs/A17.svg",
-      "imageAlt": "Remontée (montée)",
+      "imageAlt": "Feux tricolores",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -4535,20 +4535,20 @@
         },
         {
           "id": "c",
-          "text": "Intersection avec priorité à droite"
+          "text": "Autres interdictions (inscription sur le panneau)"
         },
         {
           "id": "d",
-          "text": "Fin de route prioritaire"
+          "text": "Intersection avec priorité à droite"
         }
       ],
       "correct": [
-        "a"
+        "c"
       ],
-      "explanation": "Limitation de poids. Une moto légère n'est en général pas concernée.",
+      "explanation": "B19 : l'interdiction est écrite sur le panneau. Ce n'est pas une limite de poids (B13).",
       "multi": false,
       "image": "assets/img/signs/B19.svg",
-      "imageAlt": "Accès interdit aux véhicules dont le poids total autorisé dépasse le tonnage indiqué",
+      "imageAlt": "Autres interdictions (inscription sur le panneau)",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -4580,7 +4580,7 @@
       "explanation": "Sauf mention « motos autorisées » ou équivalent local, la voie de bus n'est pas pour nous.",
       "multi": false,
       "image": "assets/img/signs/B27a.svg",
-      "imageAlt": "Voie réservée aux transports en commun",
+      "imageAlt": "Voie réservée aux bus",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -4627,7 +4627,7 @@
         },
         {
           "id": "b",
-          "text": "Accès interdit aux véhicules de transport de marchandises"
+          "text": "Arrêt au poste de police"
         },
         {
           "id": "c",
@@ -4641,10 +4641,10 @@
       "correct": [
         "b"
       ],
-      "explanation": "Concerne les véhicules affectés au transport de marchandises.",
+      "explanation": "B5b : inscription POLICE. Arrêt obligatoire. Ce n'est pas une interdiction aux marchandises.",
       "multi": false,
       "image": "assets/img/signs/B5b.svg",
-      "imageAlt": "Accès interdit aux véhicules de transport de marchandises",
+      "imageAlt": "Arrêt au poste de police",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -4717,7 +4717,7 @@
         },
         {
           "id": "b",
-          "text": "Accès interdit aux poids lourds"
+          "text": "Arrêt au poste de gendarmerie"
         },
         {
           "id": "c",
@@ -4731,10 +4731,10 @@
       "correct": [
         "b"
       ],
-      "explanation": "Interdiction aux véhicules de transport de marchandises au-delà du tonnage indiqué.",
+      "explanation": "B5a : arrêt obligatoire au poste de gendarmerie. L'interdiction aux poids lourds est un autre panneau (camion cerclé de rouge).",
       "multi": false,
       "image": "assets/img/signs/B5a.svg",
-      "imageAlt": "Accès interdit aux poids lourds",
+      "imageAlt": "Arrêt au poste de gendarmerie",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -4774,7 +4774,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Allonge le freinage, chauffe, et rend la moto floue"
+          "text": "Allonge le freinage, chauffe, rend la direction imprécise et peut éclater"
         },
         {
           "id": "b",
@@ -4792,7 +4792,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "Pression = sécurité n°1. On suit les préconisations du constructeur.",
+      "explanation": "Pression à froid selon le constructeur. Un pneu sous-gonflé s'échauffe, dirige mal, freine moins et peut éclater.",
       "multi": false
     },
     {
@@ -4873,16 +4873,16 @@
         },
         {
           "id": "d",
-          "text": "Stationnement unilatéral à alternance semi-mensuelle"
+          "text": "Place d'arrêt d'urgence"
         }
       ],
       "correct": [
         "d"
       ],
-      "explanation": "Côté de stationnement selon la quinzaine.",
+      "explanation": "C8 : emplacement pour s'arrêter en cas d'urgence. Ce n'est pas le stationnement alterné.",
       "multi": false,
       "image": "assets/img/signs/C8.svg",
-      "imageAlt": "Stationnement unilatéral à alternance semi-mensuelle",
+      "imageAlt": "Place d'arrêt d'urgence",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -5107,7 +5107,7 @@
         },
         {
           "id": "c",
-          "text": "Passage pour piétons surélevé"
+          "text": "Traversée de voies de tramways"
         },
         {
           "id": "d",
@@ -5117,10 +5117,10 @@
       "correct": [
         "c"
       ],
-      "explanation": "Passage piéton sur un plateau. Franchir droit, sans angle.",
+      "explanation": "C20c : rails de tram. À moto, les franchir le plus perpendiculairement possible. Le passage piéton surélevé n'est pas ce code.",
       "multi": false,
       "image": "assets/img/signs/C20c.svg",
-      "imageAlt": "Passage pour piétons surélevé",
+      "imageAlt": "Traversée de voies de tramways",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -5239,7 +5239,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "La RC est obligatoire. L'attestation / vignette doit pouvoir être présentée.",
+      "explanation": "La RC reste obligatoire. Depuis avril 2024, plus de vignette ni carte verte : les forces de l'ordre vérifient l'assurance dans le fichier des véhicules assurés (FVA).",
       "multi": false
     },
     {
@@ -5355,11 +5355,11 @@
       "correct": [
         "a"
       ],
-      "explanation": "Extérieur ? visibilité maximale ? replacer. On ne coupe pas la corde sur route ouverte.",
+      "explanation": "Extérieur de sa voie, visibilité maximale, puis replacer. On ne coupe pas la corde et on ne chevauche pas la ligne médiane.",
       "multi": false,
       "image": "assets/img/illustrations/trajectoire.svg",
-      "imageAlt": "Schéma de trajectoire de sécurité",
-      "imageCredit": "Wikimedia Commons - signalisation routière française"
+      "imageAlt": "Schéma de trajectoire de sécurité : rester dans sa voie",
+      "imageCredit": "Illustration pédagogique — Code Moto 2026"
     },
     {
       "id": "mecanique-155",
@@ -5455,7 +5455,7 @@
       "id": "circulation-023",
       "category": "circulation",
       "theme": "C",
-      "question": "Hors agglomération, sur une route bidirectionnelle sans séparateur, la limite générale est souvent :",
+      "question": "Hors agglomération, sur une route bidirectionnelle sans séparateur, la limite générale est :",
       "choices": [
         {
           "id": "a",
@@ -5477,7 +5477,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "80 km/h depuis 2018, avec dérogations à 90 km/h selon les départements et sections.",
+      "explanation": "80 km/h est la règle générale depuis 2018 (R.413-2). 90 km/h n'existe que par dérogation départementale signalée.",
       "multi": false
     },
     {
@@ -5586,20 +5586,20 @@
         },
         {
           "id": "c",
-          "text": "Passage d'animaux sauvages"
+          "text": "Fin de piste ou bande cyclable conseillée"
         },
         {
           "id": "d",
-          "text": "Réduction du nombre de voies"
+          "text": "Passage d'animaux sauvages"
         }
       ],
       "correct": [
-        "d"
+        "c"
       ],
-      "explanation": "Une voie se termine. Anticiper le rabattement, surtout si un PL est à droite.",
+      "explanation": "C114 : carré bleu vélo barré de rouge = FIN de l'aménagement cyclable conseillé. L'interdiction aux cycles est le B9b.",
       "multi": false,
       "image": "assets/img/signs/C114.svg",
-      "imageAlt": "Réduction du nombre de voies",
+      "imageAlt": "Fin de piste ou bande cyclable conseillée",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -5816,7 +5816,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Sur autoroutes et 2×2 voies séparées, VMA 70 à 130 km/h, sous conditions"
+          "text": "Sur autoroutes et 2×2 voies séparées par un terre-plein, VMA ≥ 70 km/h (même si abaissée localement, ex. périphérique à 50), sous conditions"
         },
         {
           "id": "b",
@@ -5834,11 +5834,11 @@
       "correct": [
         "a"
       ],
-      "explanation": "Décret du 9 janvier 2025 : pratique encadrée, pas une liberté totale.",
+      "explanation": "Art. R.412-11-3 (décret 9 janv. 2025) : autoroutes et routes à chaussées séparées ≥ 2 voies, VMA légale ≥ 70 km/h même si l'autorité locale l'a abaissée (périphérique parisien à 50). Files ininterrompues, entre les 2 files les plus à gauche, 50 km/h max (30 si une file est à l'arrêt).",
       "multi": false,
       "image": "assets/img/illustrations/interfiles.svg",
       "imageAlt": "Schéma de circulation inter-files",
-      "imageCredit": "Wikimedia Commons - signalisation routière française"
+      "imageCredit": "Illustration originale"
     },
     {
       "id": "sig-089",
@@ -5860,16 +5860,16 @@
         },
         {
           "id": "d",
-          "text": "Vitesse conseillée"
+          "text": "Praticabilité de la section de route"
         }
       ],
       "correct": [
         "d"
       ],
-      "explanation": "Allure recommandée, pas une limitation. En cas de danger, elle est souvent trop élevée pour une moto.",
+      "explanation": "C14 : état d'un col ou d'une section (ouvert, enneigé, fermé). Ce n'est pas une vitesse conseillée (C4a).",
       "multi": false,
       "image": "assets/img/signs/C14.svg",
-      "imageAlt": "Vitesse conseillée",
+      "imageAlt": "Praticabilité de la section de route",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -6053,11 +6053,11 @@
       "id": "divers-077",
       "category": "divers",
       "theme": "D",
-      "question": "Documents à pouvoir présenter :",
+      "question": "Lors d'un contrôle, quels documents un motard doit-il encore pouvoir présenter ?",
       "choices": [
         {
           "id": "a",
-          "text": "Permis, certificat d'immatriculation (ou copie), attestation d'assurance"
+          "text": "Permis et certificat d'immatriculation ; l'assurance est vérifiée via le FVA (plus de vignette)"
         },
         {
           "id": "b",
@@ -6065,7 +6065,7 @@
         },
         {
           "id": "c",
-          "text": "Seulement une photo des papiers sur le téléphone, c'est toujours suffisant"
+          "text": "La vignette verte collée sur la moto, obligatoire depuis 2024"
         },
         {
           "id": "d",
@@ -6075,7 +6075,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "En pratique : permis + carte grise + assurance. Le téléphone peut aider mais n'a pas valeur dans tous les contrôles.",
+      "explanation": "Permis + carte grise restent exigibles. La vignette / carte verte a disparu le 1er avril 2024 : le contrôle d'assurance passe par le FVA (plaque). Un mémo assureur est utile, plus obligatoire à exhiber.",
       "multi": false
     },
     {
@@ -6179,7 +6179,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Doit pouvoir poser les pieds sur les repose-pieds ; un siège adapté peut être nécessaire"
+          "text": "Pieds sur les repose-pieds + casque ; avant 5 ans, siège homologué et retenue obligatoires"
         },
         {
           "id": "b",
@@ -6197,7 +6197,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "Pieds sur les repose-pieds + casque homologué à sa taille. Pas de « bébé entre les bras ».",
+      "explanation": "R.431-11 : enfant de moins de 5 ans = système de retenue et siège adaptés. Dans tous les cas : pieds sur les repose-pieds, casque homologué à sa taille. Pas de bébé dans les bras.",
       "multi": false
     },
     {
@@ -6236,11 +6236,11 @@
       "id": "circulation-045",
       "category": "circulation",
       "theme": "C",
-      "question": "Lorsque le trafic se fluidifie en inter-files (files > 50 km/h) :",
+      "question": "En inter-files, vous devez réintégrer une voie dès que :",
       "choices": [
         {
           "id": "a",
-          "text": "On doit reprendre une place dans une voie"
+          "text": "Au moins une des deux files roule plus vite que vous"
         },
         {
           "id": "b",
@@ -6258,7 +6258,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "La CIF cesse dès que le flux n'est plus saturé / lent.",
+      "explanation": "R.412-11-3 7° : réinsertion dès qu'une des deux files dépasse votre vitesse (souvent au-delà de 50 km/h si vous êtes déjà au plafond CIF).",
       "multi": false
     },
     {
@@ -6385,7 +6385,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "35 kW (47,5 ch) et un rapport puissance/poids ? 0,2 kW/kg"
+          "text": "35 kW (47,5 ch) et un rapport puissance/poids ≤ 0,2 kW/kg"
         },
         {
           "id": "b",
@@ -6403,7 +6403,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "A2 dès 18 ans : 35 kW max. Le A « plein » vient après 2 ans et une formation.",
+      "explanation": "A2 dès 18 ans : 35 kW max et ≤ 0,2 kW/kg. Le permis A « plein » vient après 2 ans d'A2 et une formation.",
       "multi": false
     },
     {
@@ -6414,7 +6414,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Fin de zone 30"
+          "text": "Fin de chemin obligatoire pour cavaliers"
         },
         {
           "id": "b",
@@ -6432,10 +6432,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "Sortie de zone 30. La limitation générale reprend (souvent 50 en agglo).",
+      "explanation": "B42 : rond bleu cavalier barré. La fin de zone 30 est le B51.",
       "multi": false,
       "image": "assets/img/signs/B42.svg",
-      "imageAlt": "Fin de zone 30",
+      "imageAlt": "Fin de chemin obligatoire pour cavaliers",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -6597,7 +6597,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Voie de détresse"
+          "text": "Indications diverses"
         },
         {
           "id": "b",
@@ -6615,10 +6615,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "Voie d'arrêt d'urgence en descente pour véhicules en perte de freins.",
+      "explanation": "C50 : mention écrite (aire de chaînage, etc.). La voie de détresse est le C26a.",
       "multi": false,
       "image": "assets/img/signs/C50.svg",
-      "imageAlt": "Voie de détresse",
+      "imageAlt": "Indications diverses",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -6766,7 +6766,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "Arrêt complet. Pieds à terre, moto immobile.",
+      "explanation": "R.415-6 : immobilisation complète du véhicule, puis céder le passage. Pas besoin d'un temps imposé ni des pieds à terre : la moto doit être arrêtée.",
       "multi": false
     },
     {
@@ -6777,7 +6777,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Projection de gravillons"
+          "text": "Vent latéral"
         },
         {
           "id": "b",
@@ -6795,10 +6795,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "Gravillons projetés : adhérence très mauvaise à moto. Lever l'allure, éviter d'incliner et de freiner fort.",
+      "explanation": "A24 : manche à air. Risque de déport, surtout au passage d'un PL ou en sortie de tranchée. Tenir fermement le guidon.",
       "multi": false,
       "image": "assets/img/signs/A24.svg",
-      "imageAlt": "Projection de gravillons",
+      "imageAlt": "Vent latéral",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -6885,9 +6885,9 @@
       "correct": [
         "a"
       ],
-      "explanation": "C107 = autoroute. 130 / 110 pluie / 110 probatoire.",
+      "explanation": "C207 (pictogramme d'autoroute). Par temps sec et permis définitif : 130 km/h, 110 sous la pluie. C107 est la route à accès réglementé.",
       "multi": false,
-      "image": "assets/img/signs/C107.svg",
+      "image": "assets/img/signs/C207.svg",
       "imageAlt": "Début d'autoroute",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
@@ -7138,7 +7138,7 @@
         },
         {
           "id": "b",
-          "text": "Ralentisseur"
+          "text": "Affectation de voies"
         },
         {
           "id": "c",
@@ -7152,10 +7152,10 @@
       "correct": [
         "b"
       ],
-      "explanation": "Dispositif ralentisseur. Ne pas le prendre en biais.",
+      "explanation": "C24b : plusieurs voies avec des règles différentes. Ce n'est pas un ralentisseur.",
       "multi": false,
       "image": "assets/img/signs/C24b.svg",
-      "imageAlt": "Ralentisseur",
+      "imageAlt": "Affectation de voies",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -7170,7 +7170,7 @@
         },
         {
           "id": "b",
-          "text": "Accès interdit aux véhicules tractant une caravane"
+          "text": "Arrêt à la douane"
         },
         {
           "id": "c",
@@ -7184,10 +7184,10 @@
       "correct": [
         "b"
       ],
-      "explanation": "Interdiction aux attelages caravane / remorque visés.",
+      "explanation": "B4 : arrêt obligatoire au poste de douane. Ce n'est pas une interdiction aux caravanes.",
       "multi": false,
       "image": "assets/img/signs/B4.svg",
-      "imageAlt": "Accès interdit aux véhicules tractant une caravane",
+      "imageAlt": "Arrêt à la douane",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -7198,7 +7198,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Réanimation : massage cardiaque (et DEA si disponible)"
+          "text": "RCP : massage cardiaque (30/2 si formé), DEA dès qu'il est disponible"
         },
         {
           "id": "b",
@@ -7216,7 +7216,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "Massage au centre de la poitrine, 100-120 / min. Le DEA guide la voix.",
+      "explanation": "Inconscient qui ne respire pas : alerter, masser au centre de la poitrine (100-120/min). Si l'on est formé : 30 compressions / 2 insufflations. Le DEA guide dès qu'il arrive. Massage seul si l'on n'est pas formé aux insufflations.",
       "multi": false
     },
     {
@@ -7357,20 +7357,20 @@
         },
         {
           "id": "c",
-          "text": "Fin de limitation de vitesse à 50 km/h"
+          "text": "Signaux sonores interdits"
         },
         {
           "id": "d",
-          "text": "Accès interdit aux poids lourds"
+          "text": "Fin de limitation de vitesse à 50 km/h"
         }
       ],
       "correct": [
-        "a"
+        "c"
       ],
-      "explanation": "Il est interdit de rouler en dessous de la vitesse indiquée, sauf nécessité (embouteillage, conditions).",
+      "explanation": "B16 : klaxon interdit, sauf danger imminent. La vitesse minimale obligatoire est le B25.",
       "multi": false,
       "image": "assets/img/signs/B16.svg",
-      "imageAlt": "Vitesse minimale obligatoire",
+      "imageAlt": "Signaux sonores interdits",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -7771,7 +7771,7 @@
         },
         {
           "id": "b",
-          "text": "Entrée de zone 30"
+          "text": "Fin de chemin obligatoire pour piétons"
         },
         {
           "id": "c",
@@ -7785,10 +7785,10 @@
       "correct": [
         "b"
       ],
-      "explanation": "Vitesse limitée à 30 km/h dans toute la zone, jusqu'au panneau de sortie.",
+      "explanation": "B41 : rond bleu piéton barré. Ce n'est pas l'entrée de zone 30 (B30, rectangle ZONE 30).",
       "multi": false,
       "image": "assets/img/signs/B41.svg",
-      "imageAlt": "Entrée de zone 30",
+      "imageAlt": "Fin de chemin obligatoire pour piétons",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -7807,7 +7807,7 @@
         },
         {
           "id": "c",
-          "text": "Fin de route à accès réglementé"
+          "text": "Sortie de tunnel"
         },
         {
           "id": "d",
@@ -7817,10 +7817,10 @@
       "correct": [
         "c"
       ],
-      "explanation": "Sortie de voie rapide : la limitation générale reprend, souvent 80 km/h.",
+      "explanation": "C112 : tunnel barré. Sortie de tunnel : reprendre ses distances, méfiance à l'éblouissement.",
       "multi": false,
       "image": "assets/img/signs/C112.svg",
-      "imageAlt": "Fin de route à accès réglementé",
+      "imageAlt": "Sortie de tunnel",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -7979,7 +7979,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Début d'autoroute"
+          "text": "Route à accès réglementé"
         },
         {
           "id": "b",
@@ -7997,10 +7997,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "Entrée d'autoroute : 130 km/h par temps sec (110 sous la pluie ou en permis probatoire).",
+      "explanation": "C107 : pictogramme voiture, fond bleu. Voie express / accès réglementé, souvent 110 km/h. Le début d'autoroute est le C207.",
       "multi": false,
       "image": "assets/img/signs/C107.svg",
-      "imageAlt": "Début d'autoroute",
+      "imageAlt": "Route à accès réglementé",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -8209,9 +8209,9 @@
       "correct": [
         "a"
       ],
-      "explanation": "Le « A » blanc sur fond bleu marque l'entrée d'autoroute.",
+      "explanation": "C207 = début d'autoroute. C107 (voiture sur fond bleu) est une route à accès réglementé, pas une autoroute.",
       "multi": false,
-      "image": "assets/img/signs/C107.svg",
+      "image": "assets/img/signs/C207.svg",
       "imageAlt": "Début d'autoroute",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
@@ -8363,7 +8363,7 @@
       "explanation": "Interdiction de dépasser les véhicules à moteur. Un cycliste n'est pas un véhicule à moteur.",
       "multi": false,
       "image": "assets/img/signs/B3.svg",
-      "imageAlt": "Interdiction de dépasser les véhicules à moteur",
+      "imageAlt": "Interdiction de dépasser",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -8586,7 +8586,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Traversée de voies de tramway"
+          "text": "Débouché de véhicules des transports en commun"
         },
         {
           "id": "b",
@@ -8604,10 +8604,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "Rails très glissants pour une moto. Les franchir le plus perpendiculairement possible, sans freiner dessus.",
+      "explanation": "A9 : bus ou tram susceptibles de déboucher. Les rails de tram sont très glissants : les franchir le plus perpendiculairement possible, sans freiner dessus.",
       "multi": false,
       "image": "assets/img/signs/A9.svg",
-      "imageAlt": "Traversée de voies de tramway",
+      "imageAlt": "Débouché de véhicules des transports en commun",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -8668,7 +8668,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "Annonce un passage piéton. Un piéton engagé est prioritaire, même hors des clous en agglomération s'il a commencé à traverser.",
+      "explanation": "Annonce un passage piéton. Un piéton engagé est prioritaire.",
       "multi": false,
       "image": "assets/img/signs/A13b.svg",
       "imageAlt": "Passage pour piétons",
@@ -8719,17 +8719,17 @@
         },
         {
           "id": "c",
-          "text": "Accès interdit aux cyclomoteurs"
+          "text": "Accès interdit aux cycles"
         },
         {
           "id": "d",
-          "text": "Accès interdit aux cycles"
+          "text": "Accès interdit aux cyclomoteurs"
         }
       ],
       "correct": [
-        "d"
+        "c"
       ],
-      "explanation": "Interdiction aux vélos. Une moto n'est pas un cycle.",
+      "explanation": "B9b : rond blanc cerclé de rouge, pictogramme vélo. Seule vraie interdiction aux vélos.",
       "multi": false,
       "image": "assets/img/signs/B9b.svg",
       "imageAlt": "Accès interdit aux cycles",
@@ -8761,10 +8761,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "Zone de rencontre : 20 km/h, piétons prioritaires y compris sur la chaussée.",
+      "explanation": "B52. En zone de rencontre la vitesse maximale est 20 km/h ; les piétons sont prioritaires sur la chaussée.",
       "multi": false,
-      "image": "assets/img/signs/B44.svg",
-      "imageAlt": "Entrée de zone de rencontre",
+      "image": "assets/img/signs/B52.svg",
+      "imageAlt": "Entrée d'une zone de rencontre",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -9037,7 +9037,7 @@
       "explanation": "Le rail est un piège d'adhérence. Angle proche de 90°, allure stable, pas de freinage sur le métal.",
       "multi": false,
       "image": "assets/img/signs/A9.svg",
-      "imageAlt": "Traversée de voies de tramway",
+      "imageAlt": "Débouché de transports en commun / rails",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -9095,7 +9095,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "Le bruit n'augmente pas la sécurité de façon proportionnelle ; il crée du rejet et des PV.",
+      "explanation": "Échappement d'origine ou homologué obligatoire (R.318-3) : pas de ligne ouverte, pas de coupe-circuit. Le bruit ne rend pas plus visible de façon utile ; il est verbalisable et agace les riverains.",
       "multi": false
     },
     {
@@ -9106,7 +9106,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Doit être présent à bord et porté en cas d'arrêt d'urgence sur la chaussée"
+          "text": "Présent à bord ; porté si on quitte la moto immobilisée sur la chaussée ou ses abords"
         },
         {
           "id": "b",
@@ -9124,36 +9124,36 @@
       "correct": [
         "a"
       ],
-      "explanation": "À bord = obligatoire. Porté dès qu'on est à pied près de la chaussée.",
+      "explanation": "Le gilet doit être sur soi ou dans un rangement. Après un arrêt d'urgence, on le porte dès qu'on met pied à terre sur la chaussée ou l'accotement (R.416-19).",
       "multi": false
     },
     {
       "id": "secours-133",
       "category": "secours",
       "theme": "S",
-      "question": "Alerter : quel numéro d'urgence européen ?",
+      "question": "Quel est le numéro d'urgence européen unique ?",
       "choices": [
         {
           "id": "a",
-          "text": "112 (et 18 pompiers, 15 SAMU, 17 police)"
+          "text": "112"
         },
         {
           "id": "b",
-          "text": "119 seulement"
+          "text": "119 (enfance en danger)"
         },
         {
           "id": "c",
-          "text": "113"
+          "text": "18 seulement (pompiers)"
         },
         {
           "id": "d",
-          "text": "101"
+          "text": "15 seulement (SAMU)"
         }
       ],
       "correct": [
         "a"
       ],
-      "explanation": "112 fonctionne dans toute l'UE, même sans crédit / hors réseau opérateur parfois.",
+      "explanation": "112 : numéro unique européen. En France on garde aussi 15 (SAMU), 18 (pompiers), 17 (police).",
       "multi": false
     },
     {
@@ -9290,7 +9290,7 @@
         },
         {
           "id": "b",
-          "text": "Direction obligatoire à gauche"
+          "text": "Direction obligatoire tout droit"
         },
         {
           "id": "c",
@@ -9304,11 +9304,706 @@
       "correct": [
         "b"
       ],
-      "explanation": "Obligation de tourner à gauche.",
+      "explanation": "B21b : flèche vers le haut. Aller tout droit. Ce n'est pas un tourne-à-gauche.",
       "multi": false,
       "image": "assets/img/signs/B21b.svg",
-      "imageAlt": "Direction obligatoire à gauche",
+      "imageAlt": "Direction obligatoire tout droit",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-b9h",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Accès interdit aux motocyclettes"
+        },
+        {
+          "id": "b",
+          "text": "Limitation de hauteur à 3,5 m"
+        },
+        {
+          "id": "c",
+          "text": "Accès interdit aux cyclomoteurs"
+        },
+        {
+          "id": "d",
+          "text": "Accès interdit aux cycles"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B9h : pictogramme moto. L'accès est interdit aux motocyclettes et motocyclettes légères, quelle que soit la cylindrée.",
+      "multi": false,
+      "image": "assets/img/signs/B9h.svg",
+      "imageAlt": "Accès interdit aux motocyclettes",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sigb-b9h",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Ce panneau concerne-t-il une motocyclette ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Oui, l'accès est interdit aux motocyclettes"
+        },
+        {
+          "id": "b",
+          "text": "Non, il vise seulement les cyclomoteurs"
+        },
+        {
+          "id": "c",
+          "text": "Non, il vise les vélos"
+        },
+        {
+          "id": "d",
+          "text": "Oui, mais seulement les motos de plus de 125 cm³"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Le pictogramme moto (B9h) barre l'accès aux motocyclettes, quelle que soit la cylindrée.",
+      "multi": false,
+      "image": "assets/img/signs/B9h.svg",
+      "imageAlt": "Accès interdit aux motocyclettes",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-c114-barre",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Ce carré bleu avec un vélo barré de rouge signifie-t-il une interdiction aux vélos ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Non : c'est la fin d'une piste ou bande cyclable conseillée (C114)"
+        },
+        {
+          "id": "b",
+          "text": "Oui : tout vélo a interdiction de circuler"
+        },
+        {
+          "id": "c",
+          "text": "Oui : interdiction seulement aux vélos électriques"
+        },
+        {
+          "id": "d",
+          "text": "Non : c'est une obligation d'emprunter la piste"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Carré bleu = indication. Barre rouge = FIN de cette indication. L'interdiction aux cycles est le B9b (rond blanc, couronne rouge, vélo noir).",
+      "multi": false,
+      "image": "assets/img/signs/C114.svg",
+      "imageAlt": "Fin de piste ou bande cyclable conseillée",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-c113",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Piste ou bande cyclable conseillée et réservée aux cycles"
+        },
+        {
+          "id": "b",
+          "text": "Piste cyclable obligatoire pour tous les deux-roues, moto comprise"
+        },
+        {
+          "id": "c",
+          "text": "Accès interdit aux cycles"
+        },
+        {
+          "id": "d",
+          "text": "Voie de bus"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C113 : carré bleu. Voie conseillée, pas obligatoire. L'obligation est le rond bleu B22a.",
+      "multi": false,
+      "image": "assets/img/signs/C113.svg",
+      "imageAlt": "Piste ou bande cyclable conseillée et réservée aux cycles",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-c28",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Réduction du nombre de voies"
+        },
+        {
+          "id": "b",
+          "text": "Fin de piste cyclable"
+        },
+        {
+          "id": "c",
+          "text": "Début d'autoroute"
+        },
+        {
+          "id": "d",
+          "text": "Voie de détresse"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C28 : rabattement d'une voie. Anticiper, surtout près d'un PL.",
+      "multi": false,
+      "image": "assets/img/signs/C28.svg",
+      "imageAlt": "Réduction du nombre de voies",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-b9b",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Quel panneau interdit vraiment l'accès aux vélos ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Le rond blanc cerclé de rouge avec un vélo (B9b)"
+        },
+        {
+          "id": "b",
+          "text": "Le carré bleu vélo barré de rouge (C114)"
+        },
+        {
+          "id": "c",
+          "text": "Le rond bleu vélo (B22a)"
+        },
+        {
+          "id": "d",
+          "text": "Le losange jaune"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Interdiction = rond à fond blanc et couronne rouge. Le C114 barré met seulement fin à une piste conseillée.",
+      "multi": false,
+      "image": "assets/img/signs/B9b.svg",
+      "imageAlt": "Accès interdit aux cycles",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-107",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Accès interdit aux véhicules à moteur sauf cyclomoteurs"
+        },
+        {
+          "id": "b",
+          "text": "Accès interdit à tous les véhicules à moteur"
+        },
+        {
+          "id": "c",
+          "text": "Accès interdit aux cyclomoteurs"
+        },
+        {
+          "id": "d",
+          "text": "Sens interdit"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B7a : voitures et motos interdites ; les cyclomoteurs peuvent passer. Tous les moteurs interdits = B7b.",
+      "multi": false,
+      "image": "assets/img/signs/B7a.svg",
+      "imageAlt": "Accès interdit aux véhicules à moteur sauf cyclomoteurs",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-108",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Accès interdit à tous les véhicules à moteur"
+        },
+        {
+          "id": "b",
+          "text": "Accès interdit aux véhicules à moteur sauf cyclomoteurs"
+        },
+        {
+          "id": "c",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "d",
+          "text": "Stop"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B7b : aucun véhicule à moteur, moto comprise. À ne pas confondre avec B7a (sauf cyclomoteurs).",
+      "multi": false,
+      "image": "assets/img/signs/B7b.svg",
+      "imageAlt": "Accès interdit à tous les véhicules à moteur",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-109",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Accès interdit aux véhicules agricoles à moteur"
+        },
+        {
+          "id": "b",
+          "text": "Accès interdit aux véhicules de transport en commun"
+        },
+        {
+          "id": "c",
+          "text": "Accès interdit aux motocyclettes"
+        },
+        {
+          "id": "d",
+          "text": "Sens interdit"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B9d : pictogramme tracteur. Les motos de tourisme ne sont pas des véhicules agricoles.",
+      "multi": false,
+      "image": "assets/img/signs/B9d.svg",
+      "imageAlt": "Accès interdit aux véhicules agricoles à moteur",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-110",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Entrée d'une zone 30"
+        },
+        {
+          "id": "b",
+          "text": "Fin de chemin obligatoire pour piétons"
+        },
+        {
+          "id": "c",
+          "text": "Limitation de vitesse à 30 km/h hors zone"
+        },
+        {
+          "id": "d",
+          "text": "Sens interdit"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B30 : rectangle « ZONE » + 30. Vitesse limitée à 30 km/h dans toute la zone. Ce n'est pas un rond bleu (fin d'obligation).",
+      "multi": false,
+      "image": "assets/img/signs/B30.svg",
+      "imageAlt": "Entrée d'une zone 30",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-111",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fin de piste ou bande obligatoire pour cycles"
+        },
+        {
+          "id": "b",
+          "text": "Fin de piste ou bande cyclable conseillée"
+        },
+        {
+          "id": "c",
+          "text": "Accès interdit aux cycles"
+        },
+        {
+          "id": "d",
+          "text": "Sens interdit"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B40 : rond bleu vélo barré de rouge. Fin de l'obligation B22a.",
+      "multi": false,
+      "image": "assets/img/signs/B40.svg",
+      "imageAlt": "Fin de piste ou bande obligatoire pour cycles",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-112",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sortie de zone 30"
+        },
+        {
+          "id": "b",
+          "text": "Entrée d'une zone 30"
+        },
+        {
+          "id": "c",
+          "text": "Fin de chemin obligatoire pour cavaliers"
+        },
+        {
+          "id": "d",
+          "text": "Sens interdit"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B51 : rectangle de sortie de zone. La limitation générale reprend (souvent 50 en agglo).",
+      "multi": false,
+      "image": "assets/img/signs/B51.svg",
+      "imageAlt": "Sortie de zone 30",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-113",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Entrée d'une zone de rencontre"
+        },
+        {
+          "id": "b",
+          "text": "Fin de l'obligation de chaînes à neige"
+        },
+        {
+          "id": "c",
+          "text": "Entrée d'une zone 30"
+        },
+        {
+          "id": "d",
+          "text": "Sens interdit"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B52 : rectangle « ZONE DE RENCONTRE ». Vitesse 20 km/h, piétons autorisés sur la chaussée et prioritaires.",
+      "multi": false,
+      "image": "assets/img/signs/B52.svg",
+      "imageAlt": "Entrée d'une zone de rencontre",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-114",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sortie de zone de rencontre"
+        },
+        {
+          "id": "b",
+          "text": "Fin de voie réservée aux transports en commun"
+        },
+        {
+          "id": "c",
+          "text": "Entrée d'une zone de rencontre"
+        },
+        {
+          "id": "d",
+          "text": "Sens interdit"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B53 : fin du régime 20 km/h et de la priorité piétonne généralisée sur chaussée.",
+      "multi": false,
+      "image": "assets/img/signs/B53.svg",
+      "imageAlt": "Sortie de zone de rencontre",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-115",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Voie de détresse"
+        },
+        {
+          "id": "b",
+          "text": "Indications diverses"
+        },
+        {
+          "id": "c",
+          "text": "Place d'arrêt d'urgence"
+        },
+        {
+          "id": "d",
+          "text": "Sens interdit"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C26a : voie d'arrêt d'urgence en descente pour un véhicule en perte de freins.",
+      "multi": false,
+      "image": "assets/img/signs/C26a.svg",
+      "imageAlt": "Voie de détresse",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-116",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Surélévation de chaussée"
+        },
+        {
+          "id": "b",
+          "text": "Conditions de circulation applicables à une voie"
+        },
+        {
+          "id": "c",
+          "text": "Cassis ou dos-d'âne"
+        },
+        {
+          "id": "d",
+          "text": "Sens interdit"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C27 : plateau ou dos-d'âne annoncé. À moto : allure réduite, trajectoire perpendiculaire.",
+      "multi": false,
+      "image": "assets/img/signs/C27.svg",
+      "imageAlt": "Surélévation de chaussée",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-117",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Vitesse conseillée (ici 50 km/h)"
+        },
+        {
+          "id": "b",
+          "text": "Praticabilité de la section de route"
+        },
+        {
+          "id": "c",
+          "text": "Limitation de vitesse à 50 km/h"
+        },
+        {
+          "id": "d",
+          "text": "Sens interdit"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C4a : allure recommandée, pas une limitation. En cas de danger, elle est souvent trop élevée pour une moto.",
+      "multi": false,
+      "image": "assets/img/signs/C4a.svg",
+      "imageAlt": "Vitesse conseillée (ici 50 km/h)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sigb-016",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Ce panneau (voiture sur fond bleu) annonce-t-il une autoroute ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Non : c'est une route à accès réglementé (C107). L'autoroute est le C207"
+        },
+        {
+          "id": "b",
+          "text": "Oui, on peut rouler à 130 km/h"
+        },
+        {
+          "id": "c",
+          "text": "Oui, mais seulement sous la pluie"
+        },
+        {
+          "id": "d",
+          "text": "C'est une issue de secours de tunnel"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C107 = route à accès réglementé (souvent 110 km/h). C207 = début d'autoroute (130 km/h par temps sec).",
+      "multi": false,
+      "image": "assets/img/signs/C107.svg",
+      "imageAlt": "Route à accès réglementé",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sigb-017",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Dans un tunnel annoncé par ce panneau, un motard doit surtout :",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Allumer les feux, garder ses distances et retirer les lunettes de soleil"
+        },
+        {
+          "id": "b",
+          "text": "Éteindre les feux pour ne pas éblouir"
+        },
+        {
+          "id": "c",
+          "text": "Accélérer pour sortir plus vite"
+        },
+        {
+          "id": "d",
+          "text": "Circuler sur la bande d'arrêt d'urgence"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C111 = entrée de tunnel. Feux allumés, allure stable, pas de dépassement hasardeux, attention à l'éblouissement à la sortie.",
+      "multi": false,
+      "image": "assets/img/signs/C111.svg",
+      "imageAlt": "Entrée de tunnel",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "conducteur-185",
+      "category": "conducteur",
+      "theme": "L",
+      "question": "Porter une oreillette Bluetooth (écouteur dans l'oreille) à moto :",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Est interdit ; seul un système intégré au casque, sans écouteur dans l'oreille, est autorisé"
+        },
+        {
+          "id": "b",
+          "text": "Est autorisé comme en voiture"
+        },
+        {
+          "id": "c",
+          "text": "Est obligatoire pour le GPS"
+        },
+        {
+          "id": "d",
+          "text": "Est autorisé en dessous de 50 km/h"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "R.412-6-1 : tout dispositif porté à l'oreille est interdit. L'intercom fixé dans le casque, commandé sans les mains, est autorisé.",
+      "multi": false
+    },
+    {
+      "id": "circulation-186",
+      "category": "circulation",
+      "theme": "C",
+      "question": "Sur le périphérique parisien limité à 50 km/h, l'inter-files :",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Reste autorisée : la VMA a été abaissée localement, le décret l'autorise quand même"
+        },
+        {
+          "id": "b",
+          "text": "Est interdite car la VMA est inférieure à 70 km/h"
+        },
+        {
+          "id": "c",
+          "text": "Est réservée aux scooters"
+        },
+        {
+          "id": "d",
+          "text": "N'est autorisée que la nuit"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "R.412-11-3 : « nonobstant » un abaissement local de la VMA. Service Public cite explicitement le périphérique parisien passé de 70 à 50 km/h.",
+      "multi": false
+    },
+    {
+      "id": "circulation-187",
+      "category": "circulation",
+      "theme": "C",
+      "question": "Peut-on circuler en inter-files avec un side-car ou un trike large ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Non : uniquement les 2 ou 3 roues d'une largeur d'un mètre maximum (L3e / L5e étroits)"
+        },
+        {
+          "id": "b",
+          "text": "Oui, tous les deux-roues y compris attelés"
+        },
+        {
+          "id": "c",
+          "text": "Oui, si l'on reste sous 30 km/h"
+        },
+        {
+          "id": "d",
+          "text": "Oui, sur autoroute seulement"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Le décret vise les véhicules ≤ 1 m de large. Side-car, trike large et quad sont exclus.",
+      "multi": false
     }
   ]
 }

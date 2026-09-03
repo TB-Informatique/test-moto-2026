@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#0f1419"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="290" rx="16" fill="url(#bg)"/>
+  <text x="22" y="28" fill="#f8fafc" font-size="16" font-family="system-ui,sans-serif" font-weight="700">R&#233;gler les r&#233;troviseurs</text>
+  <text x="22" y="48" fill="#cbd5e1" font-size="12" font-family="system-ui,sans-serif">Assis en position de conduite, bras d&#233;tendus, sans se pencher vers le miroir</text>
+  <rect x="250" y="80" width="220" height="160" rx="16" fill="#1e293b" stroke="#64748b" stroke-width="3"/>
+  <path d="M250 80 H360 L250 160 Z" fill="#38bdf8" opacity="0.25"/>
+  <path d="M360 80 H470 V240 H250 L360 80 Z" fill="#22c55e" opacity="0.18"/>
+  <text x="262" y="120" fill="#7dd3fc" font-size="12" font-family="system-ui,sans-serif">Un bout de votre bras</text>
+  <text x="380" y="160" fill="#86efac" font-size="12" font-family="system-ui,sans-serif">Maximum</text>
+  <text x="380" y="178" fill="#86efac" font-size="12" font-family="system-ui,sans-serif">arri&#232;re + c&#244;t&#233;</text>
+  <text x="48" y="270" fill="#e2e8f0" font-size="13" font-family="system-ui,sans-serif">Si vous ne voyez que votre coude : trop serr&#233;. Si vous ne vous voyez plus du tout : trou dans l&#8217;angle mort.</text>
+
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#0f1419"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="280" rx="16" fill="url(#bg)"/>
+  <text x="22" y="28" fill="#f8fafc" font-size="16" font-family="system-ui,sans-serif" font-weight="700">Niveau d&#8217;huile</text>
+  <text x="22" y="48" fill="#cbd5e1" font-size="12" font-family="system-ui,sans-serif">Moteur ti&#232;de, attendre 2&#8211;3 min, moto droite &#8212; pas sur la b&#233;quille lat&#233;rale</text>
+  <rect x="80" y="80" width="90" height="170" rx="12" fill="#0f172a" stroke="#94a3b8" stroke-width="3"/>
+  <rect x="88" y="150" width="74" height="88" rx="6" fill="#ca8a04"/>
+  <line x1="80" y1="118" x2="170" y2="118" stroke="#22c55e" stroke-width="2"/>
+  <line x1="80" y1="210" x2="170" y2="210" stroke="#ef4444" stroke-width="2"/>
+  <text x="186" y="122" fill="#86efac" font-size="13" font-family="system-ui,sans-serif" font-weight="700">MAX</text>
+  <text x="186" y="214" fill="#fca5a5" font-size="13" font-family="system-ui,sans-serif" font-weight="700">MIN</text>
+  <text x="186" y="172" fill="#fde68a" font-size="13" font-family="system-ui,sans-serif">Niveau correct</text>
+  <text x="360" y="110" fill="#e2e8f0" font-size="13" font-family="system-ui,sans-serif">Hublot : le trait d&#8217;huile entre les deux marques.</text>
+  <text x="360" y="138" fill="#e2e8f0" font-size="13" font-family="system-ui,sans-serif">Jauge : essuyer, reposer, relire.</text>
+  <text x="360" y="166" fill="#fca5a5" font-size="13" font-family="system-ui,sans-serif">Trop plein : clapets / joints. Trop bas : serrage.</text>
+  <text x="360" y="200" fill="#cbd5e1" font-size="13" font-family="system-ui,sans-serif">Couleur or = OK. Noir m&#233;tallis&#233; ou odeur br&#251;l&#233;e = vidange.</text>
+
+</svg>

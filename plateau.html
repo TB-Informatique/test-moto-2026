@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apprendre le plateau moto - épreuve hors circulation 2026</title>
+  <meta name="description" content="Leçon animée du plateau A1/A2 : 6 étapes, trajectoires, quand accélérer ou freiner, difficultés et entraînement.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="plateau">
+  <div id="site-header"></div>
+  <main class="wrap section lesson">
+    <p class="kicker">Pratique · hors circulation</p>
+    <h1>Apprendre le plateau, étape par étape</h1>
+    <p class="lede">Choisissez une manœuvre, lancez l’animation : le point jaune avance, les pastilles <strong>Freiner</strong> / <strong>Accélérer</strong> / <strong>Regard</strong> s’allument, et le texte suit l’image. Depuis 2020 les six exercices s’enchaînent. Il faut un A ou un B.</p>
+
+    <section class="plateau-player" id="plateau-player" aria-label="Leçon animée du plateau">
+      <div id="step-pills" role="tablist" aria-label="Manœuvres"></div>
+      <div class="player-stage">
+        <svg id="plateau-svg" viewBox="0 0 720 240" role="img" aria-label="Schéma de la manœuvre">
+          <rect x="0" y="0" width="720" height="240" rx="12" fill="#1a2332"/>
+          <rect x="36" y="70" width="648" height="140" rx="10" fill="#3f4a5a"/>
+          <g id="scene-extras"></g>
+          <path id="run-path" fill="none" stroke="#f97316" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="M90 150 H340"/>
+          <circle id="bike-dot" r="8" fill="#fbbf24" stroke="#0f1419" stroke-width="2" cx="90" cy="150"/>
+        </svg>
+        <p class="live-caption" id="live-caption" aria-live="polite"></p>
+        <div id="live-badges" aria-hidden="true"></div>
+      </div>
+      <div class="player-controls">
+        <button type="button" class="btn btn-ghost" id="prev-step">Étape précédente</button>
+        <button type="button" class="btn btn-primary" id="play-step" aria-pressed="false">Lire l’animation</button>
+        <button type="button" class="btn btn-ghost" id="next-step">Étape suivante</button>
+      </div>
+      <div id="step-panel"></div>
+    </section>
+
+    <h2>Les 6 manœuvres, dans l’ordre</h2>
+    <ol>
+      <li><strong>Sans moteur</strong> — poussette avant / arrière.</li>
+      <li><strong>Lent solo</strong> — slalom chronométré (≥ 16&nbsp;s = A).</li>
+      <li><strong>Freinage</strong> — ≥ 50&nbsp;km/h au C6, arrêt dans la zone.</li>
+      <li><strong>Lent + passager</strong> — même famille, assiette changée.</li>
+      <li><strong>Slalom rapide</strong> — ≥ 40&nbsp;km/h au C7 (A2 sans marge).</li>
+      <li><strong>Évitement</strong> — ≥ 50&nbsp;km/h, un appui, arrêt dans les bleus.</li>
+    </ol>
+    <p class="note">Piste type 6 × 130&nbsp;m, deux tracés miroir au sort. 3 pieds « gratuits » si la poussette est réussie (2 sinon), hors zones d’arrêt. 4e pied = B, 5e = C. Chute (hors poussette) = arrêt. Le schéma du centre d’examen fait foi.</p>
+
+    <h2>Deux familles de trajectoires</h2>
+    <div class="phase-grid">
+      <article class="phase-card lean">
+        <h3>Lentes (1, 2, 4)</h3>
+        <p>S ou ligne guidée. Embrayage au patinage, frein arrière, regard loin. On veut de la lenteur, pas de la corde.</p>
+      </article>
+      <article class="phase-card gas">
+        <h3>Rapides (3, 5, 6)</h3>
+        <p>Ligne pour le freinage, S pour le slalom, un seul déport pour l’évitement. On construit la vitesse <em>avant</em> le radar, on freine <em>après</em>.</p>
+      </article>
+    </div>
+
+    <div class="actions">
+      <a class="btn btn-primary" href="trajectoires.html">Trajectoire de sécurité (circulation)</a>
+      <a class="btn btn-ghost" href="controles.html">Contrôles moto</a>
+      <a class="btn btn-ghost" href="apprendre.html">Cours ETM</a>
+    </div>
+  </main>
+  <div id="site-footer"></div>
+  <script src="assets/js/site.js"></script>
+  <script src="assets/js/plateau.js"></script>
+</body>
+</html>
