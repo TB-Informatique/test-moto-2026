@@ -5,7 +5,7 @@
       "label": "Signalisation",
       "theme": "R",
       "blurb": "Panneaux, marquages et ce qu'ils imposent à moto.",
-      "count": 123
+      "count": 127
     },
     {
       "id": "route",
@@ -869,20 +869,20 @@
         },
         {
           "id": "c",
-          "text": "Accès interdit aux véhicules de transport de marchandises"
+          "text": "Chemin obligatoire pour piétons"
         },
         {
           "id": "d",
-          "text": "Passage pour piétons surélevé"
+          "text": "Accès interdit aux véhicules de transport de marchandises"
         }
       ],
       "correct": [
-        "a"
+        "c"
       ],
-      "explanation": "Fin de l'obligation pour les cycles.",
+      "explanation": "B22b : rond bleu, pictogramme piéton. La fin de piste cyclable obligatoire est le B40.",
       "multi": false,
       "image": "assets/img/signs/B22b.svg",
-      "imageAlt": "Fin de piste ou bande obligatoire pour cycles",
+      "imageAlt": "Chemin obligatoire pour piétons",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -2882,20 +2882,20 @@
         },
         {
           "id": "c",
-          "text": "Fin de piste ou bande obligatoire pour cycles"
+          "text": "Accès interdit aux véhicules transportant des matières polluant les eaux"
         },
         {
           "id": "d",
-          "text": "Circulation à sens unique"
+          "text": "Fin de piste ou bande obligatoire pour cycles"
         }
       ],
       "correct": [
-        "b"
+        "c"
       ],
-      "explanation": "Gabarit en hauteur (pont, tunnel).",
+      "explanation": "B18b vise les transports susceptibles de polluer les eaux, pas une hauteur.",
       "multi": false,
       "image": "assets/img/signs/B18b.svg",
-      "imageAlt": "Accès interdit aux véhicules dont la hauteur, chargement compris, dépasse la hauteur indiquée",
+      "imageAlt": "Accès interdit aux véhicules transportant des matières polluant les eaux",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -4288,20 +4288,20 @@
         },
         {
           "id": "c",
-          "text": "Accès interdit aux véhicules dont la largeur, chargement compris, dépasse la largeur indiquée"
+          "text": "Accès interdit aux véhicules transportant des matières explosives ou inflammables"
         },
         {
           "id": "d",
-          "text": "Cédez le passage"
+          "text": "Accès interdit aux véhicules dont la largeur, chargement compris, dépasse la largeur indiquée"
         }
       ],
       "correct": [
         "c"
       ],
-      "explanation": "Gabarit en largeur. Une moto passe presque toujours, mais pas un véhicule large.",
+      "explanation": "B18a vise les transports TMD explosifs / inflammables, pas le gabarit en largeur.",
       "multi": false,
       "image": "assets/img/signs/B18a.svg",
-      "imageAlt": "Accès interdit aux véhicules dont la largeur, chargement compris, dépasse la largeur indiquée",
+      "imageAlt": "Accès interdit aux véhicules transportant des matières explosives ou inflammables",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -4535,20 +4535,20 @@
         },
         {
           "id": "c",
-          "text": "Intersection avec priorité à droite"
+          "text": "Autres interdictions (inscription sur le panneau)"
         },
         {
           "id": "d",
-          "text": "Fin de route prioritaire"
+          "text": "Intersection avec priorité à droite"
         }
       ],
       "correct": [
-        "a"
+        "c"
       ],
-      "explanation": "Limitation de poids. Une moto légère n'est en général pas concernée.",
+      "explanation": "B19 : l'interdiction est écrite sur le panneau. Ce n'est pas une limite de poids (B13).",
       "multi": false,
       "image": "assets/img/signs/B19.svg",
-      "imageAlt": "Accès interdit aux véhicules dont le poids total autorisé dépasse le tonnage indiqué",
+      "imageAlt": "Autres interdictions (inscription sur le panneau)",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -5586,20 +5586,20 @@
         },
         {
           "id": "c",
-          "text": "Passage d'animaux sauvages"
+          "text": "Fin de piste ou bande cyclable conseillée"
         },
         {
           "id": "d",
-          "text": "Réduction du nombre de voies"
+          "text": "Passage d'animaux sauvages"
         }
       ],
       "correct": [
-        "d"
+        "c"
       ],
-      "explanation": "Une voie se termine. Anticiper le rabattement, surtout si un PL est à droite.",
+      "explanation": "C114 : carré bleu vélo barré de rouge = FIN de l'aménagement cyclable conseillé (C113). Ce n'est pas une interdiction. L'interdiction aux cycles est le B9b (rond blanc cerclé de rouge).",
       "multi": false,
       "image": "assets/img/signs/C114.svg",
-      "imageAlt": "Réduction du nombre de voies",
+      "imageAlt": "Fin de piste ou bande cyclable conseillée",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -7357,20 +7357,20 @@
         },
         {
           "id": "c",
-          "text": "Fin de limitation de vitesse à 50 km/h"
+          "text": "Signaux sonores interdits"
         },
         {
           "id": "d",
-          "text": "Accès interdit aux poids lourds"
+          "text": "Fin de limitation de vitesse à 50 km/h"
         }
       ],
       "correct": [
-        "a"
+        "c"
       ],
-      "explanation": "Il est interdit de rouler en dessous de la vitesse indiquée, sauf nécessité (embouteillage, conditions).",
+      "explanation": "B16 : klaxon interdit, sauf danger. La vitesse minimale est le B25.",
       "multi": false,
       "image": "assets/img/signs/B16.svg",
-      "imageAlt": "Vitesse minimale obligatoire",
+      "imageAlt": "Signaux sonores interdits",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -8719,17 +8719,17 @@
         },
         {
           "id": "c",
-          "text": "Accès interdit aux cyclomoteurs"
+          "text": "Accès interdit aux cycles"
         },
         {
           "id": "d",
-          "text": "Accès interdit aux cycles"
+          "text": "Accès interdit aux cyclomoteurs"
         }
       ],
       "correct": [
-        "d"
+        "c"
       ],
-      "explanation": "Interdiction aux vélos. Une moto n'est pas un cycle.",
+      "explanation": "B9b : rond blanc cerclé de rouge, pictogramme vélo. Seule vraie interdiction aux vélos.",
       "multi": false,
       "image": "assets/img/signs/B9b.svg",
       "imageAlt": "Accès interdit aux cycles",
@@ -9372,6 +9372,134 @@
       "multi": false,
       "image": "assets/img/signs/B9h.svg",
       "imageAlt": "Accès interdit aux motocyclettes",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-c114-barre",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Ce carré bleu avec un vélo barré de rouge signifie-t-il une interdiction aux vélos ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Non : c'est la fin d'une piste ou bande cyclable conseillée (C114)"
+        },
+        {
+          "id": "b",
+          "text": "Oui : tout vélo a interdiction de circuler"
+        },
+        {
+          "id": "c",
+          "text": "Oui : interdiction seulement aux vélos électriques"
+        },
+        {
+          "id": "d",
+          "text": "Non : c'est une obligation d'emprunter la piste"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Carré bleu = indication. Barre rouge = FIN de cette indication. L'interdiction aux cycles est le B9b (rond blanc, couronne rouge, vélo noir).",
+      "multi": false,
+      "image": "assets/img/signs/C114.svg",
+      "imageAlt": "Fin de piste ou bande cyclable conseillée",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-c113",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Piste ou bande cyclable conseillée et réservée aux cycles"
+        },
+        {
+          "id": "b",
+          "text": "Piste cyclable obligatoire pour tous les deux-roues, moto comprise"
+        },
+        {
+          "id": "c",
+          "text": "Accès interdit aux cycles"
+        },
+        {
+          "id": "d",
+          "text": "Voie de bus"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C113 (carré) = conseillée. B22a (rond bleu) = obligatoire pour les cycles. Une moto n'emprunte pas cet aménagement.",
+      "multi": false,
+      "image": "assets/img/signs/C113.svg",
+      "imageAlt": "Piste cyclable conseillée",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-c28",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Réduction du nombre de voies"
+        },
+        {
+          "id": "b",
+          "text": "Fin de piste cyclable"
+        },
+        {
+          "id": "c",
+          "text": "Début d'autoroute"
+        },
+        {
+          "id": "d",
+          "text": "Voie de détresse"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C28 annonce un rabattement de voie. On anticipe et on se replace tôt.",
+      "multi": false,
+      "image": "assets/img/signs/C28.svg",
+      "imageAlt": "Réduction du nombre de voies",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-b9b",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Quel panneau interdit vraiment l'accès aux vélos ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Le rond blanc cerclé de rouge avec un vélo (B9b)"
+        },
+        {
+          "id": "b",
+          "text": "Le carré bleu vélo barré de rouge (C114)"
+        },
+        {
+          "id": "c",
+          "text": "Le rond bleu vélo (B22a)"
+        },
+        {
+          "id": "d",
+          "text": "Le losange jaune"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Interdiction = rond à fond blanc et couronne rouge. Le C114 barré met seulement fin à une piste conseillée.",
+      "multi": false,
+      "image": "assets/img/signs/B9b.svg",
+      "imageAlt": "Accès interdit aux cycles",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     }
   ]

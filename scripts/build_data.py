@@ -114,7 +114,7 @@ SIGNS = [
     ("C107", "indication", "Début d'autoroute", "Entrée d'autoroute : 130 km/h par temps sec (110 sous la pluie ou en permis probatoire)."),
     ("C111", "indication", "Début de route à accès réglementé", "Voie rapide / express, souvent limitée à 110 km/h."),
     ("C112", "indication", "Fin de route à accès réglementé", "Sortie de voie rapide : la limitation générale reprend, souvent 80 km/h."),
-    ("C114", "indication", "Réduction du nombre de voies", "Une voie se termine. Anticiper le rabattement, surtout si un PL est à droite."),
+    ("C114", "indication", "Fin de piste ou bande cyclable conseillée", "C114 : fin de l'amenagement cyclable conseille. Interdiction velo = B9b."),
     ("C207", "indication", "Issue de secours", "Indique une issue de secours (tunnel)."),
     ("CE14", "service", "Poste d'appel d'urgence / téléphone", "Borne d'appel. En cas d'accident sur autoroute, c'est le moyen privilégié pour alerter."),
     ("CE26", "service", "Poste de dépannage", "Garage ou dépannage à proximité."),

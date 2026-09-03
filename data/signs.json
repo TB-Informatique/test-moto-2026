@@ -368,7 +368,7 @@
       "code": "B9b",
       "family": "interdiction",
       "title": "Accès interdit aux cycles",
-      "detail": "Interdiction aux vélos. Une moto n'est pas un cycle.",
+      "detail": "B9b : rond blanc cerclé de rouge, pictogramme vélo. Seule vraie interdiction aux vélos.",
       "image": "assets/img/signs/B9b.svg"
     },
     {
@@ -458,29 +458,29 @@
     {
       "code": "B16",
       "family": "obligation",
-      "title": "Vitesse minimale obligatoire",
-      "detail": "Il est interdit de rouler en dessous de la vitesse indiquée, sauf nécessité (embouteillage, conditions).",
+      "title": "Signaux sonores interdits",
+      "detail": "B16 : klaxon interdit, sauf danger. La vitesse minimale est le B25.",
       "image": "assets/img/signs/B16.svg"
     },
     {
       "code": "B18a",
       "family": "interdiction",
-      "title": "Accès interdit aux véhicules dont la largeur, chargement compris, dépasse la largeur indiquée",
-      "detail": "Gabarit en largeur. Une moto passe presque toujours, mais pas un véhicule large.",
+      "title": "Accès interdit aux véhicules transportant des matières explosives ou inflammables",
+      "detail": "B18a vise les transports TMD explosifs / inflammables, pas le gabarit en largeur.",
       "image": "assets/img/signs/B18a.svg"
     },
     {
       "code": "B18b",
       "family": "interdiction",
-      "title": "Accès interdit aux véhicules dont la hauteur, chargement compris, dépasse la hauteur indiquée",
-      "detail": "Gabarit en hauteur (pont, tunnel).",
+      "title": "Accès interdit aux véhicules transportant des matières polluant les eaux",
+      "detail": "B18b vise les transports susceptibles de polluer les eaux, pas une hauteur.",
       "image": "assets/img/signs/B18b.svg"
     },
     {
       "code": "B19",
       "family": "interdiction",
-      "title": "Accès interdit aux véhicules dont le poids total autorisé dépasse le tonnage indiqué",
-      "detail": "Limitation de poids. Une moto légère n'est en général pas concernée.",
+      "title": "Autres interdictions (inscription sur le panneau)",
+      "detail": "B19 : l'interdiction est écrite sur le panneau. Ce n'est pas une limite de poids (B13).",
       "image": "assets/img/signs/B19.svg"
     },
     {
@@ -514,8 +514,8 @@
     {
       "code": "B22b",
       "family": "obligation",
-      "title": "Fin de piste ou bande obligatoire pour cycles",
-      "detail": "Fin de l'obligation pour les cycles.",
+      "title": "Chemin obligatoire pour piétons",
+      "detail": "B22b : rond bleu, pictogramme piéton. La fin de piste cyclable obligatoire est le B40.",
       "image": "assets/img/signs/B22b.svg"
     },
     {
@@ -710,8 +710,8 @@
     {
       "code": "C114",
       "family": "indication",
-      "title": "Réduction du nombre de voies",
-      "detail": "Une voie se termine. Anticiper le rabattement, surtout si un PL est à droite.",
+      "title": "Fin de piste ou bande cyclable conseillée",
+      "detail": "C114 : carré bleu vélo barré de rouge = FIN de l'aménagement cyclable conseillé (C113). Ce n'est pas une interdiction. L'interdiction aux cycles est le B9b (rond blanc cerclé de rouge).",
       "image": "assets/img/signs/C114.svg"
     },
     {
@@ -762,6 +762,27 @@
       "title": "Panonceau d'indications diverses",
       "detail": "Complète un panneau principal (distance, catégorie de véhicules, horaires).",
       "image": "assets/img/signs/M9z.svg"
+    },
+    {
+      "code": "C113",
+      "family": "indication",
+      "title": "Piste ou bande cyclable conseillée et réservée aux cycles",
+      "detail": "C113 : carré bleu. Voie conseillée, pas obligatoire. L'obligation est le rond bleu B22a.",
+      "image": "assets/img/signs/C113.svg"
+    },
+    {
+      "code": "C28",
+      "family": "indication",
+      "title": "Réduction du nombre de voies",
+      "detail": "C28 : rabattement d'une voie sur autoroute ou 2×2 voies. Anticiper, surtout près d'un PL.",
+      "image": "assets/img/signs/C28.svg"
+    },
+    {
+      "code": "B40",
+      "family": "obligation",
+      "title": "Fin de piste ou bande obligatoire pour cycles",
+      "detail": "B40 : rond bleu vélo barré. Fin de l'obligation B22a.",
+      "image": "assets/img/signs/B40.svg"
     }
   ],
   "families": {
