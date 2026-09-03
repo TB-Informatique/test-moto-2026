@@ -379,24 +379,45 @@
       "image": "assets/img/signs/B9f.svg"
     },
     {
-      "code": "B11",
+      "code": "B9g",
       "family": "interdiction",
       "title": "Accès interdit aux cyclomoteurs",
-      "detail": "Interdiction aux cyclomoteurs (? 50 cm³). Une moto de cylindrée supérieure n'est pas un cyclomoteur.",
+      "detail": "B9g : interdiction aux cyclomoteurs (≤ 50 cm³). Une moto de cylindrée supérieure n'est pas un cyclomoteur.",
+      "image": "assets/img/signs/B9g.svg"
+    },
+    {
+      "code": "B9h",
+      "family": "interdiction",
+      "title": "Accès interdit aux motocyclettes",
+      "detail": "B9h : pictogramme moto. L'accès est interdit aux motocyclettes et motocyclettes légères, quelle que soit la cylindrée.",
+      "image": "assets/img/signs/B9h.svg"
+    },
+    {
+      "code": "B7a",
+      "family": "interdiction",
+      "title": "Accès interdit aux véhicules à moteur",
+      "detail": "B7a : tous les véhicules à moteur sont interdits, moto comprise.",
+      "image": "assets/img/signs/B7a.svg"
+    },
+    {
+      "code": "B11",
+      "family": "interdiction",
+      "title": "Limitation de largeur",
+      "detail": "Accès interdit aux véhicules dont la largeur, chargement compris, dépasse la valeur indiquée. Une moto passe presque toujours.",
       "image": "assets/img/signs/B11.svg"
     },
     {
       "code": "B12",
       "family": "interdiction",
-      "title": "Accès interdit aux motocyclettes",
-      "detail": "Panneau crucial pour l'ETM : les motos ne peuvent pas s'engager.",
+      "title": "Limitation de hauteur (ici 3,5 m)",
+      "detail": "B12 : accès interdit si la hauteur, chargement compris, dépasse 3,5 m. Une moto n'est concernée que dans des cas exceptionnels (chargement très haut).",
       "image": "assets/img/signs/B12.svg"
     },
     {
       "code": "B13",
       "family": "interdiction",
-      "title": "Accès interdit à tous les véhicules à moteur",
-      "detail": "Moto, voiture, scooter : tout engin à moteur est interdit.",
+      "title": "Limitation de tonnage",
+      "detail": "B13 : accès interdit aux véhicules dont le poids total autorisé dépasse le tonnage indiqué. Une moto légère n'est en général pas visée.",
       "image": "assets/img/signs/B13.svg"
     },
     {

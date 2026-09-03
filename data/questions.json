@@ -5,7 +5,7 @@
       "label": "Signalisation",
       "theme": "R",
       "blurb": "Panneaux, marquages et ce qu'ils imposent à moto.",
-      "count": 121
+      "count": 123
     },
     {
       "id": "route",
@@ -1817,10 +1817,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "B11 = cyclomoteurs. Une moto n'est pas un cyclomoteur.",
+      "explanation": "B9g = cyclomoteurs (≤ 50 cm³). Une moto n'est pas un cyclomoteur. B11, lui, limite la largeur.",
       "multi": false,
-      "image": "assets/img/signs/B11.svg",
-      "imageAlt": "Interdiction cyclomoteurs",
+      "image": "assets/img/signs/B9g.svg",
+      "imageAlt": "Accès interdit aux cyclomoteurs",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -1918,11 +1918,11 @@
       "choices": [
         {
           "id": "a",
-          "text": "Accès interdit à tous les véhicules à moteur"
+          "text": "Limitation de tonnage"
         },
         {
           "id": "b",
-          "text": "Accès interdit aux véhicules dont le poids total autorisé dépasse le tonnage indiqué"
+          "text": "Accès interdit à tous les véhicules à moteur"
         },
         {
           "id": "c",
@@ -1936,10 +1936,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "Moto, voiture, scooter : tout engin à moteur est interdit.",
+      "explanation": "B13 limite le poids total autorisé. L'interdiction à tous les véhicules à moteur est le B7a.",
       "multi": false,
       "image": "assets/img/signs/B13.svg",
-      "imageAlt": "Accès interdit à tous les véhicules à moteur",
+      "imageAlt": "Limitation de tonnage",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -2186,9 +2186,9 @@
       "correct": [
         "a"
       ],
-      "explanation": "B12 = motos interdites. Fréquent sur chemins, parcs, certaines allées.",
+      "explanation": "B9h = motos interdites. B12 est une limitation de hauteur, pas une interdiction moto.",
       "multi": false,
-      "image": "assets/img/signs/B12.svg",
+      "image": "assets/img/signs/B9h.svg",
       "imageAlt": "Accès interdit aux motocyclettes",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
@@ -2822,16 +2822,16 @@
         },
         {
           "id": "d",
-          "text": "Accès interdit aux cyclomoteurs"
+          "text": "Limitation de largeur"
         }
       ],
       "correct": [
         "d"
       ],
-      "explanation": "Interdiction aux cyclomoteurs (? 50 cm³). Une moto de cylindrée supérieure n'est pas un cyclomoteur.",
+      "explanation": "B11 limite la largeur des véhicules. L'interdiction cyclomoteurs est le B9g.",
       "multi": false,
       "image": "assets/img/signs/B11.svg",
-      "imageAlt": "Accès interdit aux cyclomoteurs",
+      "imageAlt": "Limitation de largeur",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -3218,7 +3218,7 @@
         },
         {
           "id": "b",
-          "text": "Accès interdit aux motocyclettes"
+          "text": "Limitation de hauteur à 3,5 m"
         },
         {
           "id": "c",
@@ -3226,16 +3226,16 @@
         },
         {
           "id": "d",
-          "text": "Entrée de zone 30"
+          "text": "Accès interdit aux motocyclettes"
         }
       ],
       "correct": [
         "b"
       ],
-      "explanation": "Panneau crucial pour l'ETM : les motos ne peuvent pas s'engager.",
+      "explanation": "B12 indique une hauteur maximale (ici 3,5 m). L'interdiction aux motos est le panneau B9h (pictogramme moto).",
       "multi": false,
       "image": "assets/img/signs/B12.svg",
-      "imageAlt": "Accès interdit aux motocyclettes",
+      "imageAlt": "Limitation de hauteur 3,5 m",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -4369,32 +4369,32 @@
       "id": "sigb-010",
       "category": "signalisation",
       "theme": "R",
-      "question": "Ce panneau concerne-t-il une motocyclette ?",
+      "question": "Que signifie ce panneau ?",
       "choices": [
         {
           "id": "a",
-          "text": "Oui, l'accès est interdit aux motocyclettes"
+          "text": "Une limitation de hauteur à 3,5 m"
         },
         {
           "id": "b",
-          "text": "Non, il vise seulement les cyclomoteurs"
+          "text": "L'accès est interdit aux motocyclettes"
         },
         {
           "id": "c",
-          "text": "Non, il vise les vélos"
+          "text": "L'accès est interdit aux cyclomoteurs"
         },
         {
           "id": "d",
-          "text": "Oui, mais seulement les motos de plus de 125 cm³"
+          "text": "Une limitation de vitesse à 35 km/h"
         }
       ],
       "correct": [
         "a"
       ],
-      "explanation": "Le pictogramme moto barre l'accès aux motocyclettes, quelle que soit la cylindrée.",
+      "explanation": "B12 = hauteur maximale 3,5 m. Le panneau d'interdiction aux motos est le B9h (pictogramme de motocyclette).",
       "multi": false,
       "image": "assets/img/signs/B12.svg",
-      "imageAlt": "Accès interdit aux motocyclettes",
+      "imageAlt": "Limitation de hauteur 3,5 m",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -9308,6 +9308,70 @@
       "multi": false,
       "image": "assets/img/signs/B21b.svg",
       "imageAlt": "Direction obligatoire à gauche",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-b9h",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Accès interdit aux motocyclettes"
+        },
+        {
+          "id": "b",
+          "text": "Limitation de hauteur à 3,5 m"
+        },
+        {
+          "id": "c",
+          "text": "Accès interdit aux cyclomoteurs"
+        },
+        {
+          "id": "d",
+          "text": "Accès interdit aux cycles"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B9h : pictogramme moto. Interdiction d'accès aux motocyclettes et motocyclettes légères.",
+      "multi": false,
+      "image": "assets/img/signs/B9h.svg",
+      "imageAlt": "Accès interdit aux motocyclettes",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sigb-b9h",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Ce panneau concerne-t-il une motocyclette ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Oui, l'accès est interdit aux motocyclettes"
+        },
+        {
+          "id": "b",
+          "text": "Non, il vise seulement les cyclomoteurs"
+        },
+        {
+          "id": "c",
+          "text": "Non, il vise les vélos"
+        },
+        {
+          "id": "d",
+          "text": "Oui, mais seulement les motos de plus de 125 cm³"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Le pictogramme moto (B9h) barre l'accès aux motocyclettes, quelle que soit la cylindrée.",
+      "multi": false,
+      "image": "assets/img/signs/B9h.svg",
+      "imageAlt": "Accès interdit aux motocyclettes",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     }
   ]

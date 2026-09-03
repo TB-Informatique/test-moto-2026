@@ -67,9 +67,12 @@ SIGNS = [
     ("B9a", "interdiction", "Accès interdit aux piétons", "Les piétons ne peuvent pas s'engager. Une moto n'est pas un piéton."),
     ("B9b", "interdiction", "Accès interdit aux cycles", "Interdiction aux vélos. Une moto n'est pas un cycle."),
     ("B9f", "interdiction", "Accès interdit aux véhicules agricoles à moteur", "Concerne les engins agricoles, pas les motos de tourisme."),
-    ("B11", "interdiction", "Accès interdit aux cyclomoteurs", "Interdiction aux cyclomoteurs (? 50 cm³). Une moto de cylindrée supérieure n'est pas un cyclomoteur."),
-    ("B12", "interdiction", "Accès interdit aux motocyclettes", "Panneau crucial pour l'ETM : les motos ne peuvent pas s'engager."),
-    ("B13", "interdiction", "Accès interdit à tous les véhicules à moteur", "Moto, voiture, scooter : tout engin à moteur est interdit."),
+    ("B9g", "interdiction", "Acces interdit aux cyclomoteurs", "B9g : cyclomoteurs (<= 50 cm3). Une moto n'est pas un cyclomoteur."),
+    ("B9h", "interdiction", "Acces interdit aux motocyclettes", "B9h : pictogramme moto. Interdiction aux motocyclettes, toute cylindree."),
+    ("B7a", "interdiction", "Acces interdit aux vehicules a moteur", "B7a : tous les vehicules a moteur, moto comprise."),
+    ("B11", "interdiction", "Limitation de largeur", "B11 : largeur maximale, chargement compris. Une moto passe presque toujours."),
+    ("B12", "interdiction", "Limitation de hauteur (ici 3,5 m)", "B12 : hauteur maximale. L'interdiction moto est le B9h."),
+    ("B13", "interdiction", "Limitation de tonnage", "B13 : poids total autorise. L'interdiction a tous les vehicules a moteur est le B7a."),
     ("B14-50", "interdiction", "Limitation de vitesse à 50 km/h", "Vitesse maximale 50 km/h, souvent en agglomération ou en travaux."),
     ("B14-80", "interdiction", "Limitation de vitesse à 80 km/h", "Vitesse maximale 80 km/h. C'est aussi la limite générale hors agglo sur beaucoup de bidirectionnelles."),
     ("B14-90", "interdiction", "Limitation de vitesse à 90 km/h", "Vitesse maximale 90 km/h, parfois par dérogation départementale hors agglomération."),
@@ -199,15 +202,26 @@ def behavior_for(code, family, title, detail, rng):
             "Le panneau de commune barré marque la sortie d'agglomération.",
         ),
         "B12": (
-            "Ce panneau concerne-t-il une motocyclette ?",
+            "Que signifie ce panneau ?",
             [
-                "Oui, l'accès est interdit aux motocyclettes",
-                "Non, il vise seulement les cyclomoteurs",
-                "Non, il vise les vélos",
-                "Oui, mais seulement les motos de plus de 125 cm³",
+                "Une limitation de hauteur a 3,5 m",
+                "L'acces est interdit aux motocyclettes",
+                "L'acces est interdit aux cyclomoteurs",
+                "Une limitation de vitesse a 35 km/h",
             ],
             "a",
-            "Le pictogramme moto barre l'accès aux motocyclettes, quelle que soit la cylindrée.",
+            "B12 = hauteur maximale 3,5 m. L'interdiction aux motos est le B9h.",
+        ),
+        "B9h": (
+            "Ce panneau concerne-t-il une motocyclette ?",
+            [
+                "Oui, l'acces est interdit aux motocyclettes",
+                "Non, il vise seulement les cyclomoteurs",
+                "Non, il vise les velos",
+                "Oui, mais seulement les motos de plus de 125 cm3",
+            ],
+            "a",
+            "Le pictogramme moto (B9h) barre l'acces aux motocyclettes, quelle que soit la cylindree.",
         ),
         "B1": (
             "Pouvez-vous emprunter cette voie à moto ?",
@@ -800,16 +814,16 @@ def knowledge_questions():
         sign_path("A1a"), "Virage à droite")
     add("protection", "Ce panneau vous concerne-t-il en moto de plus de 50 cm³ ?",
         ["Non, il vise les cyclomoteurs", "Oui, toutes les motos", "Oui, seulement les A2", "Oui, seulement sans ABS"],
-        "a", "B11 = cyclomoteurs. Une moto n'est pas un cyclomoteur.",
-        sign_path("B11"), "Interdiction cyclomoteurs")
+        "a", "B9g = cyclomoteurs. Une moto n'est pas un cyclomoteur.",
+        sign_path("B9g"), "Interdiction cyclomoteurs")
     add("usagers", "Face à ce panneau, un motard :",
         ["Réduit l'allure et se prépare à s'arrêter pour les piétons", "Accélère pour passer avant les piétons", "Klaxonne en continu", "Emprunte le trottoir"],
         "a", "Passage piétons annoncé : on couvre le frein.",
         sign_path("A13b"), "Passage pour piétons")
     add("divers", "Ce panneau :",
         ["Interdit l'accès aux motocyclettes", "Interdit les voitures seulement", "Interdit les vélos", "Indique une voie moto obligatoire"],
-        "a", "B12 = motos interdites. Fréquent sur chemins, parcs, certaines allées.",
-        sign_path("B12"), "Accès interdit aux motocyclettes")
+        "a", "B9h = motos interdites. Fréquent sur chemins, parcs, certaines allées.",
+        sign_path("B9h"), "Accès interdit aux motocyclettes")
 
     # More circulation / security
     add("circulation", "À un feu tricolore en panne (éteint) :",
