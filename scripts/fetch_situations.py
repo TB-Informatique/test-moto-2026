@@ -189,12 +189,12 @@ def license_ok(info: dict) -> bool:
 
 
 def credit(info: dict, title: str) -> str:
+    import re
+    from html import unescape
     meta = info.get("extmetadata") or {}
-    artist = meta.get("Artist", {}).get("value") or "Wikimedia Commons"
-    artist = artist.replace("<", " ").replace(">", " ")
-    for tag in ("p", "a", "span", "b", "i"):
-        artist = artist.replace(f"/{tag}", "").replace(tag, "")
-    artist = " ".join(artist.split())[:80]
+    artist = unescape(meta.get("Artist", {}).get("value") or "Wikimedia Commons")
+    artist = re.sub(r"<[^>]+>", " ", artist)
+    artist = " ".join(artist.split())[:80] or "Wikimedia Commons"
     lic = meta.get("LicenseShortName", {}).get("value") or "licence libre"
     name = title.replace("File:", "")
     return f"{artist} — Wikimedia Commons ({lic}) — {name}"
