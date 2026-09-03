@@ -582,6 +582,94 @@ td {
   clip: rect(0 0 0 0);
 }
 
+.plateau-player {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 16px;
+}
+
+#step-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+#step-pills button[aria-current="step"] {
+  background: var(--amber);
+  color: #1a1408;
+  border-color: var(--amber);
+}
+
+.player-stage {
+  background: #121821;
+  border-radius: 16px;
+  padding: 8px 8px 4px;
+}
+
+#plateau-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.live-caption {
+  min-height: 3.2em;
+  margin: 8px 10px 4px;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+#live-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 0 10px 10px;
+}
+
+.live-badge {
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  border: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.live-badge[aria-pressed="true"] {
+  color: #1a1408;
+}
+
+.live-badge-gas[aria-pressed="true"] {
+  background: #22c55e;
+  border-color: #22c55e;
+}
+
+.live-badge-brake[aria-pressed="true"] {
+  background: #ef4444;
+  border-color: #ef4444;
+  color: #fff;
+}
+
+.live-badge-clutch[aria-pressed="true"],
+.live-badge-look[aria-pressed="true"] {
+  background: #38bdf8;
+  border-color: #38bdf8;
+}
+
+.live-badge-walk[aria-pressed="true"] {
+  background: #94a3b8;
+  border-color: #94a3b8;
+}
+
+.player-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 4px;
+}
+
 @media (max-width: 820px) {
   .hero {
     grid-template-columns: 1fr;

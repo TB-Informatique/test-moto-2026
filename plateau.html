@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Le plateau moto - épreuve hors circulation 2026</title>
-  <meta name="description" content="Les 6 manœuvres du plateau A1/A2 : trajectoires, quand freiner ou accélérer, difficultés et comment s’entraîner.">
+  <title>Apprendre le plateau moto - épreuve hors circulation 2026</title>
+  <meta name="description" content="Leçon animée du plateau A1/A2 : 6 étapes, trajectoires, quand accélérer ou freiner, difficultés et entraînement.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -14,95 +14,61 @@
   <div id="site-header"></div>
   <main class="wrap section lesson">
     <p class="kicker">Pratique · hors circulation</p>
-    <h1>Réussir le plateau</h1>
-    <p class="lede">Depuis le 1er mars 2020, les six manœuvres s’enchaînent sur une piste d’environ 6&nbsp;m × 130&nbsp;m. Deux tracés miroir : on tire au sort. Il faut un <strong>A ou un B</strong>. Un C aux deux essais ajourne. Une chute (hors poussette) arrête l’épreuve.</p>
+    <h1>Apprendre le plateau, étape par étape</h1>
+    <p class="lede">Choisissez une manœuvre, lancez l’animation : le point jaune avance, les pastilles <strong>Freiner</strong> / <strong>Accélérer</strong> / <strong>Regard</strong> s’allument, et le texte suit l’image. Depuis 2020 les six exercices s’enchaînent. Il faut un A ou un B.</p>
 
-    <h2>L’enchaînement, vu du dessus</h2>
-    <p>Le point jaune parcourt l’ordre officiel. Ce schéma est pédagogique : le jour J, c’est le plan du centre d’examen (souvent Codes Rousseau) qui fait foi.</p>
-    <figure class="figure-lesson">
-      <img src="assets/img/illustrations/plateau-vue.svg" alt="Animation des 6 manœuvres enchaînées sur une piste rectangle">
-    </figure>
+    <section class="plateau-player" id="plateau-player" aria-label="Leçon animée du plateau">
+      <div id="step-pills" role="tablist" aria-label="Manœuvres"></div>
+      <div class="player-stage">
+        <svg id="plateau-svg" viewBox="0 0 720 240" role="img" aria-label="Schéma de la manœuvre">
+          <rect x="0" y="0" width="720" height="240" rx="12" fill="#1a2332"/>
+          <rect x="36" y="70" width="648" height="140" rx="10" fill="#3f4a5a"/>
+          <g id="scene-extras"></g>
+          <path id="run-path" fill="none" stroke="#f97316" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="M90 150 H340"/>
+          <circle id="bike-dot" r="8" fill="#fbbf24" stroke="#0f1419" stroke-width="2" cx="90" cy="150"/>
+        </svg>
+        <p class="live-caption" id="live-caption" aria-live="polite"></p>
+        <div id="live-badges" aria-hidden="true"></div>
+      </div>
+      <div class="player-controls">
+        <button type="button" class="btn btn-ghost" id="prev-step">Étape précédente</button>
+        <button type="button" class="btn btn-primary" id="play-step" aria-pressed="false">Lire l’animation</button>
+        <button type="button" class="btn btn-ghost" id="next-step">Étape suivante</button>
+      </div>
+      <div id="step-panel"></div>
+    </section>
+
+    <h2>Les 6 manœuvres, dans l’ordre</h2>
     <ol>
-      <li><strong>Sans moteur</strong> — pousser avant puis reculer entre les piquets, 3 essais.</li>
-      <li><strong>Lent sans passager</strong> — slalom / couloir chronométré.</li>
-      <li><strong>Freinage</strong> — au moins 50&nbsp;km/h au radar, arrêt dans la zone.</li>
-      <li><strong>Lent avec passager</strong> — demi-tour / allure réduite, passager muet.</li>
-      <li><strong>Slalom</strong> — au moins 40&nbsp;km/h (A2 : sans marge).</li>
-      <li><strong>Évitement</strong> — au moins 50&nbsp;km/h, puis arrêt entre les cônes bleus.</li>
+      <li><strong>Sans moteur</strong> — poussette avant / arrière.</li>
+      <li><strong>Lent solo</strong> — slalom chronométré (≥ 16&nbsp;s = A).</li>
+      <li><strong>Freinage</strong> — ≥ 50&nbsp;km/h au C6, arrêt dans la zone.</li>
+      <li><strong>Lent + passager</strong> — même famille, assiette changée.</li>
+      <li><strong>Slalom rapide</strong> — ≥ 40&nbsp;km/h au C7 (A2 sans marge).</li>
+      <li><strong>Évitement</strong> — ≥ 50&nbsp;km/h, un appui, arrêt dans les bleus.</li>
     </ol>
-    <p class="note">3 pieds au sol « gratuits » sur tout le parcours dynamique si la poussette est réussie (2 seulement si elle est ratée), hors zones d’arrêt. Le 4e pied = B, le 5e = C. Deux pieds du même côté dans le même déséquilibre = un seul.</p>
+    <p class="note">Piste type 6 × 130&nbsp;m, deux tracés miroir au sort. 3 pieds « gratuits » si la poussette est réussie (2 sinon), hors zones d’arrêt. 4e pied = B, 5e = C. Chute (hors poussette) = arrêt. Le schéma du centre d’examen fait foi.</p>
 
-    <h2>1. Poussette — sans moteur</h2>
-    <p><strong>Trajectoire :</strong> ligne droite guidée, avant jusqu’à ce que la roue arrière passe les cônes, puis marche arrière jusqu’à ce que la roue avant les repasse. Béquille à la fin.</p>
-    <ul>
-      <li>Point d’attention : moto déjà droite avant de bouger, regard où vous allez, pas sur le phare.</li>
-      <li>Difficulté : perdre l’équilibre à l’arrêt, braquer trop, reculer de travers.</li>
-      <li>Entraînement : allée plane, gants, béquille latérale en filet (on apprend à rattraper avant que ça parte).</li>
-    </ul>
-
-    <h2>2. Allure réduite, seul — quand on freine, quand on gaze</h2>
-    <figure class="figure-lesson">
-      <img src="assets/img/illustrations/plateau-lent.svg" alt="Slalom lent animé : bleu patinage, vert léger gaz">
-    </figure>
+    <h2>Deux familles de trajectoires</h2>
     <div class="phase-grid">
       <article class="phase-card lean">
-        <h3>Bleu — patinage</h3>
-        <p>Embrayage au point de patinage + un doigt de <strong>frein arrière</strong>. C’est ça qui rend la moto lente et stable. Le regard vise l’intervalle <em>suivant</em>, pas le cône sous la roue.</p>
+        <h3>Lentes (1, 2, 4)</h3>
+        <p>S ou ligne guidée. Embrayage au patinage, frein arrière, regard loin. On veut de la lenteur, pas de la corde.</p>
       </article>
       <article class="phase-card gas">
-        <h3>Vert — micro-gaz</h3>
-        <p>Un filet d’accélérateur pour ne pas caler, jamais un coup de poignet. On n’accélère pas pour « rattraper » un cône : on ouvre le virage avec le regard et le bassin.</p>
-      </article>
-      <article class="phase-card brake">
-        <h3>Rouge — à éviter ici</h3>
-        <p>Frein avant au lent = plonge et pied à terre. On réserve l’avant au parcours rapide. Chrono : <strong>≥ 16&nbsp;s = A</strong>, 14–16&nbsp;s = B, &lt; 14&nbsp;s = C.</p>
+        <h3>Rapides (3, 5, 6)</h3>
+        <p>Ligne pour le freinage, S pour le slalom, un seul déport pour l’évitement. On construit la vitesse <em>avant</em> le radar, on freine <em>après</em>.</p>
       </article>
     </div>
-    <p><strong>Grosse difficulté :</strong> fixer le cône (la moto y va), relâcher l’embrayage par à-coups, se raidir. <strong>S’entraîner :</strong> slalom de gobelets à 2,50&nbsp;m, objectif « le plus lent possible sans pied ». Comptez à voix haute.</p>
-
-    <h2>3. Freinage d’urgence</h2>
-    <figure class="figure-lesson">
-      <img src="assets/img/illustrations/plateau-freinage.svg" alt="Ligne droite : vert accélération jusqu’au radar, rouge freinage jusqu’à la zone">
-    </figure>
-    <ul>
-      <li><strong>Vert :</strong> construire la vitesse dès le début de la ligne, 3e rapport, pas un sprint à la dernière seconde. A2 : 50&nbsp;km/h <em>sans</em> marge au C6.</li>
-      <li><strong>Rouge :</strong> après la ligne radar seulement. Avant + arrière, bras souples, buste un peu en arrière / bas, regard au fond de la zone d’arrêt.</li>
-      <li>Dangers : freiner avant C6 = C ; trop long = C ; roue arrière qui décolle (stoppie) = B ; vitesse trop basse = C.</li>
-    </ul>
-    <p>Entraînement : même ligne, un plot « radar » et une boîte d’arrêt. Répéter jusqu’à tomber dans la boîte <em>et</em> voir 50 au compteur au plot.</p>
-
-    <h2>4. Lent avec passager</h2>
-    <p>Même famille que le lent solo, avec 80&nbsp;kg qui changent l’assiette. Le passager : deux mains aux poignées, pieds sur les repose-pieds, genoux serrés, <strong>il ne parle pas du tracé</strong> (sinon C).</p>
-    <p>Frein arrière encore plus utile. Départ en douceur : l’embrayage rattrape le poids. Entraînement : sac lesté d’abord, puis un vrai passager calme.</p>
-
-    <h2>5 et 6. Slalom rapide puis évitement</h2>
-    <figure class="figure-lesson">
-      <img src="assets/img/illustrations/plateau-evitement.svg" alt="Animation slalom orange, demi-tour violet, évitement vert">
-    </figure>
-    <ul>
-      <li><strong>Orange — slalom :</strong> 3e rapport avant le premier cône, gaz <em>stable</em>, regard au-delà du dernier plot. C7 ≥ 40&nbsp;km/h (A2 sans marge).</li>
-      <li><strong>Violet — demi-tour :</strong> on relâche un peu, on place la moto, on ne coupe pas trop tôt vers l’évitement.</li>
-      <li><strong>Vert — évitement :</strong> on reconstruit 50&nbsp;km/h avant C6, un seul appui franc, puis on redresse et on freine pour finir entre les quatre cônes bleus.</li>
-    </ul>
-    <p class="note">Un cône d’évitement touché = C. Erreur de parcours, sortie de piste, arrêt hors zone = C. Deux B = un C.</p>
-
-    <h2>Comment s’entraîner vraiment</h2>
-    <ol>
-      <li><strong>Découper.</strong> Une séance = un exercice jusqu’à 8 réussites d’affilée, puis on ré-enchaîne.</li>
-      <li><strong>Compter.</strong> Chrono du lent, compteur au radar fictif. Le ressenti ment.</li>
-      <li><strong>Regarder.</strong> Caméra au casque 30 secondes : si le casque pointe le cône, la roue aussi.</li>
-      <li><strong>Mental.</strong> Le soir, fermer les yeux et réciter les 6 étapes + « où je mets les yeux ».</li>
-      <li><strong>Fatigue.</strong> Le 2e essai existe : on s’entraîne à tout refaire juste après, pas seulement à froid.</li>
-    </ol>
-    <p>Le plateau valide la maîtrise. La trajectoire de sécurité, elle, est notée <a href="trajectoires.html">en circulation</a>. Les deux se travaillent ensemble : regard loin, pas de corde, phases séparées.</p>
 
     <div class="actions">
-      <a class="btn btn-primary" href="trajectoires.html">Phases de virage</a>
+      <a class="btn btn-primary" href="trajectoires.html">Trajectoire de sécurité (circulation)</a>
       <a class="btn btn-ghost" href="controles.html">Contrôles moto</a>
       <a class="btn btn-ghost" href="apprendre.html">Cours ETM</a>
     </div>
   </main>
   <div id="site-footer"></div>
   <script src="assets/js/site.js"></script>
+  <script src="assets/js/plateau.js"></script>
 </body>
 </html>
