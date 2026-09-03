@@ -630,7 +630,7 @@ def knowledge_questions():
         ["Pression à froid, usure (témoins), coupures, objets incrustés", "Seulement la couleur de la gomme", "Un coup d'il une fois par an", "Le pneu avant seulement"],
         "a", "Pression à froid. Un pneu sous-gonflé chauffe, guide mal et peut éclater.")
     add("mecanique", "Un pneu moto sous-gonflé :",
-        ["Allonge le freinage, chauffe, et rend la moto floue", "Améliore le confort donc la sécurité", "Est recommandé sous la pluie", "N'a d'effet que sur autoroute"],
+        ["Allonge le freinage, chauffe et rend la direction imprecise", "Améliore le confort donc la sécurité", "Est recommandé sous la pluie", "N'a d'effet que sur autoroute"],
         "a", "Pression = sécurité n°1. On suit les préconisations du constructeur.")
     add("mecanique", "La chaîne de transmission :",
         ["Doit être lubrifiée, avec un jeu conforme, ni trop tendue ni trop lâche", "Doit être le plus tendue possible", "Se change uniquement à 100 000 km", "N'existe que sur les scooters"],
