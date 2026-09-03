@@ -234,8 +234,8 @@
     {
       "code": "AB3b",
       "family": "priorite",
-      "title": "Cédez le passage au carrefour à sens giratoire",
-      "detail": "À l'approche d'un giratoire, céder le passage aux usagers déjà engagés dans l'anneau.",
+      "title": "Cédez le passage (signal avancé)",
+      "detail": "AB3b : signal avancé d'un cédez-le-passage (AB3a). Souvent avant un giratoire : céder aux usagers déjà engagés. Le panneau de giratoire est le AB25.",
       "image": "assets/img/signs/AB3b.svg"
     },
     {
@@ -248,8 +248,8 @@
     {
       "code": "AB5",
       "family": "priorite",
-      "title": "Cédez le passage à la circulation venant en sens inverse",
-      "detail": "Le rétrécissement vous oblige à laisser passer les véhicules d'en face.",
+      "title": "Signal avancé d'un STOP",
+      "detail": "AB5 : annonce un AB4 (STOP) plus loin. Ce n'est pas céder au sens inverse (B15, rond à flèches).",
       "image": "assets/img/signs/AB5.svg"
     },
     {
@@ -578,7 +578,7 @@
       "code": "B15",
       "family": "interdiction",
       "title": "Cédez le passage au sens inverse",
-      "detail": "B15 : rond à flèches, vous devez laisser passer le sens opposé dans le rétrécissement. Voisin du AB5 (carré).",
+      "detail": "B15 : rond à flèches, vous devez laisser passer le sens opposé dans le rétrécissement. Le carré bleu C18 vous donne au contraire la priorité.",
       "image": "assets/img/signs/B15.svg"
     },
     {
@@ -1040,7 +1040,7 @@
       "code": "C18",
       "family": "indication",
       "title": "Priorité par rapport au sens inverse",
-      "detail": "C18 : dans le rétrécissement, vous passez avant le sens opposé. L'inverse (céder) est le AB5.",
+      "detail": "C18 : dans le rétrécissement, vous passez avant le sens opposé. L'inverse (céder) est le B15.",
       "image": "assets/img/signs/C18.svg"
     },
     {
@@ -1088,15 +1088,15 @@
     {
       "code": "C26a",
       "family": "indication",
-      "title": "Voie de détresse",
-      "detail": "C26a : voie d'arrêt d'urgence en descente pour un véhicule en perte de freins.",
+      "title": "Voie de détresse à droite",
+      "detail": "C26a : voie d'arrêt d'urgence en descente, côté droit, pour un véhicule en perte de freins.",
       "image": "assets/img/signs/C26a.svg"
     },
     {
       "code": "C26b",
       "family": "indication",
-      "title": "Fin de voie de détresse",
-      "detail": "C26b : fin de la voie d'arrêt d'urgence en descente (C26a).",
+      "title": "Voie de détresse à gauche",
+      "detail": "C26b : voie d'arrêt d'urgence en descente, côté gauche. C26a est à droite. Ce n'est pas une « fin » de voie.",
       "image": "assets/img/signs/C26b.svg"
     },
     {
@@ -1123,15 +1123,15 @@
     {
       "code": "C62",
       "family": "indication",
-      "title": "Présignalisation d'une issue de secours",
-      "detail": "C62 : issue de secours, surtout en tunnel. La connaître avant d'en avoir besoin.",
+      "title": "Présignalisation d'une borne de ticket de péage",
+      "detail": "C62 : avant un péage, annonce la borne de retrait de ticket. L'issue de secours est le CE30a / CE30b.",
       "image": "assets/img/signs/C62.svg"
     },
     {
       "code": "C64a",
       "family": "indication",
-      "title": "Issue de secours",
-      "detail": "C64a : localise une issue de secours. En tunnel, descendre moto arrêtée, suivre le pictogramme.",
+      "title": "Paiement auprès d'un péagiste",
+      "detail": "C64a : voie de péage avec un agent. Ce n'est pas une issue de secours (CE30a / CE30b).",
       "image": "assets/img/signs/C64a.svg"
     },
     {
@@ -1207,78 +1207,78 @@
     {
       "code": "CE1",
       "family": "service",
-      "title": "Poste de distribution de carburant",
-      "detail": "CE1 : station-service. Utile pour anticiper la réserve.",
+      "title": "Poste de secours",
+      "detail": "CE1 : croix rouge. Poste de secours à proximité. En accident, 112 reste le réflexe. Ce n'est pas une station-service (CE15a).",
       "image": "assets/img/signs/CE1.svg"
     },
     {
       "code": "CE2a",
       "family": "service",
-      "title": "Restaurant",
-      "detail": "CE2a : restaurant à proximité.",
+      "title": "Poste d'appel d'urgence",
+      "detail": "CE2a : borne SOS. En cas d'accident sur autoroute ou voie rapide, c'est le moyen privilégié pour alerter. Ce n'est pas un restaurant (CE16).",
       "image": "assets/img/signs/CE2a.svg"
     },
     {
       "code": "CE3a",
       "family": "service",
-      "title": "Hôtel ou motel",
-      "detail": "CE3a : hébergement à proximité.",
+      "title": "Informations touristiques",
+      "detail": "CE3a : informations relatives aux services ou activités touristiques (point « i »). L'hôtel est le CE17.",
       "image": "assets/img/signs/CE3a.svg"
     },
     {
       "code": "CE4a",
       "family": "service",
-      "title": "Point d'information",
-      "detail": "CE4a : office de tourisme / point info.",
+      "title": "Terrain de camping pour tentes",
+      "detail": "CE4a : pictogramme tente. Camping pour tentes. Ce n'est pas un point d'information (CE3a).",
       "image": "assets/img/signs/CE4a.svg"
     },
     {
       "code": "CE12",
       "family": "service",
-      "title": "Poste de secours / hôpital",
-      "detail": "CE12 : soins d'urgence à proximité. En accident, 112 reste le réflexe.",
+      "title": "Toilettes ouvertes au public",
+      "detail": "CE12 : pictogrammes homme et femme. Sanitaires publics. Le poste de secours est le CE1.",
       "image": "assets/img/signs/CE12.svg"
     },
     {
       "code": "CE14",
       "family": "service",
-      "title": "Poste d'appel d'urgence / téléphone",
-      "detail": "Borne d'appel. En cas d'accident sur autoroute, c'est le moyen privilégié pour alerter.",
+      "title": "Installations accessibles aux personnes à mobilité réduite",
+      "detail": "CE14 : pictogramme fauteuil. Accessibilité PMR. La borne d'appel est le CE2a.",
       "image": "assets/img/signs/CE14.svg"
     },
     {
       "code": "CE15a",
       "family": "service",
-      "title": "Terrain de camping",
-      "detail": "CE15a : camping.",
+      "title": "Poste de carburant ouvert 7j/7 et 24h/24",
+      "detail": "CE15a : station-service 24/24. Utile pour anticiper la réserve. Le camping tentes est le CE4a.",
       "image": "assets/img/signs/CE15a.svg"
     },
     {
       "code": "CE18",
       "family": "service",
-      "title": "Toilettes publiques",
-      "detail": "CE18 : sanitaires.",
+      "title": "Débit de boissons ou collations",
+      "detail": "CE18 : bar / snack ouvert 7j/7. Ce ne sont pas des toilettes (CE12).",
       "image": "assets/img/signs/CE18.svg"
     },
     {
       "code": "CE26",
       "family": "service",
-      "title": "Poste de dépannage",
-      "detail": "Garage ou dépannage à proximité.",
+      "title": "Station de gonflage gratuite",
+      "detail": "CE26 : gonflage hors station-service, usage gratuit. Le dépannage est le CE28.",
       "image": "assets/img/signs/CE26.svg"
     },
     {
       "code": "CE27",
       "family": "service",
-      "title": "Point de recharge électrique",
-      "detail": "CE27 : recharge de véhicules électriques.",
+      "title": "Point de détente",
+      "detail": "CE27 : aire de repos / détente. La recharge électrique est le CE15i.",
       "image": "assets/img/signs/CE27.svg"
     },
     {
       "code": "CE50",
       "family": "service",
-      "title": "Aire de covoiturage",
-      "detail": "Stationnement dédié au covoiturage.",
+      "title": "Installations ou services divers",
+      "detail": "CE50 : mention « AUTRES », service sans idéogramme dédié. Le covoiturage est le CE52.",
       "image": "assets/img/signs/CE50.svg"
     },
     {
@@ -1319,22 +1319,22 @@
     {
       "code": "M4a",
       "family": "panonceau",
-      "title": "Panonceau « motocyclettes »",
-      "detail": "M4a : le panneau principal s'applique aux motocyclettes. Crucial : un B14 + M4a limite seulement les motos.",
+      "title": "Panonceau véhicules de moins de 3,5 t",
+      "detail": "M4a : pictogramme voiture. Le panneau principal s'applique aux véhicules légers (PTAC < 3,5 t). Les motos sont le M4c.",
       "image": "assets/img/signs/M4a.svg"
     },
     {
       "code": "M4b",
       "family": "panonceau",
-      "title": "Panonceau « cycles »",
-      "detail": "M4b : s'applique aux cycles, pas aux motos.",
+      "title": "Panonceau transports en commun",
+      "detail": "M4b : pictogramme bus. S'applique aux transports en commun. Les cycles sont le M4d1.",
       "image": "assets/img/signs/M4b.svg"
     },
     {
       "code": "M4c",
       "family": "panonceau",
-      "title": "Panonceau « véhicules de transport de marchandises »",
-      "detail": "M4c : s'applique aux marchandises / PL, pas à une moto solo.",
+      "title": "Panonceau motocyclettes",
+      "detail": "M4c : pictogramme moto. Le panneau principal ne vise alors que les motocyclettes.",
       "image": "assets/img/signs/M4c.svg"
     },
     {
@@ -1347,22 +1347,22 @@
     {
       "code": "M5",
       "family": "panonceau",
-      "title": "Panonceau de catégorie d'usagers (pictogramme)",
-      "detail": "M5 : précise à qui s'applique le panneau (souvent un usager vulnérable).",
+      "title": "Panonceau de distance jusqu'à l'arrêt",
+      "detail": "M5 : distance entre le signal et l'endroit où s'arrêter (STOP ou cédez-le-passage).",
       "image": "assets/img/signs/M5.svg"
     },
     {
       "code": "M6a",
       "family": "panonceau",
-      "title": "Panonceau « sauf… »",
-      "detail": "M6a : exception à l'interdiction (riverains, services…). Lire avant de s'engager.",
+      "title": "Panonceau de mise en fourrière",
+      "detail": "M6a : pictogramme dépanneuse. Arrêt ou stationnement gênant, véhicule susceptible d'être mis en fourrière.",
       "image": "assets/img/signs/M6a.svg"
     },
     {
       "code": "M9d",
       "family": "panonceau",
-      "title": "Panonceau « rappel »",
-      "detail": "M9d : rappelle une règle déjà en vigueur, sans en créer une nouvelle.",
+      "title": "Passage pour piétons surélevé",
+      "detail": "M9d : complète un passage piéton (C20a / A13b) : le passage est surélevé. Ce n'est pas un « rappel ».",
       "image": "assets/img/signs/M9d.svg"
     },
     {
