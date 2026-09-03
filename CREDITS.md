@@ -10,9 +10,10 @@ C/D/E, 59 panonceaux).
 Les illustrations (trajectoires, plateau, contrôles, états de chaîne, inter-files, angle mort, équipement) sont originales, fournies avec ce site.
 
 
-Les photos de situations (`assets/img/situations/`) viennent de
-[Wikimedia Commons](https://commons.wikimedia.org/) (licences CC BY / CC BY-SA / CC0 / domaine public).
-Le détail auteur + fichier est dans `assets/img/situations/credits.json` et sous chaque question.
+Le plan des cours s'appuie sur le *Livre Code Moto ETM 2026* (TestPermis.fr),
+déposé dans `assets/ebook_moto_1781723509.pdf` avec l'autorisation du titulaire.
+Les textes des leçons sont rédigés pour ce site (examen 2026) : ce n'est pas
+une copie du PDF.
 
 Les questions sont des items d'entraînement rédigés pour ce projet. Elles ne
 reproduisent pas la banque officielle de l'examen ETM.

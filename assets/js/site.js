@@ -68,5 +68,10 @@
       if (!res.ok) throw new Error("Impossible de charger les panneaux.");
       return res.json();
     },
+    async loadCours() {
+      const res = await fetch("data/cours.json?v=ebook1");
+      if (!res.ok) throw new Error("Impossible de charger les cours.");
+      return res.json();
+    },
   };
 })();
