@@ -1121,7 +1121,7 @@
       "multi": false,
       "image": "assets/img/illustrations/angle-mort.svg",
       "imageAlt": "Angles morts d'un poids lourd",
-      "imageCredit": "Wikimedia Commons - signalisation routière française"
+      "imageCredit": "Illustration pédagogique — Code Moto 2026"
     },
     {
       "id": "environnement-124",
@@ -2126,7 +2126,7 @@
       "multi": false,
       "image": "assets/img/illustrations/equipement.svg",
       "imageAlt": "Équipements du motard",
-      "imageCredit": "Wikimedia Commons - signalisation routière française"
+      "imageCredit": "Illustration pédagogique — Code Moto 2026"
     },
     {
       "id": "sig-077",
@@ -8331,7 +8331,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "Contrôle à froid ou selon notice, moto droite.",
+      "explanation": "Un niveau trop bas peut gripper ou caler. Contrôle à froid (ou selon notice), moto verticale, pas sur la béquille latérale.",
       "multi": false
     },
     {
