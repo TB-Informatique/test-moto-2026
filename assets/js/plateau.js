@@ -317,10 +317,11 @@
     });
   }
 
-  function setSpeed(mps) {
+  function setSpeed(mps, elapsedSec) {
     if (!speedEl) return;
     const kmh = Math.max(0, mps) * 3.6;
-    speedEl.textContent = `${kmh.toFixed(0)} km/h`;
+    const clock = elapsedSec == null ? "" : ` · ${elapsedSec.toFixed(1)} s`;
+    speedEl.textContent = `${kmh.toFixed(0)} km/h${clock}`;
     speedEl.dataset.fast = kmh >= 30 ? "1" : "0";
   }
 
@@ -486,11 +487,22 @@
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const plan = compilePlan(motionPlan(step, path, back));
     const total = plan.reduce((sum, item) => sum + item.duration, 0);
+    root.dataset.planSec = total.toFixed(1);
+    if (reduce) {
+      const last = step.cues[step.cues.length - 1];
+      const endPath = back || path;
+      placeBikeOn(endPath, 1);
+      caption.textContent = last.text;
+      setBadge(last.action);
+      setSpeed(0, total);
+      return;
+    }
     playing = true;
     playBtn.textContent = "Pause";
     playBtn.setAttribute("aria-pressed", "true");
     let seg = 0;
     let t0 = performance.now();
+    const startedAt = t0;
     const tick = (now) => {
       if (!playing) return;
       const item = plan[seg];
@@ -498,18 +510,18 @@
         const last = step.cues[step.cues.length - 1];
         caption.textContent = last.text;
         setBadge(last.action);
-        setSpeed(0);
+        setSpeed(0, total);
+        root.dataset.playedSec = ((performance.now() - startedAt) / 1000).toFixed(1);
         stopPlay();
         return;
       }
-      const scale = reduce ? 0.08 : 1;
-      const u = (now - t0) / (item.duration * 1000 * scale);
+      const u = (now - t0) / (item.duration * 1000);
       const elapsed = plan.slice(0, seg).reduce((s, it) => s + it.duration, 0) + Math.min(1, u) * item.duration;
       const cue = cueAt(step, elapsed / total);
       caption.textContent = cue.text;
       setBadge(cue.action);
       if (item.pause) {
-        setSpeed(0);
+        setSpeed(0, elapsed);
         if (u >= 1) {
           seg += 1;
           t0 = now;
@@ -524,7 +536,7 @@
         : (item.v0 * clamped * item.duration + 0.5 * (item.v1 - item.v0) * item.duration * clamped * clamped) / item.lenM;
       const frac = item.from + (item.to - item.from) * Math.min(1, distFrac);
       placeBikeOn(item.path, frac);
-      setSpeed(v);
+      setSpeed(v, elapsed);
       if (item.path !== path) item.path.setAttribute("opacity", "1");
       if (u >= 1) {
         placeBikeOn(item.path, item.to);
