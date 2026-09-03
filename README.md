@@ -1,2 +1,30 @@
 # test-moto-2026
-Site internet afin de tester nos connaissance par catégorie sur le passage du code moto et la pratique, sécurité routière sans sauvegarde, mais avec une note.
+
+Site statique d'entraînement à l'**épreuve théorique moto (ETM) 2026**.
+
+- Questions **aléatoires**, mixte ou **par catégorie**
+- **Note à la fin**, **sans sauvegarde** (rien n'est stocké)
+- Pages de cours, catalogue de **panneaux**, particularités moto
+- Images de signalisation : [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:SVG_road_signs_in_France)
+
+## Lancer en local
+
+Ouvrir le dossier avec un petit serveur HTTP (le `fetch` des JSON ne fonctionne pas en `file://`) :
+
+```bash
+python3 -m http.server 8080
+```
+
+Puis : <http://127.0.0.1:8080>
+
+## GitHub Pages
+
+Publier la branche `main` (racine du dépôt) comme site Pages.
+
+Régénérer la banque de questions :
+
+```bash
+python3 scripts/build_data.py
+```
+
+Les questions sont des items d'entraînement originaux, pas la banque officielle de l'examen.

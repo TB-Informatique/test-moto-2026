@@ -1,0 +1,756 @@
+{
+  "signs": [
+    {
+      "code": "A1a",
+      "family": "danger",
+      "title": "Virage à droite",
+      "detail": "Annonce un virage serré vers la droite. À moto : ralentir avant le virage, se placer à l'extérieur, regarder la sortie.",
+      "image": "assets/img/signs/A1a.svg"
+    },
+    {
+      "code": "A1b",
+      "family": "danger",
+      "title": "Virage à gauche",
+      "detail": "Annonce un virage serré vers la gauche. Risque de collision avec un véhicule en sens inverse si la trajectoire coupe l'axe.",
+      "image": "assets/img/signs/A1b.svg"
+    },
+    {
+      "code": "A1c",
+      "family": "danger",
+      "title": "Succession de virages, premier à droite",
+      "detail": "Série de virages dont le premier est à droite. Adapter l'allure dès le premier, sans accélérer entre deux courbes.",
+      "image": "assets/img/signs/A1c.svg"
+    },
+    {
+      "code": "A1d",
+      "family": "danger",
+      "title": "Succession de virages, premier à gauche",
+      "detail": "Série de virages dont le premier est à gauche. La visibilité et l'adhérence peuvent changer d'une courbe à l'autre.",
+      "image": "assets/img/signs/A1d.svg"
+    },
+    {
+      "code": "A2a",
+      "family": "danger",
+      "title": "Cassis ou dos-d'âne",
+      "detail": "Déformation de la chaussée. À moto, lever légèrement les fesses, relâcher les freins et garder l'assiette stable.",
+      "image": "assets/img/signs/A2a.svg"
+    },
+    {
+      "code": "A2b",
+      "family": "danger",
+      "title": "Ralentisseur de type dos-d'âne",
+      "detail": "Ralentisseur volontaire. Franchir droit, sans angle, à allure réduite pour ne pas décoller la roue avant.",
+      "image": "assets/img/signs/A2b.svg"
+    },
+    {
+      "code": "A3",
+      "family": "danger",
+      "title": "Chaussée rétrécie",
+      "detail": "La chaussée se rétrécit des deux côtés. Anticiper, serrer sa droite et éviter les dépassements.",
+      "image": "assets/img/signs/A3.svg"
+    },
+    {
+      "code": "A3a",
+      "family": "danger",
+      "title": "Chaussée rétrécie par la droite",
+      "detail": "Rétrécissement côté droit. Un obstacle ou un véhicule peut vous contraindre à vous déporter.",
+      "image": "assets/img/signs/A3a.svg"
+    },
+    {
+      "code": "A3b",
+      "family": "danger",
+      "title": "Chaussée rétrécie par la gauche",
+      "detail": "Rétrécissement côté gauche. Surveiller le trafic opposé et garder une marge de sécurité.",
+      "image": "assets/img/signs/A3b.svg"
+    },
+    {
+      "code": "A4",
+      "family": "danger",
+      "title": "Chaussée glissante",
+      "detail": "Adhérence réduite (pluie, verglas, gravillons, feuilles). Allonger les distances et éviter les à-coups.",
+      "image": "assets/img/signs/A4.svg"
+    },
+    {
+      "code": "A6",
+      "family": "danger",
+      "title": "Pont mobile",
+      "detail": "Le pont peut s'ouvrir. S'arrêter si le feu ou la barrière l'impose, jamais s'engager au dernier moment.",
+      "image": "assets/img/signs/A6.svg"
+    },
+    {
+      "code": "A7",
+      "family": "danger",
+      "title": "Passage à niveau avec barrières",
+      "detail": "Voie ferrée protégée par des barrières. Ne jamais s'engager si le feu clignote ou si les barrières bougent.",
+      "image": "assets/img/signs/A7.svg"
+    },
+    {
+      "code": "A8",
+      "family": "danger",
+      "title": "Passage à niveau sans barrières",
+      "detail": "Voie ferrée sans barrière. S'arrêter, regarder et écouter avant de s'engager. Un train peut arriver vite.",
+      "image": "assets/img/signs/A8.svg"
+    },
+    {
+      "code": "A9",
+      "family": "danger",
+      "title": "Traversée de voies de tramway",
+      "detail": "Rails très glissants pour une moto. Les franchir le plus perpendiculairement possible, sans freiner dessus.",
+      "image": "assets/img/signs/A9.svg"
+    },
+    {
+      "code": "A13a",
+      "family": "danger",
+      "title": "Endroit fréquenté par les enfants",
+      "detail": "Proximité d'une école, d'un parc ou d'un arrêt. Réduire l'allure : un enfant peut surgir.",
+      "image": "assets/img/signs/A13a.svg"
+    },
+    {
+      "code": "A13b",
+      "family": "danger",
+      "title": "Passage pour piétons",
+      "detail": "Annonce un passage piéton. Un piéton engagé est prioritaire, même hors des clous en agglomération s'il a commencé à traverser.",
+      "image": "assets/img/signs/A13b.svg"
+    },
+    {
+      "code": "A14",
+      "family": "danger",
+      "title": "Autres dangers",
+      "detail": "Danger non précisé par un autre panneau. Le panonceau éventuellement associé précise le risque.",
+      "image": "assets/img/signs/A14.svg"
+    },
+    {
+      "code": "A15a1",
+      "family": "danger",
+      "title": "Passage d'animaux domestiques",
+      "detail": "Animaux de ferme susceptibles de traverser. Freiner progressivement, klaxonner avec mesure si besoin.",
+      "image": "assets/img/signs/A15a1.svg"
+    },
+    {
+      "code": "A15b",
+      "family": "danger",
+      "title": "Passage d'animaux sauvages",
+      "detail": "Risque de collision avec un animal. La nuit, ralentir et se méfier des abords boisés.",
+      "image": "assets/img/signs/A15b.svg"
+    },
+    {
+      "code": "A15c",
+      "family": "danger",
+      "title": "Passage de cavaliers",
+      "detail": "Cavaliers possibles. Les dépasser largement, à allure réduite, sans klaxonner brutalement.",
+      "image": "assets/img/signs/A15c.svg"
+    },
+    {
+      "code": "A16",
+      "family": "danger",
+      "title": "Descente dangereuse",
+      "detail": "Pente importante. Utiliser le frein moteur, éviter de rester freiné en continu (échauffement).",
+      "image": "assets/img/signs/A16.svg"
+    },
+    {
+      "code": "A17",
+      "family": "danger",
+      "title": "Remontée (montée)",
+      "detail": "Montée. Anticiper un véhicule lent, garder de la puissance disponible et ne pas coller le précédent.",
+      "image": "assets/img/signs/A17.svg"
+    },
+    {
+      "code": "A18",
+      "family": "danger",
+      "title": "Circulation dans les deux sens",
+      "detail": "Fin d'un tronçon à sens unique : on retrouve des véhicules en face. Se rabattre à droite.",
+      "image": "assets/img/signs/A18.svg"
+    },
+    {
+      "code": "A19",
+      "family": "danger",
+      "title": "Risque de chute de pierres",
+      "detail": "Pierres ou éboulis possibles sur la chaussée. Éviter de coller le bas-côté et surveiller le sol.",
+      "image": "assets/img/signs/A19.svg"
+    },
+    {
+      "code": "A20",
+      "family": "danger",
+      "title": "Débouché sur un quai ou une berge",
+      "detail": "La route se termine sur l'eau. Vitesse très réduite, aucun écart.",
+      "image": "assets/img/signs/A20.svg"
+    },
+    {
+      "code": "A21",
+      "family": "danger",
+      "title": "Débouché de cyclistes provenant de droite ou de gauche",
+      "detail": "Cyclistes susceptibles de déboucher. Laisser de l'espace et adapter l'allure.",
+      "image": "assets/img/signs/A21.svg"
+    },
+    {
+      "code": "A23",
+      "family": "danger",
+      "title": "Circulation de véhicules dans les deux sens",
+      "detail": "Annonce un trafic bidirectionnel après un rétrécissement ou des travaux.",
+      "image": "assets/img/signs/A23.svg"
+    },
+    {
+      "code": "A24",
+      "family": "danger",
+      "title": "Projection de gravillons",
+      "detail": "Gravillons projetés : adhérence très mauvaise à moto. Lever l'allure, éviter d'incliner et de freiner fort.",
+      "image": "assets/img/signs/A24.svg"
+    },
+    {
+      "code": "AB1",
+      "family": "priorite",
+      "title": "Intersection où vous êtes prioritaire",
+      "detail": "Les usagers des autres routes doivent vous céder le passage. Rester prudent : ils peuvent ne pas vous voir.",
+      "image": "assets/img/signs/AB1.svg"
+    },
+    {
+      "code": "AB2",
+      "family": "priorite",
+      "title": "Intersection avec priorité à droite",
+      "detail": "Vous n'êtes pas prioritaire : appliquer la priorité à droite, sauf signalisation contraire.",
+      "image": "assets/img/signs/AB2.svg"
+    },
+    {
+      "code": "AB3a",
+      "family": "priorite",
+      "title": "Cédez le passage",
+      "detail": "Triangle pointe en bas : laisser passer les usagers de la route rencontrée, sans nécessairement s'arrêter si la voie est libre.",
+      "image": "assets/img/signs/AB3a.svg"
+    },
+    {
+      "code": "AB3b",
+      "family": "priorite",
+      "title": "Cédez le passage au carrefour à sens giratoire",
+      "detail": "À l'approche d'un giratoire, céder le passage aux usagers déjà engagés dans l'anneau.",
+      "image": "assets/img/signs/AB3b.svg"
+    },
+    {
+      "code": "AB4",
+      "family": "priorite",
+      "title": "Stop",
+      "detail": "Arrêt obligatoire au STOP, même si la voie paraît libre. Marquer un temps d'arrêt avant de s'engager.",
+      "image": "assets/img/signs/AB4.svg"
+    },
+    {
+      "code": "AB5",
+      "family": "priorite",
+      "title": "Cédez le passage à la circulation venant en sens inverse",
+      "detail": "Le rétrécissement vous oblige à laisser passer les véhicules d'en face.",
+      "image": "assets/img/signs/AB5.svg"
+    },
+    {
+      "code": "AB6",
+      "family": "priorite",
+      "title": "Route prioritaire",
+      "detail": "Losange jaune : vous circulez sur une route prioritaire jusqu'à indication contraire.",
+      "image": "assets/img/signs/AB6.svg"
+    },
+    {
+      "code": "AB7",
+      "family": "priorite",
+      "title": "Fin de route prioritaire",
+      "detail": "Losange jaune barré : vous perdez la priorité. Souvent suivi d'un STOP ou d'un cédez-le-passage.",
+      "image": "assets/img/signs/AB7.svg"
+    },
+    {
+      "code": "AB25",
+      "family": "priorite",
+      "title": "Carrefour à sens giratoire",
+      "detail": "Annonce un rond-point. Céder le passage aux usagers déjà dans l'anneau (sauf signalisation locale contraire).",
+      "image": "assets/img/signs/AB25.svg"
+    },
+    {
+      "code": "B0",
+      "family": "interdiction",
+      "title": "Circulation interdite dans les deux sens",
+      "detail": "Aucun véhicule ne peut s'engager, dans aucun sens.",
+      "image": "assets/img/signs/B0.svg"
+    },
+    {
+      "code": "B1",
+      "family": "interdiction",
+      "title": "Sens interdit",
+      "detail": "Interdiction d'emprunter la voie dans ce sens. L'autre sens peut rester autorisé.",
+      "image": "assets/img/signs/B1.svg"
+    },
+    {
+      "code": "B2a",
+      "family": "interdiction",
+      "title": "Interdiction de tourner à gauche",
+      "detail": "Tourner à gauche est interdit à la prochaine intersection.",
+      "image": "assets/img/signs/B2a.svg"
+    },
+    {
+      "code": "B2b",
+      "family": "interdiction",
+      "title": "Interdiction de tourner à droite",
+      "detail": "Tourner à droite est interdit à la prochaine intersection.",
+      "image": "assets/img/signs/B2b.svg"
+    },
+    {
+      "code": "B2c",
+      "family": "interdiction",
+      "title": "Interdiction de faire demi-tour",
+      "detail": "Le demi-tour est interdit à cet endroit.",
+      "image": "assets/img/signs/B2c.svg"
+    },
+    {
+      "code": "B3",
+      "family": "interdiction",
+      "title": "Interdiction de dépasser les véhicules à moteur",
+      "detail": "Dépassement interdit. Rester derrière, même si le véhicule précédent est lent.",
+      "image": "assets/img/signs/B3.svg"
+    },
+    {
+      "code": "B3a",
+      "family": "interdiction",
+      "title": "Interdiction de dépasser pour les véhicules de plus de 3,5 t",
+      "detail": "Concerne les poids lourds. Une moto n'est pas visée par cette interdiction spécifique.",
+      "image": "assets/img/signs/B3a.svg"
+    },
+    {
+      "code": "B4",
+      "family": "interdiction",
+      "title": "Accès interdit aux véhicules tractant une caravane",
+      "detail": "Interdiction aux attelages caravane / remorque visés.",
+      "image": "assets/img/signs/B4.svg"
+    },
+    {
+      "code": "B5a",
+      "family": "interdiction",
+      "title": "Accès interdit aux poids lourds",
+      "detail": "Interdiction aux véhicules de transport de marchandises au-delà du tonnage indiqué.",
+      "image": "assets/img/signs/B5a.svg"
+    },
+    {
+      "code": "B5b",
+      "family": "interdiction",
+      "title": "Accès interdit aux véhicules de transport de marchandises",
+      "detail": "Concerne les véhicules affectés au transport de marchandises.",
+      "image": "assets/img/signs/B5b.svg"
+    },
+    {
+      "code": "B5c",
+      "family": "interdiction",
+      "title": "Accès interdit aux véhicules transportant des marchandises dangereuses",
+      "detail": "Interdiction aux transports de matières dangereuses (plaque orange).",
+      "image": "assets/img/signs/B5c.svg"
+    },
+    {
+      "code": "B6a1",
+      "family": "interdiction",
+      "title": "Stationnement interdit",
+      "detail": "Stationner est interdit. Un arrêt momentané pour prendre ou déposer peut rester possible selon le cas.",
+      "image": "assets/img/signs/B6a1.svg"
+    },
+    {
+      "code": "B6d",
+      "family": "interdiction",
+      "title": "Arrêt et stationnement interdits",
+      "detail": "Ni s'arrêter, ni stationner. Un motard ne peut pas s'y arrêter « juste une minute ».",
+      "image": "assets/img/signs/B6d.svg"
+    },
+    {
+      "code": "B8",
+      "family": "interdiction",
+      "title": "Fin de toutes les interdictions précédemment signalées",
+      "detail": "Met fin aux interdictions prescrites par des panneaux ronds à fond blanc (sauf limitations permanentes).",
+      "image": "assets/img/signs/B8.svg"
+    },
+    {
+      "code": "B9a",
+      "family": "interdiction",
+      "title": "Accès interdit aux piétons",
+      "detail": "Les piétons ne peuvent pas s'engager. Une moto n'est pas un piéton.",
+      "image": "assets/img/signs/B9a.svg"
+    },
+    {
+      "code": "B9b",
+      "family": "interdiction",
+      "title": "Accès interdit aux cycles",
+      "detail": "Interdiction aux vélos. Une moto n'est pas un cycle.",
+      "image": "assets/img/signs/B9b.svg"
+    },
+    {
+      "code": "B9f",
+      "family": "interdiction",
+      "title": "Accès interdit aux véhicules agricoles à moteur",
+      "detail": "Concerne les engins agricoles, pas les motos de tourisme.",
+      "image": "assets/img/signs/B9f.svg"
+    },
+    {
+      "code": "B11",
+      "family": "interdiction",
+      "title": "Accès interdit aux cyclomoteurs",
+      "detail": "Interdiction aux cyclomoteurs (? 50 cm³). Une moto de cylindrée supérieure n'est pas un cyclomoteur.",
+      "image": "assets/img/signs/B11.svg"
+    },
+    {
+      "code": "B12",
+      "family": "interdiction",
+      "title": "Accès interdit aux motocyclettes",
+      "detail": "Panneau crucial pour l'ETM : les motos ne peuvent pas s'engager.",
+      "image": "assets/img/signs/B12.svg"
+    },
+    {
+      "code": "B13",
+      "family": "interdiction",
+      "title": "Accès interdit à tous les véhicules à moteur",
+      "detail": "Moto, voiture, scooter : tout engin à moteur est interdit.",
+      "image": "assets/img/signs/B13.svg"
+    },
+    {
+      "code": "B14-50",
+      "family": "interdiction",
+      "title": "Limitation de vitesse à 50 km/h",
+      "detail": "Vitesse maximale 50 km/h, souvent en agglomération ou en travaux.",
+      "image": "assets/img/signs/B14-50.svg"
+    },
+    {
+      "code": "B14-80",
+      "family": "interdiction",
+      "title": "Limitation de vitesse à 80 km/h",
+      "detail": "Vitesse maximale 80 km/h. C'est aussi la limite générale hors agglo sur beaucoup de bidirectionnelles.",
+      "image": "assets/img/signs/B14-80.svg"
+    },
+    {
+      "code": "B14-90",
+      "family": "interdiction",
+      "title": "Limitation de vitesse à 90 km/h",
+      "detail": "Vitesse maximale 90 km/h, parfois par dérogation départementale hors agglomération.",
+      "image": "assets/img/signs/B14-90.svg"
+    },
+    {
+      "code": "B14-110",
+      "family": "interdiction",
+      "title": "Limitation de vitesse à 110 km/h",
+      "detail": "Vitesse maximale 110 km/h : voies rapides, ou autoroute sous la pluie / permis probatoire.",
+      "image": "assets/img/signs/B14-110.svg"
+    },
+    {
+      "code": "B14-130",
+      "family": "interdiction",
+      "title": "Limitation de vitesse à 130 km/h",
+      "detail": "Vitesse maximale 130 km/h : autoroute par temps sec pour un conducteur confirmé.",
+      "image": "assets/img/signs/B14-130.svg"
+    },
+    {
+      "code": "B16",
+      "family": "obligation",
+      "title": "Vitesse minimale obligatoire",
+      "detail": "Il est interdit de rouler en dessous de la vitesse indiquée, sauf nécessité (embouteillage, conditions).",
+      "image": "assets/img/signs/B16.svg"
+    },
+    {
+      "code": "B18a",
+      "family": "interdiction",
+      "title": "Accès interdit aux véhicules dont la largeur, chargement compris, dépasse la largeur indiquée",
+      "detail": "Gabarit en largeur. Une moto passe presque toujours, mais pas un véhicule large.",
+      "image": "assets/img/signs/B18a.svg"
+    },
+    {
+      "code": "B18b",
+      "family": "interdiction",
+      "title": "Accès interdit aux véhicules dont la hauteur, chargement compris, dépasse la hauteur indiquée",
+      "detail": "Gabarit en hauteur (pont, tunnel).",
+      "image": "assets/img/signs/B18b.svg"
+    },
+    {
+      "code": "B19",
+      "family": "interdiction",
+      "title": "Accès interdit aux véhicules dont le poids total autorisé dépasse le tonnage indiqué",
+      "detail": "Limitation de poids. Une moto légère n'est en général pas concernée.",
+      "image": "assets/img/signs/B19.svg"
+    },
+    {
+      "code": "B21-1",
+      "family": "obligation",
+      "title": "Contournement obligatoire par la droite",
+      "detail": "Obstacle à contourner par la droite (îlot, terre-plein).",
+      "image": "assets/img/signs/B21-1.svg"
+    },
+    {
+      "code": "B21a1",
+      "family": "obligation",
+      "title": "Direction obligatoire à droite",
+      "detail": "Obligation de tourner à droite.",
+      "image": "assets/img/signs/B21a1.svg"
+    },
+    {
+      "code": "B21b",
+      "family": "obligation",
+      "title": "Direction obligatoire à gauche",
+      "detail": "Obligation de tourner à gauche.",
+      "image": "assets/img/signs/B21b.svg"
+    },
+    {
+      "code": "B22a",
+      "family": "obligation",
+      "title": "Piste ou bande obligatoire pour cycles et cyclomoteurs",
+      "detail": "Obligatoire pour vélos et cyclomoteurs. Une moto n'a pas à l'emprunter.",
+      "image": "assets/img/signs/B22a.svg"
+    },
+    {
+      "code": "B22b",
+      "family": "obligation",
+      "title": "Fin de piste ou bande obligatoire pour cycles",
+      "detail": "Fin de l'obligation pour les cycles.",
+      "image": "assets/img/signs/B22b.svg"
+    },
+    {
+      "code": "B26",
+      "family": "obligation",
+      "title": "Chaînes à neige obligatoires sur au moins deux roues motrices",
+      "detail": "Équipements spéciaux hiver. À moto, la neige impose souvent de ne pas partir.",
+      "image": "assets/img/signs/B26.svg"
+    },
+    {
+      "code": "B27a",
+      "family": "obligation",
+      "title": "Voie réservée aux véhicules des services réguliers de transport en commun",
+      "detail": "Voie de bus. Une moto ne peut l'emprunter que si un panonceau l'y autorise.",
+      "image": "assets/img/signs/B27a.svg"
+    },
+    {
+      "code": "B29",
+      "family": "obligation",
+      "title": "Autres obligations",
+      "detail": "Obligation particulière précisée par un panonceau (exemple : feux allumés).",
+      "image": "assets/img/signs/B29.svg"
+    },
+    {
+      "code": "B31",
+      "family": "obligation",
+      "title": "Fin d'obligation",
+      "detail": "Met fin à une obligation précédemment signalée.",
+      "image": "assets/img/signs/B31.svg"
+    },
+    {
+      "code": "B33-50",
+      "family": "interdiction",
+      "title": "Fin de limitation de vitesse à 50 km/h",
+      "detail": "La limite à 50 km/h cesse. La limitation générale de la route reprend.",
+      "image": "assets/img/signs/B33-50.svg"
+    },
+    {
+      "code": "B34a",
+      "family": "interdiction",
+      "title": "Fin d'interdiction de dépasser",
+      "detail": "Le dépassement redevient autorisé si les autres règles le permettent.",
+      "image": "assets/img/signs/B34a.svg"
+    },
+    {
+      "code": "B41",
+      "family": "obligation",
+      "title": "Entrée de zone 30",
+      "detail": "Vitesse limitée à 30 km/h dans toute la zone, jusqu'au panneau de sortie.",
+      "image": "assets/img/signs/B41.svg"
+    },
+    {
+      "code": "B42",
+      "family": "obligation",
+      "title": "Fin de zone 30",
+      "detail": "Sortie de zone 30. La limitation générale reprend (souvent 50 en agglo).",
+      "image": "assets/img/signs/B42.svg"
+    },
+    {
+      "code": "B44",
+      "family": "obligation",
+      "title": "Entrée de zone de rencontre",
+      "detail": "Vitesse 20 km/h, piétons autorisés sur la chaussée et prioritaires.",
+      "image": "assets/img/signs/B44.svg"
+    },
+    {
+      "code": "B45a",
+      "family": "obligation",
+      "title": "Fin de zone de rencontre",
+      "detail": "Fin du régime 20 km/h et de la priorité piétonne généralisée sur chaussée.",
+      "image": "assets/img/signs/B45a.svg"
+    },
+    {
+      "code": "C1a",
+      "family": "indication",
+      "title": "Lieu aménagé pour le stationnement",
+      "detail": "Parking. Le stationnement d'une moto y est autorisé selon le marquage.",
+      "image": "assets/img/signs/C1a.svg"
+    },
+    {
+      "code": "C1b",
+      "family": "indication",
+      "title": "Lieu aménagé pour le stationnement à durée limitée",
+      "detail": "Stationnement à durée limitée (disque ou horodateur selon le cas).",
+      "image": "assets/img/signs/C1b.svg"
+    },
+    {
+      "code": "C5",
+      "family": "indication",
+      "title": "Stationnement payant",
+      "detail": "Le stationnement est payant. Une moto n'est pas toujours exonérée.",
+      "image": "assets/img/signs/C5.svg"
+    },
+    {
+      "code": "C8",
+      "family": "indication",
+      "title": "Stationnement unilatéral à alternance semi-mensuelle",
+      "detail": "Côté de stationnement selon la quinzaine.",
+      "image": "assets/img/signs/C8.svg"
+    },
+    {
+      "code": "C12",
+      "family": "indication",
+      "title": "Circulation à sens unique",
+      "detail": "Sens unique. On ne doit pas rencontrer de véhicule en face.",
+      "image": "assets/img/signs/C12.svg"
+    },
+    {
+      "code": "C13a",
+      "family": "indication",
+      "title": "Impasse",
+      "detail": "Voie sans issue. Inutile d'y entrer pour « traverser ».",
+      "image": "assets/img/signs/C13a.svg"
+    },
+    {
+      "code": "C13b",
+      "family": "indication",
+      "title": "Impasse avec une issue pour les piétons",
+      "detail": "Sans issue pour les véhicules, mais les piétons peuvent sortir.",
+      "image": "assets/img/signs/C13b.svg"
+    },
+    {
+      "code": "C14",
+      "family": "indication",
+      "title": "Vitesse conseillée",
+      "detail": "Allure recommandée, pas une limitation. En cas de danger, elle est souvent trop élevée pour une moto.",
+      "image": "assets/img/signs/C14.svg"
+    },
+    {
+      "code": "C18",
+      "family": "indication",
+      "title": "Conditions particulières de circulation sur la voie d'entrée",
+      "detail": "Présignalisation de conditions sur une bretelle ou une voie.",
+      "image": "assets/img/signs/C18.svg"
+    },
+    {
+      "code": "C20a",
+      "family": "indication",
+      "title": "Passage pour piétons",
+      "detail": "Localise un passage piéton. Ralentir et être prêt à s'arrêter.",
+      "image": "assets/img/signs/C20a.svg"
+    },
+    {
+      "code": "C20c",
+      "family": "indication",
+      "title": "Passage pour piétons surélevé",
+      "detail": "Passage piéton sur un plateau. Franchir droit, sans angle.",
+      "image": "assets/img/signs/C20c.svg"
+    },
+    {
+      "code": "C24a",
+      "family": "indication",
+      "title": "Surélévation de chaussée",
+      "detail": "Plateau ou dos-d'âne. À moto : allure réduite, trajectoire perpendiculaire.",
+      "image": "assets/img/signs/C24a.svg"
+    },
+    {
+      "code": "C24b",
+      "family": "indication",
+      "title": "Ralentisseur",
+      "detail": "Dispositif ralentisseur. Ne pas le prendre en biais.",
+      "image": "assets/img/signs/C24b.svg"
+    },
+    {
+      "code": "C50",
+      "family": "indication",
+      "title": "Voie de détresse",
+      "detail": "Voie d'arrêt d'urgence en descente pour véhicules en perte de freins.",
+      "image": "assets/img/signs/C50.svg"
+    },
+    {
+      "code": "C107",
+      "family": "indication",
+      "title": "Début d'autoroute",
+      "detail": "Entrée d'autoroute : 130 km/h par temps sec (110 sous la pluie ou en permis probatoire).",
+      "image": "assets/img/signs/C107.svg"
+    },
+    {
+      "code": "C111",
+      "family": "indication",
+      "title": "Début de route à accès réglementé",
+      "detail": "Voie rapide / express, souvent limitée à 110 km/h.",
+      "image": "assets/img/signs/C111.svg"
+    },
+    {
+      "code": "C112",
+      "family": "indication",
+      "title": "Fin de route à accès réglementé",
+      "detail": "Sortie de voie rapide : la limitation générale reprend, souvent 80 km/h.",
+      "image": "assets/img/signs/C112.svg"
+    },
+    {
+      "code": "C114",
+      "family": "indication",
+      "title": "Réduction du nombre de voies",
+      "detail": "Une voie se termine. Anticiper le rabattement, surtout si un PL est à droite.",
+      "image": "assets/img/signs/C114.svg"
+    },
+    {
+      "code": "C207",
+      "family": "indication",
+      "title": "Issue de secours",
+      "detail": "Indique une issue de secours (tunnel).",
+      "image": "assets/img/signs/C207.svg"
+    },
+    {
+      "code": "CE14",
+      "family": "service",
+      "title": "Poste d'appel d'urgence / téléphone",
+      "detail": "Borne d'appel. En cas d'accident sur autoroute, c'est le moyen privilégié pour alerter.",
+      "image": "assets/img/signs/CE14.svg"
+    },
+    {
+      "code": "CE26",
+      "family": "service",
+      "title": "Poste de dépannage",
+      "detail": "Garage ou dépannage à proximité.",
+      "image": "assets/img/signs/CE26.svg"
+    },
+    {
+      "code": "CE50",
+      "family": "service",
+      "title": "Aire de covoiturage",
+      "detail": "Stationnement dédié au covoiturage.",
+      "image": "assets/img/signs/CE50.svg"
+    },
+    {
+      "code": "EB10",
+      "family": "localisation",
+      "title": "Entrée d'agglomération",
+      "detail": "Le nom de la commune sur fond blanc vaut limitation à 50 km/h, même sans panneau 50.",
+      "image": "assets/img/signs/EB10.svg"
+    },
+    {
+      "code": "EB20",
+      "family": "localisation",
+      "title": "Sortie d'agglomération",
+      "detail": "Panneau barré : fin d'agglomération. La limitation hors agglo reprend (souvent 80 km/h).",
+      "image": "assets/img/signs/EB20.svg"
+    },
+    {
+      "code": "M9z",
+      "family": "panonceau",
+      "title": "Panonceau d'indications diverses",
+      "detail": "Complète un panneau principal (distance, catégorie de véhicules, horaires).",
+      "image": "assets/img/signs/M9z.svg"
+    }
+  ],
+  "families": {
+    "danger": "Danger",
+    "priorite": "Priorité",
+    "interdiction": "Interdiction",
+    "obligation": "Obligation",
+    "indication": "Indication",
+    "service": "Services",
+    "localisation": "Localisation",
+    "panonceau": "Panonceaux"
+  }
+}

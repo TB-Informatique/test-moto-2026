@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-labelledby="t">
+  <title id="t">Trajectoire de sécurité à moto dans un virage à droite</title>
+  <rect width="640" height="280" rx="12" fill="#3a414c"/>
+  <path d="M40 230 H260 C340 230 380 200 420 140 C460 80 520 50 600 50" fill="none" stroke="#6b7480" stroke-width="80" stroke-linecap="round"/>
+  <path d="M40 230 H260 C340 230 380 200 420 140 C460 80 520 50 600 50" fill="none" stroke="#ffe08a" stroke-width="4" stroke-dasharray="18 14"/>
+  <path d="M70 248 C200 248 300 220 360 170 C430 110 510 78 590 72" fill="none" stroke="#f59e0b" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="88" cy="246" r="8" fill="#ffd27a" stroke="#111" stroke-width="2"/>
+  <text x="24" y="32" fill="#fff7e6" font-family="sans-serif" font-size="18" font-weight="700">Extérieur, regard loin, puis replacer</text>
+</svg>

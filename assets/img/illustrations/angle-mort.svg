@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-labelledby="t">
+  <title id="t">Angle mort d'un poids lourd</title>
+  <rect width="640" height="260" rx="12" fill="#3a414c"/>
+  <rect x="240" y="78" width="220" height="90" rx="10" fill="#c5ccd6"/>
+  <rect x="430" y="96" width="70" height="54" rx="8" fill="#e8edf3"/>
+  <path d="M230 78 L80 24 L80 222 L230 168 Z" fill="#f59e0b" opacity="0.45"/>
+  <path d="M460 78 L600 24 L600 222 L460 168 Z" fill="#f59e0b" opacity="0.45"/>
+  <text x="96" y="132" fill="#fff7e6" font-size="16" font-family="sans-serif" font-weight="700">Angle mort</text>
+  <text x="20" y="246" fill="#fff7e6" font-size="14" font-family="sans-serif">Si vous ne voyez pas le chauffeur, il ne vous voit pas.</text>
+</svg>

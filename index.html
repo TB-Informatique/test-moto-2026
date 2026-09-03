@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Code Moto 2026 - Entraînement ETM</title>
+  <meta name="description" content="Tests de connaissances du code moto 2026, classés par catégorie, questions aléatoires, score sans sauvegarde. Cours, panneaux et spécificités moto.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="index">
+  <div id="site-header"></div>
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <p class="kicker">Épreuve théorique moto · 2026</p>
+        <h1>Entraînez-vous au code moto, sans compte et sans historique.</h1>
+        <p class="lede">Plus de 300 questions tirées au hasard, par catégorie ou en examen blanc de 40 questions. La note s'affiche à la fin, puis disparaît : rien n'est enregistré.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="quiz.html?mode=run&amp;n=40&amp;feedback=0">Examen blanc 40 questions</a>
+          <a class="btn btn-ghost" href="quiz.html">Choisir une catégorie</a>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <p class="kicker">Rappel officiel</p>
+        <h2>35 / 40 pour réussir</h2>
+        <p class="muted">L'ETM reste à 40 questions en 2026, environ 30 minutes, 5 fautes maximum. Le permis B ne dispense plus du code moto.</p>
+        <div class="stats">
+          <div class="stat"><b id="q-count">300+</b><span>questions</span></div>
+          <div class="stat"><b>10</b><span>catégories</span></div>
+          <div class="stat"><b>0</b><span>sauvegarde</span></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <h2>Trois façons de s'entraîner</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Mix aléatoire</h3>
+          <p>Toutes les familles de l'ETM mélangées, comme au centre d'examen. Idéal pour mesurer le niveau réel.</p>
+        </article>
+        <article class="card">
+          <h3>Par catégorie</h3>
+          <p>Route, circulation, conducteur, usagers, mécanique, protections, environnement, secours, signalisation.</p>
+        </article>
+        <article class="card">
+          <h3>Correction ciblée</h3>
+          <p>En entraînement, chaque réponse est expliquée. En examen blanc, le détail n'arrive qu'avec la note finale.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Apprendre avant de tester</h2>
+      <div class="grid">
+        <a class="card" href="apprendre.html">
+          <h3>Cours du code moto</h3>
+          <p>Les 9 thèmes officiels, le format 2026, les pièges fréquents.</p>
+        </a>
+        <a class="card" href="panneaux.html">
+          <h3>Panneaux</h3>
+          <p>Catalogue illustré (Wikimedia) : danger, priorité, interdiction, obligation...</p>
+        </a>
+        <a class="card" href="particularites.html">
+          <h3>Particularités moto</h3>
+          <p>Trajectoire de sécurité, inter-files, équipements, A1 / A2 / A.</p>
+        </a>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="assets/js/site.js"></script>
+  <script>
+    window.CodeMoto.loadQuestions().then((d) => {
+      const n = document.getElementById("q-count");
+      if (n) n.textContent = d.questions.length;
+    }).catch(() => {});
+  </script>
+</body>
+</html>
