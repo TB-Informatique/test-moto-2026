@@ -1204,16 +1204,16 @@
         },
         {
           "id": "d",
-          "text": "Cédez le passage au carrefour à sens giratoire"
+          "text": "Cédez le passage (signal avancé)"
         }
       ],
       "correct": [
         "d"
       ],
-      "explanation": "À l'approche d'un giratoire, céder le passage aux usagers déjà engagés dans l'anneau.",
+      "explanation": "AB3b : signal avancé d'un cédez-le-passage (AB3a). Souvent avant un giratoire : céder aux usagers déjà engagés. Le panneau de giratoire est le AB25.",
       "multi": false,
       "image": "assets/img/signs/AB3b.svg",
-      "imageAlt": "Cédez le passage au carrefour à sens giratoire",
+      "imageAlt": "Cédez le passage (signal avancé)",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -3125,7 +3125,7 @@
         },
         {
           "id": "b",
-          "text": "Aire de covoiturage"
+          "text": "Installations ou services divers"
         },
         {
           "id": "c",
@@ -3139,10 +3139,10 @@
       "correct": [
         "b"
       ],
-      "explanation": "Stationnement dédié au covoiturage.",
+      "explanation": "CE50 : mention « AUTRES », service sans idéogramme dédié. Le covoiturage est le CE52.",
       "multi": false,
       "image": "assets/img/signs/CE50.svg",
-      "imageAlt": "Aire de covoiturage",
+      "imageAlt": "Installations ou services divers",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -3484,7 +3484,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Poste de dépannage"
+          "text": "Station de gonflage gratuite"
         },
         {
           "id": "b",
@@ -3502,10 +3502,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "Garage ou dépannage à proximité.",
+      "explanation": "CE26 : gonflage hors station-service, usage gratuit. Le dépannage est le CE28.",
       "multi": false,
       "image": "assets/img/signs/CE26.svg",
-      "imageAlt": "Poste de dépannage",
+      "imageAlt": "Station de gonflage gratuite",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -3804,7 +3804,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "C18 : dans le rétrécissement, vous passez avant le sens opposé. L'inverse (céder) est le AB5.",
+      "explanation": "C18 : dans le rétrécissement, vous passez avant le sens opposé. L'inverse (céder) est le B15.",
       "multi": false,
       "image": "assets/img/signs/C18.svg",
       "imageAlt": "Priorité par rapport au sens inverse",
@@ -5525,7 +5525,7 @@
         },
         {
           "id": "c",
-          "text": "Cédez le passage à la circulation venant en sens inverse"
+          "text": "Signal avancé d'un STOP"
         },
         {
           "id": "d",
@@ -5535,10 +5535,10 @@
       "correct": [
         "c"
       ],
-      "explanation": "Le rétrécissement vous oblige à laisser passer les véhicules d'en face.",
+      "explanation": "AB5 : annonce un AB4 (STOP) plus loin. Ce n'est pas céder au sens inverse (B15, rond à flèches).",
       "multi": false,
       "image": "assets/img/signs/AB5.svg",
-      "imageAlt": "Cédez le passage à la circulation venant en sens inverse",
+      "imageAlt": "Signal avancé d'un STOP",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -7504,7 +7504,7 @@
         },
         {
           "id": "b",
-          "text": "Poste d'appel d'urgence / téléphone"
+          "text": "Installations accessibles aux personnes à mobilité réduite"
         },
         {
           "id": "c",
@@ -7518,10 +7518,10 @@
       "correct": [
         "b"
       ],
-      "explanation": "Borne d'appel. En cas d'accident sur autoroute, c'est le moyen privilégié pour alerter.",
+      "explanation": "CE14 : pictogramme fauteuil. Accessibilité PMR. La borne d'appel est le CE2a.",
       "multi": false,
       "image": "assets/img/signs/CE14.svg",
-      "imageAlt": "Poste d'appel d'urgence / téléphone",
+      "imageAlt": "Installations accessibles aux personnes à mobilité réduite",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -9766,7 +9766,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Voie de détresse"
+          "text": "Voie de détresse à droite"
         },
         {
           "id": "b",
@@ -9784,10 +9784,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "C26a : voie d'arrêt d'urgence en descente pour un véhicule en perte de freins.",
+      "explanation": "C26a : voie d'arrêt d'urgence en descente, côté droit, pour un véhicule en perte de freins.",
       "multi": false,
       "image": "assets/img/signs/C26a.svg",
-      "imageAlt": "Voie de détresse",
+      "imageAlt": "Voie de détresse à droite",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -10383,7 +10383,7 @@
       "correct": [
         "a"
       ],
-      "explanation": "B15 : rond à flèches, vous devez laisser passer le sens opposé dans le rétrécissement. Voisin du AB5 (carré).",
+      "explanation": "B15 : rond à flèches, vous devez laisser passer le sens opposé dans le rétrécissement. Le carré bleu C18 vous donne au contraire la priorité.",
       "multi": false,
       "image": "assets/img/signs/B15.svg",
       "imageAlt": "Cédez le passage au sens inverse",
@@ -10845,7 +10845,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Fin de voie de détresse"
+          "text": "Voie de détresse à gauche"
         },
         {
           "id": "b",
@@ -10863,10 +10863,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "C26b : fin de la voie d'arrêt d'urgence en descente (C26a).",
+      "explanation": "C26b : voie d'arrêt d'urgence en descente, côté gauche. C26a est à droite. Ce n'est pas une « fin » de voie.",
       "multi": false,
       "image": "assets/img/signs/C26b.svg",
-      "imageAlt": "Fin de voie de détresse",
+      "imageAlt": "Voie de détresse à gauche",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -10941,7 +10941,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Restaurant"
+          "text": "Poste d'appel d'urgence"
         },
         {
           "id": "b",
@@ -10959,10 +10959,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "CE2a : restaurant à proximité.",
+      "explanation": "CE2a : borne SOS. En cas d'accident sur autoroute ou voie rapide, c'est le moyen privilégié pour alerter. Ce n'est pas un restaurant (CE16).",
       "multi": false,
       "image": "assets/img/signs/CE2a.svg",
-      "imageAlt": "Restaurant",
+      "imageAlt": "Poste d'appel d'urgence",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -10973,7 +10973,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Point d'information"
+          "text": "Terrain de camping pour tentes"
         },
         {
           "id": "b",
@@ -10991,10 +10991,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "CE4a : office de tourisme / point info.",
+      "explanation": "CE4a : pictogramme tente. Camping pour tentes. Ce n'est pas un point d'information (CE3a).",
       "multi": false,
       "image": "assets/img/signs/CE4a.svg",
-      "imageAlt": "Point d'information",
+      "imageAlt": "Terrain de camping pour tentes",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -11005,7 +11005,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Poste de secours / hôpital"
+          "text": "Toilettes ouvertes au public"
         },
         {
           "id": "b",
@@ -11023,10 +11023,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "CE12 : soins d'urgence à proximité. En accident, 112 reste le réflexe.",
+      "explanation": "CE12 : pictogrammes homme et femme. Sanitaires publics. Le poste de secours est le CE1.",
       "multi": false,
       "image": "assets/img/signs/CE12.svg",
-      "imageAlt": "Poste de secours / hôpital",
+      "imageAlt": "Toilettes ouvertes au public",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -11069,7 +11069,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Panonceau « motocyclettes »"
+          "text": "Panonceau véhicules de moins de 3,5 t"
         },
         {
           "id": "b",
@@ -11087,10 +11087,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "M4a : le panneau principal s'applique aux motocyclettes. Crucial : un B14 + M4a limite seulement les motos.",
+      "explanation": "M4a : pictogramme voiture. Le panneau principal s'applique aux véhicules légers (PTAC < 3,5 t). Les motos sont le M4c.",
       "multi": false,
       "image": "assets/img/signs/M4a.svg",
-      "imageAlt": "Panonceau « motocyclettes »",
+      "imageAlt": "Panonceau véhicules de moins de 3,5 t",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -11101,7 +11101,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Panonceau « cycles »"
+          "text": "Panonceau transports en commun"
         },
         {
           "id": "b",
@@ -11119,10 +11119,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "M4b : s'applique aux cycles, pas aux motos.",
+      "explanation": "M4b : pictogramme bus. S'applique aux transports en commun. Les cycles sont le M4d1.",
       "multi": false,
       "image": "assets/img/signs/M4b.svg",
-      "imageAlt": "Panonceau « cycles »",
+      "imageAlt": "Panonceau transports en commun",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -11197,7 +11197,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Aux motocyclettes uniquement"
+          "text": "Aux véhicules de moins de 3,5 t"
         },
         {
           "id": "b",
@@ -11209,16 +11209,16 @@
         },
         {
           "id": "d",
-          "text": "Aux poids lourds"
+          "text": "Aux motocyclettes uniquement"
         }
       ],
       "correct": [
         "a"
       ],
-      "explanation": "M4a = pictogramme moto. Le panneau principal ne vise alors que les motocyclettes.",
+      "explanation": "M4a = pictogramme voiture, véhicules de PTAC < 3,5 t. Les motocyclettes sont le M4c.",
       "multi": false,
       "image": "assets/img/signs/M4a.svg",
-      "imageAlt": "Panonceau motocyclettes",
+      "imageAlt": "Panonceau véhicules de moins de 3,5 t",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -12061,7 +12061,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Présignalisation d'une issue de secours"
+          "text": "Présignalisation d'une borne de ticket de péage"
         },
         {
           "id": "b",
@@ -12079,10 +12079,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "C62 : issue de secours, surtout en tunnel. La connaître avant d'en avoir besoin.",
+      "explanation": "C62 : avant un péage, annonce la borne de retrait de ticket. L'issue de secours est le CE30a / CE30b.",
       "multi": false,
       "image": "assets/img/signs/C62.svg",
-      "imageAlt": "Présignalisation d'une issue de secours",
+      "imageAlt": "Présignalisation d'une borne de ticket de péage",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -12093,7 +12093,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Issue de secours"
+          "text": "Paiement auprès d'un péagiste"
         },
         {
           "id": "b",
@@ -12111,10 +12111,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "C64a : localise une issue de secours. En tunnel, descendre moto arrêtée, suivre le pictogramme.",
+      "explanation": "C64a : voie de péage avec un agent. Ce n'est pas une issue de secours (CE30a / CE30b).",
       "multi": false,
       "image": "assets/img/signs/C64a.svg",
-      "imageAlt": "Issue de secours",
+      "imageAlt": "Paiement auprès d'un péagiste",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -12189,7 +12189,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Poste de distribution de carburant"
+          "text": "Poste de secours"
         },
         {
           "id": "b",
@@ -12207,10 +12207,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "CE1 : station-service. Utile pour anticiper la réserve.",
+      "explanation": "CE1 : croix rouge. Poste de secours à proximité. En accident, 112 reste le réflexe. Ce n'est pas une station-service (CE15a).",
       "multi": false,
       "image": "assets/img/signs/CE1.svg",
-      "imageAlt": "Poste de distribution de carburant",
+      "imageAlt": "Poste de secours",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -12221,7 +12221,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Hôtel ou motel"
+          "text": "Informations touristiques"
         },
         {
           "id": "b",
@@ -12239,10 +12239,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "CE3a : hébergement à proximité.",
+      "explanation": "CE3a : informations relatives aux services ou activités touristiques (point « i »). L'hôtel est le CE17.",
       "multi": false,
       "image": "assets/img/signs/CE3a.svg",
-      "imageAlt": "Hôtel ou motel",
+      "imageAlt": "Informations touristiques",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -12253,7 +12253,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Terrain de camping"
+          "text": "Poste de carburant ouvert 7j/7 et 24h/24"
         },
         {
           "id": "b",
@@ -12271,10 +12271,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "CE15a : camping.",
+      "explanation": "CE15a : station-service 24/24. Utile pour anticiper la réserve. Le camping tentes est le CE4a.",
       "multi": false,
       "image": "assets/img/signs/CE15a.svg",
-      "imageAlt": "Terrain de camping",
+      "imageAlt": "Poste de carburant ouvert 7j/7 et 24h/24",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -12285,7 +12285,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Toilettes publiques"
+          "text": "Débit de boissons ou collations"
         },
         {
           "id": "b",
@@ -12303,10 +12303,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "CE18 : sanitaires.",
+      "explanation": "CE18 : bar / snack ouvert 7j/7. Ce ne sont pas des toilettes (CE12).",
       "multi": false,
       "image": "assets/img/signs/CE18.svg",
-      "imageAlt": "Toilettes publiques",
+      "imageAlt": "Débit de boissons ou collations",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -12317,7 +12317,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Point de recharge électrique"
+          "text": "Point de détente"
         },
         {
           "id": "b",
@@ -12335,10 +12335,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "CE27 : recharge de véhicules électriques.",
+      "explanation": "CE27 : aire de repos / détente. La recharge électrique est le CE15i.",
       "multi": false,
       "image": "assets/img/signs/CE27.svg",
-      "imageAlt": "Point de recharge électrique",
+      "imageAlt": "Point de détente",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -12413,7 +12413,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Panonceau « véhicules de transport de marchandises »"
+          "text": "Panonceau motocyclettes"
         },
         {
           "id": "b",
@@ -12431,10 +12431,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "M4c : s'applique aux marchandises / PL, pas à une moto solo.",
+      "explanation": "M4c : pictogramme moto. Le panneau principal ne vise alors que les motocyclettes.",
       "multi": false,
       "image": "assets/img/signs/M4c.svg",
-      "imageAlt": "Panonceau « véhicules de transport de marchandises »",
+      "imageAlt": "Panonceau motocyclettes",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -12445,7 +12445,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Panonceau de catégorie d'usagers (pictogramme)"
+          "text": "Panonceau de distance jusqu'à l'arrêt"
         },
         {
           "id": "b",
@@ -12463,10 +12463,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "M5 : précise à qui s'applique le panneau (souvent un usager vulnérable).",
+      "explanation": "M5 : distance entre le signal et l'endroit où s'arrêter (STOP ou cédez-le-passage).",
       "multi": false,
       "image": "assets/img/signs/M5.svg",
-      "imageAlt": "Panonceau de catégorie d'usagers (pictogramme)",
+      "imageAlt": "Panonceau de distance jusqu'à l'arrêt",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -12477,7 +12477,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Panonceau « sauf… »"
+          "text": "Panonceau de mise en fourrière"
         },
         {
           "id": "b",
@@ -12495,10 +12495,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "M6a : exception à l'interdiction (riverains, services…). Lire avant de s'engager.",
+      "explanation": "M6a : pictogramme dépanneuse. Arrêt ou stationnement gênant, véhicule susceptible d'être mis en fourrière.",
       "multi": false,
       "image": "assets/img/signs/M6a.svg",
-      "imageAlt": "Panonceau « sauf… »",
+      "imageAlt": "Panonceau de mise en fourrière",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -12509,7 +12509,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Panonceau « rappel »"
+          "text": "Passage pour piétons surélevé"
         },
         {
           "id": "b",
@@ -12527,10 +12527,10 @@
       "correct": [
         "a"
       ],
-      "explanation": "M9d : rappelle une règle déjà en vigueur, sans en créer une nouvelle.",
+      "explanation": "M9d : complète un passage piéton (C20a / A13b) : le passage est surélevé. Ce n'est pas un « rappel ».",
       "multi": false,
       "image": "assets/img/signs/M9d.svg",
-      "imageAlt": "Panonceau « rappel »",
+      "imageAlt": "Passage pour piétons surélevé",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
