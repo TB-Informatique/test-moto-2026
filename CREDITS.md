@@ -9,5 +9,10 @@ C/D/E, 59 panonceaux).
 
 Les illustrations (trajectoires, plateau, contrôles, états de chaîne, inter-files, angle mort, équipement) sont originales, fournies avec ce site.
 
+
+Les photos de situations (`assets/img/situations/`) viennent de
+[Wikimedia Commons](https://commons.wikimedia.org/) (licences CC BY / CC BY-SA / CC0 / domaine public).
+Le détail auteur + fichier est dans `assets/img/situations/credits.json` et sous chaque question.
+
 Les questions sont des items d'entraînement rédigés pour ce projet. Elles ne
 reproduisent pas la banque officielle de l'examen ETM.

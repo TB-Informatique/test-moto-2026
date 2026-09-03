@@ -336,6 +336,19 @@ button.btn {
   width: auto;
 }
 
+.q-image.q-image-photo {
+  padding: 8px;
+  min-height: 240px;
+}
+
+.q-image.q-image-photo img {
+  max-height: 420px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
 .q-image.q-image-wide img,
 .figure-lesson img {
   max-height: none;

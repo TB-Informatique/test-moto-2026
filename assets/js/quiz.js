@@ -6,6 +6,7 @@
   const state = {
     mode: params.get("mode") || "setup",
     category: params.get("cat") || "",
+    situations: params.get("situations") === "1",
     count: Number(params.get("n") || 40),
     feedback: params.get("feedback") !== "0",
     index: 0,
@@ -62,6 +63,25 @@
           </div>
         </div>
 
+        <div class="card" style="margin:18px 0">
+          <h2>Situations réelles (style examen)</h2>
+          <p class="muted">Photos de circulation, pièges de l’ETM : priorités, inter-files, corridor, adhérence. Pas de correction avant la fin.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="${startUrl({
+              mode: "run",
+              n: "20",
+              feedback: "0",
+              situations: "1",
+            })}">20 photos, comme à l’examen</a>
+            <a class="btn btn-ghost" href="${startUrl({
+              mode: "run",
+              n: "10",
+              feedback: "1",
+              situations: "1",
+            })}">10 photos, avec correction</a>
+          </div>
+        </div>
+
         <h2>Par catégorie</h2>
         <p class="muted">10 questions aléatoires dans le thème choisi, avec correction immédiate.</p>
         <div class="grid" id="cats">${cats}</div>
@@ -98,6 +118,9 @@
     if (state.category) {
       pool = pool.filter((q) => q.category === state.category);
     }
+    if (state.situations) {
+      pool = pool.filter((q) => String(q.image || "").includes("situations/"));
+    }
     const n = Math.min(Math.max(state.count, 1), pool.length);
     return window.CodeMoto.shuffle(pool).slice(0, n).map((q) => ({
       ...q,
@@ -117,8 +140,9 @@
     const pct = Math.round((state.index / total) * 100);
     const cat = state.data.categories.find((c) => c.id === q.category);
     const multi = q.multi || q.correct.length > 1;
+    const photo = String(q.image || "").includes("situations/");
     const img = q.image
-      ? `<figure class="q-image"><img src="${q.image}" alt="${q.imageAlt || ""}"><figcaption class="muted" style="font-size:.8rem;margin-top:8px">${q.imageCredit || ""}</figcaption></figure>`
+      ? `<figure class="q-image${photo ? " q-image-photo" : ""}"><img src="${q.image}" alt="${q.imageAlt || ""}"><figcaption class="muted" style="font-size:.8rem;margin-top:8px">${q.imageCredit || ""}</figcaption></figure>`
       : "";
 
     root.innerHTML = `

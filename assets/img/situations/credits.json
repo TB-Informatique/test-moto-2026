@@ -1,0 +1,592 @@
+{
+  "rondpoint": {
+    "title": "File:Remiremont - carrefour giratoire du faubourg d'Épinal - 2.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Mtheu_Kler\" ttle=\"User:Mtheu Kler\" Mtheu Kler — Wikimedia Commons (CC BY-SA 4.0) — Remiremont - carrefour giratoire du faubourg d'Épinal - 2.jpg",
+    "file": "assets/img/situations/rondpoint.jpg"
+  },
+  "carrefour": {
+    "title": "File:Caravane 15e Étape Tour France 2020 - Intersection Routes D30 & D123 - Brénaz - Arvière-en-Valromey (FR01) - 2020-09-13 - 31.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Che01\" ttle=\"User:Che01\" Che01 — Wikimedia Commons (CC BY-SA 4.0) — Caravane 15e Étape Tour France 2020 - Intersection Routes D30 & D123 - Brénaz - Arvière-en-Valromey (FR01) - 2020-09-13 - 31.jpg",
+    "file": "assets/img/situations/carrefour.jpg"
+  },
+  "feux": {
+    "title": "File:Traffic lights with a countdown timer in Vietnam.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Traffic lights with a countdown timer in Vietnam.jpg",
+    "file": "assets/img/situations/feux.jpg"
+  },
+  "stop": {
+    "title": "File:FR 17 Saint-Laurent-de-la-Prée - PN 182 - Panneaux AB4 et G1a et M9z.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:KwNeko14\" ttle=\"User:KwNeko14\" KwNeko14 — Wikimedia Commons (CC BY-SA 4.0) — FR 17 Saint-Laurent-de-la-Prée - PN 182 - Panneaux AB4 et G1a et M9z.jpg",
+    "file": "assets/img/situations/stop.jpg"
+  },
+  "cedez": {
+    "title": "File:Bonne panneau AB3a M9c.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Bonne panneau AB3a M9c.jpg",
+    "file": "assets/img/situations/cedez.jpg"
+  },
+  "cedez-inverse": {
+    "title": "File:Loisin panneau B15.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Loisin panneau B15.jpg",
+    "file": "assets/img/situations/cedez-inverse.jpg"
+  },
+  "pieton": {
+    "title": "File:Passage piéton France.JPG",
+    "credit": "Rolnd45 — Wikimedia Commons (CC BY-SA 3.0) — Passage piéton France.JPG",
+    "file": "assets/img/situations/pieton.jpg"
+  },
+  "ecole": {
+    "title": "File:Lurais-FR-paleo panneau ecole-01.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Frn%C3%A7os_GOGLINS\" ttle=\"User:Frnços GOGLINS — Wikimedia Commons (CC BY-SA 4.0) — Lurais-FR-paleo panneau ecole-01.jpg",
+    "file": "assets/img/situations/ecole.jpg"
+  },
+  "velo": {
+    "title": "File:Panneau de la Piste cyclable Paul VARRY (3e arr.).jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:JPlot\" ttle=\"User:JPlot\" JPlot — Wikimedia Commons (CC0) — Panneau de la Piste cyclable Paul VARRY (3e arr.).jpg",
+    "file": "assets/img/situations/velo.jpg"
+  },
+  "tram": {
+    "title": "File:Lyon 7e - Rails tramway T10 avenue Tony Garnier (mai 2025).jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Seleouf\" ttle=\"User:Seleouf\" Seleouf — Wikimedia Commons (CC BY-SA 4.0) — Lyon 7e - Rails tramway T10 avenue Tony Garnier (mai 2025).jpg",
+    "file": "assets/img/situations/tram.jpg"
+  },
+  "bus": {
+    "title": "File:Arrêt Bus Julian Grimau Voie Verte Rue Julian Grimau - Vitry-sur-Seine (FR94) - 2021-03-12 - 1.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Che01\" ttle=\"User:Che01\" Che01 — Wikimedia Commons (CC BY-SA 4.0) — Arrêt Bus Julian Grimau Voie Verte Rue Julian Grimau - Vitry-sur-Seine (FR94) - 2021-03-12 - 1.jpg",
+    "file": "assets/img/situations/bus.jpg"
+  },
+  "pl": {
+    "title": "File:A40 Radar discriminant poids lourds.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — A40 Radar discriminant poids lourds.jpg",
+    "file": "assets/img/situations/pl.jpg"
+  },
+  "moto-ville": {
+    "title": "File:Old Motorcycle Paris France (3588281297).jpg",
+    "credit": "rel=\"nofollow\" clss=\"externl text\" href=\"htts://www.flckr.comeole/25217744@N06\"  — Wikimedia Commons (CC BY 2.0) — Old Motorcycle Paris France (3588281297).jpg",
+    "file": "assets/img/situations/moto-ville.jpg"
+  },
+  "moto-route": {
+    "title": "File:Dani Pedrosa and Andrea Dovizioso 2010 Le Mans 2.jpg",
+    "credit": "Box Resol — Wikimedia Commons (CC BY 2.0) — Dani Pedrosa and Andrea Dovizioso 2010 Le Mans 2.jpg",
+    "file": "assets/img/situations/moto-route.jpg"
+  },
+  "autoroute": {
+    "title": "File:Autoroute A6 - 2012-05-25 - IMG 2238.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Poudou99\" ttle=\"User:Poudou99\" Poudou99 — Wikimedia Commons (CC BY-SA 4.0) — Autoroute A6 - 2012-05-25 - IMG 2238.jpg",
+    "file": "assets/img/situations/autoroute.jpg"
+  },
+  "insertion": {
+    "title": "File:Avenue des Landiers et bretelle autoroute à Chambéry (avril 2026).JPG",
+    "credit": "Florn Péelln — Wikimedia Commons (CC BY-SA 4.0) — Avenue des Landiers et bretelle autoroute à Chambéry (avril 2026).JPG",
+    "file": "assets/img/situations/insertion.jpg"
+  },
+  "bau": {
+    "title": "File:FR 17 Pessines - Route nationale 150 - Panneaux AK14 et panonceaux KM9 et KM2.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:KwNeko14\" ttle=\"User:KwNeko14\" KwNeko14 — Wikimedia Commons (CC BY-SA 4.0) — FR 17 Pessines - Route nationale 150 - Panneaux AK14 et panonceaux KM9 et KM2.jpg",
+    "file": "assets/img/situations/bau.jpg"
+  },
+  "peage": {
+    "title": "File:Autoroute A39 Péage de Dole-Choisey.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:TCY\" ttle=\"User:TCY\" TCY — Wikimedia Commons (CC BY-SA 3.0) — Autoroute A39 Péage de Dole-Choisey.jpg",
+    "file": "assets/img/situations/peage.jpg"
+  },
+  "tunnel": {
+    "title": "File:El Paraíso tunnel main gate of Caracas.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Wlfredor\" clss=\"mw-redrect\" ttle=\"User:Wlfredo — Wikimedia Commons (CC0) — El Paraíso tunnel main gate of Caracas.jpg",
+    "file": "assets/img/situations/tunnel.jpg"
+  },
+  "sortie": {
+    "title": "File:Autoroute 40 (sortie 319) Québec.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Gcrd\" ttle=\"User:Gcrd\" Grel Pcrd — Wikimedia Commons (CC BY-SA 4.0) — Autoroute 40 (sortie 319) Québec.jpg",
+    "file": "assets/img/situations/sortie.jpg"
+  },
+  "chantier": {
+    "title": "File:Sainpuits-FR-89-panneaux mobiles d'un chantier routier-1.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Frn%C3%A7os_GOGLINS\" ttle=\"User:Frnços GOGLINS — Wikimedia Commons (CC BY-SA 4.0) — Sainpuits-FR-89-panneaux mobiles d'un chantier routier-1.jpg",
+    "file": "assets/img/situations/chantier.jpg"
+  },
+  "pluie": {
+    "title": "File:Pluie en Vienne, 2014.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Mth\" ttle=\"User:Mth\" Mth — Wikimedia Commons (CC BY-SA 4.0) — Pluie en Vienne, 2014.jpg",
+    "file": "assets/img/situations/pluie.jpg"
+  },
+  "nuit": {
+    "title": "File:Rue de Nuits - 2016.JPG",
+    "credit": "d href=\"htts://www.wkdt.org/wk/Q42790984\" clss=\"extw\" ttle=\"d:Q42790984\" sn ttle — Wikimedia Commons (CC0) — Rue de Nuits - 2016.JPG",
+    "file": "assets/img/situations/nuit.jpg"
+  },
+  "brouillard": {
+    "title": "File:A410 panneaux AK32 KM9.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — A410 panneaux AK32 KM9.jpg",
+    "file": "assets/img/situations/brouillard.jpg"
+  },
+  "neige": {
+    "title": "File:Panneau B26 + M9z par temps de neige route de Sous-Lachat.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Panneau B26 + M9z par temps de neige route de Sous-Lachat.jpg",
+    "file": "assets/img/situations/neige.jpg"
+  },
+  "virage": {
+    "title": "File:Virage de Corte - btv1b53063135z.jpg",
+    "credit": "dv clss=\"fn vlue\" Agence Rol. Agence hotogrhque (commndtre) /dv — Wikimedia Commons (Public domain) — Virage de Corte - btv1b53063135z.jpg",
+    "file": "assets/img/situations/virage.jpg"
+  },
+  "dosane": {
+    "title": "File:Nephila inaurata dsc07682.jpg",
+    "credit": "Coyrght © 2005 href=\"//commons.wkmed.org/wk/User:Dvd.Monnux\" ttle=\"User:Dvd.Monn — Wikimedia Commons (CC BY-SA 3.0) — Nephila inaurata dsc07682.jpg",
+    "file": "assets/img/situations/dosane.jpg"
+  },
+  "ligne-continue": {
+    "title": "File:Début du boulevard de l'Hôpital (côté nord, trottoir est, Vichy) 2026-01-24.JPG",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Tl-tr\" ttle=\"User:Tl-tr\" Tl-tr — Wikimedia Commons (CC BY-SA 4.0) — Début du boulevard de l'Hôpital (côté nord, trottoir est, Vichy) 2026-01-24.JPG",
+    "file": "assets/img/situations/ligne-continue.jpg"
+  },
+  "ligne-discontinue": {
+    "title": "File:Avenue de Vichy (Bellerive-sur-Allier), lignes discontinues vers Gannat 2024-12-07.JPG",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Tl-tr\" ttle=\"User:Tl-tr\" Tl-tr — Wikimedia Commons (CC BY-SA 4.0) — Avenue de Vichy (Bellerive-sur-Allier), lignes discontinues vers Gannat 2024-12-07.JPG",
+    "file": "assets/img/situations/ligne-discontinue.jpg"
+  },
+  "sens-interdit": {
+    "title": "File:Panneau Michelin Sens Interdit Rue Claude Perrault - Créteil (FR94) - 2021-03-26 - 1.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Che01\" ttle=\"User:Che01\" Che01 — Wikimedia Commons (CC BY-SA 4.0) — Panneau Michelin Sens Interdit Rue Claude Perrault - Créteil (FR94) - 2021-03-26 - 1.jpg",
+    "file": "assets/img/situations/sens-interdit.jpg"
+  },
+  "zone30": {
+    "title": "File:Zone 30.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Brcetofly\" ttle=\"User:Brcetofly\" Brcetofly — Wikimedia Commons (CC0) — Zone 30.jpg",
+    "file": "assets/img/situations/zone30.jpg"
+  },
+  "agglomeration": {
+    "title": "File:Bonnu (Cuzion) - Panneau entrée agglomération bis.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Floy36\" ttle=\"User:Floy36\" Floy36 — Wikimedia Commons (CC BY-SA 3.0) — Bonnu (Cuzion) - Panneau entrée agglomération bis.jpg",
+    "file": "assets/img/situations/agglomeration.jpg"
+  },
+  "fin-agglo": {
+    "title": "File:City limit sign in Onet-le-Chateau.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Tournsol7\" ttle=\"User:Tournsol7\" Krzysztof Gol — Wikimedia Commons (CC BY-SA 4.0) — City limit sign in Onet-le-Chateau.jpg",
+    "file": "assets/img/situations/fin-agglo.jpg"
+  },
+  "travaux-panneau": {
+    "title": "File:Panneau AK14 KM9 orniérage.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Panneau AK14 KM9 orniérage.jpg",
+    "file": "assets/img/situations/travaux-panneau.jpg"
+  },
+  "radar": {
+    "title": "File:Marcellaz-Albanais - 74150 - 2024.08.22 - Radar automatique dégradé © Anthony Levrot.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Lev._Anthony\" ttle=\"User:Lev. Anthony\" Anthony — Wikimedia Commons (CC BY-SA 4.0) — Marcellaz-Albanais - 74150 - 2024.08.22 - Radar automatique dégradé © Anthony Levrot.jpg",
+    "file": "assets/img/situations/radar.jpg"
+  },
+  "priorite-droite": {
+    "title": "File:Lusignac 24 Limite D97E 2014.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:JLPC\" ttle=\"User:JLPC\" JLPC — Wikimedia Commons (CC BY-SA 3.0) — Lusignac 24 Limite D97E 2014.jpg",
+    "file": "assets/img/situations/priorite-droite.jpg"
+  },
+  "double-sens": {
+    "title": "File:Avenue Durin (Vichy) - VL 20, vers la rue Jean-Jaurès 2025-12-14.JPG",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Tl-tr\" ttle=\"User:Tl-tr\" Tl-tr — Wikimedia Commons (CC BY-SA 4.0) — Avenue Durin (Vichy) - VL 20, vers la rue Jean-Jaurès 2025-12-14.JPG",
+    "file": "assets/img/situations/double-sens.jpg"
+  },
+  "chaussee-etroite": {
+    "title": "File:FR 17 Port d'Envaux - Crue de la Charente et ouverture de la Chaussée Saint-James.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:KwNeko14\" ttle=\"User:KwNeko14\" KwNeko14 — Wikimedia Commons (CC BY-SA 4.0) — FR 17 Port d'Envaux - Crue de la Charente et ouverture de la Chaussée Saint-James.jpg",
+    "file": "assets/img/situations/chaussee-etroite.jpg"
+  },
+  "tourne-gauche": {
+    "title": "File:Avenue Poincaré (Vichy) - Plus de tourne-à-gauche et panneau priorité à droite rue des Jardins 2022-09-24.JPG",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Tl-tr\" ttle=\"User:Tl-tr\" Tl-tr — Wikimedia Commons (CC BY-SA 4.0) — Avenue Poincaré (Vichy) - Plus de tourne-à-gauche et panneau priorité à droite rue des Jardins 2022-09-24.JPG",
+    "file": "assets/img/situations/tourne-gauche.jpg"
+  },
+  "file-autoroute": {
+    "title": "File:Signal X1b SORTIE 8 TRAFIC PERTURBE TOUR DE FRANCE.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Signal X1b SORTIE 8 TRAFIC PERTURBE TOUR DE FRANCE.jpg",
+    "file": "assets/img/situations/file-autoroute.jpg"
+  },
+  "circulation-dense": {
+    "title": "File:Le Bouchon-sur-Saulx (Meuse) mairie.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Hvng(nl)\" ttle=\"User:Hvng(nl)\" Hvng(nl) — Wikimedia Commons (CC0) — Le Bouchon-sur-Saulx (Meuse) mairie.jpg",
+    "file": "assets/img/situations/circulation-dense.jpg"
+  },
+  "pont": {
+    "title": "File:Gaillac - Pont routier Saint-Michel.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Archeodontosurus\" ttle=\"User:Archeodontosurus\" — Wikimedia Commons (CC BY-SA 4.0) — Gaillac - Pont routier Saint-Michel.jpg",
+    "file": "assets/img/situations/pont.jpg"
+  },
+  "passage-pn": {
+    "title": "File:Saint-Maurice-de-Beynost - Passage à niveau de la gare 1 (avril 2019).jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Seleouf\" ttle=\"User:Seleouf\" Seleouf — Wikimedia Commons (CC BY-SA 4.0) — Saint-Maurice-de-Beynost - Passage à niveau de la gare 1 (avril 2019).jpg",
+    "file": "assets/img/situations/passage-pn.jpg"
+  },
+  "gravillons": {
+    "title": "File:Panneau Projection Gravillons Route Loëze St Cyr Menthon 2.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Che01\" ttle=\"User:Che01\" Che01 — Wikimedia Commons (CC BY-SA 4.0) — Panneau Projection Gravillons Route Loëze St Cyr Menthon 2.jpg",
+    "file": "assets/img/situations/gravillons.jpg"
+  },
+  "degrade": {
+    "title": "File:Parcmètre à Capbreton - Chaussée dégradée.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Tngoso\" ttle=\"User:Tngoso\" Tngoso — Wikimedia Commons (Public domain) — Parcmètre à Capbreton - Chaussée dégradée.jpg",
+    "file": "assets/img/situations/degrade.jpg"
+  },
+  "marquage": {
+    "title": "File:Marquage au sol, voie verte du canal du Rhône au Rhin, Allenjoie.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:TCY\" ttle=\"User:TCY\" TCY — Wikimedia Commons (CC BY-SA 4.0) — Marquage au sol, voie verte du canal du Rhône au Rhin, Allenjoie.jpg",
+    "file": "assets/img/situations/marquage.jpg"
+  },
+  "soleil": {
+    "title": "File:France, Arras, Grande Place Contre Jour - A42416.jpg",
+    "credit": "dv clss=\"fn vlue\" Gdmer Frédérc /dv — Wikimedia Commons (CC BY-SA 4.0) — France, Arras, Grande Place Contre Jour - A42416.jpg",
+    "file": "assets/img/situations/soleil.jpg"
+  },
+  "groupe-moto": {
+    "title": "File:Les motards de Rumonge au Burundi.jpg",
+    "credit": "href=\"//commons.wkmed.org/wndex.h?ttle=User:Nthonsgye&m;cton=edt&m;redlnk=1\" cls — Wikimedia Commons (CC BY-SA 4.0) — Les motards de Rumonge au Burundi.jpg",
+    "file": "assets/img/situations/groupe-moto.jpg"
+  },
+  "casque": {
+    "title": "File:Casque motard ricain mg 1711.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Rm\" ttle=\"User:Rm\" Rm — Wikimedia Commons (CC BY-SA 2.0 fr) — Casque motard ricain mg 1711.jpg",
+    "file": "assets/img/situations/casque.jpg"
+  },
+  "gilet": {
+    "title": "File:Uber Boda motorcycle and baboon.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Sdk\" ttle=\"User:Sdk\" Sdk — Wikimedia Commons (CC BY-SA 4.0) — Uber Boda motorcycle and baboon.jpg",
+    "file": "assets/img/situations/gilet.jpg"
+  },
+  "equip-pluie": {
+    "title": "File:La pluie et ces inondations.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:KODJOME_Romrc\" ttle=\"User:KODJOME Romrc\" KODJO — Wikimedia Commons (CC BY-SA 4.0) — La pluie et ces inondations.jpg",
+    "file": "assets/img/situations/equip-pluie.jpg"
+  },
+  "pneu": {
+    "title": "File:Moto transportant un pneu à Douala.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Photokdff\" ttle=\"User:Photokdff\" Photokdff — Wikimedia Commons (CC BY-SA 4.0) — Moto transportant un pneu à Douala.jpg",
+    "file": "assets/img/situations/pneu.jpg"
+  },
+  "chaine": {
+    "title": "File:ChainTool1.jpg",
+    "credit": "In Hrvey — Wikimedia Commons (Public domain) — ChainTool1.jpg",
+    "file": "assets/img/situations/chaine.jpg"
+  },
+  "phare": {
+    "title": "File:BMW R32 headlight Bosch 2023-02-23.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Wksymthsnt\" ttle=\"User:Wksymthsnt\" Wksymthsnt — Wikimedia Commons (CC BY-SA 4.0) — BMW R32 headlight Bosch 2023-02-23.jpg",
+    "file": "assets/img/situations/phare.jpg"
+  },
+  "moto-garee": {
+    "title": "File:FSBK Nogaro 2023 19 - Collecteurs moto.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:F123\" ttle=\"User:F123\" F123 — Wikimedia Commons (CC BY-SA 4.0) — FSBK Nogaro 2023 19 - Collecteurs moto.jpg",
+    "file": "assets/img/situations/moto-garee.jpg"
+  },
+  "controle": {
+    "title": "File:Contrôle de la route par la police en septembre 2021 à Rillieux-la-Pape.jpg",
+    "credit": "d href=\"htts://www.wkdt.org/wk/Q42790984\" clss=\"extw\" ttle=\"d:Q42790984\" sn ttle — Wikimedia Commons (CC0) — Contrôle de la route par la police en septembre 2021 à Rillieux-la-Pape.jpg",
+    "file": "assets/img/situations/controle.jpg"
+  },
+  "accident": {
+    "title": "File:Gendarmerie nationale - DIR Est, accident de la route, A4, 2015.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Kyh117\" ttle=\"User:Kyh117\" Kevn.B — Wikimedia Commons (CC BY-SA 4.0) — Gendarmerie nationale - DIR Est, accident de la route, A4, 2015.jpg",
+    "file": "assets/img/situations/accident.jpg"
+  },
+  "triangle": {
+    "title": "File:Triangle de présignalisation.JPG",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Roulex_45\" ttle=\"User:Roulex 45\" Roulex 45 — Wikimedia Commons (CC BY-SA 3.0) — Triangle de présignalisation.JPG",
+    "file": "assets/img/situations/triangle.jpg"
+  },
+  "panne": {
+    "title": "File:Air Mens Memorial St Edward's Leek.jpg",
+    "credit": "href=\"//commons.wkmed.org/wndex.h?ttle=User:Memorlmn&m;cton=edt&m;redlnk=1\" clss — Wikimedia Commons (CC BY-SA 4.0) — Air Mens Memorial St Edward's Leek.jpg",
+    "file": "assets/img/situations/panne.jpg"
+  },
+  "essence": {
+    "title": "File:AudienceTV France5 1994–2010.png",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Mrcel_Roln\" ttle=\"User:Mrcel Roln\" Mrcel Roln — Wikimedia Commons (CC BY-SA 4.0) — AudienceTV France5 1994–2010.png",
+    "file": "assets/img/situations/essence.jpg"
+  },
+  "parking": {
+    "title": "File:Parking Moto-étudiant.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Yomthurn\" ttle=\"User:Yomthurn\" Yomthurn — Wikimedia Commons (CC BY-SA 4.0) — Parking Moto-étudiant.jpg",
+    "file": "assets/img/situations/parking.jpg"
+  },
+  "pieton-ville": {
+    "title": "File:Passage piétons-vélos priorité aux piétons rue Victor Basch.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:VVVCFFrnce\" ttle=\"User:VVVCFFrnce\" VVVCFFrnce — Wikimedia Commons (CC BY-SA 4.0) — Passage piétons-vélos priorité aux piétons rue Victor Basch.jpg",
+    "file": "assets/img/situations/pieton-ville.jpg"
+  },
+  "enfant": {
+    "title": "File:Plaque école déportation enfants juifs, rue du Jardinet, Paris 6e.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Celette\" ttle=\"User:Celette\" Celette — Wikimedia Commons (CC BY-SA 4.0) — Plaque école déportation enfants juifs, rue du Jardinet, Paris 6e.jpg",
+    "file": "assets/img/situations/enfant.jpg"
+  },
+  "bus-arret": {
+    "title": "File:Arrêt Bus Cours Île Seguin Cours Île Seguin - Boulogne-Billancourt (FR92) - 2021-02-21 - 1.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Che01\" ttle=\"User:Che01\" Che01 — Wikimedia Commons (CC BY-SA 4.0) — Arrêt Bus Cours Île Seguin Cours Île Seguin - Boulogne-Billancourt (FR92) - 2021-02-21 - 1.jpg",
+    "file": "assets/img/situations/bus-arret.jpg"
+  },
+  "trottinette": {
+    "title": "File:Gabriel riding a kick scooter in a cycle lane, Lisbon, Portugal (PPL1-Corrected) julesvernex2.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Julesvernex2\" ttle=\"User:Julesvernex2\" Jules V — Wikimedia Commons (CC BY-SA 4.0) — Gabriel riding a kick scooter in a cycle lane, Lisbon, Portugal (PPL1-Corrected) julesvernex2.jpg",
+    "file": "assets/img/situations/trottinette.jpg"
+  },
+  "animal": {
+    "title": "File:Panneau 1.24 Passage de gibier route de Choulex.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Panneau 1.24 Passage de gibier route de Choulex.jpg",
+    "file": "assets/img/situations/animal.jpg"
+  },
+  "cavalier": {
+    "title": "File:Verlinghem chemin muchots chevaux.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Velvet\" ttle=\"User:Velvet\" Velvet — Wikimedia Commons (CC BY-SA 4.0) — Verlinghem chemin muchots chevaux.jpg",
+    "file": "assets/img/situations/cavalier.jpg"
+  },
+  "taxi": {
+    "title": "File:Taking Taxi from hole in Paris St. (LOC).jpg",
+    "credit": "Bn News Servce — Wikimedia Commons (Public domain) — Taking Taxi from hole in Paris St. (LOC).jpg",
+    "file": "assets/img/situations/taxi.jpg"
+  },
+  "porte-ouverte": {
+    "title": "File:Fermeture d'une portière de voiture lors d'un démarrage.png",
+    "credit": "href=\"//commons.wkmed.org/wndex.h?ttle=User:Phl7605&m;cton=edt&m;redlnk=1\" clss= — Wikimedia Commons (CC BY-SA 4.0) — Fermeture d'une portière de voiture lors d'un démarrage.png",
+    "file": "assets/img/situations/porte-ouverte.jpg"
+  },
+  "angle-mort-photo": {
+    "title": "File:Le César de 1815 (NAPOLEON 124).jpg",
+    "credit": "Perre-Joseh Mothey — Wikimedia Commons (Public domain) — Le César de 1815 (NAPOLEON 124).jpg",
+    "file": "assets/img/situations/angle-mort-photo.jpg"
+  },
+  "deux-roues-feu": {
+    "title": "File:Uniformen der Deutschen Polizei Juni 1939 Tafel 1 Ordnungs- Schutz Wasserschutz Gendarmerie Verkehrsdienst Feuerschutz Atelier Egon Jantke Berlin Nazi Germany police uniforms Wall Chart poster Modern day cleaned copy.jpg",
+    "credit": "Offcl nformton ssued y the Leder of the Schutzstffel (SS) nd the Polce forces of — Wikimedia Commons (CC BY-SA 4.0) — Uniformen der Deutschen Polizei Juni 1939 Tafel 1 Ordnungs- Schutz Wasserschutz Gendarmerie Verkehrsdienst Feuerschutz Atelier Egon Jantke Berlin Nazi Germany police uniforms Wall Chart poster Modern day cleaned copy.jpg",
+    "file": "assets/img/situations/deux-roues-feu.jpg"
+  },
+  "interfiles": {
+    "title": "File:Motorcyclists lane splitting in Bangkok, Thailand.jpg",
+    "credit": "rel=\"nofollow\" clss=\"externl text\" href=\"htts://www.flckr.comhotos/17893072@N00\" — Wikimedia Commons (CC BY 2.0) — Motorcyclists lane splitting in Bangkok, Thailand.jpg",
+    "file": "assets/img/situations/interfiles.jpg"
+  },
+  "voie-verte": {
+    "title": "File:Argelès-Gazost Voie Verte 02.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Bsotxerr\" ttle=\"User:Bsotxerr\" Bsotxerr — Wikimedia Commons (CC BY-SA 4.0) — Argelès-Gazost Voie Verte 02.jpg",
+    "file": "assets/img/situations/voie-verte.jpg"
+  },
+  "aire-pietonne": {
+    "title": "File:Rue de la Constitution, aire piétonne (Cusset) 2023-09-17.JPG",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Tl-tr\" ttle=\"User:Tl-tr\" Tl-tr — Wikimedia Commons (CC BY-SA 4.0) — Rue de la Constitution, aire piétonne (Cusset) 2023-09-17.JPG",
+    "file": "assets/img/situations/aire-pietonne.jpg"
+  },
+  "peage-moto": {
+    "title": "File:Tunnel sous un autoroute à péage.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Bcr_Doum\" ttle=\"User:Bcr Doum\" Bcr Doum — Wikimedia Commons (CC BY-SA 4.0) — Tunnel sous un autoroute à péage.jpg",
+    "file": "assets/img/situations/peage-moto.jpg"
+  },
+  "aire-service": {
+    "title": "File:Aire des Pyrénées.JPG",
+    "credit": "ENSA de Toulouse - Ateler S4 2015 Chrstohe Hutn — Wikimedia Commons (CC BY-SA 4.0) — Aire des Pyrénées.JPG",
+    "file": "assets/img/situations/aire-service.jpg"
+  },
+  "eclairage-defaut": {
+    "title": "File:Los Angeles (California, USA), South Olive Street -- 2012 -- 4847.jpg",
+    "credit": "d href=\"htts://www.wkdt.org/wk/Q34788025\" clss=\"extw\" ttle=\"d:Q34788025\" sn ttle — Wikimedia Commons (CC BY-SA 4.0) — Los Angeles (California, USA), South Olive Street -- 2012 -- 4847.jpg",
+    "file": "assets/img/situations/eclairage-defaut.jpg"
+  },
+  "flaque": {
+    "title": "File:Grande flaque d'eau sur une route forestière (Rhône, France, août 2018).jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Seleouf\" ttle=\"User:Seleouf\" Seleouf — Wikimedia Commons (CC BY-SA 4.0) — Grande flaque d'eau sur une route forestière (Rhône, France, août 2018).jpg",
+    "file": "assets/img/situations/flaque.jpg"
+  },
+  "feuilles": {
+    "title": "File:Leaves on a wet road - geograph.org.uk - 1567985.jpg",
+    "credit": "rel=\"nofollow\" clss=\"externl text\" href=\"htts://www.geogrh.org.ukrofle/23895\" ro — Wikimedia Commons (CC BY-SA 2.0) — Leaves on a wet road - geograph.org.uk - 1567985.jpg",
+    "file": "assets/img/situations/feuilles.jpg"
+  },
+  "verglas": {
+    "title": "File:Route enneigée avec panneaux chaussée glissante, verglas fréquent 02.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Route enneigée avec panneaux chaussée glissante, verglas fréquent 02.jpg",
+    "file": "assets/img/situations/verglas.jpg"
+  },
+  "orriere": {
+    "title": "File:Pigeon Point Lighthouse, State Highway 1, Pescadero, San Mateo County, CA HABS CAL,41-PESC.V,1- (sheet 2 of 5).tif",
+    "credit": "dv clss=\"fn vlue\" Relted nmes: dl dd Jndol, Lz, trnsmtter /dd /dl /dv — Wikimedia Commons (Public domain) — Pigeon Point Lighthouse, State Highway 1, Pescadero, San Mateo County, CA HABS CAL,41-PESC.V,1- (sheet 2 of 5).tif",
+    "file": "assets/img/situations/orriere.jpg"
+  },
+  "vent": {
+    "title": "File:FR 17 Vergeroux - Route D137 - PMV avec XA24 et XC50.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:KwNeko14\" ttle=\"User:KwNeko14\" KwNeko14 — Wikimedia Commons (CC BY-SA 4.0) — FR 17 Vergeroux - Route D137 - PMV avec XA24 et XC50.jpg",
+    "file": "assets/img/situations/vent.jpg"
+  },
+  "camion-depassement": {
+    "title": "File:Dédoublement de camions.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Rchd_snouss\" ttle=\"User:Rchd snouss\" Rchd snou — Wikimedia Commons (CC BY-SA 4.0) — Dédoublement de camions.jpg",
+    "file": "assets/img/situations/camion-depassement.jpg"
+  },
+  "velo-ville": {
+    "title": "File:Maurice Ville 1925.jpg",
+    "credit": "d href=\"htts://www.wkdt.org/wk/Q18507700\" clss=\"extw\" ttle=\"d:Q18507700\" sn ttle — Wikimedia Commons (Public domain) — Maurice Ville 1925.jpg",
+    "file": "assets/img/situations/velo-ville.jpg"
+  },
+  "trottoir": {
+    "title": "File:Piétons prioritaires, trottoir traversant, Petit-Lancy-2.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:MHM55\" ttle=\"User:MHM55\" MHM55 — Wikimedia Commons (CC BY-SA 4.0) — Piétons prioritaires, trottoir traversant, Petit-Lancy-2.jpg",
+    "file": "assets/img/situations/trottoir.jpg"
+  },
+  "passage-souterrain": {
+    "title": "File:Châtillon (Rhône) - Passage souterrain piéton (août 2018).jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Seleouf\" ttle=\"User:Seleouf\" Seleouf — Wikimedia Commons (CC BY-SA 4.0) — Châtillon (Rhône) - Passage souterrain piéton (août 2018).jpg",
+    "file": "assets/img/situations/passage-souterrain.jpg"
+  },
+  "rondpoint-feux": {
+    "title": "File:Paris comique sous le second Empire.png",
+    "credit": "href=\"//commons.wkmed.org/wndex.h?ttle=User:Etenneernrd45&m;cton=edt&m;redlnk=1\" — Wikimedia Commons (CC0) — Paris comique sous le second Empire.png",
+    "file": "assets/img/situations/rondpoint-feux.jpg"
+  },
+  "carrefour-giratoire": {
+    "title": "File:Panneau KD42 giratoire (France) à Saintes (Charente-Maritime).JPG",
+    "credit": "href=\"//commons.wkmed.org/wk/User:KwNeko14\" ttle=\"User:KwNeko14\" KwNeko14 — Wikimedia Commons (CC BY-SA 4.0) — Panneau KD42 giratoire (France) à Saintes (Charente-Maritime).JPG",
+    "file": "assets/img/situations/carrefour-giratoire.jpg"
+  },
+  "sens-unique": {
+    "title": "File:Trottinettes VOI, armoire de rue des feux routiers et panneau à l'intersection des rues Mazenod et Garibaldi (Lyon).jpg",
+    "credit": "d href=\"htts://www.wkdt.org/wk/Q42790984\" clss=\"extw\" ttle=\"d:Q42790984\" sn ttle — Wikimedia Commons (CC0) — Trottinettes VOI, armoire de rue des feux routiers et panneau à l'intersection des rues Mazenod et Garibaldi (Lyon).jpg",
+    "file": "assets/img/situations/sens-unique.jpg"
+  },
+  "stationnement-genant": {
+    "title": "File:Dornbirn-Illegal and ruthless vehicles parked by craftsmen-02ASD.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Asurnl\" ttle=\"User:Asurnl\" Asurnl — Wikimedia Commons (CC BY-SA 4.0) — Dornbirn-Illegal and ruthless vehicles parked by craftsmen-02ASD.jpg",
+    "file": "assets/img/situations/stationnement-genant.jpg"
+  },
+  "double-file": {
+    "title": "File:Vienna - Double guitar Paris 1690 - 9606.jpg",
+    "credit": "Jorge Royn — Wikimedia Commons (CC BY-SA 3.0) — Vienna - Double guitar Paris 1690 - 9606.jpg",
+    "file": "assets/img/situations/double-file.jpg"
+  },
+  "travaux-pieton": {
+    "title": "File:Travaux d'élargissement du pont de la Concorde, la passerelle pour piétons - A64662.jpg",
+    "credit": "dv clss=\"fn vlue\" Léon Auguste /dv — Wikimedia Commons (CC0) — Travaux d'élargissement du pont de la Concorde, la passerelle pour piétons - A64662.jpg",
+    "file": "assets/img/situations/travaux-pieton.jpg"
+  },
+  "corridor": {
+    "title": "File:UsineMalvesi 2019.jpg",
+    "credit": "href=\"//commons.wkmed.org/wndex.h?ttle=User:MunyTnkey&m;cton=edt&m;redlnk=1\" cls — Wikimedia Commons (CC BY-SA 4.0) — UsineMalvesi 2019.jpg",
+    "file": "assets/img/situations/corridor.jpg"
+  },
+  "radar-panneau": {
+    "title": "File:Panneau SR3a contrôles automatiques à Bastia.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Panneau SR3a contrôles automatiques à Bastia.jpg",
+    "file": "assets/img/situations/radar-panneau.jpg"
+  },
+  "fin-autoroute": {
+    "title": "File:A43 à l'entrée de la Maurienne en soirée (septembre 2024).JPG",
+    "credit": "Florn Péelln — Wikimedia Commons (CC BY-SA 4.0) — A43 à l'entrée de la Maurienne en soirée (septembre 2024).JPG",
+    "file": "assets/img/situations/fin-autoroute.jpg"
+  },
+  "bretelle-sortie": {
+    "title": "File:Entrée bretelle Sortie 18 VRU côté Chambéry (été 2020).JPG",
+    "credit": "Florn Péelln — Wikimedia Commons (CC BY-SA 4.0) — Entrée bretelle Sortie 18 VRU côté Chambéry (été 2020).JPG",
+    "file": "assets/img/situations/bretelle-sortie.jpg"
+  },
+  "peage-barriere": {
+    "title": "File:Paris - Gare péage Cofiroute.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Qustnx\" ttle=\"User:Qustnx\" Qustnx — Wikimedia Commons (CC BY 3.0) — Paris - Gare péage Cofiroute.jpg",
+    "file": "assets/img/situations/peage-barriere.jpg"
+  },
+  "moto-equipement": {
+    "title": "File:Motorcycle rider fall.jpg",
+    "credit": "rel=\"nofollow\" clss=\"externl text\" href=\"htts://flckr.comeole/25593194@N04\" Frnc — Wikimedia Commons (CC BY-SA 2.0) — Motorcycle rider fall.jpg",
+    "file": "assets/img/situations/moto-equipement.jpg"
+  },
+  "gants-moto": {
+    "title": "File:Comet-Hale-Bopp-29-03-1997 hires adj.jpg",
+    "credit": "rel=\"nofollow\" clss=\"externl text\" href=\"htt://slzgeer.t\" Phl Slzgeer — Wikimedia Commons (CC BY-SA 2.0 at) — Comet-Hale-Bopp-29-03-1997 hires adj.jpg",
+    "file": "assets/img/situations/gants-moto.jpg"
+  },
+  "bottes-moto": {
+    "title": "File:Disegno raff. distribuzione forza motrice nel caseificio - Musei del cibo - Parmigiano - 166b.tif",
+    "credit": "Wkmed Commons — Wikimedia Commons (CC BY-SA 3.0) — Disegno raff. distribuzione forza motrice nel caseificio - Musei del cibo - Parmigiano - 166b.tif",
+    "file": "assets/img/situations/bottes-moto.jpg"
+  },
+  "casque-ouvert": {
+    "title": "File:Full-Face Helmet 9274.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Ashley_Pomeroy\" ttle=\"User:Ashley Pomeroy\" Ash — Wikimedia Commons (CC BY-SA 4.0) — Full-Face Helmet 9274.jpg",
+    "file": "assets/img/situations/casque-ouvert.jpg"
+  },
+  "pneu-crevaison": {
+    "title": "File:Réparation crevaison moto.JPG",
+    "credit": "href=\"//commons.wkmed.org/wk/User:GullumeG\" ttle=\"User:GullumeG\" GullumeG — Wikimedia Commons (CC BY-SA 3.0) — Réparation crevaison moto.JPG",
+    "file": "assets/img/situations/pneu-crevaison.jpg"
+  },
+  "frein-disque": {
+    "title": "File:Ghezzi & Brian Super Twin 1100.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Cj24\" ttle=\"User:Cj24\" Cj24 — Wikimedia Commons (CC BY-SA 3.0) — Ghezzi & Brian Super Twin 1100.jpg",
+    "file": "assets/img/situations/frein-disque.jpg"
+  },
+  "retro-moto": {
+    "title": "File:Rétroviseur de moto à deux roues exposé pour la vente dans une rue à Cotonou au Bénin.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Adoscm\" ttle=\"User:Adoscm\" Adoscm — Wikimedia Commons (Public domain) — Rétroviseur de moto à deux roues exposé pour la vente dans une rue à Cotonou au Bénin.jpg",
+    "file": "assets/img/situations/retro-moto.jpg"
+  },
+  "huile-moteur": {
+    "title": "File:Motor oil for cars and motorcycles from various producers in German hardware store.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Pttgrll\" ttle=\"User:Pttgrll\" Pttgrll — Wikimedia Commons (CC0) — Motor oil for cars and motorcycles from various producers in German hardware store.jpg",
+    "file": "assets/img/situations/huile-moteur.jpg"
+  },
+  "batterie-moto": {
+    "title": "File:Booster Batterie Dépannage voiture.jpg",
+    "credit": "Mgc Booster — Wikimedia Commons (CC BY-SA 4.0) — Booster Batterie Dépannage voiture.jpg",
+    "file": "assets/img/situations/batterie-moto.jpg"
+  },
+  "controle-technique": {
+    "title": "File:Vignette contrôle technique 2018.jpg",
+    "credit": "href=\"//commons.wkmed.org/wndex.h?ttle=User:Celestn92&m;cton=edt&m;redlnk=1\" cls — Wikimedia Commons (CC BY-SA 4.0) — Vignette contrôle technique 2018.jpg",
+    "file": "assets/img/situations/controle-technique.jpg"
+  },
+  "carte-grise": {
+    "title": "File:Permis carte grise et verte france.JPG",
+    "credit": "orgnux refecture et ssurnce — Wikimedia Commons (Public domain) — Permis carte grise et verte france.JPG",
+    "file": "assets/img/situations/carte-grise.jpg"
+  },
+  "assurance": {
+    "title": "File:Le Chesne-FR-08-Irizar i6s-a5.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Frn%C3%A7os_GOGLINS\" ttle=\"User:Frnços GOGLINS — Wikimedia Commons (CC BY-SA 4.0) — Le Chesne-FR-08-Irizar i6s-a5.jpg",
+    "file": "assets/img/situations/assurance.jpg"
+  },
+  "telephone-volant": {
+    "title": "File:A1 telephone mobile interdit au volant - panoramio.jpg",
+    "credit": "rel=\"nofollow\" clss=\"externl text\" href=\"htts://we.rchve.org/we/20161020085207/h — Wikimedia Commons (CC BY 3.0) — A1 telephone mobile interdit au volant - panoramio.jpg",
+    "file": "assets/img/situations/telephone-volant.jpg"
+  },
+  "fatigue-autoroute": {
+    "title": "File:Merceuil-FR-21-autoroute A6-aire de repos-01.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Frn%C3%A7os_GOGLINS\" ttle=\"User:Frnços GOGLINS — Wikimedia Commons (CC BY-SA 4.0) — Merceuil-FR-21-autoroute A6-aire de repos-01.jpg",
+    "file": "assets/img/situations/fatigue-autoroute.jpg"
+  },
+  "bouchon-ville": {
+    "title": "File:L'autre embouteillage, enlèvement de véhicule en cours (D 480, Lapalisse) 2024-10-12 12-47-56.JPG",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Tl-tr\" ttle=\"User:Tl-tr\" Tl-tr — Wikimedia Commons (CC BY-SA 4.0) — L'autre embouteillage, enlèvement de véhicule en cours (D 480, Lapalisse) 2024-10-12 12-47-56.JPG",
+    "file": "assets/img/situations/bouchon-ville.jpg"
+  },
+  "pollution": {
+    "title": "File:Pollution atmosphérique de la ville de Nice par l'incinérateur de déchets.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Aerocenute\" ttle=\"User:Aerocenute\" Aerocenute — Wikimedia Commons (CC BY-SA 4.0) — Pollution atmosphérique de la ville de Nice par l'incinérateur de déchets.jpg",
+    "file": "assets/img/situations/pollution.jpg"
+  },
+  "faune": {
+    "title": "File:Ronno - Panneau A15b animaux sauvages RD 98 (sept 2022).jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Seleouf\" ttle=\"User:Seleouf\" Seleouf — Wikimedia Commons (CC BY-SA 4.0) — Ronno - Panneau A15b animaux sauvages RD 98 (sept 2022).jpg",
+    "file": "assets/img/situations/faune.jpg"
+  },
+  "zone-nature": {
+    "title": "File:Guyane D6 Parc naturel régional de la Guyane.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Cyme\" ttle=\"User:Cyme\" Cyme — Wikimedia Commons (CC BY-SA 3.0) — Guyane D6 Parc naturel régional de la Guyane.jpg",
+    "file": "assets/img/situations/zone-nature.jpg"
+  },
+  "secours-accident": {
+    "title": "File:Les pompiers interviennent lors d'un accident d'avion sur le terrain de Vincennes, septembre 1937 - Excelsior - bpt6k4611899q 2.jpg",
+    "credit": "Unknown hotogrher — Wikimedia Commons (Public domain) — Les pompiers interviennent lors d'un accident d'avion sur le terrain de Vincennes, septembre 1937 - Excelsior - bpt6k4611899q 2.jpg",
+    "file": "assets/img/situations/secours-accident.jpg"
+  },
+  "samu": {
+    "title": "File:Fiat SAMU 54 ambulance in Nancy, pic2.JPG",
+    "credit": "Alf vn Beem — Wikimedia Commons (CC0) — Fiat SAMU 54 ambulance in Nancy, pic2.JPG",
+    "file": "assets/img/situations/samu.jpg"
+  },
+  "gilet-secours": {
+    "title": "File:Acte10 12.jpg",
+    "credit": "href=\"//commons.wkmed.org/wk/User:Stefn_jouen\" ttle=\"User:Stefn jouen\" Stefn jou — Wikimedia Commons (CC BY-SA 4.0) — Acte10 12.jpg",
+    "file": "assets/img/situations/gilet-secours.jpg"
+  }
+}
