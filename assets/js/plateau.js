@@ -7,6 +7,7 @@
   const x = (meters) => X0 + meters * M;
   const y = (frac) => Y0 + frac * TH;
 
+  // C6 ≈ 52 m depuis A (pas 15,75 m avant B). Freinage au retour : C6 → C5 = 15,75 m (C4 = +3,90 m si humide).
   const C6 = 52;
   const C5 = C6 - 15.75;
   const C4 = C6 - 19.65;
@@ -101,7 +102,7 @@
       color: "#38bdf8",
       pathId: "path-lent",
       cues: [
-        { t: 0, action: "clutch", text: "Départ zone A. Patinage + frein arrière. Chrono portes 1→2 : ≥ 16 s = A (environ 17 m, ~4 km/h)." },
+        { t: 0, action: "clutch", text: "Départ zone A. Patinage + frein arrière. Chrono portes 1→2 : ≥ 16 s = A (~17 m au pas, puis 10–15 km/h vers le bleu)." },
         { t: 0.35, action: "look", text: "Ne fixez pas le piquet : visez l’intervalle suivant. On reste dans les 6 m." },
         { t: 0.7, action: "clutch", text: "Couloir lent, puis arrêt au point 4 : roue avant avant le cône bleu." },
       ],
@@ -362,16 +363,23 @@
         { path: back, from: 0, to: 1, v0: V_WALK, v1: V_WALK },
       ];
     }
-    if (step.id === "lent" || step.id === "passager") {
-      return [{ path, from: 0, to: 1, v0: V_SLOW, v1: V_SLOW }];
+    if (step.id === "lent") {
+      return [
+        { path, from: 0, to: 0.32, v0: V_SLOW, v1: V_SLOW },
+        { path, from: 0.32, to: 1, v0: 2.5, v1: 3.6 },
+      ];
+    }
+    if (step.id === "passager") {
+      return [{ path, from: 0, to: 1, v0: 1.6, v1: 2.2 }];
     }
     if (step.id === "freinage") {
-      const brake = Math.min(0.2, 15.75 / len);
-      const hold = 0.1;
-      const turn = 0.3;
+      const brake = Math.min(0.18, 15.75 / len);
+      const hold = 0.12;
       return [
-        { path, from: 0, to: turn, v0: V_TURN, v1: V_TURN },
-        { path, from: turn, to: 1 - brake - hold, v0: 5, v1: V50 },
+        { path, from: 0, to: 0.12, v0: V_TURN, v1: 4 },
+        { path, from: 0.12, to: 0.42, v0: 6, v1: 9 },
+        { path, from: 0.42, to: 0.52, v0: 6, v1: V_TURN },
+        { path, from: 0.52, to: 1 - brake - hold, v0: 8, v1: V50 },
         { path, from: 1 - brake - hold, to: 1 - brake, v0: V50, v1: V50 },
         { path, from: 1 - brake, to: 1, v0: V50, v1: 0.5 },
       ];
