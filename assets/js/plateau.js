@@ -356,7 +356,6 @@
   }
 
   function motionPlan(step, path, back) {
-    const len = path.getTotalLength() / M;
     if (step.id === "poussette") {
       return [
         { path, from: 0, to: 1, v0: V_WALK, v1: V_WALK },
@@ -374,15 +373,16 @@
       return [{ path, from: 0, to: 1, v0: 1.6, v1: 2.2 }];
     }
     if (step.id === "freinage") {
-      const brake = Math.min(0.18, 15.75 / len);
-      const hold = 0.12;
+      const c6 = fracAtX(path, x(C6), 0.55, 1);
+      const hold = Math.min(0.12, Math.max(0.05, c6 - 0.55));
+      const accelEnd = Math.max(0.53, c6 - hold);
       return [
         { path, from: 0, to: 0.12, v0: V_TURN, v1: 4 },
         { path, from: 0.12, to: 0.42, v0: 6, v1: 9 },
         { path, from: 0.42, to: 0.52, v0: 6, v1: V_TURN },
-        { path, from: 0.52, to: 1 - brake - hold, v0: 8, v1: V50 },
-        { path, from: 1 - brake - hold, to: 1 - brake, v0: V50, v1: V50 },
-        { path, from: 1 - brake, to: 1, v0: V50, v1: 0.5 },
+        { path, from: 0.52, to: accelEnd, v0: 8, v1: V50 },
+        { path, from: accelEnd, to: c6, v0: V50, v1: V50 },
+        { path, from: c6, to: 1, v0: V50, v1: 0.5 },
       ];
     }
     if (step.id === "slalom") {
@@ -392,20 +392,87 @@
         { path, from: 0.82, to: 1, v0: V40, v1: V_TURN },
       ];
     }
+    const c6 = fracAtX(path, x(C6), 0.25, 0.85);
+    const dodge = Math.min(0.92, Math.max(c6 + 0.08, c6 + 0.14));
     return [
-      { path, from: 0, to: 0.2, v0: 8, v1: V50 },
-      { path, from: 0.2, to: 0.55, v0: V50, v1: V50 },
-      { path, from: 0.55, to: 0.72, v0: V50, v1: 10 },
-      { path, from: 0.72, to: 1, v0: 10, v1: 0.6 },
+      { path, from: 0, to: Math.min(0.18, c6 * 0.35), v0: 8, v1: V50 },
+      { path, from: Math.min(0.18, c6 * 0.35), to: c6, v0: V50, v1: V50 },
+      { path, from: c6, to: dodge, v0: V50, v1: 9 },
+      { path, from: dodge, to: 1, v0: 8, v1: 0.6 },
     ];
   }
 
+  function fracAtX(path, targetX, from = 0, to = 1) {
+    const len = path.getTotalLength();
+    let best = from;
+    let bestD = Infinity;
+    for (let i = 0; i <= 240; i += 1) {
+      const f = from + (to - from) * (i / 240);
+      const p = path.getPointAtLength(f * Math.max(len, 1));
+      const d = Math.abs(p.x - targetX);
+      if (d < bestD) {
+        bestD = d;
+        best = f;
+      }
+    }
+    return best;
+  }
+
+  function timeFracAtPath(plan, pathFrac) {
+    const total = plan.reduce((s, it) => s + it.duration, 0) || 1;
+    let acc = 0;
+    for (const item of plan) {
+      if (item.pause) {
+        acc += item.duration;
+        continue;
+      }
+      if (pathFrac <= item.from + 1e-6) return acc / total;
+      if (pathFrac <= item.to) {
+        const span = item.to - item.from || 1;
+        return (acc + ((pathFrac - item.from) / span) * item.duration) / total;
+      }
+      acc += item.duration;
+    }
+    return 1;
+  }
+
+  function cuesFor(step, plan, path) {
+    const base = step.cues;
+    if (step.id === "freinage") {
+      const c6 = fracAtX(path, x(C6), 0.55, 1);
+      return [
+        { t: 0, action: "look", text: base[0].text },
+        { t: timeFracAtPath(plan, 0.52), action: "gas", text: base[1].text },
+        { t: Math.max(0, timeFracAtPath(plan, c6) - 0.02), action: "look", text: base[2].text },
+        { t: timeFracAtPath(plan, c6), action: "brake", text: base[3].text },
+      ];
+    }
+    if (step.id === "slalom") {
+      return [
+        { t: 0, action: "gas", text: base[0].text },
+        { t: timeFracAtPath(plan, fracAtX(path, x(C7))), action: "look", text: base[1].text },
+        { t: 0.82, action: "look", text: base[2].text },
+      ];
+    }
+    if (step.id === "evitement") {
+      const c6 = fracAtX(path, x(C6), 0.25, 0.85);
+      return [
+        { t: 0, action: "gas", text: base[0].text },
+        { t: Math.max(0, timeFracAtPath(plan, c6) - 0.04), action: "look", text: base[1].text },
+        { t: timeFracAtPath(plan, c6), action: "look", text: base[2].text },
+        { t: timeFracAtPath(plan, Math.min(1, c6 + 0.15)), action: "brake", text: base[3].text },
+      ];
+    }
+    return base;
+  }
+
   function compilePlan(raw) {
-    return raw.map((item) => {
-      if (item.pause) return { pause: item.pause, duration: item.pause, v0: 0, v1: 0 };
-      const lenM = pathMeters(item.path, item.from, item.to);
-      const duration = segDuration(lenM, item.v0, item.v1);
-      return { ...item, lenM, duration };
+    return raw.flatMap((item) => {
+      if (item.pause) return [{ pause: item.pause, duration: item.pause, v0: 0, v1: 0 }];
+      if (item.to <= item.from + 1e-4) return [];
+      const lenM = Math.max(pathMeters(item.path, item.from, item.to), 0.05);
+      const duration = Math.max(segDuration(lenM, item.v0, item.v1), 0.05);
+      return [{ ...item, lenM, duration }];
     });
   }
 
@@ -486,10 +553,11 @@
     const back = step.twoWay ? document.getElementById(step.backPathId) : null;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const plan = compilePlan(motionPlan(step, path, back));
+    const cues = cuesFor(step, plan, path);
     const total = plan.reduce((sum, item) => sum + item.duration, 0);
     root.dataset.planSec = total.toFixed(1);
     if (reduce) {
-      const last = step.cues[step.cues.length - 1];
+      const last = cues[cues.length - 1];
       const endPath = back || path;
       placeBikeOn(endPath, 1);
       caption.textContent = last.text;
@@ -507,7 +575,7 @@
       if (!playing) return;
       const item = plan[seg];
       if (!item) {
-        const last = step.cues[step.cues.length - 1];
+        const last = cues[cues.length - 1];
         caption.textContent = last.text;
         setBadge(last.action);
         setSpeed(0, total);
@@ -517,7 +585,7 @@
       }
       const u = (now - t0) / (item.duration * 1000);
       const elapsed = plan.slice(0, seg).reduce((s, it) => s + it.duration, 0) + Math.min(1, u) * item.duration;
-      const cue = cueAt(step, elapsed / total);
+      const cue = cueAt({ cues }, elapsed / total);
       caption.textContent = cue.text;
       setBadge(cue.action);
       if (item.pause) {
