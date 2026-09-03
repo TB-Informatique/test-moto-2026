@@ -630,6 +630,18 @@ td {
   font-weight: 600;
 }
 
+.live-speed {
+  margin: 0 10px 8px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+  font-size: 1.15rem;
+  color: #94a3b8;
+}
+
+.live-speed[data-fast="1"] {
+  color: #fbbf24;
+}
+
 #live-badges {
   display: flex;
   flex-wrap: wrap;

@@ -6,10 +6,19 @@
   const M = TW / 130;
   const x = (meters) => X0 + meters * M;
   const y = (frac) => Y0 + frac * TH;
-  const C4 = 16;
-  const C5 = 19.9;
-  const C6 = 35.65;
-  const C7 = 74;
+
+  // C6 ≈ 52 m depuis A (pas 15,75 m avant B). Freinage au retour : C6 → C5 = 15,75 m (C4 = +3,90 m si humide).
+  const C6 = 52;
+  const C5 = C6 - 15.75;
+  const C4 = C6 - 19.65;
+  const SLALOM = [52.5, 70, 87.5, 105];
+  const C7 = SLALOM[2];
+
+  const V_WALK = 1.15;
+  const V_SLOW = 1.05;
+  const V_TURN = 2.4;
+  const V40 = 40 / 3.6;
+  const V50 = 50 / 3.6;
 
   function slalomD(start, cones, end, yLo, yHi) {
     const pts = [start];
@@ -31,44 +40,35 @@
   const Y_HI = y(0.22);
   const Y_MID = y(0.5);
   const RIGHT = x(126);
-  const LEFT_A = x(8);
-
-  const slowConesM = [48, 56, 64, 72, 80];
-  const fastConesM = [58, 66, 74, 82, 90];
 
   const PATHS = {
-    poussette: `M${x(4).toFixed(1)} ${Y_MID.toFixed(1)} H${x(16).toFixed(1)}`,
-    poussetteBack: `M${x(16).toFixed(1)} ${Y_MID.toFixed(1)} H${x(4).toFixed(1)}`,
+    poussette: `M${x(1).toFixed(1)} ${Y_MID.toFixed(1)} H${x(5).toFixed(1)}`,
+    poussetteBack: `M${x(5).toFixed(1)} ${Y_MID.toFixed(1)} H${x(1).toFixed(1)}`,
     lent:
-      slalomD([LEFT_A, Y_LO], slowConesM.map(x), [x(118), Y_LO], Y_LO, Y_HI) +
-      ` C${x(124).toFixed(1)} ${Y_LO.toFixed(1)} ${RIGHT.toFixed(1)} ${Y_LO.toFixed(1)} ${RIGHT.toFixed(1)} ${Y_MID.toFixed(1)}` +
-      ` C${RIGHT.toFixed(1)} ${Y_HI.toFixed(1)} ${x(118).toFixed(1)} ${Y_HI.toFixed(1)} ${x(110).toFixed(1)} ${Y_HI.toFixed(1)}` +
-      ` L${x(42).toFixed(1)} ${Y_HI.toFixed(1)}` +
-      ` C${x(38).toFixed(1)} ${Y_HI.toFixed(1)} ${x(36).toFixed(1)} ${Y_MID.toFixed(1)} ${x(40).toFixed(1)} ${Y_MID.toFixed(1)}`,
+      slalomD([x(8), Y_MID], [x(10), x(16), x(22)], [x(28), Y_MID], y(0.32), y(0.68)) +
+      ` L${x(35).toFixed(1)} ${Y_MID.toFixed(1)}`,
     freinage:
-      `M${x(40).toFixed(1)} ${Y_MID.toFixed(1)}` +
-      ` C${x(48).toFixed(1)} ${Y_MID.toFixed(1)} ${x(52).toFixed(1)} ${Y_LO.toFixed(1)} ${x(70).toFixed(1)} ${Y_LO.toFixed(1)}` +
+      `M${x(35).toFixed(1)} ${Y_MID.toFixed(1)}` +
+      ` C${x(42).toFixed(1)} ${Y_MID.toFixed(1)} ${x(46).toFixed(1)} ${Y_LO.toFixed(1)} ${x(50).toFixed(1)} ${Y_LO.toFixed(1)}` +
       ` L${x(118).toFixed(1)} ${Y_LO.toFixed(1)}` +
       ` C${x(124).toFixed(1)} ${Y_LO.toFixed(1)} ${RIGHT.toFixed(1)} ${Y_LO.toFixed(1)} ${RIGHT.toFixed(1)} ${Y_MID.toFixed(1)}` +
       ` C${RIGHT.toFixed(1)} ${Y_HI.toFixed(1)} ${x(118).toFixed(1)} ${Y_HI.toFixed(1)} ${x(108).toFixed(1)} ${Y_HI.toFixed(1)}` +
       ` L${x(C6).toFixed(1)} ${Y_HI.toFixed(1)}` +
-      ` L${x(C5 + 0.4).toFixed(1)} ${Y_HI.toFixed(1)}`,
+      ` L${x(C5).toFixed(1)} ${Y_HI.toFixed(1)}`,
     passager:
-      `M${x(20).toFixed(1)} ${Y_HI.toFixed(1)}` +
-      ` C${x(28).toFixed(1)} ${Y_HI.toFixed(1)} ${x(36).toFixed(1)} ${Y_LO.toFixed(1)} ${x(52).toFixed(1)} ${Y_LO.toFixed(1)}` +
-      ` C${x(62).toFixed(1)} ${Y_LO.toFixed(1)} ${x(62).toFixed(1)} ${Y_HI.toFixed(1)} ${x(48).toFixed(1)} ${Y_HI.toFixed(1)}` +
-      ` L${x(10).toFixed(1)} ${Y_HI.toFixed(1)}` +
-      ` C${x(6).toFixed(1)} ${Y_HI.toFixed(1)} ${x(5).toFixed(1)} ${Y_MID.toFixed(1)} ${x(10).toFixed(1)} ${Y_MID.toFixed(1)}`,
+      `M${x(36).toFixed(1)} ${Y_HI.toFixed(1)}` +
+      ` C${x(28).toFixed(1)} ${Y_HI.toFixed(1)} ${x(22).toFixed(1)} ${Y_LO.toFixed(1)} ${x(16).toFixed(1)} ${Y_LO.toFixed(1)}` +
+      ` C${x(12).toFixed(1)} ${Y_LO.toFixed(1)} ${x(10).toFixed(1)} ${Y_MID.toFixed(1)} ${x(8).toFixed(1)} ${Y_MID.toFixed(1)}`,
     slalom:
-      slalomD([x(12), Y_LO], fastConesM.map(x), [x(118), Y_LO], Y_LO, Y_HI) +
+      slalomD([x(12), Y_LO], SLALOM.map(x), [x(118), Y_LO], Y_LO, Y_HI) +
       ` C${x(124).toFixed(1)} ${Y_LO.toFixed(1)} ${RIGHT.toFixed(1)} ${Y_LO.toFixed(1)} ${RIGHT.toFixed(1)} ${Y_MID.toFixed(1)}`,
     evitement:
       `M${RIGHT.toFixed(1)} ${Y_MID.toFixed(1)}` +
       ` C${RIGHT.toFixed(1)} ${Y_HI.toFixed(1)} ${x(118).toFixed(1)} ${Y_HI.toFixed(1)} ${x(108).toFixed(1)} ${Y_HI.toFixed(1)}` +
-      ` L${x(C6 + 4).toFixed(1)} ${Y_HI.toFixed(1)}` +
-      ` C${x(C6).toFixed(1)} ${Y_HI.toFixed(1)} ${x(C6 - 2).toFixed(1)} ${Y_LO.toFixed(1)} ${x(C6 - 8).toFixed(1)} ${Y_LO.toFixed(1)}` +
-      ` C${x(C6 - 14).toFixed(1)} ${Y_LO.toFixed(1)} ${x(24).toFixed(1)} ${Y_LO.toFixed(1)} ${x(18).toFixed(1)} ${Y_MID.toFixed(1)}` +
-      ` L${x(12).toFixed(1)} ${Y_MID.toFixed(1)}`,
+      ` L${x(C6 + 2).toFixed(1)} ${Y_HI.toFixed(1)}` +
+      ` C${x(C6).toFixed(1)} ${Y_HI.toFixed(1)} ${x(C6 - 3).toFixed(1)} ${Y_LO.toFixed(1)} ${x(C6 - 8).toFixed(1)} ${Y_LO.toFixed(1)}` +
+      ` L${x(20).toFixed(1)} ${Y_LO.toFixed(1)}` +
+      ` C${x(16).toFixed(1)} ${Y_LO.toFixed(1)} ${x(14).toFixed(1)} ${Y_MID.toFixed(1)} ${x(12).toFixed(1)} ${Y_MID.toFixed(1)}`,
   };
 
   const STEPS = [
@@ -76,18 +76,17 @@
       id: "poussette",
       num: "1 / 6",
       title: "Poussette — sans moteur",
-      type: "Couloir de guidage, avant puis arrière",
+      type: "Porte 1,20 m, avant puis arrière (~4 m)",
       color: "#94a3b8",
       pathId: "path-poussette",
       twoWay: true,
       backPathId: "path-poussette-back",
-      duration: 8000,
       cues: [
-        { t: 0, action: "walk", text: "Couloir entre les 4 piquets. Moto droite, regard vers B. Avancez jusqu’à ce que la roue arrière passe les cônes." },
-        { t: 0.5, action: "look", text: "Stop. Regardez derrière. Reculez : la roue avant doit repasser les cônes. Puis béquille." },
+        { t: 0, action: "walk", text: "Porte 1,20 m. Moteur coupé. Poussez au pas (~4 km/h) jusqu’à ce que la roue arrière passe les cônes." },
+        { t: 0.42, action: "look", text: "Stop. Regardez derrière. Reculez au même pas : la roue avant doit repasser la porte. Puis béquille." },
       ],
       panel: {
-        trajectoire: "Ligne dans le couloir (~1,5 m). Avant A→B (roue AR au-delà), arrière B→A (roue AV au-delà).",
+        trajectoire: "Aller A→B (~4 m) par la porte, puis reculer B→A. Pas un couloir de 12 m.",
         gaz: "Aucun : moteur coupé.",
         frein: "Aucun. On rattrape le guidon si ça part.",
         attention: "Équilibrer avant de bouger. 3 essais. Regard où vous allez.",
@@ -99,23 +98,21 @@
       id: "lent",
       num: "2 / 6",
       title: "Allure réduite — seul",
-      type: "Slalom lent, demi-tour, arrêt au cône bleu (4)",
+      type: "S entre piquets, chrono (1)→(2), arrêt au cône bleu (4)",
       color: "#38bdf8",
       pathId: "path-lent",
-      duration: 14000,
       cues: [
-        { t: 0, action: "clutch", text: "Départ zone A. Patinage + frein arrière. Chrono (1)→(2) : plus c’est lent, mieux c’est (≥ 16 s = A)." },
-        { t: 0.18, action: "look", text: "Ne fixez pas le cône : visez l’intervalle suivant. On reste dans les 6 m." },
-        { t: 0.45, action: "gas", text: "Filet de gaz pour ne pas caler. Demi-tour au bout de piste, toujours au pas." },
-        { t: 0.78, action: "clutch", text: "Retour. Arrêt au point 4 : roue avant entre les lignes, avant le cône bleu." },
+        { t: 0, action: "clutch", text: "Départ zone A. Patinage + frein arrière. Chrono portes 1→2 : ≥ 16 s = A (~17 m au pas, puis 10–15 km/h vers le bleu)." },
+        { t: 0.35, action: "look", text: "Ne fixez pas le piquet : visez l’intervalle suivant. On reste dans les 6 m." },
+        { t: 0.7, action: "clutch", text: "Couloir lent, puis arrêt au point 4 : roue avant avant le cône bleu." },
       ],
       panel: {
-        trajectoire: "S lent entre les cônes, demi-tour en bout, retour, stop au bleu n°4. Pas de marche arrière.",
-        gaz: "Micro-gaz de ralenti. On n’accélère pas pour rattraper un cône.",
+        trajectoire: "S à piquets (~17 m), pas un slalom de 5 cônes. Puis couloir et stop au bleu n°4.",
+        gaz: "Micro-gaz de ralenti. On n’accélère pas pour rattraper un plot.",
         frein: "Frein AR seulement. Frein AV = plonge + pied à terre.",
         attention: "≥ 16 s = A, 14–16 s = B, < 14 s = C. Pied hors zone = B.",
-        difficulte: "Fixer le cône, à-coups d’embrayage, vouloir aller trop vite.",
-        train: "Gobelets à ~2,50 m. 8 passages sans pied, en comptant à voix haute.",
+        difficulte: "Fixer le piquet, à-coups d’embrayage, vouloir aller trop vite.",
+        train: "3 portes à 1,20 m. Passer en comptant jusqu’à 16.",
       },
     },
     {
@@ -125,15 +122,14 @@
       type: "Demi-tour, ligne droite, 50 km/h au C6",
       color: "#ef4444",
       pathId: "path-freinage",
-      duration: 10000,
       cues: [
-        { t: 0, action: "look", text: "Du point 4 : demi-tour sans dépasser le 1er cône du slalom, puis on va chercher le bout de piste." },
-        { t: 0.28, action: "gas", text: "Demi-tour au bout. 3e rapport. On construit 50 km/h — pas un sprint à la dernière seconde." },
-        { t: 0.68, action: "look", text: "Radar C6 : 50 km/h min (A2 sans marge). On ne freine PAS avant cette ligne." },
-        { t: 0.76, action: "brake", text: "Après C6 : avant + arrière, buste bas. Arrêt avant C5 (sec) ou C4 (humide). Roue AR au sol." },
+        { t: 0, action: "look", text: "Du point 4 : demi-tour sans dépasser le 1er cône du slalom (17,50 m), puis on va chercher le bout." },
+        { t: 0.22, action: "gas", text: "Demi-tour au bout. 3e rapport. On construit 50 km/h — l’animation accélère vraiment ici." },
+        { t: 0.72, action: "look", text: "Radar C6 : 50 km/h min (A2 sans marge). On ne freine PAS avant cette ligne." },
+        { t: 0.82, action: "brake", text: "Après C6 : avant + arrière. Arrêt avant C5 (15,75 m) ou C4 (+3,90 m si humide)." },
       ],
       panel: {
-        trajectoire: "Demi-tour, ligne droite sur la largeur de piste, freinage après C6, stop avant C5 (15,75 m) ou C4 (+3,90 m si humide).",
+        trajectoire: "Demi-tour, ligne droite, freinage après C6, stop avant C5 (15,75 m) ou C4 (19,65 m si humide).",
         gaz: "Avant C6 uniquement. 50 au radar, pas après.",
         frein: "Seulement après C6. Stoppie = B. Trop long ou trop tôt = C.",
         attention: "Vitesse insuffisante = C. Doigts qui ferment le levier avant C6 = C.",
@@ -145,17 +141,16 @@
       id: "passager",
       num: "4 / 6",
       title: "Allure réduite — avec passager",
-      type: "Montée en A, lent, descente en B (piquets)",
+      type: "Montée après freinage, lent, descente aux piquets",
       color: "#a78bfa",
       pathId: "path-passager",
-      duration: 11000,
       cues: [
-        { t: 0, action: "clutch", text: "Stop après freinage = A. Le passager monte. Départ tout doux : 80 kg de plus. Il ne parle pas du tracé." },
-        { t: 0.35, action: "look", text: "Même regard loin. La moto tourne plus lourde : on anticipe plus tôt." },
-        { t: 0.75, action: "gas", text: "Filet de gaz dans le demi-tour. Immobiliser en B après les piquets : le passager descend." },
+        { t: 0, action: "clutch", text: "Stop après freinage = A. Le passager monte. Départ tout doux (~4 km/h) : 80 kg de plus." },
+        { t: 0.4, action: "look", text: "Même regard loin. La moto tourne plus lourde : on anticipe plus tôt." },
+        { t: 0.8, action: "gas", text: "Filet de gaz. Immobiliser en B (porte piquets / cônes) : le passager descend." },
       ],
       panel: {
-        trajectoire: "De A (arrêt freinage) jusqu’à la porte de piquets B, à l’allure du lent.",
+        trajectoire: "De la zone de freinage jusqu’à la porte de piquets B, à l’allure du lent.",
         gaz: "Encore plus dosé qu’en solo.",
         frein: "Frein AR pour caler l’arrière alourdi.",
         attention: "2 mains aux poignées, pieds sur les repose-pieds. Dicter le tracé = C.",
@@ -167,17 +162,16 @@
       id: "slalom",
       num: "5 / 6",
       title: "Slalom à allure normale",
-      type: "S rapide, 40 km/h au C7, demi-tour",
+      type: "4 plots à 17,50 m, 40 km/h au C7 (3e plot)",
       color: "#f97316",
       pathId: "path-slalom",
-      duration: 8000,
       cues: [
-        { t: 0, action: "gas", text: "Après la descente du passager. 3e rapport avant le 1er cône. On construit 40 km/h, gaz stable." },
-        { t: 0.42, action: "look", text: "C7 ≥ 40 km/h (A2 sans marge). Regard au-delà du dernier plot, pas sur le cône." },
-        { t: 0.82, action: "look", text: "Demi-tour en bout. On ne fonce pas déjà vers l’évitement : un temps à la fois." },
+        { t: 0, action: "gas", text: "3e rapport avant le 1er plot. On construit 40 km/h — nettement plus vite que la poussette." },
+        { t: 0.45, action: "look", text: "C7 = 3e plot ≥ 40 km/h (A2 sans marge). Regard au-delà du dernier plot." },
+        { t: 0.82, action: "look", text: "Demi-tour en bout (25 m après le 4e plot). On ne fonce pas déjà vers l’évitement." },
       ],
       panel: {
-        trajectoire: "S entre les cônes orange (le bleu n’en fait pas partie), puis demi-tour au bout des 130 m.",
+        trajectoire: "4 cônes orange, 17,50 m d’entraxe. C7 au 3e. Le bleu n’en fait pas partie.",
         gaz: "Stable dans les plots. On ne coupe pas à chaque cône.",
         frein: "Pas de gros frein dans le slalom.",
         attention: "< 40 km/h au C7 = C. Cône touché (hors évitement) = B.",
@@ -192,11 +186,10 @@
       type: "Retour, 50 km/h au C6, un appui, stop dans les bleus",
       color: "#22c55e",
       pathId: "path-evitement",
-      duration: 8000,
       cues: [
-        { t: 0, action: "gas", text: "Retour en ligne. On reconstruit 50 km/h avant C6 (marge +5). Un seul évitement, pas un slalom." },
-        { t: 0.4, action: "look", text: "Regard dans le trou de passage, pas sur le cône d’évitement." },
-        { t: 0.55, action: "look", text: "Un appui franc, on redresse. Toucher ce cône = C." },
+        { t: 0, action: "gas", text: "Retour en ligne. On reconstruit 50 km/h avant C6. Un seul évitement, pas un slalom." },
+        { t: 0.45, action: "look", text: "Regard dans le trou de passage, pas sur le cône d’évitement." },
+        { t: 0.58, action: "look", text: "Un appui franc, on redresse. Toucher ce cône = C." },
         { t: 0.78, action: "brake", text: "Puis on freine pour finir entre les quatre cônes bleus." },
       ],
       panel: {
@@ -225,6 +218,7 @@
   const pills = root.querySelector("#step-pills");
   const caption = root.querySelector("#live-caption");
   const badges = root.querySelector("#live-badges");
+  const speedEl = root.querySelector("#live-speed");
   const panel = root.querySelector("#step-panel");
   const playBtn = root.querySelector("#play-step");
   const prevBtn = root.querySelector("#prev-step");
@@ -253,6 +247,10 @@
     });
   }
 
+  function piquet(cx, cy) {
+    return el("rect", { x: cx - 2.5, y: cy - 14, width: 5, height: 28, rx: 1, fill: "#e2e8f0" });
+  }
+
   function buildTrack() {
     trackLayer.appendChild(el("rect", { x: 0, y: 0, width: 1180, height: 500, rx: 14, fill: "#121821" }));
     trackLayer.appendChild(el("rect", { x: X0, y: Y0, width: TW, height: TH, rx: 6, fill: "#3d4654", stroke: "#94a3b8", "stroke-width": 2 }));
@@ -262,35 +260,31 @@
       trackLayer.appendChild(el("line", { x1: px, y1: Y0, x2: px, y2: Y0 + TH, stroke: "#fbbf24", "stroke-width": 1.6, "stroke-dasharray": "7 5" }));
       trackLayer.appendChild(el("text", { x: px + 4, y: Y0 - 8, fill: "#fbbf24", "font-size": 12, "font-family": "system-ui,sans-serif", "font-weight": 700 }, label));
     });
-    trackLayer.appendChild(el("text", { x: X0, y: Y0 + TH + 18, fill: "#94a3b8", "font-size": 11, "font-family": "system-ui,sans-serif" }, "0 m"));
-    trackLayer.appendChild(el("text", { x: X0 + TW - 36, y: Y0 + TH + 18, fill: "#94a3b8", "font-size": 11, "font-family": "system-ui,sans-serif" }, "130 m"));
+    trackLayer.appendChild(el("text", { x: X0, y: Y0 + TH + 18, fill: "#94a3b8", "font-size": 11, "font-family": "system-ui,sans-serif" }, "0 m · A"));
+    trackLayer.appendChild(el("text", { x: X0 + TW - 48, y: Y0 + TH + 18, fill: "#94a3b8", "font-size": 11, "font-family": "system-ui,sans-serif" }, "130 m · B"));
     trackLayer.appendChild(el("text", { x: X0 - 8, y: Y0 + TH / 2, fill: "#94a3b8", "font-size": 11, "font-family": "system-ui,sans-serif", "text-anchor": "end" }, "6 m"));
     const boxX = x(8);
-    const boxW = x(20) - x(8);
-    trackLayer.appendChild(el("rect", { x: boxX, y: y(0.32), width: boxW, height: y(0.68) - y(0.32), fill: "#3b82f6", opacity: 0.14 }));
+    const boxW = x(16) - x(8);
+    trackLayer.appendChild(el("rect", { x: boxX, y: y(0.34), width: boxW, height: y(0.66) - y(0.34), fill: "#3b82f6", opacity: 0.14 }));
   }
 
   function buildMarks() {
-    [
-      [x(4), y(0.38)],
-      [x(4), y(0.62)],
-      [x(16), y(0.38)],
-      [x(16), y(0.62)],
-    ].forEach(([sx, sy]) => {
-      marksLayer.appendChild(el("rect", { x: sx - 3, y: sy - 12, width: 6, height: 24, rx: 1, fill: "#e2e8f0" }));
+    [y(0.4), y(0.6)].forEach((sy) => marksLayer.appendChild(cone(x(4), sy, "#f97316")));
+    [[10, 0.32], [10, 0.52], [16, 0.48], [16, 0.68], [22, 0.32], [22, 0.52]].forEach(([m, f]) => {
+      marksLayer.appendChild(piquet(x(m), y(f)));
     });
-    slowConesM.forEach((m) => marksLayer.appendChild(cone(x(m), Y_LO + 2, "#f97316")));
-    fastConesM.forEach((m) => marksLayer.appendChild(cone(x(m), Y_HI - 2, "#f97316")));
-    marksLayer.appendChild(cone(x(C6 - 6), Y_LO, "#3b82f6"));
+    SLALOM.forEach((m) => marksLayer.appendChild(cone(x(m), Y_LO + 2, "#f97316")));
+    marksLayer.appendChild(cone(x(C6 - 5), Y_LO, "#3b82f6"));
     [
-      [x(9), y(0.34)],
-      [x(19), y(0.34)],
-      [x(9), y(0.66)],
-      [x(19), y(0.66)],
+      [x(9), y(0.36)],
+      [x(15), y(0.36)],
+      [x(9), y(0.64)],
+      [x(15), y(0.64)],
     ].forEach(([cx, cy]) => marksLayer.appendChild(cone(cx, cy, "#3b82f6")));
-    marksLayer.appendChild(cone(x(40), Y_MID, "#3b82f6"));
-    marksLayer.appendChild(el("text", { x: x(40) + 10, y: Y_MID - 10, fill: "#93c5fd", "font-size": 11, "font-family": "system-ui,sans-serif", "font-weight": 700 }, "4"));
-    marksLayer.appendChild(el("text", { x: x(5), y: Y_MID - 16, fill: "#cbd5e1", "font-size": 11, "font-family": "system-ui,sans-serif", "font-weight": 700 }, "A / B"));
+    marksLayer.appendChild(cone(x(35), Y_MID, "#3b82f6"));
+    marksLayer.appendChild(el("text", { x: x(35) + 10, y: Y_MID - 10, fill: "#93c5fd", "font-size": 11, "font-family": "system-ui,sans-serif", "font-weight": 700 }, "4"));
+    marksLayer.appendChild(el("text", { x: x(1), y: Y_MID - 18, fill: "#cbd5e1", "font-size": 11, "font-family": "system-ui,sans-serif", "font-weight": 700 }, "A"));
+    marksLayer.appendChild(el("text", { x: x(5.2), y: Y_MID - 18, fill: "#cbd5e1", "font-size": 11, "font-family": "system-ui,sans-serif", "font-weight": 700 }, "B"));
   }
 
   function buildPaths() {
@@ -323,6 +317,14 @@
     });
   }
 
+  function setSpeed(mps, elapsedSec) {
+    if (!speedEl) return;
+    const kmh = Math.max(0, mps) * 3.6;
+    const clock = elapsedSec == null ? "" : ` · ${elapsedSec.toFixed(1)} s`;
+    speedEl.textContent = `${kmh.toFixed(0)} km/h${clock}`;
+    speedEl.dataset.fast = kmh >= 30 ? "1" : "0";
+  }
+
   function cueAt(step, t) {
     let current = step.cues[0];
     for (const cue of step.cues) {
@@ -331,9 +333,9 @@
     return current;
   }
 
-  function placeBikeOn(path, t) {
+  function placeBikeOn(path, frac) {
     const len = path.getTotalLength();
-    const p = path.getPointAtLength(Math.min(1, Math.max(0, t)) * Math.max(len, 1));
+    const p = path.getPointAtLength(Math.min(1, Math.max(0, frac)) * Math.max(len, 1));
     bike.setAttribute("cx", p.x.toFixed(1));
     bike.setAttribute("cy", p.y.toFixed(1));
   }
@@ -345,15 +347,144 @@
     playBtn.setAttribute("aria-pressed", "false");
   }
 
+  function pathMeters(path, from, to) {
+    return (path.getTotalLength() * (to - from)) / M;
+  }
+
+  function segDuration(lenM, v0, v1) {
+    return (2 * lenM) / (v0 + v1);
+  }
+
+  function motionPlan(step, path, back) {
+    if (step.id === "poussette") {
+      return [
+        { path, from: 0, to: 1, v0: V_WALK, v1: V_WALK },
+        { pause: 1.5 },
+        { path: back, from: 0, to: 1, v0: V_WALK, v1: V_WALK },
+      ];
+    }
+    if (step.id === "lent") {
+      return [
+        { path, from: 0, to: 0.32, v0: V_SLOW, v1: V_SLOW },
+        { path, from: 0.32, to: 1, v0: 2.5, v1: 3.6 },
+      ];
+    }
+    if (step.id === "passager") {
+      return [{ path, from: 0, to: 1, v0: 1.6, v1: 2.2 }];
+    }
+    if (step.id === "freinage") {
+      const c6 = fracAtX(path, x(C6), 0.55, 1);
+      const hold = Math.min(0.12, Math.max(0.05, c6 - 0.55));
+      const accelEnd = Math.max(0.53, c6 - hold);
+      return [
+        { path, from: 0, to: 0.12, v0: V_TURN, v1: 4 },
+        { path, from: 0.12, to: 0.42, v0: 6, v1: 9 },
+        { path, from: 0.42, to: 0.52, v0: 6, v1: V_TURN },
+        { path, from: 0.52, to: accelEnd, v0: 8, v1: V50 },
+        { path, from: accelEnd, to: c6, v0: V50, v1: V50 },
+        { path, from: c6, to: 1, v0: V50, v1: 0.5 },
+      ];
+    }
+    if (step.id === "slalom") {
+      return [
+        { path, from: 0, to: 0.22, v0: 6, v1: V40 },
+        { path, from: 0.22, to: 0.82, v0: V40, v1: V40 },
+        { path, from: 0.82, to: 1, v0: V40, v1: V_TURN },
+      ];
+    }
+    const c6 = fracAtX(path, x(C6), 0.25, 0.85);
+    const dodge = Math.min(0.92, Math.max(c6 + 0.08, c6 + 0.14));
+    return [
+      { path, from: 0, to: Math.min(0.18, c6 * 0.35), v0: 8, v1: V50 },
+      { path, from: Math.min(0.18, c6 * 0.35), to: c6, v0: V50, v1: V50 },
+      { path, from: c6, to: dodge, v0: V50, v1: 9 },
+      { path, from: dodge, to: 1, v0: 8, v1: 0.6 },
+    ];
+  }
+
+  function fracAtX(path, targetX, from = 0, to = 1) {
+    const len = path.getTotalLength();
+    let best = from;
+    let bestD = Infinity;
+    for (let i = 0; i <= 240; i += 1) {
+      const f = from + (to - from) * (i / 240);
+      const p = path.getPointAtLength(f * Math.max(len, 1));
+      const d = Math.abs(p.x - targetX);
+      if (d < bestD) {
+        bestD = d;
+        best = f;
+      }
+    }
+    return best;
+  }
+
+  function timeFracAtPath(plan, pathFrac) {
+    const total = plan.reduce((s, it) => s + it.duration, 0) || 1;
+    let acc = 0;
+    for (const item of plan) {
+      if (item.pause) {
+        acc += item.duration;
+        continue;
+      }
+      if (pathFrac <= item.from + 1e-6) return acc / total;
+      if (pathFrac <= item.to) {
+        const span = item.to - item.from || 1;
+        return (acc + ((pathFrac - item.from) / span) * item.duration) / total;
+      }
+      acc += item.duration;
+    }
+    return 1;
+  }
+
+  function cuesFor(step, plan, path) {
+    const base = step.cues;
+    if (step.id === "freinage") {
+      const c6 = fracAtX(path, x(C6), 0.55, 1);
+      return [
+        { t: 0, action: "look", text: base[0].text },
+        { t: timeFracAtPath(plan, 0.52), action: "gas", text: base[1].text },
+        { t: Math.max(0, timeFracAtPath(plan, c6) - 0.02), action: "look", text: base[2].text },
+        { t: timeFracAtPath(plan, c6), action: "brake", text: base[3].text },
+      ];
+    }
+    if (step.id === "slalom") {
+      return [
+        { t: 0, action: "gas", text: base[0].text },
+        { t: timeFracAtPath(plan, fracAtX(path, x(C7))), action: "look", text: base[1].text },
+        { t: 0.82, action: "look", text: base[2].text },
+      ];
+    }
+    if (step.id === "evitement") {
+      const c6 = fracAtX(path, x(C6), 0.25, 0.85);
+      return [
+        { t: 0, action: "gas", text: base[0].text },
+        { t: Math.max(0, timeFracAtPath(plan, c6) - 0.04), action: "look", text: base[1].text },
+        { t: timeFracAtPath(plan, c6), action: "look", text: base[2].text },
+        { t: timeFracAtPath(plan, Math.min(1, c6 + 0.15)), action: "brake", text: base[3].text },
+      ];
+    }
+    return base;
+  }
+
+  function compilePlan(raw) {
+    return raw.flatMap((item) => {
+      if (item.pause) return [{ pause: item.pause, duration: item.pause, v0: 0, v1: 0 }];
+      if (item.to <= item.from + 1e-4) return [];
+      const lenM = Math.max(pathMeters(item.path, item.from, item.to), 0.05);
+      const duration = Math.max(segDuration(lenM, item.v0, item.v1), 0.05);
+      return [{ ...item, lenM, duration }];
+    });
+  }
+
   function renderOverview() {
     panel.innerHTML = `
       <p class="kicker">Parcours 1 · piste 130 × 6 m</p>
       <h2>Le plateau vu de dessus</h2>
-      <p>Tous les tracés sont superposés, chacun sa couleur, dans l’ordre officiel. Choisissez une étape (ou Suivant) : il ne reste que ce tracé, et l’animation le suit.</p>
+      <p>Tracé pédagogique calé sur le guide d’évaluation : C6→C5 = 15,75 m, slalom <strong>4 plots × 17,50 m</strong>, C7 au 3e plot. L’animation avance à des <strong>vitesses réelles</strong> (marche ≈ 4 km/h, slalom 40, freinage 50).</p>
       <div class="phase-grid">
         ${STEPS.map((s) => `<article class="phase-card" style="border-top:4px solid ${s.color}"><h3>${s.num} ${s.title.split("—")[0]}</h3><p>${s.type}</p></article>`).join("")}
       </div>
-      <p class="note">C6→C5 = 15,75 m (freinage sec). C5→C4 = 3,90 m de plus si la piste est humide. C7 = 40 km/h (slalom), C6 = 50 km/h (freinage et évitement). Schéma pédagogique : le plan du centre d’examen fait foi.</p>
+      <p class="note">Abscisses C4–C7 : reconstruction fiche (C6 ≈ 52 m depuis A). Le plan du centre d’examen fait foi. Parcours 2 = miroir.</p>
     `;
   }
 
@@ -383,10 +514,11 @@
     pills.querySelectorAll("button").forEach((btn, n) => {
       btn.setAttribute("aria-current", n === i + 1 ? "step" : "false");
     });
+    setSpeed(0);
     if (i < 0) {
       bike.setAttribute("visibility", "hidden");
       playBtn.disabled = true;
-      caption.textContent = "Vue d’ensemble : les 6 tracés officiels, chacun sa couleur. Suivant pour commencer à la poussette.";
+      caption.textContent = "Vue d’ensemble : 6 tracés. Les animations vont au pas, à 40 ou à 50 km/h — plus à la même vitesse.";
       setBadge("");
       renderOverview();
       svg.setAttribute("aria-label", "Plateau 130 mètres sur 6, tous les tracés.");
@@ -410,50 +542,75 @@
   }
 
   function play() {
-    if (index < 0) {
-      showView(0);
-    }
+    if (index < 0) showView(0);
     const step = STEPS[index];
     if (!step) return;
     if (playing) {
       stopPlay();
       return;
     }
+    const path = document.getElementById(step.pathId);
+    const back = step.twoWay ? document.getElementById(step.backPathId) : null;
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const plan = compilePlan(motionPlan(step, path, back));
+    const cues = cuesFor(step, plan, path);
+    const total = plan.reduce((sum, item) => sum + item.duration, 0);
+    root.dataset.planSec = total.toFixed(1);
+    if (reduce) {
+      const last = cues[cues.length - 1];
+      const endPath = back || path;
+      placeBikeOn(endPath, 1);
+      caption.textContent = last.text;
+      setBadge(last.action);
+      setSpeed(0, total);
+      return;
+    }
     playing = true;
     playBtn.textContent = "Pause";
     playBtn.setAttribute("aria-pressed", "true");
-    const path = document.getElementById(step.pathId);
-    const back = step.twoWay ? document.getElementById(step.backPathId) : null;
-    const start = performance.now();
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const dur = reduce ? 1 : step.duration;
+    let seg = 0;
+    let t0 = performance.now();
+    const startedAt = t0;
     const tick = (now) => {
-      const t = (now - start) / dur;
-      if (t >= 1) {
-        if (back) {
-          placeBikeOn(back, 1);
-        } else {
-          placeBikeOn(path, 1);
-        }
-        const last = step.cues[step.cues.length - 1];
+      if (!playing) return;
+      const item = plan[seg];
+      if (!item) {
+        const last = cues[cues.length - 1];
         caption.textContent = last.text;
         setBadge(last.action);
+        setSpeed(0, total);
+        root.dataset.playedSec = ((performance.now() - startedAt) / 1000).toFixed(1);
         stopPlay();
         return;
       }
-      if (step.twoWay && back) {
-        if (t < 0.5) {
-          placeBikeOn(path, t * 2);
-        } else {
-          back.setAttribute("opacity", "1");
-          placeBikeOn(back, (t - 0.5) * 2);
-        }
-      } else {
-        placeBikeOn(path, t);
-      }
-      const cue = cueAt(step, t);
+      const u = (now - t0) / (item.duration * 1000);
+      const elapsed = plan.slice(0, seg).reduce((s, it) => s + it.duration, 0) + Math.min(1, u) * item.duration;
+      const cue = cueAt({ cues }, elapsed / total);
       caption.textContent = cue.text;
       setBadge(cue.action);
+      if (item.pause) {
+        setSpeed(0, elapsed);
+        if (u >= 1) {
+          seg += 1;
+          t0 = now;
+        }
+        raf = requestAnimationFrame(tick);
+        return;
+      }
+      const clamped = Math.min(1, Math.max(0, u));
+      const v = item.v0 + (item.v1 - item.v0) * clamped;
+      const distFrac = item.lenM < 0.2
+        ? clamped
+        : (item.v0 * clamped * item.duration + 0.5 * (item.v1 - item.v0) * item.duration * clamped * clamped) / item.lenM;
+      const frac = item.from + (item.to - item.from) * Math.min(1, distFrac);
+      placeBikeOn(item.path, frac);
+      setSpeed(v, elapsed);
+      if (item.path !== path) item.path.setAttribute("opacity", "1");
+      if (u >= 1) {
+        placeBikeOn(item.path, item.to);
+        seg += 1;
+        t0 = now;
+      }
       raf = requestAnimationFrame(tick);
     };
     raf = requestAnimationFrame(tick);
