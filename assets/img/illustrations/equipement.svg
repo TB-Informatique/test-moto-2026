@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" role="img" aria-labelledby="t">
+  <title id="t">Équipement obligatoire et recommandé du motard</title>
+  <rect width="640" height="240" fill="#1a1d22"/>
+  <g transform="translate(40,36)">
+    <ellipse cx="50" cy="38" rx="36" ry="32" fill="#2d333c" stroke="#f59e0b" stroke-width="4"/>
+    <rect x="20" y="52" width="60" height="18" rx="6" fill="#f59e0b"/>
+    <text x="50" y="100" text-anchor="middle" fill="#f4efe6" font-size="13" font-family="sans-serif">Casque</text>
+    <text x="50" y="118" text-anchor="middle" fill="#f59e0b" font-size="11" font-family="sans-serif">Obligatoire</text>
+  </g>
+  <g transform="translate(200,48)">
+    <path d="M20 40 C20 10 80 10 80 40 L72 70 H28 Z" fill="#2d333c" stroke="#f59e0b" stroke-width="3"/>
+    <text x="50" y="88" text-anchor="middle" fill="#f4efe6" font-size="13" font-family="sans-serif">Gants CE</text>
+    <text x="50" y="106" text-anchor="middle" fill="#f59e0b" font-size="11" font-family="sans-serif">Obligatoire</text>
+  </g>
+  <g transform="translate(360,40)">
+    <rect x="18" y="8" width="64" height="72" rx="8" fill="#f5c518"/>
+    <text x="50" y="100" text-anchor="middle" fill="#f4efe6" font-size="13" font-family="sans-serif">Gilet HV</text>
+    <text x="50" y="118" text-anchor="middle" fill="#c4b8a5" font-size="11" font-family="sans-serif">À bord</text>
+  </g>
+  <g transform="translate(510,40)">
+    <path d="M20 70 L50 10 L80 70 Z" fill="#2d333c" stroke="#9aa1ad" stroke-width="3"/>
+    <text x="50" y="100" text-anchor="middle" fill="#f4efe6" font-size="13" font-family="sans-serif">Blouson</text>
+    <text x="50" y="118" text-anchor="middle" fill="#9aa1ad" font-size="11" font-family="sans-serif">Recommandé</text>
+  </g>
+</svg>
