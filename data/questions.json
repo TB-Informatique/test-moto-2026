@@ -12857,7 +12857,7 @@
       "id": "sit-c01",
       "category": "circulation",
       "theme": "C",
-      "question": "Vous arrivez à ce giratoire à moto. Qui a la priorité ?",
+      "question": "À l'approche d'un giratoire à moto, qui a la priorité ?",
       "choices": [
         {
           "id": "a",
@@ -12880,10 +12880,7 @@
         "a"
       ],
       "explanation": "Sauf signalisation contraire, on cède à ceux déjà dans l'anneau (cédez en entrée). La priorité à droite ne s'applique pas « contre » l'anneau.",
-      "multi": false,
-      "image": "assets/img/situations/rondpoint.jpg",
-      "imageAlt": "Giratoire vu de la chaussée",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Mtheu_Kler\" ttle=\"User:Mtheu Kler\" Mtheu Kler — Wikimedia Commons (CC BY-SA 4.0) — Remiremont - carrefour giratoire du faubourg d'Épinal - 2.jpg"
+      "multi": false
     },
     {
       "id": "sit-c02",
@@ -12912,10 +12909,7 @@
         "a"
       ],
       "explanation": "On se place tôt, on signale, on ne rase pas l'îlot. Un motard invisible au milieu se fait couper à la sortie.",
-      "multi": false,
-      "image": "assets/img/situations/carrefour-giratoire.jpg",
-      "imageAlt": "Giratoire à plusieurs voies",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:KwNeko14\" ttle=\"User:KwNeko14\" KwNeko14 — Wikimedia Commons (CC BY-SA 4.0) — Panneau KD42 giratoire (France) à Saintes (Charente-Maritime).JPG"
+      "multi": false
     },
     {
       "id": "sit-c03",
@@ -12944,10 +12938,7 @@
         "a"
       ],
       "explanation": "Usage admis des deux-roues : se rabattre devant, ligne de feux respectée. Ce n'est pas un droit de filer au rouge.",
-      "multi": false,
-      "image": "assets/img/situations/deux-roues-feu.jpg",
-      "imageAlt": "Deux-roues à un feu",
-      "imageCredit": "Offcl nformton ssued y the Leder of the Schutzstffel (SS) nd the Polce forces of — Wikimedia Commons (CC BY-SA 4.0) — Uniformen der Deutschen Polizei Juni 1939 Tafel 1 Ordnungs- Schutz Wasserschutz Gendarmerie Verkehrsdienst Feuerschutz Atelier Egon Jantke Berlin Nazi Germany police uniforms Wall Chart poster Modern day cleaned copy.jpg"
+      "multi": false
     },
     {
       "id": "sit-c04",
@@ -12976,10 +12967,7 @@
         "a"
       ],
       "explanation": "Orange = arrêt obligatoire si on peut le faire sans danger. Accélérer pour « sauver » l'orange est une faute classique à l'ETM.",
-      "multi": false,
-      "image": "assets/img/situations/feux.jpg",
-      "imageAlt": "Feux tricolores en agglomération",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Traffic lights with a countdown timer in Vietnam.jpg"
+      "multi": false
     },
     {
       "id": "sit-c05",
@@ -13009,9 +12997,9 @@
       ],
       "explanation": "Roue arrêtée avant la ligne. Un quasi-stop (pied à terre sans arrêt franc) est sanctionné à l'examen et en circulation.",
       "multi": false,
-      "image": "assets/img/situations/stop.jpg",
-      "imageAlt": "Intersection avec STOP",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:KwNeko14\" ttle=\"User:KwNeko14\" KwNeko14 — Wikimedia Commons (CC BY-SA 4.0) — FR 17 Saint-Laurent-de-la-Prée - PN 182 - Panneaux AB4 et G1a et M9z.jpg"
+      "image": "assets/img/signs/AB4.svg",
+      "imageAlt": "Panneau STOP (AB4)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
       "id": "sit-c06",
@@ -13041,15 +13029,15 @@
       ],
       "explanation": "Pas d'arrêt obligatoire s'il n'y a personne, mais l'allure doit permettre de s'arrêter. Gêner un prioritaire = faute.",
       "multi": false,
-      "image": "assets/img/situations/cedez.jpg",
-      "imageAlt": "Cédez-le-passage à une intersection",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Bonne panneau AB3a M9c.jpg"
+      "image": "assets/img/signs/AB3a.svg",
+      "imageAlt": "Cédez le passage (AB3a)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
       "id": "sit-c07",
       "category": "circulation",
       "theme": "C",
-      "question": "Ce panneau (cédez à la circulation en sens inverse) signifie :",
+      "question": "Le panneau B15 (rond, flèches rouge et noire) signifie :",
       "choices": [
         {
           "id": "a",
@@ -13073,9 +13061,9 @@
       ],
       "explanation": "B15 : on cède aux véhicules venant en face. Le panneau inverse (B2c / flèche) donne la priorité. Piège fréquent.",
       "multi": false,
-      "image": "assets/img/situations/cedez-inverse.jpg",
-      "imageAlt": "Rétrécissement, cédez au sens inverse",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Loisin panneau B15.jpg"
+      "image": "assets/img/signs/B15.svg",
+      "imageAlt": "Cédez le passage au sens inverse (B15)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
       "id": "sit-c08",
@@ -13104,10 +13092,7 @@
         "a"
       ],
       "explanation": "R.412-38 : céder à tout piéton s'engageant régulièrement ou manifestant clairement l'intention. Contourner = très dangereux.",
-      "multi": false,
-      "image": "assets/img/situations/pieton.jpg",
-      "imageAlt": "Passage piéton en ville",
-      "imageCredit": "Rolnd45 — Wikimedia Commons (CC BY-SA 3.0) — Passage piéton France.JPG"
+      "multi": false
     },
     {
       "id": "sit-c09",
@@ -13137,10 +13122,7 @@
         "b"
       ],
       "explanation": "Exception R.412-19 : dépassement d'un cycle en franchissant une continue si visibilité suffisante. Distance latérale : 1 m en agglo, 1,50 m hors agglo.",
-      "multi": true,
-      "image": "assets/img/situations/ligne-continue.jpg",
-      "imageAlt": "Ligne continue sur chaussée",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Tl-tr\" ttle=\"User:Tl-tr\" Tl-tr — Wikimedia Commons (CC BY-SA 4.0) — Début du boulevard de l'Hôpital (côté nord, trottoir est, Vichy) 2026-01-24.JPG"
+      "multi": true
     },
     {
       "id": "sit-c10",
@@ -13169,10 +13151,7 @@
         "a"
       ],
       "explanation": "1 m en agglo, 1,50 m hors agglo. À moto on a tendance à « frôler » : c'est une faute et un risque de déport du vélo.",
-      "multi": false,
-      "image": "assets/img/situations/velo-ville.jpg",
-      "imageAlt": "Cycliste en circulation",
-      "imageCredit": "d href=\"htts://www.wkdt.org/wk/Q18507700\" clss=\"extw\" ttle=\"d:Q18507700\" sn ttle — Wikimedia Commons (Public domain) — Maurice Ville 1925.jpg"
+      "multi": false
     },
     {
       "id": "sit-c11",
@@ -13202,10 +13181,7 @@
         "b"
       ],
       "explanation": "Entre les 2 files les plus à gauche, files ininterrompues, 50 km/h max (30 si une file à l'arrêt). Pas en rue à une voie.",
-      "multi": true,
-      "image": "assets/img/situations/interfiles.jpg",
-      "imageAlt": "Circulation dense, files de véhicules",
-      "imageCredit": "rel=\"nofollow\" clss=\"externl text\" href=\"htts://www.flckr.comhotos/17893072@N00\" — Wikimedia Commons (CC BY 2.0) — Motorcyclists lane splitting in Bangkok, Thailand.jpg"
+      "multi": true
     },
     {
       "id": "sit-c12",
@@ -13234,10 +13210,7 @@
         "a"
       ],
       "explanation": "Plafond CIF 50, 30 si file à l'arrêt. On réinsère dès qu'une file accélère au-delà de votre allure.",
-      "multi": false,
-      "image": "assets/img/situations/file-autoroute.jpg",
-      "imageAlt": "Files denses sur voie rapide",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Signal X1b SORTIE 8 TRAFIC PERTURBE TOUR DE FRANCE.jpg"
+      "multi": false
     },
     {
       "id": "sit-c13",
@@ -13266,10 +13239,7 @@
         "a"
       ],
       "explanation": "C'est vous qui vous insérez. Un arrêt en bout de bretelle à moto est un piège (arrière non vu + écart de vitesse).",
-      "multi": false,
-      "image": "assets/img/situations/insertion.jpg",
-      "imageAlt": "Bretelle d'insertion",
-      "imageCredit": "Florn Péelln — Wikimedia Commons (CC BY-SA 4.0) — Avenue des Landiers et bretelle autoroute à Chambéry (avril 2026).JPG"
+      "multi": false
     },
     {
       "id": "sit-c14",
@@ -13298,10 +13268,7 @@
         "a"
       ],
       "explanation": "Circuler sur la BAU = infraction. On s'y arrête seulement si on ne peut pas faire autrement, gilet + triangle selon le cas.",
-      "multi": false,
-      "image": "assets/img/situations/bau.jpg",
-      "imageAlt": "Bande d'arrêt d'urgence",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:KwNeko14\" ttle=\"User:KwNeko14\" KwNeko14 — Wikimedia Commons (CC BY-SA 4.0) — FR 17 Pessines - Route nationale 150 - Panneaux AK14 et panonceaux KM9 et KM2.jpg"
+      "multi": false
     },
     {
       "id": "sit-c15",
@@ -13331,10 +13298,7 @@
         "b"
       ],
       "explanation": "Éclairage obligatoire, interdictions spécifiques (retournement). En cas d'arrêt, se ranger dans une échancrure, jamais au milieu.",
-      "multi": true,
-      "image": "assets/img/situations/tunnel.jpg",
-      "imageAlt": "Tunnel routier",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Wlfredor\" clss=\"mw-redrect\" ttle=\"User:Wlfredo — Wikimedia Commons (CC0) — El Paraíso tunnel main gate of Caracas.jpg"
+      "multi": true
     },
     {
       "id": "sit-c16",
@@ -13364,9 +13328,9 @@
       ],
       "explanation": "Sauf panonceau, la voie bus est réservée. L'ETM piège souvent « les motos ont le droit partout ».",
       "multi": false,
-      "image": "assets/img/situations/bus.jpg",
-      "imageAlt": "Voie réservée bus",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Che01\" ttle=\"User:Che01\" Che01 — Wikimedia Commons (CC BY-SA 4.0) — Arrêt Bus Julian Grimau Voie Verte Rue Julian Grimau - Vitry-sur-Seine (FR94) - 2021-03-12 - 1.jpg"
+      "image": "assets/img/signs/B27a.svg",
+      "imageAlt": "Voie réservée aux transports en commun (B27a)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
       "id": "sit-c17",
@@ -13395,10 +13359,7 @@
         "a"
       ],
       "explanation": "On les franchit le plus perpendiculaire possible, allure réduite, sans braquer dessus. Peinture + pluie = encore pire.",
-      "multi": false,
-      "image": "assets/img/situations/tram.jpg",
-      "imageAlt": "Rails de tramway dans la chaussée",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Seleouf\" ttle=\"User:Seleouf\" Seleouf — Wikimedia Commons (CC BY-SA 4.0) — Lyon 7e - Rails tramway T10 avenue Tony Garnier (mai 2025).jpg"
+      "multi": false
     },
     {
       "id": "sit-c18",
@@ -13427,10 +13388,7 @@
         "a"
       ],
       "explanation": "Si vous ne voyez pas le chauffeur, il ne vous voit pas. Un PL qui change de voie à 90 km/h n'a pas le temps de vous éviter.",
-      "multi": false,
-      "image": "assets/img/situations/pl.jpg",
-      "imageAlt": "Poids lourd sur route",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — A40 Radar discriminant poids lourds.jpg"
+      "multi": false
     },
     {
       "id": "sit-c19",
@@ -13459,10 +13417,7 @@
         "a"
       ],
       "explanation": "Rater une sortie : on va à la suivante. Reculer / BAU = très dangereux et interdit.",
-      "multi": false,
-      "image": "assets/img/situations/sortie.jpg",
-      "imageAlt": "Sortie d'autoroute",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Gcrd\" ttle=\"User:Gcrd\" Grel Pcrd — Wikimedia Commons (CC BY-SA 4.0) — Autoroute 40 (sortie 319) Québec.jpg"
+      "multi": false
     },
     {
       "id": "sit-c20",
@@ -13492,9 +13447,9 @@
       ],
       "explanation": "B1 = interdiction dans le sens indiqué. Pas d'exception moto.",
       "multi": false,
-      "image": "assets/img/situations/sens-interdit.jpg",
-      "imageAlt": "Rue en sens interdit",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Che01\" ttle=\"User:Che01\" Che01 — Wikimedia Commons (CC BY-SA 4.0) — Panneau Michelin Sens Interdit Rue Claude Perrault - Créteil (FR94) - 2021-03-26 - 1.jpg"
+      "image": "assets/img/signs/B1.svg",
+      "imageAlt": "Sens interdit (B1)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
       "id": "sit-c21",
@@ -13524,9 +13479,9 @@
       ],
       "explanation": "La zone 30 s'impose à tous. L'ETM aime le piège « en moto on peut 40, on est stable ».",
       "multi": false,
-      "image": "assets/img/situations/zone30.jpg",
-      "imageAlt": "Zone 30 en agglomération",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Brcetofly\" ttle=\"User:Brcetofly\" Brcetofly — Wikimedia Commons (CC0) — Zone 30.jpg"
+      "image": "assets/img/signs/B30.svg",
+      "imageAlt": "Entrée d'une zone 30 (B30)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
       "id": "sit-c22",
@@ -13555,10 +13510,7 @@
         "a"
       ],
       "explanation": "50 en agglo (EB10). 30 seulement si zone / rue limitée. Ne pas confondre avec la hors-agglo à 80.",
-      "multi": false,
-      "image": "assets/img/situations/agglomeration.jpg",
-      "imageAlt": "Entrée d'agglomération",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Floy36\" ttle=\"User:Floy36\" Floy36 — Wikimedia Commons (CC BY-SA 3.0) — Bonnu (Cuzion) - Panneau entrée agglomération bis.jpg"
+      "multi": false
     },
     {
       "id": "sit-c23",
@@ -13587,10 +13539,7 @@
         "a"
       ],
       "explanation": "R.413-2 : 80 hors agglo bidirectionnelle. 90 uniquement si l'assemblée départementale a relevé ET signalé.",
-      "multi": false,
-      "image": "assets/img/situations/fin-agglo.jpg",
-      "imageAlt": "Sortie d'agglomération",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Tournsol7\" ttle=\"User:Tournsol7\" Krzysztof Gol — Wikimedia Commons (CC BY-SA 4.0) — City limit sign in Onet-le-Chateau.jpg"
+      "multi": false
     },
     {
       "id": "sit-c24",
@@ -13619,10 +13568,7 @@
         "a"
       ],
       "explanation": "Pluie : 110 sur autoroute (100 sur voie rapide 110, 80 hors agglo). Le panneau 130 ne « gagne » pas contre la règle pluie.",
-      "multi": false,
-      "image": "assets/img/situations/pluie.jpg",
-      "imageAlt": "Chaussée mouillée / pluie",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Mth\" ttle=\"User:Mth\" Mth — Wikimedia Commons (CC BY-SA 4.0) — Pluie en Vienne, 2014.jpg"
+      "multi": false
     },
     {
       "id": "sit-c25",
@@ -13651,10 +13597,7 @@
         "a"
       ],
       "explanation": "Peinture + traces de pneus + rails au sol = glisse. On lâche tôt, regard loin, pas de braquage sec.",
-      "multi": false,
-      "image": "assets/img/situations/peage.jpg",
-      "imageAlt": "Gare de péage",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:TCY\" ttle=\"User:TCY\" TCY — Wikimedia Commons (CC BY-SA 3.0) — Autoroute A39 Péage de Dole-Choisey.jpg"
+      "multi": false
     },
     {
       "id": "sit-c26",
@@ -13684,10 +13627,7 @@
         "b"
       ],
       "explanation": "Depuis 2025 les SR53 le rappellent tous les 300 m. Frôler une dépanneuse = risque majeur à moto.",
-      "multi": true,
-      "image": "assets/img/situations/corridor.jpg",
-      "imageAlt": "Véhicule / chantier en bord de voie",
-      "imageCredit": "href=\"//commons.wkmed.org/wndex.h?ttle=User:MunyTnkey&m;cton=edt&m;redlnk=1\" cls — Wikimedia Commons (CC BY-SA 4.0) — UsineMalvesi 2019.jpg"
+      "multi": true
     },
     {
       "id": "sit-c27",
@@ -13716,10 +13656,7 @@
         "a"
       ],
       "explanation": "Le sens unique s'applique aux motos. Se placer légèrement décalé pour la visibilité ≠ remonter à contre-sens.",
-      "multi": false,
-      "image": "assets/img/situations/sens-unique.jpg",
-      "imageAlt": "Rue à sens unique",
-      "imageCredit": "d href=\"htts://www.wkdt.org/wk/Q42790984\" clss=\"extw\" ttle=\"d:Q42790984\" sn ttle — Wikimedia Commons (CC0) — Trottinettes VOI, armoire de rue des feux routiers et panneau à l'intersection des rues Mazenod et Garibaldi (Lyon).jpg"
+      "multi": false
     },
     {
       "id": "sit-c28",
@@ -13748,10 +13685,7 @@
         "a"
       ],
       "explanation": "Le piège « se faufiler à droite puis couper » est une cause classique d'accrochage. À moto on se montre tôt.",
-      "multi": false,
-      "image": "assets/img/situations/tourne-gauche.jpg",
-      "imageAlt": "Intersection, manœuvre vers la gauche",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Tl-tr\" ttle=\"User:Tl-tr\" Tl-tr — Wikimedia Commons (CC BY-SA 4.0) — Avenue Poincaré (Vichy) - Plus de tourne-à-gauche et panneau priorité à droite rue des Jardins 2022-09-24.JPG"
+      "multi": false
     },
     {
       "id": "sit-r01",
@@ -13781,10 +13715,7 @@
         "b"
       ],
       "explanation": "Le premier quart d'heure de pluie est le pire (huile + poussière). On lisse gaz et frein, on évite les bandes blanches.",
-      "multi": true,
-      "image": "assets/img/situations/pluie.jpg",
-      "imageAlt": "Route mouillée",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Mth\" ttle=\"User:Mth\" Mth — Wikimedia Commons (CC BY-SA 4.0) — Pluie en Vienne, 2014.jpg"
+      "multi": true
     },
     {
       "id": "sit-r02",
@@ -13813,10 +13744,7 @@
         "a"
       ],
       "explanation": "Aquaplanage : pneu qui flotte. Guidon droit, gaz stable. Un écart de dernière seconde à moto = chute.",
-      "multi": false,
-      "image": "assets/img/situations/flaque.jpg",
-      "imageAlt": "Flaque sur la chaussée",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Seleouf\" ttle=\"User:Seleouf\" Seleouf — Wikimedia Commons (CC BY-SA 4.0) — Grande flaque d'eau sur une route forestière (Rhône, France, août 2018).jpg"
+      "multi": false
     },
     {
       "id": "sit-r03",
@@ -13845,10 +13773,7 @@
         "a"
       ],
       "explanation": "Feuilles + pluie = piège. On les traite comme une plaque de glace.",
-      "multi": false,
-      "image": "assets/img/situations/feuilles.jpg",
-      "imageAlt": "Feuilles sur la chaussée",
-      "imageCredit": "rel=\"nofollow\" clss=\"externl text\" href=\"htts://www.geogrh.org.ukrofle/23895\" ro — Wikimedia Commons (CC BY-SA 2.0) — Leaves on a wet road - geograph.org.uk - 1567985.jpg"
+      "multi": false
     },
     {
       "id": "sit-r04",
@@ -13877,10 +13802,7 @@
         "a"
       ],
       "explanation": "Le verglas se voit mal. Les zones d'ombre et les ponts gèlent en premier. À moto, un test de frein = chute.",
-      "multi": false,
-      "image": "assets/img/situations/verglas.jpg",
-      "imageAlt": "Route hivernale / risque de glace",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Route enneigée avec panneaux chaussée glissante, verglas fréquent 02.jpg"
+      "multi": false
     },
     {
       "id": "sit-r05",
@@ -13909,10 +13831,7 @@
         "a"
       ],
       "explanation": "Feux de brouillard selon l'équipement / la visibilité, jamais les route dans le brouillard (éblouissement). Distance de sécurité x2.",
-      "multi": false,
-      "image": "assets/img/situations/brouillard.jpg",
-      "imageAlt": "Circulation dans le brouillard",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — A410 panneaux AK32 KM9.jpg"
+      "multi": false
     },
     {
       "id": "sit-r06",
@@ -13941,10 +13860,7 @@
         "a"
       ],
       "explanation": "Une moto n'a pas de stabilité auto. L'ETM attend qu'on sache renoncer.",
-      "multi": false,
-      "image": "assets/img/situations/neige.jpg",
-      "imageAlt": "Route enneigée",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Panneau B26 + M9z par temps de neige route de Sous-Lachat.jpg"
+      "multi": false
     },
     {
       "id": "sit-r07",
@@ -13973,10 +13889,7 @@
         "a"
       ],
       "explanation": "Trajectoire de sécurité : extérieur-intérieur-extérieur, sans mordre l'axe. Un bus en face n'a pas de place pour vous.",
-      "multi": false,
-      "image": "assets/img/situations/virage.jpg",
-      "imageAlt": "Virage sur route de montagne",
-      "imageCredit": "dv clss=\"fn vlue\" Agence Rol. Agence hotogrhque (commndtre) /dv — Wikimedia Commons (Public domain) — Virage de Corte - btv1b53063135z.jpg"
+      "multi": false
     },
     {
       "id": "sit-r08",
@@ -14005,10 +13918,7 @@
         "a"
       ],
       "explanation": "Un saut décolle la roue avant : plus de direction. Trottoir = infraction + piéton.",
-      "multi": false,
-      "image": "assets/img/situations/dosane.jpg",
-      "imageAlt": "Ralentisseur / dos-d'âne",
-      "imageCredit": "Coyrght © 2005 href=\"//commons.wkmed.org/wk/User:Dvd.Monnux\" ttle=\"User:Dvd.Monn — Wikimedia Commons (CC BY-SA 3.0) — Nephila inaurata dsc07682.jpg"
+      "multi": false
     },
     {
       "id": "sit-r09",
@@ -14037,10 +13947,7 @@
         "a"
       ],
       "explanation": "Un nid-de-poule peut pincer un pneu moto (crevaison / voile jante). L'écart sans rétro = collision arrière.",
-      "multi": false,
-      "image": "assets/img/situations/degrade.jpg",
-      "imageAlt": "Chaussée dégradée",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Tngoso\" ttle=\"User:Tngoso\" Tngoso — Wikimedia Commons (Public domain) — Parcmètre à Capbreton - Chaussée dégradée.jpg"
+      "multi": false
     },
     {
       "id": "sit-r10",
@@ -14069,10 +13976,7 @@
         "a"
       ],
       "explanation": "Les gravillons roulent sous le pneu. Freinage appuyé + angle = glisse. Panneau AK + B14 souvent associés.",
-      "multi": false,
-      "image": "assets/img/situations/gravillons.jpg",
-      "imageAlt": "Gravillons sur la chaussée",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Che01\" ttle=\"User:Che01\" Che01 — Wikimedia Commons (CC BY-SA 4.0) — Panneau Projection Gravillons Route Loëze St Cyr Menthon 2.jpg"
+      "multi": false
     },
     {
       "id": "sit-r11",
@@ -14101,10 +14005,7 @@
         "a"
       ],
       "explanation": "Peinture + pluie = patinoire. On place les pneus à côté des bandes quand c'est possible.",
-      "multi": false,
-      "image": "assets/img/situations/marquage.jpg",
-      "imageAlt": "Marquages au sol",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:TCY\" ttle=\"User:TCY\" TCY — Wikimedia Commons (CC BY-SA 4.0) — Marquage au sol, voie verte du canal du Rhône au Rhin, Allenjoie.jpg"
+      "multi": false
     },
     {
       "id": "sit-r12",
@@ -14133,10 +14034,7 @@
         "a"
       ],
       "explanation": "Un pneu coincé dans le rail = chute immédiate. Pareil au passage à niveau.",
-      "multi": false,
-      "image": "assets/img/situations/tram.jpg",
-      "imageAlt": "Rails dans la chaussée",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Seleouf\" ttle=\"User:Seleouf\" Seleouf — Wikimedia Commons (CC BY-SA 4.0) — Lyon 7e - Rails tramway T10 avenue Tony Garnier (mai 2025).jpg"
+      "multi": false
     },
     {
       "id": "sit-r13",
@@ -14165,10 +14063,7 @@
         "a"
       ],
       "explanation": "Le temporaire prime. Les plots ne sont pas une suggestion. Corridor : on s'éloigne des agents.",
-      "multi": false,
-      "image": "assets/img/situations/chantier.jpg",
-      "imageAlt": "Chantier routier",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Frn%C3%A7os_GOGLINS\" ttle=\"User:Frnços GOGLINS — Wikimedia Commons (CC BY-SA 4.0) — Sainpuits-FR-89-panneaux mobiles d'un chantier routier-1.jpg"
+      "multi": false
     },
     {
       "id": "sit-r14",
@@ -14197,10 +14092,7 @@
         "a"
       ],
       "explanation": "Le soleil mange les feux et les piétons. Une visière teintée la nuit est interdite / dangereuse, le jour elle n'annule pas l'éblouissement.",
-      "multi": false,
-      "image": "assets/img/situations/soleil.jpg",
-      "imageAlt": "Route en contre-jour",
-      "imageCredit": "dv clss=\"fn vlue\" Gdmer Frédérc /dv — Wikimedia Commons (CC BY-SA 4.0) — France, Arras, Grande Place Contre Jour - A42416.jpg"
+      "multi": false
     },
     {
       "id": "sit-r15",
@@ -14229,10 +14121,7 @@
         "a"
       ],
       "explanation": "On ne roule que dans ce qu'on éclaire. Feux de route hors agglo s'il n'y a personne en face.",
-      "multi": false,
-      "image": "assets/img/situations/nuit.jpg",
-      "imageAlt": "Circulation de nuit",
-      "imageCredit": "d href=\"htts://www.wkdt.org/wk/Q42790984\" clss=\"extw\" ttle=\"d:Q42790984\" sn ttle — Wikimedia Commons (CC0) — Rue de Nuits - 2016.JPG"
+      "multi": false
     },
     {
       "id": "sit-s01",
@@ -14262,9 +14151,9 @@
       ],
       "explanation": "EB10 = début d'agglomération. C'est une vraie limite, pas une déco.",
       "multi": false,
-      "image": "assets/img/situations/agglomeration.jpg",
-      "imageAlt": "Panneau d'entrée d'agglomération",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Floy36\" ttle=\"User:Floy36\" Floy36 — Wikimedia Commons (CC BY-SA 3.0) — Bonnu (Cuzion) - Panneau entrée agglomération bis.jpg"
+      "image": "assets/img/signs/EB10.svg",
+      "imageAlt": "Entrée d'agglomération (EB10)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
       "id": "sit-s02",
@@ -14294,9 +14183,9 @@
       ],
       "explanation": "Temporaire > permanent. AK + limitations B14 jaunes : on applique.",
       "multi": false,
-      "image": "assets/img/situations/travaux-panneau.jpg",
-      "imageAlt": "Signalisation de travaux",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Panneau AK14 KM9 orniérage.jpg"
+      "image": "assets/img/signs/AK14.svg",
+      "imageAlt": "Autres dangers temporaire (AK14)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
       "id": "sit-s03",
@@ -14326,9 +14215,9 @@
       ],
       "explanation": "Les motos sont flashées (souvent l'avant). La « marge » n'est pas un droit.",
       "multi": false,
-      "image": "assets/img/situations/radar.jpg",
-      "imageAlt": "Contrôle automatisé de vitesse",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Lev._Anthony\" ttle=\"User:Lev. Anthony\" Anthony — Wikimedia Commons (CC BY-SA 4.0) — Marcellaz-Albanais - 74150 - 2024.08.22 - Radar automatique dégradé © Anthony Levrot.jpg"
+      "image": "assets/img/signs/SR3a.svg",
+      "imageAlt": "Contrôle automatisé de vitesse (SR3a)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
       "id": "sit-s04",
@@ -14357,10 +14246,7 @@
         "a"
       ],
       "explanation": "Sans AB, sans STOP, sans feux : priorité à droite. Beaucoup d'accidents moto viennent de « je ne l'ai pas vu »… à droite.",
-      "multi": false,
-      "image": "assets/img/situations/priorite-droite.jpg",
-      "imageAlt": "Carrefour à priorité à droite",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:JLPC\" ttle=\"User:JLPC\" JLPC — Wikimedia Commons (CC BY-SA 3.0) — Lusignac 24 Limite D97E 2014.jpg"
+      "multi": false
     },
     {
       "id": "sit-s05",
@@ -14389,10 +14275,7 @@
         "a"
       ],
       "explanation": "Un train ne s'arrête pas. S'engager et rester coincé est mortel. À moto, les rails + précipitation = chute.",
-      "multi": false,
-      "image": "assets/img/situations/passage-pn.jpg",
-      "imageAlt": "Passage à niveau",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Seleouf\" ttle=\"User:Seleouf\" Seleouf — Wikimedia Commons (CC BY-SA 4.0) — Saint-Maurice-de-Beynost - Passage à niveau de la gare 1 (avril 2019).jpg"
+      "multi": false
     },
     {
       "id": "sit-s06",
@@ -14421,10 +14304,7 @@
         "a"
       ],
       "explanation": "B54 / régime local. On ne « coupe » pas une aire piétonne pour gagner 2 minutes.",
-      "multi": false,
-      "image": "assets/img/situations/aire-pietonne.jpg",
-      "imageAlt": "Zone piétonne",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Tl-tr\" ttle=\"User:Tl-tr\" Tl-tr — Wikimedia Commons (CC BY-SA 4.0) — Rue de la Constitution, aire piétonne (Cusset) 2023-09-17.JPG"
+      "multi": false
     },
     {
       "id": "sit-s07",
@@ -14454,9 +14334,9 @@
       ],
       "explanation": "C107/C207 : fin. On relit la VMA et le type de voie. Beaucoup se font flasher juste après.",
       "multi": false,
-      "image": "assets/img/situations/fin-autoroute.jpg",
-      "imageAlt": "Fin d'autoroute",
-      "imageCredit": "Florn Péelln — Wikimedia Commons (CC BY-SA 4.0) — A43 à l'entrée de la Maurienne en soirée (septembre 2024).JPG"
+      "image": "assets/img/signs/C208.svg",
+      "imageAlt": "Fin d'autoroute (C208)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
       "id": "sit-s08",
@@ -14486,9 +14366,9 @@
       ],
       "explanation": "Un sanglier de 80 kg à moto = chute grave. On lève le pied, on couvre le frein.",
       "multi": false,
-      "image": "assets/img/situations/faune.jpg",
-      "imageAlt": "Signalisation d'animaux",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Seleouf\" ttle=\"User:Seleouf\" Seleouf — Wikimedia Commons (CC BY-SA 4.0) — Ronno - Panneau A15b animaux sauvages RD 98 (sept 2022).jpg"
+      "image": "assets/img/signs/A15b.svg",
+      "imageAlt": "Passage d'animaux sauvages (A15b)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
       "id": "sit-s09",
@@ -14517,10 +14397,7 @@
         "a"
       ],
       "explanation": "Discontinue = franchissable, pas « obligatoire de doubler ». On ne double pas si un véhicule arrive.",
-      "multi": false,
-      "image": "assets/img/situations/ligne-discontinue.jpg",
-      "imageAlt": "Ligne discontinue",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Tl-tr\" ttle=\"User:Tl-tr\" Tl-tr — Wikimedia Commons (CC BY-SA 4.0) — Avenue de Vichy (Bellerive-sur-Allier), lignes discontinues vers Gannat 2024-12-07.JPG"
+      "multi": false
     },
     {
       "id": "sit-s10",
@@ -14549,10 +14426,7 @@
         "a"
       ],
       "explanation": "Masquer un piéton / une piste est un classique de l'ETM. « Petite moto » n'est pas une excuse.",
-      "multi": false,
-      "image": "assets/img/situations/stationnement-genant.jpg",
-      "imageAlt": "Véhicule gênant sur l'espace public",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Asurnl\" ttle=\"User:Asurnl\" Asurnl — Wikimedia Commons (CC BY-SA 4.0) — Dornbirn-Illegal and ruthless vehicles parked by craftsmen-02ASD.jpg"
+      "multi": false
     },
     {
       "id": "sit-s11",
@@ -14582,9 +14456,9 @@
       ],
       "explanation": "Arrêté 2025. R.412-11-1. Tous les 300 m sur les voies concernées.",
       "multi": false,
-      "image": "assets/img/situations/radar-panneau.jpg",
-      "imageAlt": "Panneau de sécurité routière en situation",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Panneau SR3a contrôles automatiques à Bastia.jpg"
+      "image": "assets/img/signs/SR53c.svg",
+      "imageAlt": "Corridor de sécurité (SR53c)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
       "id": "sit-s12",
@@ -14613,10 +14487,7 @@
         "a"
       ],
       "explanation": "On lit B15 / B2c. Jouer au plus rapide dans un rétrécissement à moto se termine contre un rétroviseur.",
-      "multi": false,
-      "image": "assets/img/situations/chaussee-etroite.jpg",
-      "imageAlt": "Chaussée étroite",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:KwNeko14\" ttle=\"User:KwNeko14\" KwNeko14 — Wikimedia Commons (CC BY-SA 4.0) — FR 17 Port d'Envaux - Crue de la Charente et ouverture de la Chaussée Saint-James.jpg"
+      "multi": false
     },
     {
       "id": "sit-u01",
@@ -14645,10 +14516,7 @@
         "a"
       ],
       "explanation": "En ville le danger est latéral (portière, enfant). 50 légal ≠ 50 pertinent.",
-      "multi": false,
-      "image": "assets/img/situations/pieton-ville.jpg",
-      "imageAlt": "Piétons en rue",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:VVVCFFrnce\" ttle=\"User:VVVCFFrnce\" VVVCFFrnce — Wikimedia Commons (CC BY-SA 4.0) — Passage piétons-vélos priorité aux piétons rue Victor Basch.jpg"
+      "multi": false
     },
     {
       "id": "sit-u02",
@@ -14677,10 +14545,7 @@
         "a"
       ],
       "explanation": "Un enfant ne calcule pas les distances. Le bus scolaire masque. On se place pour être vu et pour voir.",
-      "multi": false,
-      "image": "assets/img/situations/enfant.jpg",
-      "imageAlt": "Abords d'une école",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Celette\" ttle=\"User:Celette\" Celette — Wikimedia Commons (CC BY-SA 4.0) — Plaque école déportation enfants juifs, rue du Jardinet, Paris 6e.jpg"
+      "multi": false
     },
     {
       "id": "sit-u03",
@@ -14710,10 +14575,7 @@
         "b"
       ],
       "explanation": "Angles morts énormes. On ne stagne jamais à hauteur des essieux.",
-      "multi": true,
-      "image": "assets/img/situations/angle-mort-photo.jpg",
-      "imageAlt": "Poids lourd et visibilité",
-      "imageCredit": "Perre-Joseh Mothey — Wikimedia Commons (Public domain) — Le César de 1815 (NAPOLEON 124).jpg"
+      "multi": true
     },
     {
       "id": "sit-u04",
@@ -14742,10 +14604,7 @@
         "a"
       ],
       "explanation": "Le piéton « bus » ne vous cherche pas. Distance + allure de marche à côté des portes.",
-      "multi": false,
-      "image": "assets/img/situations/bus-arret.jpg",
-      "imageAlt": "Bus à l'arrêt",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Che01\" ttle=\"User:Che01\" Che01 — Wikimedia Commons (CC BY-SA 4.0) — Arrêt Bus Cours Île Seguin Cours Île Seguin - Boulogne-Billancourt (FR92) - 2021-02-21 - 1.jpg"
+      "multi": false
     },
     {
       "id": "sit-u05",
@@ -14774,10 +14633,7 @@
         "a"
       ],
       "explanation": "Le cycliste a le droit d'éviter un obstacle. 1 m / 1,50 m ne sont pas négociables.",
-      "multi": false,
-      "image": "assets/img/situations/velo.jpg",
-      "imageAlt": "Piste / cycliste",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:JPlot\" ttle=\"User:JPlot\" JPlot — Wikimedia Commons (CC0) — Panneau de la Piste cyclable Paul VARRY (3e arr.).jpg"
+      "multi": false
     },
     {
       "id": "sit-u06",
@@ -14806,10 +14662,7 @@
         "a"
       ],
       "explanation": "EDP motorisés : usagers faibles. Un frôlement à 40 les envoie au sol.",
-      "multi": false,
-      "image": "assets/img/situations/trottinette.jpg",
-      "imageAlt": "Trottinette / EDP",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Julesvernex2\" ttle=\"User:Julesvernex2\" Jules V — Wikimedia Commons (CC BY-SA 4.0) — Gabriel riding a kick scooter in a cycle lane, Lisbon, Portugal (PPL1-Corrected) julesvernex2.jpg"
+      "multi": false
     },
     {
       "id": "sit-u07",
@@ -14838,10 +14691,7 @@
         "a"
       ],
       "explanation": "Le second animal arrive souvent. Un écart de guidon à 80 = sortie de route.",
-      "multi": false,
-      "image": "assets/img/situations/animal.jpg",
-      "imageAlt": "Animal près de la route",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Mrc_Mongenet\" ttle=\"User:Mrc Mongenet\" Mrc Mon — Wikimedia Commons (CC BY-SA 4.0) — Panneau 1.24 Passage de gibier route de Choulex.jpg"
+      "multi": false
     },
     {
       "id": "sit-u08",
@@ -14870,10 +14720,7 @@
         "a"
       ],
       "explanation": "Un cheval qui cabre jette le cavalier. Moteur souple, large, pas de bruit inutile.",
-      "multi": false,
-      "image": "assets/img/situations/cavalier.jpg",
-      "imageAlt": "Cavalier au bord de la route",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Velvet\" ttle=\"User:Velvet\" Velvet — Wikimedia Commons (CC BY-SA 4.0) — Verlinghem chemin muchots chevaux.jpg"
+      "multi": false
     },
     {
       "id": "sit-u09",
@@ -14902,10 +14749,7 @@
         "a"
       ],
       "explanation": "On cède sans créer un autre accident. Suivre un prioritaire n'autorise pas les infractions.",
-      "multi": false,
-      "image": "assets/img/situations/samu.jpg",
-      "imageAlt": "Véhicule d'intérêt général prioritaire",
-      "imageCredit": "Alf vn Beem — Wikimedia Commons (CC0) — Fiat SAMU 54 ambulance in Nancy, pic2.JPG"
+      "multi": false
     },
     {
       "id": "sit-u10",
@@ -14934,10 +14778,7 @@
         "a"
       ],
       "explanation": "Le dooring est un grand classique moto / vélo. On ne rase pas la ligne de stationnement.",
-      "multi": false,
-      "image": "assets/img/situations/porte-ouverte.jpg",
-      "imageAlt": "Véhicules stationnés le long de la chaussée",
-      "imageCredit": "href=\"//commons.wkmed.org/wndex.h?ttle=User:Phl7605&m;cton=edt&m;redlnk=1\" clss= — Wikimedia Commons (CC BY-SA 4.0) — Fermeture d'une portière de voiture lors d'un démarrage.png"
+      "multi": false
     },
     {
       "id": "sit-u11",
@@ -14966,10 +14807,7 @@
         "a"
       ],
       "explanation": "Le groupe ne crée pas de droit. Un trou dans le peloton évite l'accident en chaîne.",
-      "multi": false,
-      "image": "assets/img/situations/groupe-moto.jpg",
-      "imageAlt": "Groupe de motards",
-      "imageCredit": "href=\"//commons.wkmed.org/wndex.h?ttle=User:Nthonsgye&m;cton=edt&m;redlnk=1\" cls — Wikimedia Commons (CC BY-SA 4.0) — Les motards de Rumonge au Burundi.jpg"
+      "multi": false
     },
     {
       "id": "sit-u12",
@@ -14998,10 +14836,7 @@
         "a"
       ],
       "explanation": "Clignotant tardif + client qui descend. On se place pour voir la portière.",
-      "multi": false,
-      "image": "assets/img/situations/taxi.jpg",
-      "imageAlt": "Taxi en circulation urbaine",
-      "imageCredit": "Bn News Servce — Wikimedia Commons (Public domain) — Taking Taxi from hole in Paris St. (LOC).jpg"
+      "multi": false
     },
     {
       "id": "sit-u13",
@@ -15030,10 +14865,7 @@
         "a"
       ],
       "explanation": "Un agent qui recule ne vous entend pas. Corridor + allure réduite.",
-      "multi": false,
-      "image": "assets/img/situations/travaux-pieton.jpg",
-      "imageAlt": "Personnes au bord du chantier",
-      "imageCredit": "dv clss=\"fn vlue\" Léon Auguste /dv — Wikimedia Commons (CC0) — Travaux d'élargissement du pont de la Concorde, la passerelle pour piétons - A64662.jpg"
+      "multi": false
     },
     {
       "id": "sit-u14",
@@ -15062,10 +14894,7 @@
         "a"
       ],
       "explanation": "Le trottoir est aux piétons. Même « doucement » c'est interdit (sauf aménagements spécifiques).",
-      "multi": false,
-      "image": "assets/img/situations/trottoir.jpg",
-      "imageAlt": "Trottoir et piétons",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:MHM55\" ttle=\"User:MHM55\" MHM55 — Wikimedia Commons (CC BY-SA 4.0) — Piétons prioritaires, trottoir traversant, Petit-Lancy-2.jpg"
+      "multi": false
     },
     {
       "id": "sit-u15",
@@ -15094,10 +14923,7 @@
         "a"
       ],
       "explanation": "Être vu = se placer où les rétros balayent. Le klaxon n'est pas un feu de position.",
-      "multi": false,
-      "image": "assets/img/situations/moto-ville.jpg",
-      "imageAlt": "Moto dans la circulation urbaine",
-      "imageCredit": "rel=\"nofollow\" clss=\"externl text\" href=\"htts://www.flckr.comeole/25217744@N06\" — Wikimedia Commons (CC BY 2.0) — Old Motorcycle Paris France (3588281297).jpg"
+      "multi": false
     },
     {
       "id": "sit-d01",
@@ -15126,10 +14952,7 @@
         "a"
       ],
       "explanation": "À moto la fatigue = micro-sommeil + chute. L'aire n'est pas un luxe.",
-      "multi": false,
-      "image": "assets/img/situations/fatigue-autoroute.jpg",
-      "imageAlt": "Aire / longue voie rapide",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Frn%C3%A7os_GOGLINS\" ttle=\"User:Frnços GOGLINS — Wikimedia Commons (CC BY-SA 4.0) — Merceuil-FR-21-autoroute A6-aire de repos-01.jpg"
+      "multi": false
     },
     {
       "id": "sit-d02",
@@ -15158,10 +14981,7 @@
         "a"
       ],
       "explanation": "Probatoire = 0,2. Un verre peut suffire. Stupéfiants : zéro.",
-      "multi": false,
-      "image": "assets/img/situations/controle.jpg",
-      "imageAlt": "Contrôle d'alcoolémie",
-      "imageCredit": "d href=\"htts://www.wkdt.org/wk/Q42790984\" clss=\"extw\" ttle=\"d:Q42790984\" sn ttle — Wikimedia Commons (CC0) — Contrôle de la route par la police en septembre 2021 à Rillieux-la-Pape.jpg"
+      "multi": false
     },
     {
       "id": "sit-d03",
@@ -15190,10 +15010,7 @@
         "a"
       ],
       "explanation": "Kit main-libre dans le casque : encadré. Le téléphone en main au feu est verbalisable. À moto c'est aussi un problème d'équilibre.",
-      "multi": false,
-      "image": "assets/img/situations/telephone-volant.jpg",
-      "imageAlt": "Téléphone et conduite",
-      "imageCredit": "rel=\"nofollow\" clss=\"externl text\" href=\"htts://we.rchve.org/we/20161020085207/h — Wikimedia Commons (CC BY 3.0) — A1 telephone mobile interdit au volant - panoramio.jpg"
+      "multi": false
     },
     {
       "id": "sit-d04",
@@ -15222,10 +15039,7 @@
         "a"
       ],
       "explanation": "Le pictogramme rouge = ne pas conduire. L'ETM le demande. L'air ne compense pas un sédatif.",
-      "multi": false,
-      "image": "assets/img/situations/controle.jpg",
-      "imageAlt": "Contrôle / vigilance du conducteur",
-      "imageCredit": "d href=\"htts://www.wkdt.org/wk/Q42790984\" clss=\"extw\" ttle=\"d:Q42790984\" sn ttle — Wikimedia Commons (CC0) — Contrôle de la route par la police en septembre 2021 à Rillieux-la-Pape.jpg"
+      "multi": false
     },
     {
       "id": "sit-d05",
@@ -15254,10 +15068,7 @@
         "a"
       ],
       "explanation": "Une visière opaque = yeux fermés. On s'arrête, on ne « tâte » pas à 90.",
-      "multi": false,
-      "image": "assets/img/situations/equip-pluie.jpg",
-      "imageAlt": "Moto sous la pluie",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:KODJOME_Romrc\" ttle=\"User:KODJOME Romrc\" KODJO — Wikimedia Commons (CC BY-SA 4.0) — La pluie et ces inondations.jpg"
+      "multi": false
     },
     {
       "id": "sit-d06",
@@ -15286,10 +15097,7 @@
         "a"
       ],
       "explanation": "Combinaison fatale : nuit × fatigue × deux-roues. L'ETM valorise le renoncement.",
-      "multi": false,
-      "image": "assets/img/situations/eclairage-defaut.jpg",
-      "imageAlt": "Route peu éclairée de nuit",
-      "imageCredit": "d href=\"htts://www.wkdt.org/wk/Q34788025\" clss=\"extw\" ttle=\"d:Q34788025\" sn ttle — Wikimedia Commons (CC BY-SA 4.0) — Los Angeles (California, USA), South Olive Street -- 2012 -- 4847.jpg"
+      "multi": false
     },
     {
       "id": "sit-p01",
@@ -15319,10 +15127,7 @@
         "b"
       ],
       "explanation": "Jugulaire attachée. Un jet CE est légal mais moins protecteur. Pas de casque « fashion » sans homolo.",
-      "multi": true,
-      "image": "assets/img/situations/casque.jpg",
-      "imageAlt": "Motard casqué",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Rm\" ttle=\"User:Rm\" Rm — Wikimedia Commons (CC BY-SA 2.0 fr) — Casque motard ricain mg 1711.jpg"
+      "multi": true
     },
     {
       "id": "sit-p02",
@@ -15351,10 +15156,7 @@
         "a"
       ],
       "explanation": "Depuis 2016. Les mains tapent en premier à la chute.",
-      "multi": false,
-      "image": "assets/img/situations/gants-moto.jpg",
-      "imageAlt": "Gants de moto",
-      "imageCredit": "rel=\"nofollow\" clss=\"externl text\" href=\"htt://slzgeer.t\" Phl Slzgeer — Wikimedia Commons (CC BY-SA 2.0 at) — Comet-Hale-Bopp-29-03-1997 hires adj.jpg"
+      "multi": false
     },
     {
       "id": "sit-p03",
@@ -15383,10 +15185,7 @@
         "a"
       ],
       "explanation": "Le gilet est obligatoire dans certains cas (visibilité réduite hors agglo) et toujours une bonne idée. À ne pas confondre avec le gilet en cas d'arrêt d'urgence.",
-      "multi": false,
-      "image": "assets/img/situations/gilet.jpg",
-      "imageAlt": "Équipement haute visibilité",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Sdk\" ttle=\"User:Sdk\" Sdk — Wikimedia Commons (CC BY-SA 4.0) — Uber Boda motorcycle and baboon.jpg"
+      "multi": false
     },
     {
       "id": "sit-p04",
@@ -15415,10 +15214,7 @@
         "a"
       ],
       "explanation": "Le plateau refuse souvent les baskets basses. En chute, la cheville part en premier.",
-      "multi": false,
-      "image": "assets/img/situations/bottes-moto.jpg",
-      "imageAlt": "Chaussures / bottes de moto",
-      "imageCredit": "Wkmed Commons — Wikimedia Commons (CC BY-SA 3.0) — Disegno raff. distribuzione forza motrice nel caseificio - Musei del cibo - Parmigiano - 166b.tif"
+      "multi": false
     },
     {
       "id": "sit-p05",
@@ -15447,10 +15243,7 @@
         "a"
       ],
       "explanation": "L'ETM insiste sur l'équipement complet. L'airbag complète, il ne remplace rien.",
-      "multi": false,
-      "image": "assets/img/situations/moto-equipement.jpg",
-      "imageAlt": "Équipement du motard",
-      "imageCredit": "rel=\"nofollow\" clss=\"externl text\" href=\"htts://flckr.comeole/25593194@N04\" Frnc — Wikimedia Commons (CC BY-SA 2.0) — Motorcycle rider fall.jpg"
+      "multi": false
     },
     {
       "id": "sit-p06",
@@ -15479,10 +15272,7 @@
         "a"
       ],
       "explanation": "Homologué ≠ maximal. L'ETM aime la nuance légal / recommandé.",
-      "multi": false,
-      "image": "assets/img/situations/casque-ouvert.jpg",
-      "imageAlt": "Casque de type jet",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Ashley_Pomeroy\" ttle=\"User:Ashley Pomeroy\" Ash — Wikimedia Commons (CC BY-SA 4.0) — Full-Face Helmet 9274.jpg"
+      "multi": false
     },
     {
       "id": "sit-m01",
@@ -15511,10 +15301,7 @@
         "a"
       ],
       "explanation": "Le témoin d'usure / la toile = arrêt. 80 % du freinage passe par l'avant.",
-      "multi": false,
-      "image": "assets/img/situations/pneu.jpg",
-      "imageAlt": "Pneumatique moto",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Photokdff\" ttle=\"User:Photokdff\" Photokdff — Wikimedia Commons (CC BY-SA 4.0) — Moto transportant un pneu à Douala.jpg"
+      "multi": false
     },
     {
       "id": "sit-m02",
@@ -15543,10 +15330,7 @@
         "a"
       ],
       "explanation": "Hors des 2–3 cm de jeu typiques (selon modèle) : danger. Graissage après la pluie.",
-      "multi": false,
-      "image": "assets/img/situations/chaine.jpg",
-      "imageAlt": "Transmission par chaîne",
-      "imageCredit": "In Hrvey — Wikimedia Commons (Public domain) — ChainTool1.jpg"
+      "multi": false
     },
     {
       "id": "sit-m03",
@@ -15575,10 +15359,7 @@
         "a"
       ],
       "explanation": "Éclairage = contrôle technique mental avant chaque départ. Warnings en roulant ≠ feu de croisement.",
-      "multi": false,
-      "image": "assets/img/situations/phare.jpg",
-      "imageAlt": "Éclairage moto",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Wksymthsnt\" ttle=\"User:Wksymthsnt\" Wksymthsnt — Wikimedia Commons (CC BY-SA 4.0) — BMW R32 headlight Bosch 2023-02-23.jpg"
+      "multi": false
     },
     {
       "id": "sit-m04",
@@ -15607,10 +15388,7 @@
         "a"
       ],
       "explanation": "Frein avant HS à moto = pas d'examen et pas de route. On ne graisse jamais un disque.",
-      "multi": false,
-      "image": "assets/img/situations/frein-disque.jpg",
-      "imageAlt": "Frein à disque",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Cj24\" ttle=\"User:Cj24\" Cj24 — Wikimedia Commons (CC BY-SA 3.0) — Ghezzi & Brian Super Twin 1100.jpg"
+      "multi": false
     },
     {
       "id": "sit-m05",
@@ -15639,10 +15417,7 @@
         "a"
       ],
       "explanation": "Contrôle + angle mort de la tête. Rétros repliés = infraction et aveugle.",
-      "multi": false,
-      "image": "assets/img/situations/retro-moto.jpg",
-      "imageAlt": "Rétroviseurs moto",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Adoscm\" ttle=\"User:Adoscm\" Adoscm — Wikimedia Commons (Public domain) — Rétroviseur de moto à deux roues exposé pour la vente dans une rue à Cotonou au Bénin.jpg"
+      "multi": false
     },
     {
       "id": "sit-m06",
@@ -15671,10 +15446,7 @@
         "a"
       ],
       "explanation": "Un moteur moto qui manque d'huile grille vite. Trop d'huile = joint / embrayage en bain.",
-      "multi": false,
-      "image": "assets/img/situations/huile-moteur.jpg",
-      "imageAlt": "Contrôle d'huile",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Pttgrll\" ttle=\"User:Pttgrll\" Pttgrll — Wikimedia Commons (CC0) — Motor oil for cars and motorcycles from various producers in German hardware store.jpg"
+      "multi": false
     },
     {
       "id": "sit-v01",
@@ -15703,10 +15475,7 @@
         "a"
       ],
       "explanation": "Permis, assurance, certificat d'immatriculation. On ne discute pas sur la chaussée.",
-      "multi": false,
-      "image": "assets/img/situations/controle.jpg",
-      "imageAlt": "Contrôle routier",
-      "imageCredit": "d href=\"htts://www.wkdt.org/wk/Q42790984\" clss=\"extw\" ttle=\"d:Q42790984\" sn ttle — Wikimedia Commons (CC0) — Contrôle de la route par la police en septembre 2021 à Rillieux-la-Pape.jpg"
+      "multi": false
     },
     {
       "id": "sit-v02",
@@ -15735,10 +15504,7 @@
         "a"
       ],
       "explanation": "On se protège d'abord. À moto, rester assis sur la machine au bord est un mauvais réflexe.",
-      "multi": false,
-      "image": "assets/img/situations/panne.jpg",
-      "imageAlt": "Panne en bord de voie",
-      "imageCredit": "href=\"//commons.wkmed.org/wndex.h?ttle=User:Memorlmn&m;cton=edt&m;redlnk=1\" clss — Wikimedia Commons (CC BY-SA 4.0) — Air Mens Memorial St Edward's Leek.jpg"
+      "multi": false
     },
     {
       "id": "sit-v03",
@@ -15767,10 +15533,7 @@
         "a"
       ],
       "explanation": "Moteur coupé, stabilité. Une moto qui tombe sur une pompe n'est pas un détail.",
-      "multi": false,
-      "image": "assets/img/situations/essence.jpg",
-      "imageAlt": "Station-service",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Mrcel_Roln\" ttle=\"User:Mrcel Roln\" Mrcel Roln — Wikimedia Commons (CC BY-SA 4.0) — AudienceTV France5 1994–2010.png"
+      "multi": false
     },
     {
       "id": "sit-v04",
@@ -15799,10 +15562,7 @@
         "a"
       ],
       "explanation": "Gêner un PMR ou un passage est une faute, moto ou pas.",
-      "multi": false,
-      "image": "assets/img/situations/parking.jpg",
-      "imageAlt": "Stationnement deux-roues",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Yomthurn\" ttle=\"User:Yomthurn\" Yomthurn — Wikimedia Commons (CC BY-SA 4.0) — Parking Moto-étudiant.jpg"
+      "multi": false
     },
     {
       "id": "sit-v05",
@@ -15831,10 +15591,7 @@
         "a"
       ],
       "explanation": "L'ETM demande les 3 papiers. Le CT moto se déploie par étapes : on ne dit pas « jamais de CT ».",
-      "multi": false,
-      "image": "assets/img/situations/controle-technique.jpg",
-      "imageAlt": "Contrôle / démarches véhicule",
-      "imageCredit": "href=\"//commons.wkmed.org/wndex.h?ttle=User:Celestn92&m;cton=edt&m;redlnk=1\" cls — Wikimedia Commons (CC BY-SA 4.0) — Vignette contrôle technique 2018.jpg"
+      "multi": false
     },
     {
       "id": "sit-e01",
@@ -15863,10 +15620,7 @@
         "a"
       ],
       "explanation": "Moteur à l'arrêt inutile = pollution + bruit. On part souple pour chauffer.",
-      "multi": false,
-      "image": "assets/img/situations/bouchon-ville.jpg",
-      "imageAlt": "Circulation congestionnée",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Tl-tr\" ttle=\"User:Tl-tr\" Tl-tr — Wikimedia Commons (CC BY-SA 4.0) — L'autre embouteillage, enlèvement de véhicule en cours (D 480, Lapalisse) 2024-10-12 12-47-56.JPG"
+      "multi": false
     },
     {
       "id": "sit-e02",
@@ -15895,10 +15649,7 @@
         "a"
       ],
       "explanation": "Bruit + vitesse = le duo que l'ETM associe à la moto. On ne quitte pas la chaussée.",
-      "multi": false,
-      "image": "assets/img/situations/zone-nature.jpg",
-      "imageAlt": "Route en espace naturel",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Cyme\" ttle=\"User:Cyme\" Cyme — Wikimedia Commons (CC BY-SA 3.0) — Guyane D6 Parc naturel régional de la Guyane.jpg"
+      "multi": false
     },
     {
       "id": "sit-e03",
@@ -15927,10 +15678,7 @@
         "a"
       ],
       "explanation": "Débrayer en descente = plus de frein moteur, danger. La pression se lit sur la moto, pas au hasard.",
-      "multi": false,
-      "image": "assets/img/situations/circulation-dense.jpg",
-      "imageAlt": "Trafic dense",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Hvng(nl)\" ttle=\"User:Hvng(nl)\" Hvng(nl) — Wikimedia Commons (CC0) — Le Bouchon-sur-Saulx (Meuse) mairie.jpg"
+      "multi": false
     },
     {
       "id": "sit-e04",
@@ -15959,10 +15707,7 @@
         "a"
       ],
       "explanation": "ZFE / pictogrammes Crit'Air : selon la ville. Ce n'est plus « les motos ne sont pas concernées » partout.",
-      "multi": false,
-      "image": "assets/img/situations/pollution.jpg",
-      "imageAlt": "Environnement urbain",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Aerocenute\" ttle=\"User:Aerocenute\" Aerocenute — Wikimedia Commons (CC BY-SA 4.0) — Pollution atmosphérique de la ville de Nice par l'incinérateur de déchets.jpg"
+      "multi": false
     },
     {
       "id": "sit-x01",
@@ -15991,10 +15736,7 @@
         "a"
       ],
       "explanation": "On évite le suraccident d'abord (gilet, triangle, baliser). Puis 15 / 18 / 112.",
-      "multi": false,
-      "image": "assets/img/situations/accident.jpg",
-      "imageAlt": "Accident de la route",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Kyh117\" ttle=\"User:Kyh117\" Kevn.B — Wikimedia Commons (CC BY-SA 4.0) — Gendarmerie nationale - DIR Est, accident de la route, A4, 2015.jpg"
+      "multi": false
     },
     {
       "id": "sit-x02",
@@ -16023,10 +15765,7 @@
         "a"
       ],
       "explanation": "Retrait de casque = geste formé (double sauveteur). Inconscient qui respire : PLS si possible, après protection.",
-      "multi": false,
-      "image": "assets/img/situations/secours-accident.jpg",
-      "imageAlt": "Secours sur accident",
-      "imageCredit": "Unknown hotogrher — Wikimedia Commons (Public domain) — Les pompiers interviennent lors d'un accident d'avion sur le terrain de Vincennes, septembre 1937 - Excelsior - bpt6k4611899q 2.jpg"
+      "multi": false
     },
     {
       "id": "sit-x03",
@@ -16056,10 +15795,7 @@
         "b"
       ],
       "explanation": "Le gilet d'abord (sur vous). Un triangle mal posé fait un second accident.",
-      "multi": true,
-      "image": "assets/img/situations/triangle.jpg",
-      "imageAlt": "Présignalisation d'un arrêt",
-      "imageCredit": "href=\"//commons.wkmed.org/wk/User:Roulex_45\" ttle=\"User:Roulex 45\" Roulex 45 — Wikimedia Commons (CC BY-SA 3.0) — Triangle de présignalisation.JPG"
+      "multi": true
     },
     {
       "id": "sit-x04",
@@ -16088,10 +15824,7 @@
         "a"
       ],
       "explanation": "15 / 18 / 112. La localisation (borne, sortie, commune) fait gagner des minutes.",
-      "multi": false,
-      "image": "assets/img/situations/samu.jpg",
-      "imageAlt": "Alerte des secours",
-      "imageCredit": "Alf vn Beem — Wikimedia Commons (CC0) — Fiat SAMU 54 ambulance in Nancy, pic2.JPG"
+      "multi": false
     }
   ]
 }

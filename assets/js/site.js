@@ -59,7 +59,7 @@
       return arr;
     },
     async loadQuestions() {
-      const res = await fetch("data/questions.json?v=iisr2024");
+      const res = await fetch("data/questions.json?v=nophoto-iisr");
       if (!res.ok) throw new Error("Impossible de charger les questions.");
       return res.json();
     },
