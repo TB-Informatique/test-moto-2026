@@ -614,6 +614,15 @@ td {
   display: block;
 }
 
+.plateau-trace.is-active {
+  filter: drop-shadow(0 0 4px currentColor);
+}
+
+#play-step:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
 .live-caption {
   min-height: 3.2em;
   margin: 8px 10px 4px;
