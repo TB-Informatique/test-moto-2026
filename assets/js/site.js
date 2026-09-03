@@ -59,7 +59,7 @@
       return arr;
     },
     async loadQuestions() {
-      const res = await fetch("data/questions.json");
+      const res = await fetch("data/questions.json?v=sit100");
       if (!res.ok) throw new Error("Impossible de charger les questions.");
       return res.json();
     },
