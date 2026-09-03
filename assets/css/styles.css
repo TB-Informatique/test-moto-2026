@@ -355,6 +355,18 @@ button.btn {
   gap: 14px;
 }
 
+.phase-grid figcaption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: var(--muted, #9aa4b2);
+}
+
+.phase-grid .q-image img {
+  background: #fff;
+  border-radius: 12px;
+  padding: 8px;
+}
+
 .phase-card {
   background: var(--panel);
   border: 1px solid var(--line);

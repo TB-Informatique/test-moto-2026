@@ -94,8 +94,8 @@
     {
       "code": "A9",
       "family": "danger",
-      "title": "Débouché de véhicules des transports en commun",
-      "detail": "A9 : bus ou tram susceptibles de déboucher. Les rails de tram sont très glissants : les franchir le plus perpendiculairement possible, sans freiner dessus.",
+      "title": "Débouché de transports en commun",
+      "detail": "A9 historique (bus / tram). L'IISR distingue désormais A9a (bus) et A9b (tram). Rails : franchir perpendiculairement, sans freiner.",
       "image": "assets/img/signs/A9.svg"
     },
     {
@@ -647,8 +647,8 @@
     {
       "code": "C1b",
       "family": "indication",
-      "title": "Lieu aménagé pour le stationnement payant",
-      "detail": "C1b : stationnement payant. Le stationnement à durée limitée (disque) est le C1c.",
+      "title": "Lieu aménagé pour le stationnement à durée limitée (disque)",
+      "detail": "C1b (IISR) : stationnement gratuit à durée limitée, contrôle par disque. Le payant est le C1c.",
       "image": "assets/img/signs/C1b.svg"
     },
     {
@@ -662,7 +662,7 @@
       "code": "C5",
       "family": "indication",
       "title": "Station de taxis",
-      "detail": "C5 : emplacement de taxis. Ce n'est pas le stationnement payant (C1b).",
+      "detail": "C5 : emplacement de taxis. Ce n'est pas le stationnement payant (C1c).",
       "image": "assets/img/signs/C5.svg"
     },
     {
@@ -846,6 +846,601 @@
       "title": "Panonceau d'indications diverses",
       "detail": "Complète un panneau principal (distance, catégorie de véhicules, horaires).",
       "image": "assets/img/signs/M9z.svg"
+    },
+    {
+      "code": "A15a2",
+      "family": "danger",
+      "title": "Passage d'animaux domestiques (bovins)",
+      "detail": "A15a2 : vaches / bovins susceptibles de traverser. Même réflexe que A15a1 : ralentir, éviter l'écart brutal.",
+      "image": "assets/img/signs/A15a2.svg"
+    },
+    {
+      "code": "A21b",
+      "family": "danger",
+      "title": "Débouché de cyclistes venant de gauche",
+      "detail": "A21b : cyclistes pouvant déboucher depuis la gauche. Laisser de l'espace, allure réduite.",
+      "image": "assets/img/signs/A21b.svg"
+    },
+    {
+      "code": "B1j",
+      "family": "interdiction",
+      "title": "Rappel de sens interdit sur bretelle",
+      "detail": "B1j : rappel d'interdiction à contresens sur bretelle d'autoroute. Ne jamais s'y engager.",
+      "image": "assets/img/signs/B1j.svg"
+    },
+    {
+      "code": "B6a2",
+      "family": "interdiction",
+      "title": "Stationnement interdit du 1er au 15",
+      "detail": "B6a2 : côté concerné interdit du 1er au 15 du mois. Une moto y stationnée est verbalisable.",
+      "image": "assets/img/signs/B6a2.svg"
+    },
+    {
+      "code": "B6a3",
+      "family": "interdiction",
+      "title": "Stationnement interdit du 16 à la fin du mois",
+      "detail": "B6a3 : côté concerné interdit du 16 à la fin du mois.",
+      "image": "assets/img/signs/B6a3.svg"
+    },
+    {
+      "code": "B6b1",
+      "family": "interdiction",
+      "title": "Entrée d'une zone à stationnement interdit",
+      "detail": "B6b1 : zone entière à stationnement interdit, pas seulement le bord du panneau.",
+      "image": "assets/img/signs/B6b1.svg"
+    },
+    {
+      "code": "B6b3",
+      "family": "interdiction",
+      "title": "Entrée d'une zone à stationnement à durée limitée (disque)",
+      "detail": "B6b3 : dans la zone, stationner seulement la durée indiquée, disque visible.",
+      "image": "assets/img/signs/B6b3.svg"
+    },
+    {
+      "code": "B6b4",
+      "family": "interdiction",
+      "title": "Entrée d'une zone à stationnement payant",
+      "detail": "B6b4 : zone payante. Le panneau C1c localise un emplacement payant ponctuel.",
+      "image": "assets/img/signs/B6b4.svg"
+    },
+    {
+      "code": "B9c",
+      "family": "interdiction",
+      "title": "Accès interdit aux véhicules à traction animale",
+      "detail": "B9c : pictogramme attelage. Une moto n'est pas visée.",
+      "image": "assets/img/signs/B9c.svg"
+    },
+    {
+      "code": "B9i",
+      "family": "interdiction",
+      "title": "Accès interdit aux véhicules tractant une caravane",
+      "detail": "B9i : caravane / remorque > 250 kg. Une moto solo n'est pas visée.",
+      "image": "assets/img/signs/B9i.svg"
+    },
+    {
+      "code": "B14-70",
+      "family": "interdiction",
+      "title": "Limitation de vitesse à 70 km/h",
+      "detail": "B14-70 : 70 km/h max. Fréquent avant un danger ou en travaux.",
+      "image": "assets/img/signs/B14-70.svg"
+    },
+    {
+      "code": "B15",
+      "family": "interdiction",
+      "title": "Cédez le passage au sens inverse",
+      "detail": "B15 : rond à flèches, vous devez laisser passer le sens opposé dans le rétrécissement. Voisin du AB5 (carré).",
+      "image": "assets/img/signs/B15.svg"
+    },
+    {
+      "code": "B17",
+      "family": "interdiction",
+      "title": "Intervalle minimal entre véhicules",
+      "detail": "B17 : garder au moins la distance indiquée. Utile en descente, tunnel, ou convoi.",
+      "image": "assets/img/signs/B17.svg"
+    },
+    {
+      "code": "B21-2",
+      "family": "obligation",
+      "title": "Obligation de tourner à gauche avant le panneau",
+      "detail": "B21-2 : flèche horizontale vers la gauche. Tourner avant le panneau.",
+      "image": "assets/img/signs/B21-2.svg"
+    },
+    {
+      "code": "B21c1",
+      "family": "obligation",
+      "title": "Direction obligatoire à droite",
+      "detail": "B21c1 : à la prochaine intersection, tourner à droite.",
+      "image": "assets/img/signs/B21c1.svg"
+    },
+    {
+      "code": "B21c2",
+      "family": "obligation",
+      "title": "Direction obligatoire à gauche",
+      "detail": "B21c2 : à la prochaine intersection, tourner à gauche.",
+      "image": "assets/img/signs/B21c2.svg"
+    },
+    {
+      "code": "B21d2",
+      "family": "obligation",
+      "title": "Directions obligatoires : tout droit ou à gauche",
+      "detail": "B21d2 : tout droit ou gauche, pas à droite.",
+      "image": "assets/img/signs/B21d2.svg"
+    },
+    {
+      "code": "B22c",
+      "family": "obligation",
+      "title": "Chemin obligatoire pour cavaliers",
+      "detail": "B22c : obligatoire pour les cavaliers. Une moto n'a pas à l'emprunter.",
+      "image": "assets/img/signs/B22c.svg"
+    },
+    {
+      "code": "B25",
+      "family": "obligation",
+      "title": "Vitesse minimale obligatoire (ici 30 km/h)",
+      "detail": "B25 : rond bleu, vitesse minimale. Ce n'est pas une limitation (B14, fond blanc cerclé de rouge).",
+      "image": "assets/img/signs/B25.svg"
+    },
+    {
+      "code": "B27b",
+      "family": "obligation",
+      "title": "Voie réservée aux tramways",
+      "detail": "B27b : voie de tram. Une moto n'y circule pas.",
+      "image": "assets/img/signs/B27b.svg"
+    },
+    {
+      "code": "B34",
+      "family": "interdiction",
+      "title": "Fin d'interdiction de dépasser (B3)",
+      "detail": "B34 : fin du B3 (tous véhicules à moteur). Le B34a ne lève que l'interdiction faite aux PL.",
+      "image": "assets/img/signs/B34.svg"
+    },
+    {
+      "code": "B58",
+      "family": "obligation",
+      "title": "Entrée de zone d'équipements hivernaux",
+      "detail": "B58 : pneus hiver ou chaînes obligatoires dans la zone, période hivernale. À moto, souvent mieux de ne pas partir.",
+      "image": "assets/img/signs/B58.svg"
+    },
+    {
+      "code": "C1c",
+      "family": "indication",
+      "title": "Lieu aménagé pour le stationnement payant",
+      "detail": "C1c : emplacement payant. Le C1b est le stationnement à durée limitée (disque).",
+      "image": "assets/img/signs/C1c.svg"
+    },
+    {
+      "code": "C4b",
+      "family": "indication",
+      "title": "Fin de vitesse conseillée",
+      "detail": "C4b : la vitesse conseillée C4a cesse. La limitation réglementaire reste.",
+      "image": "assets/img/signs/C4b.svg"
+    },
+    {
+      "code": "C6",
+      "family": "indication",
+      "title": "Arrêt d'autobus",
+      "detail": "C6 : arrêt de bus. S'arrêter ou stationner dessus est interdit (marquage).",
+      "image": "assets/img/signs/C6.svg"
+    },
+    {
+      "code": "C13c",
+      "family": "indication",
+      "title": "Impasse avec issue piétonne",
+      "detail": "C13c : pas d'issue pour une moto, seulement pour les piétons.",
+      "image": "assets/img/signs/C13c.svg"
+    },
+    {
+      "code": "C26b",
+      "family": "indication",
+      "title": "Fin de voie de détresse",
+      "detail": "C26b : fin de la voie d'arrêt d'urgence en descente (C26a).",
+      "image": "assets/img/signs/C26b.svg"
+    },
+    {
+      "code": "C108",
+      "family": "indication",
+      "title": "Fin de route à accès réglementé",
+      "detail": "C108 : fin du C107 (voie express). La limitation générale reprend.",
+      "image": "assets/img/signs/C108.svg"
+    },
+    {
+      "code": "C208",
+      "family": "indication",
+      "title": "Fin d'autoroute",
+      "detail": "C208 : fin du régime autoroutier (C207). Adapter vitesse et placement, souvent 110 puis 80.",
+      "image": "assets/img/signs/C208.svg"
+    },
+    {
+      "code": "CE2a",
+      "family": "service",
+      "title": "Restaurant",
+      "detail": "CE2a : restaurant à proximité.",
+      "image": "assets/img/signs/CE2a.svg"
+    },
+    {
+      "code": "CE4a",
+      "family": "service",
+      "title": "Point d'information",
+      "detail": "CE4a : office de tourisme / point info.",
+      "image": "assets/img/signs/CE4a.svg"
+    },
+    {
+      "code": "CE12",
+      "family": "service",
+      "title": "Poste de secours / hôpital",
+      "detail": "CE12 : soins d'urgence à proximité. En accident, 112 reste le réflexe.",
+      "image": "assets/img/signs/CE12.svg"
+    },
+    {
+      "code": "M1",
+      "family": "panonceau",
+      "title": "Panonceau de distance",
+      "detail": "M1 : le danger ou la prescription se trouve à la distance indiquée.",
+      "image": "assets/img/signs/M1.svg"
+    },
+    {
+      "code": "M4a",
+      "family": "panonceau",
+      "title": "Panonceau « motocyclettes »",
+      "detail": "M4a : le panneau principal s'applique aux motocyclettes. Crucial : un B14 + M4a limite seulement les motos.",
+      "image": "assets/img/signs/M4a.svg"
+    },
+    {
+      "code": "M4b",
+      "family": "panonceau",
+      "title": "Panonceau « cycles »",
+      "detail": "M4b : s'applique aux cycles, pas aux motos.",
+      "image": "assets/img/signs/M4b.svg"
+    },
+    {
+      "code": "M4f",
+      "family": "panonceau",
+      "title": "Panonceau de tonnage",
+      "detail": "M4f : l'interdiction (souvent B8) ne vise que les véhicules au-dessus du tonnage indiqué.",
+      "image": "assets/img/signs/M4f.svg"
+    },
+    {
+      "code": "SR53b",
+      "family": "securite",
+      "title": "Corridor de sécurité : changez de voie",
+      "detail": "SR53b : si vous le pouvez, clignotant et changement de voie pour vous éloigner du véhicule arrêté.",
+      "image": "assets/img/signs/SR53b.svg"
+    },
+    {
+      "code": "B9e",
+      "family": "interdiction",
+      "title": "Accès interdit aux voitures à bras",
+      "detail": "B9e : voitures à bras. Ce n'est pas l'interdiction moto (B9h).",
+      "image": "assets/img/signs/B9e.svg"
+    },
+    {
+      "code": "B10a",
+      "family": "interdiction",
+      "title": "Limitation de longueur",
+      "detail": "B10a : accès interdit si la longueur, chargement compris, dépasse la valeur. Une moto passe.",
+      "image": "assets/img/signs/B10a.svg"
+    },
+    {
+      "code": "B13a",
+      "family": "interdiction",
+      "title": "Limitation de charge à l'essieu",
+      "detail": "B13a : poids max sur un essieu. Concerne surtout les PL, pas une moto.",
+      "image": "assets/img/signs/B13a.svg"
+    },
+    {
+      "code": "B14-30",
+      "family": "interdiction",
+      "title": "Limitation de vitesse à 30 km/h",
+      "detail": "B14-30 : 30 km/h max à partir du panneau (hors logique de zone 30, qui est le B30).",
+      "image": "assets/img/signs/B14-30.svg"
+    },
+    {
+      "code": "B18c",
+      "family": "interdiction",
+      "title": "Accès interdit aux TMD (toutes matières dangereuses)",
+      "detail": "B18c : toutes marchandises dangereuses signalées TMD. Plus large que B18a (explosifs) ou B18b (polluants).",
+      "image": "assets/img/signs/B18c.svg"
+    },
+    {
+      "code": "B21a2",
+      "family": "obligation",
+      "title": "Contournement obligatoire par la gauche",
+      "detail": "B21a2 : passer à gauche de l'obstacle. Le passage à droite est le B21a1.",
+      "image": "assets/img/signs/B21a2.svg"
+    },
+    {
+      "code": "B21d1",
+      "family": "obligation",
+      "title": "Directions obligatoires : tout droit ou à droite",
+      "detail": "B21d1 : tout droit ou droite, pas à gauche.",
+      "image": "assets/img/signs/B21d1.svg"
+    },
+    {
+      "code": "B21e",
+      "family": "obligation",
+      "title": "Directions obligatoires : à droite ou à gauche",
+      "detail": "B21e : interdiction d'aller tout droit. Droite ou gauche seulement.",
+      "image": "assets/img/signs/B21e.svg"
+    },
+    {
+      "code": "B35",
+      "family": "interdiction",
+      "title": "Fin d'interdiction des signaux sonores",
+      "detail": "B35 : le klaxon redevient autorisé (hors agglomération, selon le code).",
+      "image": "assets/img/signs/B35.svg"
+    },
+    {
+      "code": "B39",
+      "family": "interdiction",
+      "title": "Fin d'interdiction indiquée sur le panneau",
+      "detail": "B39 : lève l'interdiction écrite sur un B19.",
+      "image": "assets/img/signs/B39.svg"
+    },
+    {
+      "code": "B43",
+      "family": "obligation",
+      "title": "Fin de vitesse minimale obligatoire",
+      "detail": "B43 : fin du B25. On peut à nouveau rouler plus lentement si le trafic l'impose.",
+      "image": "assets/img/signs/B43.svg"
+    },
+    {
+      "code": "B45b",
+      "family": "obligation",
+      "title": "Fin de voie réservée aux tramways",
+      "detail": "B45b : fin du B27b.",
+      "image": "assets/img/signs/B45b.svg"
+    },
+    {
+      "code": "B49",
+      "family": "obligation",
+      "title": "Fin d'obligation indiquée sur le panneau",
+      "detail": "B49 : lève l'obligation écrite sur un B29.",
+      "image": "assets/img/signs/B49.svg"
+    },
+    {
+      "code": "B50a",
+      "family": "interdiction",
+      "title": "Sortie de zone à stationnement interdit",
+      "detail": "B50a : fin de la zone B6b1. Les règles générales de stationnement reprennent.",
+      "image": "assets/img/signs/B50a.svg"
+    },
+    {
+      "code": "B54",
+      "family": "obligation",
+      "title": "Entrée d'une aire piétonne",
+      "detail": "B54 : aire piétonne. Circulation moto interdite sauf riverains / livraison aux horaires, à allure piétonne.",
+      "image": "assets/img/signs/B54.svg"
+    },
+    {
+      "code": "B55",
+      "family": "obligation",
+      "title": "Sortie d'une aire piétonne",
+      "detail": "B55 : fin de l'aire piétonne. Les règles générales reprennent.",
+      "image": "assets/img/signs/B55.svg"
+    },
+    {
+      "code": "B56",
+      "family": "interdiction",
+      "title": "Entrée de zone à circulation restreinte (ZCR)",
+      "detail": "B56 : ZCR / ZFE selon arrêtés locaux. Vérifier si votre moto y est autorisée (Crit'Air).",
+      "image": "assets/img/signs/B56.svg"
+    },
+    {
+      "code": "B57",
+      "family": "interdiction",
+      "title": "Sortie de zone à circulation restreinte",
+      "detail": "B57 : fin de ZCR.",
+      "image": "assets/img/signs/B57.svg"
+    },
+    {
+      "code": "B59",
+      "family": "obligation",
+      "title": "Sortie de zone d'équipements hivernaux",
+      "detail": "B59 : fin de l'obligation B58.",
+      "image": "assets/img/signs/B59.svg"
+    },
+    {
+      "code": "C3",
+      "family": "indication",
+      "title": "Risque d'incendie",
+      "detail": "C3 : risque d'incendie (forêt, friches). Ne pas jeter de cigarette, pas de feu.",
+      "image": "assets/img/signs/C3.svg"
+    },
+    {
+      "code": "C9",
+      "family": "indication",
+      "title": "Station d'autopartage",
+      "detail": "C9 : places réservées aux véhicules labellisés autopartage.",
+      "image": "assets/img/signs/C9.svg"
+    },
+    {
+      "code": "C13d",
+      "family": "indication",
+      "title": "Impasse avec issue piétons et cyclistes",
+      "detail": "C13d : issue pour piétons et vélos, pas pour une moto.",
+      "image": "assets/img/signs/C13d.svg"
+    },
+    {
+      "code": "C20b",
+      "family": "indication",
+      "title": "Traversée de voie de bus",
+      "detail": "C20b : bus susceptibles de traverser. Ce n'est pas le tram (C20c) ni le passage piéton (C20a).",
+      "image": "assets/img/signs/C20b.svg"
+    },
+    {
+      "code": "C23",
+      "family": "indication",
+      "title": "Stationnement réglementé pour caravanes",
+      "detail": "C23 : emplacement pour caravanes / camping-cars, pas un parking moto générique.",
+      "image": "assets/img/signs/C23.svg"
+    },
+    {
+      "code": "C62",
+      "family": "indication",
+      "title": "Présignalisation d'une issue de secours",
+      "detail": "C62 : issue de secours, surtout en tunnel. La connaître avant d'en avoir besoin.",
+      "image": "assets/img/signs/C62.svg"
+    },
+    {
+      "code": "C64a",
+      "family": "indication",
+      "title": "Issue de secours",
+      "detail": "C64a : localise une issue de secours. En tunnel, descendre moto arrêtée, suivre le pictogramme.",
+      "image": "assets/img/signs/C64a.svg"
+    },
+    {
+      "code": "C115",
+      "family": "indication",
+      "title": "Voie verte",
+      "detail": "C115 : voie verte, réservée aux usages non motorisés. Une moto n'y circule pas.",
+      "image": "assets/img/signs/C115.svg"
+    },
+    {
+      "code": "C116",
+      "family": "indication",
+      "title": "Fin de voie verte",
+      "detail": "C116 : fin de la voie verte C115.",
+      "image": "assets/img/signs/C116.svg"
+    },
+    {
+      "code": "CE1",
+      "family": "service",
+      "title": "Poste de distribution de carburant",
+      "detail": "CE1 : station-service. Utile pour anticiper la réserve.",
+      "image": "assets/img/signs/CE1.svg"
+    },
+    {
+      "code": "CE3a",
+      "family": "service",
+      "title": "Hôtel ou motel",
+      "detail": "CE3a : hébergement à proximité.",
+      "image": "assets/img/signs/CE3a.svg"
+    },
+    {
+      "code": "CE15a",
+      "family": "service",
+      "title": "Terrain de camping",
+      "detail": "CE15a : camping.",
+      "image": "assets/img/signs/CE15a.svg"
+    },
+    {
+      "code": "CE18",
+      "family": "service",
+      "title": "Toilettes publiques",
+      "detail": "CE18 : sanitaires.",
+      "image": "assets/img/signs/CE18.svg"
+    },
+    {
+      "code": "CE27",
+      "family": "service",
+      "title": "Point de recharge électrique",
+      "detail": "CE27 : recharge de véhicules électriques.",
+      "image": "assets/img/signs/CE27.svg"
+    },
+    {
+      "code": "M2",
+      "family": "panonceau",
+      "title": "Panonceau d'étendue",
+      "detail": "M2 : la prescription s'applique sur la longueur indiquée.",
+      "image": "assets/img/signs/M2.svg"
+    },
+    {
+      "code": "M3a1",
+      "family": "panonceau",
+      "title": "Panonceau de direction (flèche)",
+      "detail": "M3a1 : précise la direction concernée par le panneau principal.",
+      "image": "assets/img/signs/M3a1.svg"
+    },
+    {
+      "code": "M4c",
+      "family": "panonceau",
+      "title": "Panonceau « véhicules de transport de marchandises »",
+      "detail": "M4c : s'applique aux marchandises / PL, pas à une moto solo.",
+      "image": "assets/img/signs/M4c.svg"
+    },
+    {
+      "code": "M5",
+      "family": "panonceau",
+      "title": "Panonceau de catégorie d'usagers (pictogramme)",
+      "detail": "M5 : précise à qui s'applique le panneau (souvent un usager vulnérable).",
+      "image": "assets/img/signs/M5.svg"
+    },
+    {
+      "code": "M6a",
+      "family": "panonceau",
+      "title": "Panonceau « sauf… »",
+      "detail": "M6a : exception à l'interdiction (riverains, services…). Lire avant de s'engager.",
+      "image": "assets/img/signs/M6a.svg"
+    },
+    {
+      "code": "M9d",
+      "family": "panonceau",
+      "title": "Panonceau « rappel »",
+      "detail": "M9d : rappelle une règle déjà en vigueur, sans en créer une nouvelle.",
+      "image": "assets/img/signs/M9d.svg"
+    },
+    {
+      "code": "SR3a",
+      "family": "securite",
+      "title": "Contrôle automatisé de vitesse (annonce)",
+      "detail": "SR3a : zone où la vitesse est contrôlée par radar. Ce n'est pas une limitation : le B14 ou la règle générale s'applique.",
+      "image": "assets/img/signs/SR3a.svg"
+    },
+    {
+      "code": "SR3d",
+      "family": "securite",
+      "title": "Zone de contrôle",
+      "detail": "SR3d : zone de contrôle (vitesse, voies réservées ou bruit selon le panonceau associé).",
+      "image": "assets/img/signs/SR3d.svg"
+    },
+    {
+      "code": "SR53a",
+      "family": "securite",
+      "title": "Corridor de sécurité : ralentissez",
+      "detail": "SR53a (arrêté 4 avril 2025) : véhicule arrêté sur BAU / accotement → ralentir. 1er des 3 panneaux, espacés de 300 m.",
+      "image": "assets/img/signs/SR53a.svg"
+    },
+    {
+      "code": "SR53c",
+      "family": "securite",
+      "title": "Respectez le corridor de sécurité",
+      "detail": "SR53c : règle R.412-11-1. Ralentir, s'éloigner, changer de voie. Les 3 panneaux SR53 sont indissociables.",
+      "image": "assets/img/signs/SR53c.svg"
+    },
+    {
+      "code": "SR-interfile",
+      "family": "securite",
+      "title": "Rappel des règles d'inter-files",
+      "detail": "Panneau pédagogique rappelant l'inter-files (files de gauche, 50 km/h max). Ce n'est pas une autorisation en ville.",
+      "image": "assets/img/signs/SR-interfile.svg"
+    },
+    {
+      "code": "AK4",
+      "family": "temporaire",
+      "title": "Chaussée glissante (temporaire)",
+      "detail": "AK4 : danger temporaire, fond jaune. Gravillons, pluie de chantier, film gras. Allure réduite, moto droite.",
+      "image": "assets/img/signs/AK4.svg"
+    },
+    {
+      "code": "AK14",
+      "family": "temporaire",
+      "title": "Autres dangers (temporaire)",
+      "detail": "AK14 : danger temporaire non pictogrammé. Un panonceau KM9 précise souvent (gravillons, boue…).",
+      "image": "assets/img/signs/AK14.svg"
+    },
+    {
+      "code": "AK17",
+      "family": "temporaire",
+      "title": "Feux tricolores (temporaire)",
+      "detail": "AK17 : feux de chantier. Anticiper un orange / rouge, surtout si le sol est frais.",
+      "image": "assets/img/signs/AK17.svg"
+    },
+    {
+      "code": "AK30",
+      "family": "temporaire",
+      "title": "Accident (temporaire)",
+      "detail": "AK30 : accident. Ralentir, corridor de sécurité si un véhicule est sur le bord, pas de rubbernecking.",
+      "image": "assets/img/signs/AK30.svg"
     }
   ],
   "families": {
@@ -856,6 +1451,8 @@
     "indication": "Indication",
     "service": "Services",
     "localisation": "Localisation",
-    "panonceau": "Panonceaux"
+    "panonceau": "Panonceaux",
+    "securite": "Sécurité routière",
+    "temporaire": "Temporaires"
   }
 }
