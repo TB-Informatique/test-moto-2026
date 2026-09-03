@@ -336,6 +336,55 @@ button.btn {
   width: auto;
 }
 
+.q-image.q-image-wide img,
+.figure-lesson img {
+  max-height: none;
+  width: 100%;
+}
+
+.figure-lesson {
+  background: #2f3641;
+  border-radius: 16px;
+  padding: 14px;
+  margin: 8px 0 4px;
+}
+
+.phase-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+}
+
+.phase-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 16px 16px 8px;
+}
+
+.phase-card h3 {
+  margin-top: 0;
+  font-size: 1.15rem;
+}
+
+.phase-card.brake {
+  border-top: 4px solid #ef4444;
+}
+
+.phase-card.lean {
+  border-top: 4px solid #38bdf8;
+}
+
+.phase-card.gas {
+  border-top: 4px solid #22c55e;
+}
+
+.danger-line {
+  color: #f0b4ae;
+  border-left: 3px solid var(--red);
+  padding-left: 12px;
+}
+
 .choices {
   display: grid;
   gap: 10px;

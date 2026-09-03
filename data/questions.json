@@ -5355,11 +5355,11 @@
       "correct": [
         "a"
       ],
-      "explanation": "Extérieur ? visibilité maximale ? replacer. On ne coupe pas la corde sur route ouverte.",
+      "explanation": "Extérieur de sa voie, visibilité maximale, puis replacer. On ne coupe pas la corde et on ne chevauche pas la ligne médiane.",
       "multi": false,
       "image": "assets/img/illustrations/trajectoire.svg",
-      "imageAlt": "Schéma de trajectoire de sécurité",
-      "imageCredit": "Wikimedia Commons - signalisation routière française"
+      "imageAlt": "Schéma de trajectoire de sécurité : rester dans sa voie",
+      "imageCredit": "Illustration pédagogique — Code Moto 2026"
     },
     {
       "id": "mecanique-155",

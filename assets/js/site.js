@@ -5,6 +5,7 @@
     ["apprendre.html", "Cours"],
     ["panneaux.html", "Panneaux"],
     ["particularites.html", "Spécificités moto"],
+    ["trajectoires.html", "Trajectoires"],
   ];
 
   const here = (document.body.dataset.page || "index") + ".html";
