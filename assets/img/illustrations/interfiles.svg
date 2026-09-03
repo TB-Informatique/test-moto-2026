@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-labelledby="t">
-  <title id="t">Circulation inter-files entre les deux voies les plus à gauche</title>
-  <rect width="640" height="260" fill="#1a1d22"/>
-  <rect x="20" y="20" width="600" height="220" rx="8" fill="#2a2f36"/>
-  <line x1="320" y1="20" x2="320" y2="240" stroke="#f5c518" stroke-width="4" stroke-dasharray="16 12"/>
-  <line x1="170" y1="20" x2="170" y2="240" stroke="#d6d3cc" stroke-width="2" stroke-dasharray="10 10"/>
-  <line x1="470" y1="20" x2="470" y2="240" stroke="#d6d3cc" stroke-width="2" stroke-dasharray="10 10"/>
-  <rect x="190" y="40" width="110" height="48" rx="6" fill="#6b7280"/>
-  <rect x="190" y="110" width="110" height="48" rx="6" fill="#6b7280"/>
-  <rect x="190" y="180" width="110" height="48" rx="6" fill="#6b7280"/>
-  <rect x="340" y="50" width="110" height="48" rx="6" fill="#4b5563"/>
-  <rect x="340" y="130" width="110" height="48" rx="6" fill="#4b5563"/>
-  <ellipse cx="320" cy="210" rx="16" ry="22" fill="#f59e0b"/>
-  <text x="312" y="215" fill="#111" font-size="12" font-family="sans-serif">M</text>
-  <text x="28" y="250" fill="#f4efe6" font-size="13" font-family="sans-serif">Inter-files = entre les 2 files les plus à gauche, 50 km/h max</text>
+  <title id="t">Circulation inter-files entre les deux voies les plus Ã  gauche</title>
+  <rect width="640" height="260" rx="12" fill="#3a414c"/>
+  <rect x="24" y="36" width="592" height="176" rx="8" fill="#4a5260"/>
+  <line x1="320" y1="36" x2="320" y2="212" stroke="#ffe08a" stroke-width="5" stroke-dasharray="16 12"/>
+  <line x1="170" y1="36" x2="170" y2="212" stroke="#d7dbe2" stroke-width="2" stroke-dasharray="10 10"/>
+  <line x1="470" y1="36" x2="470" y2="212" stroke="#d7dbe2" stroke-width="2" stroke-dasharray="10 10"/>
+  <rect x="190" y="48" width="110" height="42" rx="6" fill="#8b93a0"/>
+  <rect x="190" y="104" width="110" height="42" rx="6" fill="#8b93a0"/>
+  <rect x="190" y="160" width="110" height="42" rx="6" fill="#8b93a0"/>
+  <rect x="340" y="58" width="110" height="42" rx="6" fill="#6d7584"/>
+  <rect x="340" y="126" width="110" height="42" rx="6" fill="#6d7584"/>
+  <ellipse cx="320" cy="196" rx="16" ry="22" fill="#f59e0b"/>
+  <text x="313" y="201" fill="#111" font-size="13" font-family="sans-serif" font-weight="700">M</text>
+  <text x="24" y="246" fill="#fff7e6" font-size="15" font-family="sans-serif">Inter-files : 2 files les plus Ã  gauche, 50 km/h max</text>
 </svg>

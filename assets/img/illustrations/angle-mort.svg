@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-labelledby="t">
   <title id="t">Angle mort d'un poids lourd</title>
-  <rect width="640" height="260" fill="#1a1d22"/>
-  <rect x="240" y="70" width="220" height="90" rx="10" fill="#7c8491"/>
-  <rect x="430" y="88" width="70" height="54" rx="8" fill="#9aa1ad"/>
-  <path d="M230 70 L90 20 L90 210 L230 160 Z" fill="#f59e0b" opacity="0.28"/>
-  <path d="M460 70 L600 20 L600 210 L460 160 Z" fill="#f59e0b" opacity="0.28"/>
-  <text x="110" y="120" fill="#f59e0b" font-size="14" font-family="sans-serif">Angle mort</text>
-  <text x="28" y="244" fill="#f4efe6" font-size="13" font-family="sans-serif">Si vous ne voyez pas le chauffeur dans son rétroviseur, il ne vous voit pas.</text>
+  <rect width="640" height="260" rx="12" fill="#3a414c"/>
+  <rect x="240" y="78" width="220" height="90" rx="10" fill="#c5ccd6"/>
+  <rect x="430" y="96" width="70" height="54" rx="8" fill="#e8edf3"/>
+  <path d="M230 78 L80 24 L80 222 L230 168 Z" fill="#f59e0b" opacity="0.45"/>
+  <path d="M460 78 L600 24 L600 222 L460 168 Z" fill="#f59e0b" opacity="0.45"/>
+  <text x="96" y="132" fill="#fff7e6" font-size="16" font-family="sans-serif" font-weight="700">Angle mort</text>
+  <text x="20" y="246" fill="#fff7e6" font-size="14" font-family="sans-serif">Si vous ne voyez pas le chauffeur, il ne vous voit pas.</text>
 </svg>
