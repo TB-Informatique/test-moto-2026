@@ -59,12 +59,12 @@
       return arr;
     },
     async loadQuestions() {
-      const res = await fetch("data/questions.json?v=sit100");
+      const res = await fetch("data/questions.json?v=iisr2024");
       if (!res.ok) throw new Error("Impossible de charger les questions.");
       return res.json();
     },
     async loadSigns() {
-      const res = await fetch("data/signs.json?v=206");
+      const res = await fetch("data/signs.json?v=iisr2024");
       if (!res.ok) throw new Error("Impossible de charger les panneaux.");
       return res.json();
     },
