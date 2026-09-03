@@ -64,7 +64,7 @@
       return res.json();
     },
     async loadSigns() {
-      const res = await fetch("data/signs.json");
+      const res = await fetch("data/signs.json?v=206");
       if (!res.ok) throw new Error("Impossible de charger les panneaux.");
       return res.json();
     },
