@@ -104,9 +104,9 @@ OFFICIAL: dict[str, tuple[str, str, str]] = {
     "B52": ("obligation", "Entrée d'une zone de rencontre", "B52 : rectangle « ZONE DE RENCONTRE ». Vitesse 20 km/h, piétons autorisés sur la chaussée et prioritaires."),
     "B53": ("obligation", "Sortie de zone de rencontre", "B53 : fin du régime 20 km/h et de la priorité piétonne généralisée sur chaussée."),
     "C1a": ("indication", "Lieu aménagé pour le stationnement", "Parking. Le stationnement d'une moto y est autorisé selon le marquage."),
-    "C1b": ("indication", "Lieu aménagé pour le stationnement payant", "C1b : stationnement payant. Le stationnement à durée limitée (disque) est le C1c."),
+    "C1b": ("indication", "Lieu aménagé pour le stationnement à durée limitée (disque)", "C1b (IISR) : stationnement gratuit à durée limitée, contrôle par disque. Le payant est le C1c."),
     "C4a": ("indication", "Vitesse conseillée (ici 50 km/h)", "C4a : allure recommandée, pas une limitation. En cas de danger, elle est souvent trop élevée pour une moto."),
-    "C5": ("indication", "Station de taxis", "C5 : emplacement de taxis. Ce n'est pas le stationnement payant (C1b)."),
+    "C5": ("indication", "Station de taxis", "C5 : emplacement de taxis. Ce n'est pas le stationnement payant (C1c)."),
     "C8": ("indication", "Place d'arrêt d'urgence", "C8 : emplacement pour s'arrêter en cas d'urgence. Ce n'est pas le stationnement alterné."),
     "C12": ("indication", "Circulation à sens unique", "Sens unique. On ne doit pas rencontrer de véhicule en face."),
     "C13a": ("indication", "Impasse", "Voie sans issue. Inutile d'y entrer pour « traverser »."),
@@ -144,6 +144,8 @@ FAMILIES = {
     "service": "Services",
     "localisation": "Localisation",
     "panonceau": "Panonceaux",
+    "securite": "Sécurité routière",
+    "temporaire": "Temporaires",
 }
 
 DISTRACTORS = [
@@ -174,9 +176,30 @@ def sign_obj(code: str) -> dict:
 
 
 def write_signs() -> None:
-    order = list(OFFICIAL.keys())
+    # Les ajouts Wikimedia (corridor SR53, B manquants, etc.) vivent dans add_new_signs.NEW.
+    extra: dict[str, tuple[str, str, str]] = {}
+    try:
+        import sys
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from add_new_signs import NEW, FAMILIES as NEW_FAM  # type: ignore
+        extra = {c: (a, b, d) for c, (a, b, d, _fn) in NEW.items()}
+        FAMILIES.update(NEW_FAM)
+    except Exception:
+        extra = {}
+    merged = dict(OFFICIAL)
+    merged.update(extra)
+    order = list(merged.keys())
     payload = {
-        "signs": [sign_obj(c) for c in order],
+        "signs": [
+            {
+                "code": c,
+                "family": merged[c][0],
+                "title": merged[c][1],
+                "detail": merged[c][2],
+                "image": f"assets/img/signs/{c}.svg",
+            }
+            for c in order
+        ],
         "families": FAMILIES,
     }
     (ROOT / "data" / "signs.json").write_text(
@@ -215,6 +238,8 @@ def make_ident(qid: str, code: str, extra_choices: list[str] | None = None) -> d
         "service": ("signalisation", "R"),
         "localisation": ("signalisation", "R"),
         "panonceau": ("signalisation", "R"),
+        "securite": ("signalisation", "R"),
+        "temporaire": ("signalisation", "R"),
     }[family]
     extras = extra_choices or []
     choices_txt = [title]

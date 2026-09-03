@@ -5,7 +5,7 @@
       "label": "Signalisation",
       "theme": "R",
       "blurb": "Panneaux, marquages et ce qu'ils imposent à moto.",
-      "count": 140
+      "count": 228
     },
     {
       "id": "route",
@@ -19,7 +19,7 @@
       "label": "La circulation",
       "theme": "C",
       "blurb": "Priorités, vitesses, dépassements, inter-files.",
-      "count": 36
+      "count": 37
     },
     {
       "id": "conducteur",
@@ -3912,7 +3912,7 @@
         },
         {
           "id": "b",
-          "text": "Lieu aménagé pour le stationnement payant"
+          "text": "Lieu aménagé pour le stationnement à durée limitée (disque)"
         },
         {
           "id": "c",
@@ -3926,10 +3926,10 @@
       "correct": [
         "b"
       ],
-      "explanation": "C1b : stationnement payant. Le stationnement à durée limitée (disque) est le C1c.",
+      "explanation": "C1b (IISR) : stationnement gratuit à durée limitée, contrôle par disque. Le payant est le C1c.",
       "multi": false,
       "image": "assets/img/signs/C1b.svg",
-      "imageAlt": "Lieu aménagé pour le stationnement payant",
+      "imageAlt": "Lieu aménagé pour le stationnement à durée limitée (disque)",
       "imageCredit": "Wikimedia Commons - signalisation routière française"
     },
     {
@@ -10004,6 +10004,2854 @@
       ],
       "explanation": "Le décret vise les véhicules ≤ 1 m de large. Side-car, trike large et quad sont exclus.",
       "multi": false
+    },
+    {
+      "id": "sig-200",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Passage d'animaux domestiques (bovins)"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "A15a2 : vaches / bovins susceptibles de traverser. Même réflexe que A15a1 : ralentir, éviter l'écart brutal.",
+      "multi": false,
+      "image": "assets/img/signs/A15a2.svg",
+      "imageAlt": "Passage d'animaux domestiques (bovins)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-201",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Débouché de cyclistes venant de gauche"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "A21b : cyclistes pouvant déboucher depuis la gauche. Laisser de l'espace, allure réduite.",
+      "multi": false,
+      "image": "assets/img/signs/A21b.svg",
+      "imageAlt": "Débouché de cyclistes venant de gauche",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-202",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rappel de sens interdit sur bretelle"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B1j : rappel d'interdiction à contresens sur bretelle d'autoroute. Ne jamais s'y engager.",
+      "multi": false,
+      "image": "assets/img/signs/B1j.svg",
+      "imageAlt": "Rappel de sens interdit sur bretelle",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-203",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Stationnement interdit du 1er au 15"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B6a2 : côté concerné interdit du 1er au 15 du mois. Une moto y stationnée est verbalisable.",
+      "multi": false,
+      "image": "assets/img/signs/B6a2.svg",
+      "imageAlt": "Stationnement interdit du 1er au 15",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-204",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Stationnement interdit du 16 à la fin du mois"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B6a3 : côté concerné interdit du 16 à la fin du mois.",
+      "multi": false,
+      "image": "assets/img/signs/B6a3.svg",
+      "imageAlt": "Stationnement interdit du 16 à la fin du mois",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-205",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Entrée d'une zone à stationnement interdit"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B6b1 : zone entière à stationnement interdit, pas seulement le bord du panneau.",
+      "multi": false,
+      "image": "assets/img/signs/B6b1.svg",
+      "imageAlt": "Entrée d'une zone à stationnement interdit",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-206",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Entrée d'une zone à stationnement à durée limitée (disque)"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B6b3 : dans la zone, stationner seulement la durée indiquée, disque visible.",
+      "multi": false,
+      "image": "assets/img/signs/B6b3.svg",
+      "imageAlt": "Entrée d'une zone à stationnement à durée limitée (disque)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-207",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Entrée d'une zone à stationnement payant"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B6b4 : zone payante. Le panneau C1c localise un emplacement payant ponctuel.",
+      "multi": false,
+      "image": "assets/img/signs/B6b4.svg",
+      "imageAlt": "Entrée d'une zone à stationnement payant",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-208",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Accès interdit aux véhicules à traction animale"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B9c : pictogramme attelage. Une moto n'est pas visée.",
+      "multi": false,
+      "image": "assets/img/signs/B9c.svg",
+      "imageAlt": "Accès interdit aux véhicules à traction animale",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-209",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Accès interdit aux véhicules tractant une caravane"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B9i : caravane / remorque > 250 kg. Une moto solo n'est pas visée.",
+      "multi": false,
+      "image": "assets/img/signs/B9i.svg",
+      "imageAlt": "Accès interdit aux véhicules tractant une caravane",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-210",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Limitation de vitesse à 70 km/h"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B14-70 : 70 km/h max. Fréquent avant un danger ou en travaux.",
+      "multi": false,
+      "image": "assets/img/signs/B14-70.svg",
+      "imageAlt": "Limitation de vitesse à 70 km/h",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-211",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cédez le passage au sens inverse"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B15 : rond à flèches, vous devez laisser passer le sens opposé dans le rétrécissement. Voisin du AB5 (carré).",
+      "multi": false,
+      "image": "assets/img/signs/B15.svg",
+      "imageAlt": "Cédez le passage au sens inverse",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-212",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intervalle minimal entre véhicules"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B17 : garder au moins la distance indiquée. Utile en descente, tunnel, ou convoi.",
+      "multi": false,
+      "image": "assets/img/signs/B17.svg",
+      "imageAlt": "Intervalle minimal entre véhicules",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-213",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Obligation de tourner à gauche avant le panneau"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B21-2 : flèche horizontale vers la gauche. Tourner avant le panneau.",
+      "multi": false,
+      "image": "assets/img/signs/B21-2.svg",
+      "imageAlt": "Obligation de tourner à gauche avant le panneau",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-214",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Direction obligatoire à droite"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B21c1 : à la prochaine intersection, tourner à droite.",
+      "multi": false,
+      "image": "assets/img/signs/B21c1.svg",
+      "imageAlt": "Direction obligatoire à droite",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-215",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Direction obligatoire à gauche"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B21c2 : à la prochaine intersection, tourner à gauche.",
+      "multi": false,
+      "image": "assets/img/signs/B21c2.svg",
+      "imageAlt": "Direction obligatoire à gauche",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-216",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Directions obligatoires : tout droit ou à gauche"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B21d2 : tout droit ou gauche, pas à droite.",
+      "multi": false,
+      "image": "assets/img/signs/B21d2.svg",
+      "imageAlt": "Directions obligatoires : tout droit ou à gauche",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-217",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Chemin obligatoire pour cavaliers"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B22c : obligatoire pour les cavaliers. Une moto n'a pas à l'emprunter.",
+      "multi": false,
+      "image": "assets/img/signs/B22c.svg",
+      "imageAlt": "Chemin obligatoire pour cavaliers",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-218",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Vitesse minimale obligatoire (ici 30 km/h)"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B25 : rond bleu, vitesse minimale. Ce n'est pas une limitation (B14, fond blanc cerclé de rouge).",
+      "multi": false,
+      "image": "assets/img/signs/B25.svg",
+      "imageAlt": "Vitesse minimale obligatoire (ici 30 km/h)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-219",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Voie réservée aux tramways"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B27b : voie de tram. Une moto n'y circule pas.",
+      "multi": false,
+      "image": "assets/img/signs/B27b.svg",
+      "imageAlt": "Voie réservée aux tramways",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-220",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fin d'interdiction de dépasser (B3)"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B34 : fin du B3 (tous véhicules à moteur). Le B34a ne lève que l'interdiction faite aux PL.",
+      "multi": false,
+      "image": "assets/img/signs/B34.svg",
+      "imageAlt": "Fin d'interdiction de dépasser (B3)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-221",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Entrée de zone d'équipements hivernaux"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B58 : pneus hiver ou chaînes obligatoires dans la zone, période hivernale. À moto, souvent mieux de ne pas partir.",
+      "multi": false,
+      "image": "assets/img/signs/B58.svg",
+      "imageAlt": "Entrée de zone d'équipements hivernaux",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-222",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lieu aménagé pour le stationnement payant"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C1c : emplacement payant. Le C1b est le stationnement à durée limitée (disque).",
+      "multi": false,
+      "image": "assets/img/signs/C1c.svg",
+      "imageAlt": "Lieu aménagé pour le stationnement payant",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-223",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fin de vitesse conseillée"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C4b : la vitesse conseillée C4a cesse. La limitation réglementaire reste.",
+      "multi": false,
+      "image": "assets/img/signs/C4b.svg",
+      "imageAlt": "Fin de vitesse conseillée",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-224",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Arrêt d'autobus"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C6 : arrêt de bus. S'arrêter ou stationner dessus est interdit (marquage).",
+      "multi": false,
+      "image": "assets/img/signs/C6.svg",
+      "imageAlt": "Arrêt d'autobus",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-225",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Impasse avec issue piétonne"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C13c : pas d'issue pour une moto, seulement pour les piétons.",
+      "multi": false,
+      "image": "assets/img/signs/C13c.svg",
+      "imageAlt": "Impasse avec issue piétonne",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-226",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fin de voie de détresse"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C26b : fin de la voie d'arrêt d'urgence en descente (C26a).",
+      "multi": false,
+      "image": "assets/img/signs/C26b.svg",
+      "imageAlt": "Fin de voie de détresse",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-227",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fin de route à accès réglementé"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C108 : fin du C107 (voie express). La limitation générale reprend.",
+      "multi": false,
+      "image": "assets/img/signs/C108.svg",
+      "imageAlt": "Fin de route à accès réglementé",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-228",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fin d'autoroute"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C208 : fin du régime autoroutier (C207). Adapter vitesse et placement, souvent 110 puis 80.",
+      "multi": false,
+      "image": "assets/img/signs/C208.svg",
+      "imageAlt": "Fin d'autoroute",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-229",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Restaurant"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "CE2a : restaurant à proximité.",
+      "multi": false,
+      "image": "assets/img/signs/CE2a.svg",
+      "imageAlt": "Restaurant",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-230",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Point d'information"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "CE4a : office de tourisme / point info.",
+      "multi": false,
+      "image": "assets/img/signs/CE4a.svg",
+      "imageAlt": "Point d'information",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-231",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Poste de secours / hôpital"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "CE12 : soins d'urgence à proximité. En accident, 112 reste le réflexe.",
+      "multi": false,
+      "image": "assets/img/signs/CE12.svg",
+      "imageAlt": "Poste de secours / hôpital",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-232",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Panonceau de distance"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "M1 : le danger ou la prescription se trouve à la distance indiquée.",
+      "multi": false,
+      "image": "assets/img/signs/M1.svg",
+      "imageAlt": "Panonceau de distance",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-233",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Panonceau « motocyclettes »"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "M4a : le panneau principal s'applique aux motocyclettes. Crucial : un B14 + M4a limite seulement les motos.",
+      "multi": false,
+      "image": "assets/img/signs/M4a.svg",
+      "imageAlt": "Panonceau « motocyclettes »",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-234",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Panonceau « cycles »"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "M4b : s'applique aux cycles, pas aux motos.",
+      "multi": false,
+      "image": "assets/img/signs/M4b.svg",
+      "imageAlt": "Panonceau « cycles »",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-235",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Panonceau de tonnage"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "M4f : l'interdiction (souvent B8) ne vise que les véhicules au-dessus du tonnage indiqué.",
+      "multi": false,
+      "image": "assets/img/signs/M4f.svg",
+      "imageAlt": "Panonceau de tonnage",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-236",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Corridor de sécurité : changez de voie"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "SR53b : si vous le pouvez, clignotant et changement de voie pour vous éloigner du véhicule arrêté.",
+      "multi": false,
+      "image": "assets/img/signs/SR53b.svg",
+      "imageAlt": "Corridor de sécurité : changez de voie",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-m4a-1",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Un panneau de prescription est complété par ce panonceau M4a. À qui s'applique-t-il ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Aux motocyclettes uniquement"
+        },
+        {
+          "id": "b",
+          "text": "À tous les véhicules"
+        },
+        {
+          "id": "c",
+          "text": "Aux cycles seulement"
+        },
+        {
+          "id": "d",
+          "text": "Aux poids lourds"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "M4a = pictogramme moto. Le panneau principal ne vise alors que les motocyclettes.",
+      "multi": false,
+      "image": "assets/img/signs/M4a.svg",
+      "imageAlt": "Panonceau motocyclettes",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-b25-1",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Ce panneau bleu indique :",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Une vitesse minimale obligatoire"
+        },
+        {
+          "id": "b",
+          "text": "Une limitation maximale à 30 km/h"
+        },
+        {
+          "id": "c",
+          "text": "Une vitesse conseillée"
+        },
+        {
+          "id": "d",
+          "text": "L'entrée d'une zone 30"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B25 = rond bleu = obligation (vitesse mini). Le max 30 est un B14 fond blanc, la zone 30 est le rectangle B30.",
+      "multi": false,
+      "image": "assets/img/signs/B25.svg",
+      "imageAlt": "Vitesse minimale obligatoire",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-c208-1",
+      "category": "circulation",
+      "theme": "C",
+      "question": "Ce panneau annonce :",
+      "choices": [
+        {
+          "id": "a",
+          "text": "La fin d'autoroute : le régime 130 km/h cesse"
+        },
+        {
+          "id": "b",
+          "text": "Le début d'autoroute"
+        },
+        {
+          "id": "c",
+          "text": "Une route à accès réglementé (voie express)"
+        },
+        {
+          "id": "d",
+          "text": "Un tunnel"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C208 = autoroute barrée = fin. C207 = début. C107/C108 = accès réglementé.",
+      "multi": false,
+      "image": "assets/img/signs/C208.svg",
+      "imageAlt": "Fin d'autoroute",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-237",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Accès interdit aux voitures à bras"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B9e : voitures à bras. Ce n'est pas l'interdiction moto (B9h).",
+      "multi": false,
+      "image": "assets/img/signs/B9e.svg",
+      "imageAlt": "Accès interdit aux voitures à bras",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-238",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Limitation de longueur"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B10a : accès interdit si la longueur, chargement compris, dépasse la valeur. Une moto passe.",
+      "multi": false,
+      "image": "assets/img/signs/B10a.svg",
+      "imageAlt": "Limitation de longueur",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-239",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Limitation de charge à l'essieu"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B13a : poids max sur un essieu. Concerne surtout les PL, pas une moto.",
+      "multi": false,
+      "image": "assets/img/signs/B13a.svg",
+      "imageAlt": "Limitation de charge à l'essieu",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-240",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Limitation de vitesse à 30 km/h"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B14-30 : 30 km/h max à partir du panneau (hors logique de zone 30, qui est le B30).",
+      "multi": false,
+      "image": "assets/img/signs/B14-30.svg",
+      "imageAlt": "Limitation de vitesse à 30 km/h",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-241",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Accès interdit aux TMD (toutes matières dangereuses)"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B18c : toutes marchandises dangereuses signalées TMD. Plus large que B18a (explosifs) ou B18b (polluants).",
+      "multi": false,
+      "image": "assets/img/signs/B18c.svg",
+      "imageAlt": "Accès interdit aux TMD (toutes matières dangereuses)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-242",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Contournement obligatoire par la gauche"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B21a2 : passer à gauche de l'obstacle. Le passage à droite est le B21a1.",
+      "multi": false,
+      "image": "assets/img/signs/B21a2.svg",
+      "imageAlt": "Contournement obligatoire par la gauche",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-243",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Directions obligatoires : tout droit ou à droite"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B21d1 : tout droit ou droite, pas à gauche.",
+      "multi": false,
+      "image": "assets/img/signs/B21d1.svg",
+      "imageAlt": "Directions obligatoires : tout droit ou à droite",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-244",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Directions obligatoires : à droite ou à gauche"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B21e : interdiction d'aller tout droit. Droite ou gauche seulement.",
+      "multi": false,
+      "image": "assets/img/signs/B21e.svg",
+      "imageAlt": "Directions obligatoires : à droite ou à gauche",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-245",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fin d'interdiction des signaux sonores"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B35 : le klaxon redevient autorisé (hors agglomération, selon le code).",
+      "multi": false,
+      "image": "assets/img/signs/B35.svg",
+      "imageAlt": "Fin d'interdiction des signaux sonores",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-246",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fin d'interdiction indiquée sur le panneau"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B39 : lève l'interdiction écrite sur un B19.",
+      "multi": false,
+      "image": "assets/img/signs/B39.svg",
+      "imageAlt": "Fin d'interdiction indiquée sur le panneau",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-247",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fin de vitesse minimale obligatoire"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B43 : fin du B25. On peut à nouveau rouler plus lentement si le trafic l'impose.",
+      "multi": false,
+      "image": "assets/img/signs/B43.svg",
+      "imageAlt": "Fin de vitesse minimale obligatoire",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-248",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fin de voie réservée aux tramways"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B45b : fin du B27b.",
+      "multi": false,
+      "image": "assets/img/signs/B45b.svg",
+      "imageAlt": "Fin de voie réservée aux tramways",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-249",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fin d'obligation indiquée sur le panneau"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B49 : lève l'obligation écrite sur un B29.",
+      "multi": false,
+      "image": "assets/img/signs/B49.svg",
+      "imageAlt": "Fin d'obligation indiquée sur le panneau",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-250",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sortie de zone à stationnement interdit"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B50a : fin de la zone B6b1. Les règles générales de stationnement reprennent.",
+      "multi": false,
+      "image": "assets/img/signs/B50a.svg",
+      "imageAlt": "Sortie de zone à stationnement interdit",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-251",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Entrée d'une aire piétonne"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B54 : aire piétonne. Circulation moto interdite sauf riverains / livraison aux horaires, à allure piétonne.",
+      "multi": false,
+      "image": "assets/img/signs/B54.svg",
+      "imageAlt": "Entrée d'une aire piétonne",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-252",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sortie d'une aire piétonne"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B55 : fin de l'aire piétonne. Les règles générales reprennent.",
+      "multi": false,
+      "image": "assets/img/signs/B55.svg",
+      "imageAlt": "Sortie d'une aire piétonne",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-253",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Entrée de zone à circulation restreinte (ZCR)"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B56 : ZCR / ZFE selon arrêtés locaux. Vérifier si votre moto y est autorisée (Crit'Air).",
+      "multi": false,
+      "image": "assets/img/signs/B56.svg",
+      "imageAlt": "Entrée de zone à circulation restreinte (ZCR)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-254",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sortie de zone à circulation restreinte"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B57 : fin de ZCR.",
+      "multi": false,
+      "image": "assets/img/signs/B57.svg",
+      "imageAlt": "Sortie de zone à circulation restreinte",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-255",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sortie de zone d'équipements hivernaux"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "B59 : fin de l'obligation B58.",
+      "multi": false,
+      "image": "assets/img/signs/B59.svg",
+      "imageAlt": "Sortie de zone d'équipements hivernaux",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-256",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Risque d'incendie"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C3 : risque d'incendie (forêt, friches). Ne pas jeter de cigarette, pas de feu.",
+      "multi": false,
+      "image": "assets/img/signs/C3.svg",
+      "imageAlt": "Risque d'incendie",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-257",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Station d'autopartage"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C9 : places réservées aux véhicules labellisés autopartage.",
+      "multi": false,
+      "image": "assets/img/signs/C9.svg",
+      "imageAlt": "Station d'autopartage",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-258",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Impasse avec issue piétons et cyclistes"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C13d : issue pour piétons et vélos, pas pour une moto.",
+      "multi": false,
+      "image": "assets/img/signs/C13d.svg",
+      "imageAlt": "Impasse avec issue piétons et cyclistes",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-259",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Traversée de voie de bus"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C20b : bus susceptibles de traverser. Ce n'est pas le tram (C20c) ni le passage piéton (C20a).",
+      "multi": false,
+      "image": "assets/img/signs/C20b.svg",
+      "imageAlt": "Traversée de voie de bus",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-260",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Stationnement réglementé pour caravanes"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C23 : emplacement pour caravanes / camping-cars, pas un parking moto générique.",
+      "multi": false,
+      "image": "assets/img/signs/C23.svg",
+      "imageAlt": "Stationnement réglementé pour caravanes",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-261",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Présignalisation d'une issue de secours"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C62 : issue de secours, surtout en tunnel. La connaître avant d'en avoir besoin.",
+      "multi": false,
+      "image": "assets/img/signs/C62.svg",
+      "imageAlt": "Présignalisation d'une issue de secours",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-262",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Issue de secours"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C64a : localise une issue de secours. En tunnel, descendre moto arrêtée, suivre le pictogramme.",
+      "multi": false,
+      "image": "assets/img/signs/C64a.svg",
+      "imageAlt": "Issue de secours",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-263",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Voie verte"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C115 : voie verte, réservée aux usages non motorisés. Une moto n'y circule pas.",
+      "multi": false,
+      "image": "assets/img/signs/C115.svg",
+      "imageAlt": "Voie verte",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-264",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fin de voie verte"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "C116 : fin de la voie verte C115.",
+      "multi": false,
+      "image": "assets/img/signs/C116.svg",
+      "imageAlt": "Fin de voie verte",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-265",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Poste de distribution de carburant"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "CE1 : station-service. Utile pour anticiper la réserve.",
+      "multi": false,
+      "image": "assets/img/signs/CE1.svg",
+      "imageAlt": "Poste de distribution de carburant",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-266",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hôtel ou motel"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "CE3a : hébergement à proximité.",
+      "multi": false,
+      "image": "assets/img/signs/CE3a.svg",
+      "imageAlt": "Hôtel ou motel",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-267",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Terrain de camping"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "CE15a : camping.",
+      "multi": false,
+      "image": "assets/img/signs/CE15a.svg",
+      "imageAlt": "Terrain de camping",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-268",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Toilettes publiques"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "CE18 : sanitaires.",
+      "multi": false,
+      "image": "assets/img/signs/CE18.svg",
+      "imageAlt": "Toilettes publiques",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-269",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Point de recharge électrique"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "CE27 : recharge de véhicules électriques.",
+      "multi": false,
+      "image": "assets/img/signs/CE27.svg",
+      "imageAlt": "Point de recharge électrique",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-270",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Panonceau d'étendue"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "M2 : la prescription s'applique sur la longueur indiquée.",
+      "multi": false,
+      "image": "assets/img/signs/M2.svg",
+      "imageAlt": "Panonceau d'étendue",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-271",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Panonceau de direction (flèche)"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "M3a1 : précise la direction concernée par le panneau principal.",
+      "multi": false,
+      "image": "assets/img/signs/M3a1.svg",
+      "imageAlt": "Panonceau de direction (flèche)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-272",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Panonceau « véhicules de transport de marchandises »"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "M4c : s'applique aux marchandises / PL, pas à une moto solo.",
+      "multi": false,
+      "image": "assets/img/signs/M4c.svg",
+      "imageAlt": "Panonceau « véhicules de transport de marchandises »",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-273",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Panonceau de catégorie d'usagers (pictogramme)"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "M5 : précise à qui s'applique le panneau (souvent un usager vulnérable).",
+      "multi": false,
+      "image": "assets/img/signs/M5.svg",
+      "imageAlt": "Panonceau de catégorie d'usagers (pictogramme)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-274",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Panonceau « sauf… »"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "M6a : exception à l'interdiction (riverains, services…). Lire avant de s'engager.",
+      "multi": false,
+      "image": "assets/img/signs/M6a.svg",
+      "imageAlt": "Panonceau « sauf… »",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-275",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Panonceau « rappel »"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "M9d : rappelle une règle déjà en vigueur, sans en créer une nouvelle.",
+      "multi": false,
+      "image": "assets/img/signs/M9d.svg",
+      "imageAlt": "Panonceau « rappel »",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-276",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Contrôle automatisé de vitesse (annonce)"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "SR3a : zone où la vitesse est contrôlée par radar. Ce n'est pas une limitation : le B14 ou la règle générale s'applique.",
+      "multi": false,
+      "image": "assets/img/signs/SR3a.svg",
+      "imageAlt": "Contrôle automatisé de vitesse (annonce)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-277",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Zone de contrôle"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "SR3d : zone de contrôle (vitesse, voies réservées ou bruit selon le panonceau associé).",
+      "multi": false,
+      "image": "assets/img/signs/SR3d.svg",
+      "imageAlt": "Zone de contrôle",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-278",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Corridor de sécurité : ralentissez"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "SR53a (arrêté 4 avril 2025) : véhicule arrêté sur BAU / accotement → ralentir. 1er des 3 panneaux, espacés de 300 m.",
+      "multi": false,
+      "image": "assets/img/signs/SR53a.svg",
+      "imageAlt": "Corridor de sécurité : ralentissez",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-279",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Respectez le corridor de sécurité"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "SR53c : règle R.412-11-1. Ralentir, s'éloigner, changer de voie. Les 3 panneaux SR53 sont indissociables.",
+      "multi": false,
+      "image": "assets/img/signs/SR53c.svg",
+      "imageAlt": "Respectez le corridor de sécurité",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-280",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rappel des règles d'inter-files"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "Panneau pédagogique rappelant l'inter-files (files de gauche, 50 km/h max). Ce n'est pas une autorisation en ville.",
+      "multi": false,
+      "image": "assets/img/signs/SR-interfile.svg",
+      "imageAlt": "Rappel des règles d'inter-files",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-281",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Chaussée glissante (temporaire)"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "AK4 : danger temporaire, fond jaune. Gravillons, pluie de chantier, film gras. Allure réduite, moto droite.",
+      "multi": false,
+      "image": "assets/img/signs/AK4.svg",
+      "imageAlt": "Chaussée glissante (temporaire)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-282",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Autres dangers (temporaire)"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "AK14 : danger temporaire non pictogrammé. Un panonceau KM9 précise souvent (gravillons, boue…).",
+      "multi": false,
+      "image": "assets/img/signs/AK14.svg",
+      "imageAlt": "Autres dangers (temporaire)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-283",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Feux tricolores (temporaire)"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "AK17 : feux de chantier. Anticiper un orange / rouge, surtout si le sol est frais.",
+      "multi": false,
+      "image": "assets/img/signs/AK17.svg",
+      "imageAlt": "Feux tricolores (temporaire)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-284",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Accident (temporaire)"
+        },
+        {
+          "id": "b",
+          "text": "Sens interdit"
+        },
+        {
+          "id": "c",
+          "text": "Stop"
+        },
+        {
+          "id": "d",
+          "text": "Cédez le passage"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "AK30 : accident. Ralentir, corridor de sécurité si un véhicule est sur le bord, pas de rubbernecking.",
+      "multi": false,
+      "image": "assets/img/signs/AK30.svg",
+      "imageAlt": "Accident (temporaire)",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
+    },
+    {
+      "id": "sig-corridor-1",
+      "category": "signalisation",
+      "theme": "R",
+      "question": "Ces trois panneaux SR53 (arrêté d'avril 2025) rappellent le corridor de sécurité. Que devez-vous faire ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ralentir, vous éloigner, changer de voie si possible (R.412-11-1)"
+        },
+        {
+          "id": "b",
+          "text": "Accélérer pour dépasser vite le véhicule arrêté"
+        },
+        {
+          "id": "c",
+          "text": "Vous arrêter sur la bande d'arrêt d'urgence pour aider"
+        },
+        {
+          "id": "d",
+          "text": "Klaxonner et rester collé à droite"
+        }
+      ],
+      "correct": [
+        "a"
+      ],
+      "explanation": "SR53a/b/c, indissociables, tous les 300 m. Ralentir, s'écarter, changer de voie si on le peut. Obligatoire dès qu'un véhicule a les feux de détresse ou spéciaux sur le bord.",
+      "multi": false,
+      "image": "assets/img/signs/SR53c.svg",
+      "imageAlt": "Respectez le corridor de sécurité",
+      "imageCredit": "Wikimedia Commons - signalisation routière française"
     }
   ]
 }
