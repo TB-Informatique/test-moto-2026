@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#0f1419"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="300" rx="16" fill="url(#bg)"/>
+  <text x="22" y="28" fill="#f8fafc" font-size="16" font-family="system-ui,sans-serif" font-weight="700">Freinage d&#8217;urgence</text>
+  <text x="22" y="48" fill="#cbd5e1" font-size="12" font-family="system-ui,sans-serif">A2 : 50 km/h sans marge au radar C6 &#183; s&#8217;arr&#234;ter dans la zone &#183; roue arri&#232;re au sol</text>
+  <rect x="40" y="90" width="640" height="120" rx="8" fill="#3f4a5a"/>
+  <line x1="420" y1="90" x2="420" y2="210" stroke="#fbbf24" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="428" y="84" fill="#fbbf24" font-size="11" font-family="system-ui,sans-serif" font-weight="700">C6 radar &#8805; 50</text>
+  <rect x="560" y="90" width="80" height="120" fill="#22c55e" opacity="0.18"/>
+  <text x="572" y="84" fill="#86efac" font-size="11" font-family="system-ui,sans-serif" font-weight="700">Zone d&#8217;arr&#234;t</text>
+  <path d="M60 160 L420 160" fill="none" stroke="#22c55e" stroke-width="7" stroke-linecap="round"/>
+  <path d="M420 160 L600 160" fill="none" stroke="#ef4444" stroke-width="7" stroke-linecap="round"/>
+  <circle r="7" fill="#fbbf24" stroke="#0f1419" stroke-width="1.5">
+    <animateMotion dur="5s" repeatCount="indefinite" rotate="auto" path="M60 160 L660 160"/>
+  </circle>
+  <g font-family="system-ui,sans-serif" font-size="12" font-weight="700">
+    <rect x="48" y="240" width="12" height="8" rx="2" fill="#22c55e"/><text x="66" y="248" fill="#bbf7d0">Acc&#233;l&#233;rer t&#244;t, 3e rapport, construire la vitesse</text>
+    <rect x="48" y="262" width="12" height="8" rx="2" fill="#ef4444"/><text x="66" y="270" fill="#fecaca">Freiner APR&#200;S C6 : avant fort + arri&#232;re, buste bas, regard loin</text>
+  </g>
+
+</svg>

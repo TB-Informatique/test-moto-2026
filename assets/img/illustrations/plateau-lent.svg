@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#0f1419"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="300" rx="16" fill="url(#bg)"/>
+  <text x="22" y="28" fill="#f8fafc" font-size="16" font-family="system-ui,sans-serif" font-weight="700">Allure r&#233;duite : slalom lent</text>
+  <text x="22" y="48" fill="#cbd5e1" font-size="12" font-family="system-ui,sans-serif">Embrayage au patinage &#183; regard loin &#183; plus c&#8217;est lent, mieux c&#8217;est (&#8805; 16 s = A)</text>
+  <rect x="40" y="70" width="640" height="160" rx="8" fill="#3f4a5a"/>
+  <polygon points="160,78 151,96 169,96" fill="#f97316"/><rect x="158" y="96" width="4" height="10" fill="#9a3412"/><polygon points="250,78 241,96 259,96" fill="#f97316"/><rect x="248" y="96" width="4" height="10" fill="#9a3412"/><polygon points="340,78 331,96 349,96" fill="#f97316"/><rect x="338" y="96" width="4" height="10" fill="#9a3412"/><polygon points="430,78 421,96 439,96" fill="#f97316"/><rect x="428" y="96" width="4" height="10" fill="#9a3412"/><polygon points="520,78 511,96 529,96" fill="#f97316"/><rect x="518" y="96" width="4" height="10" fill="#9a3412"/>
+  <path d="M70 200 C120 200 130 160 160 160 S200 200 250 200 S300 160 340 160 S390 200 430 200 S480 160 520 160 S560 185 590 200" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M590 200 L650 200" fill="none" stroke="#22c55e" stroke-width="6" stroke-linecap="round"/>
+  <circle r="7" fill="#fbbf24" stroke="#0f1419" stroke-width="1.5">
+    <animateMotion dur="8s" repeatCount="indefinite" rotate="auto" path="M70 200 C120 200 130 160 160 160 S200 200 250 200 S300 160 340 160 S390 200 430 200 S480 160 520 160 S580 200 650 200"/>
+  </circle>
+  <g font-family="system-ui,sans-serif" font-size="12" font-weight="700">
+    <rect x="480" y="248" width="12" height="8" rx="2" fill="#38bdf8"/><text x="498" y="256" fill="#bae6fd">Patinage / frein arri&#232;re</text>
+    <rect x="480" y="268" width="12" height="8" rx="2" fill="#22c55e"/><text x="498" y="276" fill="#bbf7d0">L&#233;ger gaz pour ne pas caler</text>
+  </g>
+  <text x="48" y="248" fill="#fecaca" font-size="12" font-family="system-ui,sans-serif">Ne pas fixer le c&#244;ne : il attire la roue. Viser l&#8217;intervalle suivant.</text>
+
+</svg>

@@ -5,8 +5,7 @@ Les schémas de panneaux routiers français proviennent de
 (fichiers `France road sign …svg`). La signalisation officielle française est
 reproduite à des fins pédagogiques.
 
-Les illustrations (trajectoire de sécurité, phases de virage, corde,
-inter-files, angle mort, équipement) sont originales, fournies avec ce site.
+Les illustrations (trajectoires, plateau, contrôles, inter-files, angle mort, équipement) sont originales, fournies avec ce site.
 
 Les questions sont des items d'entraînement rédigés pour ce projet. Elles ne
 reproduisent pas la banque officielle de l'examen ETM.

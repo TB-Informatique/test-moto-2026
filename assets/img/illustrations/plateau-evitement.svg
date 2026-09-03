@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#0f1419"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="290" rx="16" fill="url(#bg)"/>
+  <text x="22" y="28" fill="#f8fafc" font-size="16" font-family="system-ui,sans-serif" font-weight="700">Slalom 40 km/h puis &#233;vitement 50 km/h</text>
+  <text x="22" y="48" fill="#cbd5e1" font-size="12" font-family="system-ui,sans-serif">Deux temps : d&#8217;abord le slalom, ensuite seulement l&#8217;&#233;vitement. Un c&#244;ne d&#8217;&#233;vitement = C.</text>
+  <rect x="32" y="64" width="656" height="180" rx="8" fill="#3f4a5a"/>
+  <polygon points="140,118 132,134 148,134" fill="#f97316"/><polygon points="220,118 212,134 228,134" fill="#f97316"/><polygon points="300,118 292,134 308,134" fill="#f97316"/><polygon points="380,118 372,134 388,134" fill="#f97316"/><polygon points="580,168 572,184 588,184" fill="#3b82f6"/><polygon points="620,168 612,184 628,184" fill="#3b82f6"/>
+  <path d="M50 200 C90 200 100 150 140 150 S180 200 220 200 S260 150 300 150 S340 200 380 200" fill="none" stroke="#f97316" stroke-width="6" stroke-linecap="round"/>
+  <path d="M380 200 C420 200 460 80 520 80" fill="none" stroke="#a78bfa" stroke-width="6" stroke-linecap="round"/>
+  <path d="M520 80 C560 80 560 160 600 200 S640 230 670 200" fill="none" stroke="#22c55e" stroke-width="6" stroke-linecap="round"/>
+  <line x1="300" y1="64" x2="300" y2="244" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="248" y="78" fill="#fbbf24" font-size="11" font-family="system-ui,sans-serif" font-weight="700">C7 &#8805; 40</text>
+  <circle r="7" fill="#fbbf24" stroke="#0f1419" stroke-width="1.5">
+    <animateMotion dur="7s" repeatCount="indefinite" rotate="auto" path="M50 200 C90 200 100 150 140 150 S180 200 220 200 S260 150 300 150 S340 200 380 200 380 200 C420 200 460 80 520 80 520 80 C560 80 560 160 600 200 S640 230 670 200"/>
+  </circle>
+  <g font-family="system-ui,sans-serif" font-size="11" font-weight="700">
+    <rect x="40" y="260" width="12" height="8" rx="2" fill="#f97316"/><text x="56" y="268" fill="#fed7aa">Slalom (gaz stable)</text>
+    <rect x="220" y="260" width="12" height="8" rx="2" fill="#a78bfa"/><text x="236" y="268" fill="#ddd6fe">Demi-tour</text>
+    <rect x="360" y="260" width="12" height="8" rx="2" fill="#22c55e"/><text x="376" y="268" fill="#bbf7d0">&#201;vitement + arr&#234;t</text>
+  </g>
+
+</svg>

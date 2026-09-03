@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#0f1419"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="280" rx="16" fill="url(#bg)"/>
+  <text x="22" y="28" fill="#f8fafc" font-size="16" font-family="system-ui,sans-serif" font-weight="700">Contr&#244;les avant de rouler</text>
+  <text x="22" y="48" fill="#cbd5e1" font-size="12" font-family="system-ui,sans-serif">Les m&#234;mes points qu&#8217;au quiz ETM, dans l&#8217;ordre d&#8217;un vrai d&#233;part</text>
+
+  <g fill="none" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="170" cy="210" r="42"/>
+    <circle cx="170" cy="210" r="18"/>
+    <circle cx="470" cy="210" r="42"/>
+    <circle cx="470" cy="210" r="18"/>
+    <path d="M170 210 L250 140 L400 140 L470 210"/>
+    <path d="M250 140 L250 100 L300 88"/>
+    <path d="M400 140 L430 100 L470 96"/>
+    <path d="M300 140 L300 168 L400 168"/>
+    <path d="M250 168 L170 210"/>
+  </g>
+  <ellipse cx="335" cy="128" rx="36" ry="14" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+
+  <circle cx="300" cy="70" r="11" fill="#f5a524"/>
+  <text x="300" y="74" text-anchor="middle" fill="#1a1408" font-size="11" font-weight="800" font-family="system-ui,sans-serif">1</text>
+  <text x="316" y="74" fill="#f8fafc" font-size="11" font-family="system-ui,sans-serif">R&#233;tros</text>  <circle cx="430" cy="78" r="11" fill="#f5a524"/>
+  <text x="430" y="82" text-anchor="middle" fill="#1a1408" font-size="11" font-weight="800" font-family="system-ui,sans-serif">2</text>
+  <text x="446" y="82" fill="#f8fafc" font-size="11" font-family="system-ui,sans-serif">Leviers / gaz</text>  <circle cx="470" cy="150" r="11" fill="#f5a524"/>
+  <text x="470" y="154" text-anchor="middle" fill="#1a1408" font-size="11" font-weight="800" font-family="system-ui,sans-serif">3</text>
+  <text x="486" y="154" fill="#f8fafc" font-size="11" font-family="system-ui,sans-serif">Cha&#238;ne</text>  <circle cx="400" cy="188" r="11" fill="#f5a524"/>
+  <text x="400" y="192" text-anchor="middle" fill="#1a1408" font-size="11" font-weight="800" font-family="system-ui,sans-serif">4</text>
+  <text x="416" y="192" fill="#f8fafc" font-size="11" font-family="system-ui,sans-serif">Huile</text>  <circle cx="170" cy="150" r="11" fill="#f5a524"/>
+  <text x="170" y="154" text-anchor="middle" fill="#1a1408" font-size="11" font-weight="800" font-family="system-ui,sans-serif">5</text>
+  <text x="186" y="154" fill="#f8fafc" font-size="11" font-family="system-ui,sans-serif">Pneu AV</text>  <circle cx="520" cy="210" r="11" fill="#f5a524"/>
+  <text x="520" y="214" text-anchor="middle" fill="#1a1408" font-size="11" font-weight="800" font-family="system-ui,sans-serif">6</text>
+  <text x="536" y="214" fill="#f8fafc" font-size="11" font-family="system-ui,sans-serif">Pneu AR</text>  <circle cx="250" cy="188" r="11" fill="#f5a524"/>
+  <text x="250" y="192" text-anchor="middle" fill="#1a1408" font-size="11" font-weight="800" font-family="system-ui,sans-serif">7</text>
+  <text x="266" y="192" fill="#f8fafc" font-size="11" font-family="system-ui,sans-serif">Freins</text>  <circle cx="400" cy="100" r="11" fill="#f5a524"/>
+  <text x="400" y="104" text-anchor="middle" fill="#1a1408" font-size="11" font-weight="800" font-family="system-ui,sans-serif">8</text>
+  <text x="416" y="104" fill="#f8fafc" font-size="11" font-family="system-ui,sans-serif">Feux</text>
+
+</svg>

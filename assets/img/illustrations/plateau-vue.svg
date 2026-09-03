@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#0f1419"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="300" rx="16" fill="url(#bg)"/>
+  <text x="22" y="28" fill="#f8fafc" font-size="16" font-family="system-ui,sans-serif" font-weight="700">Plateau : 6 man&#339;uvres encha&#238;n&#233;es</text>
+  <text x="22" y="48" fill="#cbd5e1" font-size="12" font-family="system-ui,sans-serif">Piste type 6 &#215; 130 m &#183; 2 parcours miroir au sort &#183; le point suit l&#8217;ordre officiel</text>
+  <path d="M40 70 H680 V230 H40 Z" fill="#3f4a5a" stroke="#94a3b8" stroke-width="2"/>
+  <path d="M70 190 C140 190 160 110 230 110 S320 190 390 190" fill="none" stroke="#38bdf8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M390 190 L620 190 L620 150" fill="none" stroke="#ef4444" stroke-width="5" stroke-linecap="round"/>
+  <path d="M620 150 C520 150 480 90 360 90 S200 150 120 150" fill="none" stroke="#a78bfa" stroke-width="5" stroke-linecap="round"/>
+  <path d="M120 150 C180 150 200 200 260 200 S340 150 400 150 S480 200 540 200" fill="none" stroke="#f97316" stroke-width="5" stroke-linecap="round"/>
+  <path d="M540 200 C580 200 600 120 640 120 L640 190 L70 190" fill="none" stroke="#22c55e" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="160,118 153,132 167,132" fill="#f97316"/><polygon points="210,118 203,132 217,132" fill="#f97316"/><polygon points="260,118 253,132 267,132" fill="#f97316"/><polygon points="310,118 303,132 317,132" fill="#f97316"/><polygon points="360,118 353,132 367,132" fill="#f97316"/>
+  <circle r="7" fill="#fbbf24" stroke="#0f1419" stroke-width="1.5">
+    <animateMotion dur="16s" repeatCount="indefinite" rotate="auto" path="M70 190 C140 190 160 110 230 110 S320 190 390 190 390 190 L620 190 L620 150 620 150 C520 150 480 90 360 90 S200 150 120 150 120 150 C180 150 200 200 260 200 S340 150 400 150 S480 200 540 200 540 200 C580 200 600 120 640 120 L640 190 L70 190"/>
+  </circle>
+  <g font-family="system-ui,sans-serif" font-size="11" font-weight="700">
+    <rect x="40" y="250" width="12" height="8" rx="2" fill="#94a3b8"/><text x="56" y="258" fill="#cbd5e1">1. Sans moteur</text>
+    <rect x="170" y="250" width="12" height="8" rx="2" fill="#38bdf8"/><text x="186" y="258" fill="#bae6fd">2. Lent solo</text>
+    <rect x="290" y="250" width="12" height="8" rx="2" fill="#ef4444"/><text x="306" y="258" fill="#fecaca">3. Freinage</text>
+    <rect x="400" y="250" width="12" height="8" rx="2" fill="#a78bfa"/><text x="416" y="258" fill="#ddd6fe">4. Lent + passager</text>
+    <rect x="40" y="274" width="12" height="8" rx="2" fill="#f97316"/><text x="56" y="282" fill="#fed7aa">5. Slalom 40 km/h</text>
+    <rect x="200" y="274" width="12" height="8" rx="2" fill="#22c55e"/><text x="216" y="282" fill="#bbf7d0">6. &#201;vitement 50 km/h</text>
+  </g>
+
+</svg>
