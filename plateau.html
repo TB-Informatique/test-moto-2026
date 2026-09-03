@@ -15,17 +15,16 @@
   <main class="wrap section lesson">
     <p class="kicker">Pratique · hors circulation</p>
     <h1>Apprendre le plateau, étape par étape</h1>
-    <p class="lede">Choisissez une manœuvre, lancez l’animation : le point jaune avance, les pastilles <strong>Freiner</strong> / <strong>Accélérer</strong> / <strong>Regard</strong> s’allument, et le texte suit l’image. Depuis 2020 les six exercices s’enchaînent. Il faut un A ou un B.</p>
+    <p class="lede">D’abord la <strong>vue de dessus</strong> du plateau (130&nbsp;m × 6&nbsp;m) avec les six tracés, chacun sa couleur. Puis une étape : on ne garde que ce tracé, le point le suit, et le texte change en même temps. L’ordre est celui de l’examen.</p>
 
     <section class="plateau-player" id="plateau-player" aria-label="Leçon animée du plateau">
       <div id="step-pills" role="tablist" aria-label="Manœuvres"></div>
       <div class="player-stage">
-        <svg id="plateau-svg" viewBox="0 0 720 240" role="img" aria-label="Schéma de la manœuvre">
-          <rect x="0" y="0" width="720" height="240" rx="12" fill="#1a2332"/>
-          <rect x="36" y="70" width="648" height="140" rx="10" fill="#3f4a5a"/>
-          <g id="scene-extras"></g>
-          <path id="run-path" fill="none" stroke="#f97316" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="M90 150 H340"/>
-          <circle id="bike-dot" r="8" fill="#fbbf24" stroke="#0f1419" stroke-width="2" cx="90" cy="150"/>
+        <svg id="plateau-svg" viewBox="0 0 1180 500" role="img" aria-label="Plateau vu de dessus">
+          <g id="track-layer"></g>
+          <g id="paths-layer"></g>
+          <g id="marks-layer"></g>
+          <circle id="bike-dot" r="8" fill="#fbbf24" stroke="#0f1419" stroke-width="2" cx="0" cy="0" visibility="hidden"/>
         </svg>
         <p class="live-caption" id="live-caption" aria-live="polite"></p>
         <div id="live-badges" aria-hidden="true"></div>
