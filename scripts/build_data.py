@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Génère data/signs.json et data/questions.json pour le site Code Moto 2026."""
+"""Génère data/signs.json et data/questions.json pour le site Code Moto 2026.
+
+Ne pas régénérer les JSON depuis ce script : l'encodage est corrompu et les
+titres officiels IISR sont maintenus dans data/signs.json (voir
+scripts/audit_fix_signs.py).
+"""
 
 from __future__ import annotations
 

@@ -21,10 +21,8 @@ Puis : <http://127.0.0.1:8080>
 
 Publier la branche `main` (racine du dépôt) comme site Pages.
 
-Régénérer la banque de questions :
-
-```bash
-python3 scripts/build_data.py
-```
+Les titres officiels des panneaux sont dans `data/signs.json` (référentiel IISR).
+Ne pas régénérer les JSON avec `scripts/build_data.py` : ce script a un encodage
+corrompu. Pour réaligner catalogue et questions : `python3 scripts/audit_fix_signs.py`.
 
 Les questions sont des items d'entraînement originaux, pas la banque officielle de l'examen.
