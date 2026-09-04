@@ -12,7 +12,7 @@ Questions **aléatoires**, mixte ou **par catégorie**. **Note à la fin**, **sa
 | --- | --- |
 | Accueil | [index.html](https://tb-informatique.github.io/test-moto-2026/) |
 | Tests / examen blanc | [quiz.html](https://tb-informatique.github.io/test-moto-2026/quiz.html) |
-| Cours (9 thèmes ETM) | [apprendre.html](https://tb-informatique.github.io/test-moto-2026/apprendre.html) |
+| Cours (leçons par thème) | [apprendre.html](https://tb-informatique.github.io/test-moto-2026/apprendre.html) |
 | Catalogue des panneaux | [panneaux.html](https://tb-informatique.github.io/test-moto-2026/panneaux.html) |
 | Particularités moto | [particularites.html](https://tb-informatique.github.io/test-moto-2026/particularites.html) |
 | Trajectoires de sécurité | [trajectoires.html](https://tb-informatique.github.io/test-moto-2026/trajectoires.html) |
@@ -34,10 +34,11 @@ Puis : <http://127.0.0.1:8080>
 ## Données
 
 - Questions : `data/questions.json` (items d'entraînement originaux, hors banque officielle)
+- Cours : `data/cours.json` (leçons rédigées pour le site ; plan d'après `assets/ebook_moto_1781723509.pdf`)
 - Panneaux : `data/signs.json` (titres IISR) + `assets/img/signs/`
 - Images de signalisation : [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:SVG_road_signs_in_France)
 
-Ne pas régénérer les JSON avec `scripts/build_data.py` (encodage corrompu). Pour réaligner catalogue et questions : `python3 scripts/audit_fix_signs.py`.
+Ne pas régénérer les JSON avec `scripts/build_data.py` (encodage corrompu). Pour les cours : `python3 scripts/build_cours.py`. Pour réaligner catalogue et questions : `python3 scripts/audit_fix_signs.py`.
 
 ## GitHub Pages
 
