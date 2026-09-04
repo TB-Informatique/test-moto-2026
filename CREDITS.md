@@ -9,11 +9,16 @@ C/D/E, 59 panonceaux).
 
 Les illustrations (trajectoires, plateau, contrôles, états de chaîne, inter-files, angle mort, équipement) sont originales, fournies avec ce site.
 
+Les questions « situations » sont des scénarios rédigés pour ce projet. Elles
+n’utilisent pas de photo de circulation scrapée : trop de risques d’erreur
+(image sans rapport, voire choquante). Un schéma n’est affiché que s’il s’agit
+d’un panneau officiel déjà dans le catalogue.
 
 Le plan des cours s'appuie sur le *Livre Code Moto ETM 2026* (TestPermis.fr),
 déposé dans `assets/ebook_moto_1781723509.pdf` avec l'autorisation du titulaire.
 Les textes des leçons sont rédigés pour ce site (examen 2026) : ce n'est pas
 une copie du PDF.
 
-Les questions sont des items d'entraînement rédigés pour ce projet. Elles ne
-reproduisent pas la banque officielle de l'examen ETM.
+Les questions sont des items d'entraînement. Elles ne reproduisent pas la
+banque officielle de l'examen ETM ni les séries des sites d’entraînement
+commerciaux.

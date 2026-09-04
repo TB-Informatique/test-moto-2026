@@ -1,5 +1,5 @@
-# Banque de QCM « situation réelle » — items originaux, style ETM (pièges, multi).
-# Chaque item pointe un slug d'image (assets/img/situations/{slug}.jpg).
+# Banque de QCM « situation » — items originaux, style ETM (pièges, multi).
+# Pas de photo scrapée. Un SVG officiel peut être ajouté dans merge_situations.py.
 
 def Q(qid, cat, theme, question, choices, correct, explanation, slug, alt, multi=None):
     ids = [c[0] for c in choices]
@@ -20,7 +20,7 @@ def Q(qid, cat, theme, question, choices, correct, explanation, slug, alt, multi
 ITEMS = [
     # --- Circulation ---
     Q("sit-c01", "circulation", "C",
-      "Vous arrivez à ce giratoire à moto. Qui a la priorité ?",
+      "À l'approche d'un giratoire à moto, qui a la priorité ?",
       [("a", "Les usagers déjà engagés dans l'anneau"),
        ("b", "Toujours ceux qui arrivent de la droite, même hors de l'anneau"),
        ("c", "Les deux-roues, par défaut"),
@@ -74,7 +74,7 @@ ITEMS = [
       "Pas d'arrêt obligatoire s'il n'y a personne, mais l'allure doit permettre de s'arrêter. Gêner un prioritaire = faute.",
       "cedez", "Cédez-le-passage à une intersection"),
     Q("sit-c07", "circulation", "C",
-      "Ce panneau (cédez à la circulation en sens inverse) signifie :",
+      "Le panneau B15 (rond, flèches rouge et noire) signifie :",
       [("a", "L'autre sens a la priorité dans le rétrécissement ; vous attendez"),
        ("b", "Vous avez la priorité : c'est l'autre qui cède"),
        ("c", "Alternat : on passe un sur deux sans regarder"),
